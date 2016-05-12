@@ -1,0 +1,40 @@
+{
+	"@context": "http://schema.org",
+	"@type": "Recipe",
+	"datePublished": "2009-05-08",
+	"isBasedOnUrl": "SOME URL",
+	"author": "John Smith",
+	"name": "Mom's World Famous Banana Bread",
+	"description": "This classic banana bread recipe comes from my mom -- the walnuts add a nice texture and flavor to the banana bread.",
+	"recipeInstructions": "Preheat the oven to 350 degrees. Mix in the ingredients in a bowl. Add the flour last. Pour the mixture into a loaf pan and bake for one hour.",
+	"recipeYield": "1 loaf",
+	"cookTime": "PT1H",
+	"prepTime": "PT15M",
+	"totalTime": "PT1H15M",
+	"recipeIngredient": [
+		"3 or 4 ripe bananas, smashed",
+		"1 egg",
+		"3/4 cup of sugar"
+	],
+	"aggregateRating": {
+		"@type": "AggregateRating",
+		"ratingValue": "3.5",
+		"reviewCount": "11",
+		"bestRating": "5"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories": "240 calories",
+		"carbohydrateContent": "1 gram",
+		"cholesterolContent": "1 gram",
+		"fatContent": "1 gram",
+		"fiberContent": "1 gram",
+		"proteinContent": "1 gram",
+		"saturatedFatContent": "1 gram",
+		"servingSize": "2 servings",
+		"sodiumContent": "1 gram",
+		"sugarContent": "1 gram",
+		"transFatContent": "1 gram",
+		"unsaturatedFatContent": "1 gram"
+	}
+}
