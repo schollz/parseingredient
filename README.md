@@ -39,7 +39,7 @@ How to do this?
   1 1/2 cups chopped green pepper
   ```
 
-1. Find the *shortest length* string in the `sr28` database that *matches best* to the recipe item. Ideally, this would be `green pepper`. Then eliminate that from the recipe item, so now your left with:
+1. Reverse string. Find the *shortest length* string in the `sr28` database that *matches best* to the recipe item. Ideally, this would be `green pepper`. Then eliminate that from the recipe item, so now your left with:
 
   `1 1/2 cups chopped`
 
