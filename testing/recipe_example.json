@@ -11,6 +11,8 @@
 	"cookTime": "PT1H",
 	"prepTime": "PT15M",
 	"totalTime": "PT1H15M",
+	"recipeCategory": "entree",
+	"recipeCuisine": "american",
 	"recipeIngredient": [
 		"3 or 4 ripe bananas, smashed",
 		"1 egg",
