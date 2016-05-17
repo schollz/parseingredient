@@ -1,6 +1,11 @@
 # parseingredient
 An ingredient parser written in Golang
 
+
+## Notes
+
+`id` = `hash(frozenset(ingredients + directions))`
+
 ## Todo
 
 - [ ] Recipe item parser
