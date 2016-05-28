@@ -110,3 +110,9 @@ How to do this?
 
 `data/sr28/*` are from the [sr28 USDA database](http://www.ars.usda.gov/Services/docs.htm?docid=25700).
 [Documentation is available](http://www.ars.usda.gov/SP2UserFiles/Place/80400525/Data/SR/SR28/sr28_doc.pdf).
+
+
+## Relevant
+
+http://opensourcecook.com/recipes-copyright-law 
+https://news.ycombinator.com/item?id=11711467
