@@ -1,0 +1,2200 @@
+<!doctype html>
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8 no-touch" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9 no-touch" lang="en"> <![endif]-->
+<!--[if gt IE 8]> <html class="no-js gt-ie-8 no-touch" lang="en"> <![endif]-->
+<!--[if !IE]><!--><html class="no-js no-touch" lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <title>Classic potato salad | BBC Good Food</title>
+    <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="twitter:description" content="Team with Christmas leftovers or summer BBQ favourites. Either way, Matt Tebbutt&#039;s Classic potato salad is hard resist" />
+<meta property="twitter:title" content="Classic potato salad" />
+<meta property="og:title" content="Classic potato salad" />
+<link rel="canonical" href="http://www.bbcgoodfood.com/recipes/75604/classic-potato-salad" />
+<meta property="og:description" content="Team with Christmas leftovers or summer BBQ favourites. Either way, Matt Tebbutt&#039;s Classic potato salad is hard resist" />
+<meta property="og:site_name" content="BBC Good Food" />
+<meta property="twitter:url" content="http://www.bbcgoodfood.com/recipes/75604/classic-potato-salad" />
+<link rel="shortcut icon" href="http://www.bbcgoodfood.com/sites/all/themes/bbcw_goodfood/images/GF-favicon-2015-16x16.ico" type="image/vnd.microsoft.icon" />
+<meta property="twitter:card" content="summary" />
+<meta property="og:url" content="http://www.bbcgoodfood.com/recipes/75604/classic-potato-salad" />
+<meta property="twitter:image:height" content="400" />
+<link rel="shortlink" href="http://www.bbcgoodfood.com/node/95300" />
+<meta property="twitter:image" content="http://www.bbcgoodfood.com/sites/default/files/recipe_images/recipe-image-legacy-id--77500_12.jpg" />
+<link rel="apple-touch-icon-precomposed" href="/sites/all/themes/bbcw_goodfood/bbcgf2015touch-144x144.png" />
+<link rel="apple-touch-icon-precomposed" href="/sites/all/themes/bbcw_goodfood/bbcgf2015touch-152x152.png" sizes="152x152" />
+<link rel="publisher" href="https://plus.google.com/+BBCGoodFood" />
+<link rel="icon" href="http://www.bbcgoodfood.com/sites/default/files/favicon/favicon.ico" type="image/x-icon" />
+<meta name="p:domain_verify" content="e0dc3ea18b52d6be8f7d588b29af3605" />
+<link rel="apple-touch-icon-precomposed" href="/sites/all/themes/bbcw_goodfood/bbcgf2015touch-144x144.png" sizes="144x144" />
+<link rel="apple-touch-icon-precomposed" href="/sites/all/themes/bbcw_goodfood/bbcgf2015touch-72x72.png" sizes="72x72" />
+<meta property="og:image" content="http://www.bbcgoodfood.com/sites/default/files/recipe_images/recipe-image-legacy-id--77500_12.jpg" />
+<meta property="twitter:creator" content="@bbcgoodfood" />
+<meta property="og:type" content="food" />
+<meta name="description" content="Team with Christmas leftovers or summer BBQ favourites. Either way, Matt Tebbutt&#039;s Classic potato salad is hard resist. From BBC Good Food" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta property="twitter:image:width" content="440" />
+    <script>
+      function extend(target, source) {
+        target = target || {};
+        for (var prop in source) {
+          if (typeof source[prop] === 'object') {
+            target[prop] = extend(target[prop], source[prop]);
+          } else {
+            target[prop] = source[prop];
+          }
+        }
+        return target;
+      }
+      GF = {};
+      Drupal = { 'settings': {}, 'behaviors': {}, 'locale': {} };
+      jQuery = { 'extend': extend };
+      _gaq = [];
+    </script>
+    <link type="text/css" rel="stylesheet" href="//www.bbcgoodfood.com/sites/default/files/advagg_css/css__UnVBtzAwLYp4VkkROXPnTm74UzCD_E8gJoQ43rS9nsM__nYKmMs6MmxtU7ab9EEZaWrhvGYWxdVQ7f91peqgdW9I__BS0Z9bGj_uLGKe1U-NvuRMFdFXlYjqD6zk-MBETrm1g.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//www.bbcgoodfood.com/sites/default/files/advagg_css/css__TMF96xs4y91LoxCoKu7ABVyRZE4nSjh3TZeg0r2ABhY__bnc1c_JnNd6QDrM3U4605CH9B3OxrBsD7c7NgT9Ellk__BS0Z9bGj_uLGKe1U-NvuRMFdFXlYjqD6zk-MBETrm1g.css" media="print" />
+    <!--[if lte IE 8]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="/sites/all/themes/bbcw_goodfood/css/bbcw-goodfood-old-ie.css" />
+    <![endif]-->
+    <script>document.getElementsByTagName('html')[0].className = ''</script>
+    <meta name="apple-mobile-web-app-title" content="Good Food">
+    <meta name="msapplication-TileImage" content="/sites/all/themes/bbcw_goodfood/bbcgf2015touch-114x114.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="google-site-verification" content="2O4RVsPexyGlOn_Qp9vKfKOzkHBY_3ENWp6CGO9s1Vg" />
+
+    <!-- Start ad scripts -->
+    <script id="revenue-science">
+      var rsi_segs = [];
+      var segs_beg=document.cookie.indexOf('rsi_segs=');
+      if(segs_beg>=0){
+        segs_beg=document.cookie.indexOf('=',segs_beg)+1;
+        if(segs_beg>0){
+          var segs_end=document.cookie.indexOf(';',segs_beg);
+          if(segs_end==-1)segs_end=document.cookie.length;
+          rsi_segs=document.cookie.substring(segs_beg,segs_end).split('|');
+        }
+      }
+
+      var segQS = rsi_segs.length> 0 ? "rsi=" + rsi_segs[0] +";" : "";
+      for (var i = 1; i <rsi_segs.length && i <20; i++)
+        segQS += ("rsi" + "=" + rsi_segs[i] + ";");
+      if (typeof(segQS)=='undefined') segQS = "";    // Test for revenue science
+      var rsi_string = JSON.stringify(rsi_segs);
+
+    </script>
+
+    <script type="text/javascript" language="JavaScript">
+      //name: Food Group DIRECT
+      //created: 07/24/2015 07:28
+      var cb = new Date().getTime();
+      var asiPqTag = false;
+      try {
+        document.write("<sc" + "ript type='text/javascript' language='JavaScript' src='//pq-direct.revsci.net/pql?placementIdList=s0IuO0,44he4c,BEeRpU,1AEPO0&cb=" + cb + "'></sc" + "ript>");
+      } catch(err) { }
+    </script>
+
+    <script type="text/javascript" language="JavaScript">
+      if (typeof asiPlacements != "undefined") {
+        for(var p in asiPlacements) {
+          window["ASPQ_"+p]="";
+          for(var key in asiPlacements[p].data) {
+            window["ASPQ_"+p] += "PQ_"+p+"_"+key;
+          }
+        }
+      }
+    </script>
+    <!-- End ad scripts -->
+
+    <!-- Begin comScore Tag -->
+    <script>
+      var _comscore = _comscore || [];
+      _comscore.push({ c1: "2", c2: "6035051" });
+      (function() {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+      })();
+    </script>
+    <noscript>
+      <img src="http://b.scorecardresearch.com/p?c1=2&c2=6035051&cv=2.0&cj=1" />
+    </noscript>
+    <!-- End comScore Tag -->
+
+    <!-- Begin Inspectlet Embed Code -->
+    <script type="text/javascript" id="inspectletjs">
+    window.__insp = window.__insp || [];
+    __insp.push(['wid', 1702936984]);
+    (function() {
+    function ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+    document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
+
+    })();
+    </script>
+    <!-- End Inspectlet Embed Code -->
+
+    <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.google_analytics_uacct = "UA-6065919-6";
+//--><!]]>
+</script>
+<script type="text/javascript" src="//www.bbcgoodfood.com/sites/default/files/advagg_js/js__0sWM4pMCdRMAQMeDyu4R8YC_ZYKne2GmwBc6RHJ4d0A__o3hdlFjQgJFK89fc5_8vTORkBVPgLDFkzEL6LEDItY8__BS0Z9bGj_uLGKe1U-NvuRMFdFXlYjqD6zk-MBETrm1g.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-6065919-6"]);_gaq.push(['_setCustomVar', 1, "urole", "anonymous user", 3]);_gaq.push(['_setCustomVar', 2, "frole", "anonymous user", 3]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="//www.bbcgoodfood.com/sites/default/files/advagg_js/js__q_Ls_a9Lh3IjQM2-57eqyKsaz61-Uw1v7sG64n6bQOU__XHbQZZBBerPqh7UBf51zEzIdpMUzJVhBT2kjTV14ni8__BS0Z9bGj_uLGKe1U-NvuRMFdFXlYjqD6zk-MBETrm1g.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bbcw_goodfood","theme_token":"pcELcdRycyd4vLwiDBiP4lGfmH3QSVGruMbLGcaVREU","jquery_version":"1.8","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/colorbox_node\/colorbox_node.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"sites\/all\/modules\/contrib\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/node_embed\/plugins\/node_embed\/node_embed.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/rate\/rate.css":1,"sites\/all\/modules\/contrib\/rate\/templates\/thumbs-up\/thumbs-up.css":1,"sites\/all\/modules\/contrib\/search_api_autocomplete\/search_api_autocomplete.css":1,"sites\/all\/modules\/contrib\/flag\/theme\/flag.css":1,"sites\/all\/themes\/bbcw_goodfood\/ctools.css":1,"sites\/all\/themes\/bbcw_goodfood\/date.css":1,"sites\/all\/themes\/bbcw_goodfood\/field.css":1,"sites\/all\/themes\/bbcw_goodfood\/panels.css":1,"sites\/all\/themes\/bbcw_goodfood\/search.css":1,"sites\/all\/themes\/bbcw_goodfood\/system.base.css":1,"sites\/all\/themes\/bbcw_goodfood\/system.menus.css":1,"sites\/all\/themes\/bbcw_goodfood\/system.messages.css":1,"sites\/all\/themes\/bbcw_goodfood\/system.theme.css":1,"sites\/all\/themes\/bbcw_goodfood\/user.css":1,"sites\/all\/themes\/bbcw_goodfood\/views.css":1,"sites\/all\/themes\/bbcw_goodfood\/node.css":1,"sites\/all\/themes\/bbcw_goodfood\/logintoboggan.css":1,"sites\/all\/themes\/bbcw_goodfood\/mollom.css":1,"sites\/all\/themes\/bbcw_goodfood\/comment.css":1,"sites\/all\/themes\/bbcw_goodfood\/css\/bbcw-goodfood-normalize.css":1,"sites\/all\/themes\/bbcw_goodfood\/css\/bbcw-goodfood.css":1,"sites\/all\/themes\/bbcw_goodfood\/css\/bbcw-goodfood-print.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/all\/modules\/features\/content-types\/bbcgf_shopping_list\/js\/shopping_list.js":1,"misc\/progress.js":1,"http:\/\/admin.brightcove.com\/js\/BrightcoveExperiences.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/contrib\/rate\/rate.js":1,"sites\/all\/modules\/contrib\/rate\/templates\/fivestar\/fivestar.js":1,"misc\/autocomplete.js":1,"sites\/all\/modules\/contrib\/search_api_autocomplete\/search_api_autocomplete.js":1,"sites\/all\/modules\/custom\/bbcgf_krux_tags\/bbcgf_krux_tags.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"http:\/\/widgets.outbrain.com\/outbrain.js":1,"sites\/all\/modules\/custom\/bbcgf_outbrain\/js\/bbcgf_outbrain.js":1,"sites\/all\/modules\/contrib\/views_load_more\/views_load_more.js":1,"sites\/all\/modules\/contrib\/flag\/theme\/flag.js":1,"sites\/all\/modules\/contrib\/views\/js\/base.js":1,"sites\/all\/modules\/contrib\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/contrib\/views_ajax_get\/views_ajax_get.js":1,"sites\/all\/modules\/contrib\/colorbox_node\/colorbox_node.js":1,"sites\/all\/modules\/custom\/bbcgf_user_collections\/bbcgf_user_collections.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/window-size.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/libs\/bootstrap\/alert.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/libs\/bootstrap\/modal.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/libs\/bootstrap\/transition.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/libs\/flexslider\/jquery.flexslider.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/libs\/iscroll\/iscroll-min.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/libs\/jquery.scrolldepth.min.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/libs\/jquery.scrollTo.min.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/libs\/lazyload-min.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/libs\/match-media.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/libs\/noUiSlider\/jquery.nouislider.min.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/libs\/overthrow.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/libs\/placeholder.min.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/libs\/safe-log.min.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/libs\/ScrollFix\/scrollfix.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/libs\/swipe-events.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/jquery.gf-modal.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/jquery.gf-tooltip.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/accordion.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/analytics.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/carousel.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/collapsible-facets.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/comments.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/mgf.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/inline-video.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/navigation.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/quiz.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/rating-toggle.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/recipe-header.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/responsive-tabs.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/script.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/search.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/step-by-step.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/tabs.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/tools.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/tooltip.js":1,"sites\/all\/modules\/contrib\/gpt\/js\/gpt.js":1,"sites\/all\/themes\/bbcw_goodfood\/scripts\/libs\/modernizr.min.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"rate":{"basePath":"\/rate\/vote\/js","destination":"node\/95300"},"urlIsAjaxTrusted":{"\/search\/recipes":true,"\/recipes\/75604\/classic-potato-salad?destination=node\/95300":true},"googleanalytics":{"trackOutbound":"1","trackMailto":"1","trackDownload":"1","trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip","trackCrossDomains":["bbcgoodfood.com"]},"flag":{"anonymous":true,"templates":{"inappropriate_comment_917251":"\u003Cspan class=\u0022flag-wrapper flag-inappropriate-comment flag-inappropriate-comment-917251\u0022\u003E\n      \u003Cspan class=\u0022flag unflag-action flag-link-toggle\u0022\u003E \u003C\/span\u003E\n    \u003C\/span\u003E\n","inappropriate_comment_857161":"\u003Cspan class=\u0022flag-wrapper flag-inappropriate-comment flag-inappropriate-comment-857161\u0022\u003E\n      \u003Cspan class=\u0022flag unflag-action flag-link-toggle\u0022\u003E \u003C\/span\u003E\n    \u003C\/span\u003E\n","inappropriate_comment_872256":"\u003Cspan class=\u0022flag-wrapper flag-inappropriate-comment flag-inappropriate-comment-872256\u0022\u003E\n      \u003Cspan class=\u0022flag unflag-action flag-link-toggle\u0022\u003E \u003C\/span\u003E\n    \u003C\/span\u003E\n","inappropriate_comment_863381":"\u003Cspan class=\u0022flag-wrapper flag-inappropriate-comment flag-inappropriate-comment-863381\u0022\u003E\n      \u003Cspan class=\u0022flag unflag-action flag-link-toggle\u0022\u003E \u003C\/span\u003E\n    \u003C\/span\u003E\n","inappropriate_comment_796856":"\u003Cspan class=\u0022flag-wrapper flag-inappropriate-comment flag-inappropriate-comment-796856\u0022\u003E\n      \u003Cspan class=\u0022flag unflag-action flag-link-toggle\u0022\u003E \u003C\/span\u003E\n    \u003C\/span\u003E\n","inappropriate_comment_690656":"\u003Cspan class=\u0022flag-wrapper flag-inappropriate-comment flag-inappropriate-comment-690656\u0022\u003E\n      \u003Cspan class=\u0022flag unflag-action flag-link-toggle\u0022\u003E \u003C\/span\u003E\n    \u003C\/span\u003E\n","inappropriate_comment_272546":"\u003Cspan class=\u0022flag-wrapper flag-inappropriate-comment flag-inappropriate-comment-272546\u0022\u003E\n      \u003Cspan class=\u0022flag unflag-action flag-link-toggle\u0022\u003E \u003C\/span\u003E\n    \u003C\/span\u003E\n","inappropriate_comment_200486":"\u003Cspan class=\u0022flag-wrapper flag-inappropriate-comment flag-inappropriate-comment-200486\u0022\u003E\n      \u003Cspan class=\u0022flag unflag-action flag-link-toggle\u0022\u003E \u003C\/span\u003E\n    \u003C\/span\u003E\n","inappropriate_comment_198261":"\u003Cspan class=\u0022flag-wrapper flag-inappropriate-comment flag-inappropriate-comment-198261\u0022\u003E\n      \u003Cspan class=\u0022flag unflag-action flag-link-toggle\u0022\u003E \u003C\/span\u003E\n    \u003C\/span\u003E\n","inappropriate_comment_872261":"\u003Cspan class=\u0022flag-wrapper flag-inappropriate-comment flag-inappropriate-comment-872261\u0022\u003E\n      \u003Cspan class=\u0022flag unflag-action flag-link-toggle\u0022\u003E \u003C\/span\u003E\n    \u003C\/span\u003E\n","inappropriate_comment_901416":"\u003Cspan class=\u0022flag-wrapper flag-inappropriate-comment flag-inappropriate-comment-901416\u0022\u003E\n      \u003Cspan class=\u0022flag unflag-action flag-link-toggle\u0022\u003E \u003C\/span\u003E\n    \u003C\/span\u003E\n","inappropriate_comment_126577":"\u003Cspan class=\u0022flag-wrapper flag-inappropriate-comment flag-inappropriate-comment-126577\u0022\u003E\n      \u003Cspan class=\u0022flag unflag-action flag-link-toggle\u0022\u003E \u003C\/span\u003E\n    \u003C\/span\u003E\n","inappropriate_comment_121825":"\u003Cspan class=\u0022flag-wrapper flag-inappropriate-comment flag-inappropriate-comment-121825\u0022\u003E\n      \u003Cspan class=\u0022flag unflag-action flag-link-toggle\u0022\u003E \u003C\/span\u003E\n    \u003C\/span\u003E\n","inappropriate_comment_84037":"\u003Cspan class=\u0022flag-wrapper flag-inappropriate-comment flag-inappropriate-comment-84037\u0022\u003E\n      \u003Cspan class=\u0022flag unflag-action flag-link-toggle\u0022\u003E \u003C\/span\u003E\n    \u003C\/span\u003E\n","inappropriate_comment_70324":"\u003Cspan class=\u0022flag-wrapper flag-inappropriate-comment flag-inappropriate-comment-70324\u0022\u003E\n      \u003Cspan class=\u0022flag unflag-action flag-link-toggle\u0022\u003E \u003C\/span\u003E\n    \u003C\/span\u003E\n","inappropriate_comment_56686":"\u003Cspan class=\u0022flag-wrapper flag-inappropriate-comment flag-inappropriate-comment-56686\u0022\u003E\n      \u003Cspan class=\u0022flag unflag-action flag-link-toggle\u0022\u003E \u003C\/span\u003E\n    \u003C\/span\u003E\n","inappropriate_comment_727716":"\u003Cspan class=\u0022flag-wrapper flag-inappropriate-comment flag-inappropriate-comment-727716\u0022\u003E\n      \u003Cspan class=\u0022flag unflag-action flag-link-toggle\u0022\u003E \u003C\/span\u003E\n    \u003C\/span\u003E\n"}},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:cba0a02b21ddead84d1e8a37bfda472c":{"view_name":"comment_views_comment_ajax","view_display_id":"comment_page","view_args":"95300","view_path":"node\/95300","view_base_path":"node\/%\/comment-comment","view_dom_id":"cba0a02b21ddead84d1e8a37bfda472c","pager_element":0},"views_dom_id:402df78e9a5316de054a5d233fbe7d5e":{"view_name":"comment_views_comment_ajax","view_display_id":"quest_page","view_args":"95300","view_path":"node\/95300","view_base_path":"node\/%\/comment-quest","view_dom_id":"402df78e9a5316de054a5d233fbe7d5e","pager_element":0},"views_dom_id:5bc7d2f9659f90132c5d591c2fbd9679":{"view_name":"comment_views_comment_ajax","view_display_id":"tip_page","view_args":"95300","view_path":"node\/95300","view_base_path":"node\/%\/comment-tip","view_dom_id":"5bc7d2f9659f90132c5d591c2fbd9679","pager_element":0}}},"viewsAjaxGet":["comment_views_comment_ajax","comment_views_comment_ajax","comment_views_comment_ajax"],"gpt":{"collapseEmptyDivs":true,"networkCode":"4817","targeting":{"RSI":[{"value":"rsi_string","eval":1}],"ksg":[{"value":"Krux.segments","eval":1}],"kuid":[{"value":"Krux.user","eval":1}],"environment":[{"value":"prod","eval":false}],"pagename":[{"eval":false,"value":"classic-potato-salad"}],"kw":[{"eval":false,"value":"matt-tebbutt"},{"eval":false,"value":"potato-salad"},{"eval":false,"value":"classic"},{"eval":false,"value":"salad"},{"eval":false,"value":"side-dish"},{"eval":false,"value":"christmas-eve"},{"eval":false,"value":"caper"},{"eval":false,"value":"capers"},{"eval":false,"value":"cornichon"},{"eval":false,"value":"cornichons"},{"eval":false,"value":"mayonnaise"},{"eval":false,"value":"new-potato"},{"eval":false,"value":"new-potatoes"},{"eval":false,"value":"parsley"},{"eval":false,"value":"shallot"},{"eval":false,"value":"shallots"},{"eval":false,"value":"white-wine-vinegar"}],"recipe_id":[{"eval":false,"value":"95300"}],"legacy_id":[{"eval":false,"value":"75604"}],"planning":[{"eval":false,"value":"make-ahead"},{"eval":false,"value":"easily-halved"},{"eval":false,"value":"easily-doubled"}],"cuisine":[{"eval":false,"value":"british"}],"mood":[{"eval":false,"value":"casual"}],"occas":[{"eval":false,"value":"dinner-party"},{"eval":false,"value":"barbecue"},{"eval":false,"value":"wedding"},{"eval":false,"value":"picnic"},{"eval":false,"value":"celebration"}],"event":[{"eval":false,"value":"bonfire-night"},{"eval":false,"value":"boxing-day"},{"eval":false,"value":"hogmanay"},{"eval":false,"value":"family-favourite"},{"eval":false,"value":"new-year"},{"eval":false,"value":"christmas"},{"eval":false,"value":"easter"},{"eval":false,"value":"christening"},{"eval":false,"value":"mothers-day"},{"eval":false,"value":"fathers-day"},{"eval":false,"value":"burns-night"}],"season":[{"eval":false,"value":"summer"}],"course":[{"eval":false,"value":"side-dish"},{"eval":false,"value":"buffet"},{"eval":false,"value":"dinner"},{"eval":false,"value":"afternoon-tea"}],"diet":[{"eval":false,"value":"vegetarian"},{"eval":false,"value":"low-salt"}],"skill_level":[{"eval":false,"value":"easy"}],"chef":[{"eval":false,"value":"matt-tebbutt"}],"publication":[{"eval":false,"value":"good-food"}],"publication_year":[{"eval":false,"value":"2009"}],"publication_month":[{"eval":false,"value":"12"}],"ingred":[{"eval":false,"value":"new-potato"},{"eval":false,"value":"shallot"},{"eval":false,"value":"caper"},{"eval":false,"value":"cornichon"},{"eval":false,"value":"mayonnaise"},{"eval":false,"value":"extra-virgin-olive-oil"},{"eval":false,"value":"white-wine-vinegar"},{"eval":false,"value":"parsley"}],"main_ingredient":[{"eval":false,"value":"new-potato"}],"collections":[{"eval":false,"value":"boxing-day"},{"eval":false,"value":"potato-salad"}],"url":[{"eval":false,"value":"http%3A%2F%2Fwww.bbcgoodfood.com%2Frecipes%2F75604%2Fclassic-potato-salad"}]},"setPageLevelTargeting":true,"targetedUnit":"p4681.bbcgoodfood.com\/recipes"}});
+//--><!]]>
+</script>
+
+        <style type="text/css" media="screen">
+      @media (min-width: 1100px) {
+        body {
+          background: url(http://www.bbcgoodfood.com/sites/default/files/seasonalbackground/site-backgrounds-june.jpg) no-repeat center top fixed #d4e5f5;
+        }
+      }
+          </style>
+
+    <!-- Qubit -->
+    <script src='//d3c3cq33003psk.cloudfront.net/opentag-101568-1309579.js' async defer></script>
+
+  </head>
+  <body class="">
+    <div class="page-header-touch">
+      <a id="menu-button" class="btn-navbar" href="#nav-touch">
+        <span class="btn-txt">Menu</span>
+        <span></span><span></span><span></span>
+      </a>
+      <div class="logo">
+        <a href="/" title="Home">
+          <img src="http://www.bbcgoodfood.com/sites/all/themes/bbcw_goodfood/images/bbcgfoct2014-logo-gf-mobile.png" alt="BBC Good Food" />        </a>
+      </div>
+    </div>
+
+    <div id="nav-touch" class="nav-touch">
+      <div class="mobile-nav-header">
+        <div class="breadcrumb-item" style="bottom: 0px;"></div>
+        <a class="icon-home visible" href="/"></a>
+      </div>
+      <nav id="nav-touch-inner" role="navigation" class="overthrow">
+        <ul class="menu"><li class="first leaf"><a href="/">Home</a></li>
+<li class="expanded"><a href="/recipes">Recipes</a><ul class="menu"><li class="first expanded"><a href="/recipes/category/healthy">Healthy</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/7-day" title="">7-a-day</a></li>
+<li class="leaf"><a href="/recipes/collection/cheap-and-healthy">Cheap &amp; healthy</a></li>
+<li class="leaf"><a href="/recipes/collection/healthy-breakfast">Healthy breakfast</a></li>
+<li class="leaf"><a href="/recipes/collection/healthy-lunch">Healthy lunch</a></li>
+<li class="last leaf"><a href="/recipes/category/healthy">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/family-kids">Family &amp; kids</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/family-meal">Family meals</a></li>
+<li class="leaf"><a href="/recipes/collection/kids-party">Kids&#039; party</a></li>
+<li class="leaf"><a href="/recipes/collection/lunchbox">Lunchbox</a></li>
+<li class="leaf"><a href="/recipes/collection/snacks-kids">Snacks for kids</a></li>
+<li class="last leaf"><a href="/recipes/category/family-kids">see more...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/cakes-baking">Cakes &amp; baking</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/brownie" title="">Brownie</a></li>
+<li class="leaf"><a href="/recipes/collection/cheesecake">Cheesecake</a></li>
+<li class="leaf"><a href="/recipes/collection/chocolate-cake" title="">Chocolate cake</a></li>
+<li class="leaf"><a href="/recipes/collection/easy-baking" title="">Easy baking</a></li>
+<li class="last leaf"><a href="/recipes/category/cakes-baking">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/cuisines">Cuisines</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/american" title="">American</a></li>
+<li class="leaf"><a href="/recipes/collection/chinese" title="">Chinese</a></li>
+<li class="leaf"><a href="/recipes/collection/greek" title="">Greek</a></li>
+<li class="leaf"><a href="/recipes/collection/mexican">Mexican</a></li>
+<li class="last leaf"><a href="/recipes/category/cuisines">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/dishes">Dishes</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/pasta" title="">Pasta</a></li>
+<li class="leaf"><a href="/recipes/collection/soup" title="">Soup</a></li>
+<li class="leaf"><a href="/recipes/collection/pie">Pie</a></li>
+<li class="leaf"><a href="/recipes/collection/casserole">Casserole</a></li>
+<li class="last leaf"><a href="/recipes/category/dishes">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/events">Events</a><ul class="menu"><li class="first leaf"><a href="/recipes/category/valentines-day">Valentine&#039;s Day</a></li>
+<li class="leaf"><a href="/recipes/collection/pancake-day">Pancake Day</a></li>
+<li class="leaf"><a href="/recipes/collection/mothers-day" title="">Mother&#039;s Day</a></li>
+<li class="leaf"><a href="/recipes/collection/easter" title="">Easter</a></li>
+<li class="last leaf"><a href="/recipes/category/events">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/everyday">Everyday</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/freezable">Freezable</a></li>
+<li class="leaf"><a href="/recipes/collection/batch-cooking">Batch cooking</a></li>
+<li class="leaf"><a href="/recipes/collection/cheap-eat">Cheap eats</a></li>
+<li class="leaf"><a href="/recipes/collection/leftovers">Leftovers</a></li>
+<li class="last leaf"><a href="/recipes/category/everyday">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/ingredients">Ingredients</a><ul class="menu"><li class="first leaf"><a href="/recipes/category/fish">Fish</a></li>
+<li class="leaf"><a href="/recipes/category/fruit">Fruit</a></li>
+<li class="leaf"><a href="/recipes/category/meat">Meat</a></li>
+<li class="leaf"><a href="/recipes/category/vegetables">Vegetables</a></li>
+<li class="last leaf"><a href="/recipes/category/ingredients">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/occasions">Occasions</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/sunday-lunch">Sunday lunch</a></li>
+<li class="leaf"><a href="/recipes/category/dinner-party">Dinner party</a></li>
+<li class="leaf"><a href="/recipes/collection/afternoon-tea" title="">Afternoon tea</a></li>
+<li class="leaf"><a href="/recipes/collection/easy-entertaining" title="">Easy entertaining</a></li>
+<li class="last leaf"><a href="/recipes/category/occasions">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/quick-easy">Quick &amp; easy</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/easy-impressive">Easy but impressive</a></li>
+<li class="leaf"><a href="/recipes/collection/quick-and-healthy">Quick &amp; healthy</a></li>
+<li class="leaf"><a href="/recipes/collection/quick-cake">Quick cake</a></li>
+<li class="leaf"><a href="/recipes/collection/under-20-minutes">Under 20 minutes</a></li>
+<li class="last leaf"><a href="/recipes/category/quick-easy">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/seasonal">Seasonal</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/top-20-spring">Spring</a></li>
+<li class="leaf"><a href="/recipes/collection/summer">Summer</a></li>
+<li class="leaf"><a href="/recipes/collection/top-20-autumn">Autumn</a></li>
+<li class="leaf"><a href="/recipes/collection/top-20-winter">Winter</a></li>
+<li class="last leaf"><a href="/recipes/category/seasonal">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/special-diets">Special diets</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/dairy-free">Dairy-free</a></li>
+<li class="leaf"><a href="/recipes/collection/gluten-free">Gluten-free</a></li>
+<li class="leaf"><a href="/recipes/collection/low-fat">Low-fat</a></li>
+<li class="leaf"><a href="/recipes/collection/low-gi">Low-GI</a></li>
+<li class="last leaf"><a href="/recipes/category/special-diets">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/vegetarian">Vegetarian</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/iron-rich-vegetarian">Iron-rich</a></li>
+<li class="leaf"><a href="/recipes/collection/vegan">Vegan</a></li>
+<li class="leaf"><a href="/recipes/collection/vegetarian-barbecue">Vegetarian barbecue</a></li>
+<li class="leaf"><a href="/recipes/collection/vegetarian-party">Vegetarian party</a></li>
+<li class="last leaf"><a href="/recipes/category/vegetarian">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/more-recipe-ideas">More recipe ideas</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/cheap-eat" title="">Cheap eats</a></li>
+<li class="leaf"><a href="/recipes/category/courses">Courses</a></li>
+<li class="leaf"><a href="/recipes/collection/slow-cooker">Slow cooker</a></li>
+<li class="leaf"><a href="/recipes/collection/cheap-cut">Cheap cut</a></li>
+<li class="last leaf"><a href="/recipes/category/more-recipe-ideas">see more ...</a></li>
+</ul></li>
+<li class="leaf"><a href="/recipes/collection/christmas-biscuits" title="">Christmas biscuits</a></li>
+<li class="leaf"><a href="/recipes/collection/christmas-gifts" title="">Christmas gifts</a></li>
+<li class="leaf"><a href="/recipes/collection/festive-dessert" title="">Festive desserts</a></li>
+<li class="leaf"><a href="/recipes/collection/vegetarian-christmas" title="">Vegetarian Christmas</a></li>
+<li class="last leaf"><a href="/recipes/category/christmas" title="">see more...</a></li>
+</ul></li>
+<li class="leaf"><a href="/recipes" title="">Recipe inspiration</a></li>
+<li class="expanded"><a href="/howto/guide/category/cookery">How to</a><ul class="menu"><li class="first expanded"><a href="/howto/guide/category/cookery">Guides &amp; techniques</a><ul class="menu"><li class="first leaf"><a href="/howto/guide/category/cookery">Cookery</a></li>
+<li class="leaf"><a href="/howto/guide/category/health-nutrition" title="">Health &amp; nutrition</a></li>
+<li class="leaf"><a href="/howto/guide/collection/events-occasions">Occasions &amp; events</a></li>
+<li class="leaf"><a href="/howto/guide/collection/family-kids">Family &amp; kids</a></li>
+<li class="last leaf"><a href="/howto/guide/collection/everyday">Everyday</a></li>
+</ul></li>
+<li class="expanded"><a href="/conversion-guides">Tools</a><ul class="menu"><li class="first leaf"><a href="/roast-timer">Roast calculator</a></li>
+<li class="leaf"><a href="/conversion-guides">Cake tin size guide</a></li>
+<li class="leaf"><a href="/conversion-guides">Volume &amp; weight convertors</a></li>
+<li class="leaf"><a href="/conversion-guides">Oven temperature guide</a></li>
+<li class="leaf"><a href="/conversion-guides">Sugar temperature guide</a></li>
+<li class="leaf"><a href="/feature/reviews" title="">Equipment reviews</a></li>
+<li class="last leaf"><a href="/glossary/a">Glossary</a></li>
+</ul></li>
+<li class="last leaf"><a href="/seasonal-calendar/all" title="">Seasonal calendar</a></li>
+</ul></li>
+<li class="expanded"><a href="/feature/health-nutrition" title="">Lifestyle &amp; events</a><ul class="menu"><li class="first expanded"><a href="/feature/health-nutrition" title="">Lifestyle</a><ul class="menu"><li class="first leaf"><a href="/feature/health-nutrition" title="">Health &amp; nutrition</a></li>
+<li class="leaf"><a href="/feature/family-and-kids" title="">Family &amp; kids</a></li>
+<li class="leaf"><a href="/feature/budget" title="">Budget &amp; everyday</a></li>
+<li class="leaf"><a href="/feature/entertaining" title="">Entertaining</a></li>
+<li class="last leaf"><a href="/feature/travel" title="">Travel</a></li>
+</ul></li>
+<li class="last expanded"><a href="/feature/christmas-kitchen" title="">Events</a><ul class="menu"><li class="first leaf"><a href="/feature/valentines-day" title="">Valentine&#039;s Day</a></li>
+<li class="leaf"><a href="/feature/pancake-day" title="">Pancake Day</a></li>
+<li class="leaf"><a href="/feature/halloween" title="">Halloween</a></li>
+<li class="leaf"><a href="/feature/bonfire-night" title="">Bonfire Night</a></li>
+<li class="last leaf"><a href="/feature/christmas-kitchen" title="">Christmas</a></li>
+</ul></li>
+</ul></li>
+<li class="expanded"><a href="/magazines/bbc-good-food-magazine">More Good Food</a><ul class="menu"><li class="first leaf"><a href="/magazines/bbc-good-food-magazine">Good Food magazine</a></li>
+<li class="leaf"><a href="http://www.buysubscriptions.com/food-and-cooking-magazines/good-food-magazine-subscription?offer=GFWMAG13&amp;billingCountryCode=GBR&amp;utm_medium=brandsite&amp;utm_source=bbcgoodfood.com&amp;utm_campaign=subscribe_GFWMAG13_GDFD_normal">Subscribe now</a></li>
+<li class="leaf"><a href="/good-food-reader-offers">Good Food reader offers</a></li>
+<li class="leaf"><a href="/competitions" title="">Competitions</a></li>
+<li class="leaf"><a href="/good-food-mobile-apps">Good Food apps</a></li>
+<li class="leaf"><a href="/good-food-live-events">Good Food events</a></li>
+<li class="leaf"><a href="/contact">Contact Us</a></li>
+<li class="last leaf"><a href="/article/join-us-social-media" title="">Follow us</a></li>
+</ul></li>
+<li class="leaf"><a href="/feature/health-nutrition" title="">Health</a></li>
+<li class="last expanded"><a href="/user">My Good Food (Sign in)</a><ul class="menu"><li class="first leaf"><a href="http://www.bbcgoodfood.com/user/login?destination=node/95300">Sign in</a></li>
+<li class="leaf"><a href="/user/register">Register</a></li>
+<li class="last leaf"><a href="/user/password">Forgotten password</a></li>
+</ul></li>
+</ul>      </nav>
+    </div>
+
+    
+    
+<div id="scroll-wrapper">
+  <div id="scroller">
+
+    <div class="ad ad--top-slot" id="ad-manager-ad-top_slot-ebfdb7c5ec"><script type="text/javascript">Drupal.GPT.createSlot("ad-manager-ad-top_slot-ebfdb7c5ec", function () {var m = Drupal.GPT.buildSizeMapping([[[0,0],[[300,50],[320,50]]],[[728,0],[[728,90]]],[[940,0],[[728,90],[940,250]]],[[970,0],[[728,90],[940,250],[970,250]]]]);var s = googletag.defineSlot(Drupal.GPT.unitPath(), m.define, "ad-manager-ad-top_slot-ebfdb7c5ec").defineSizeMapping(m.mapping.build()).setTargeting("pos", ["top_slot"]).setTargeting("gwd", [ASPQ_44he4c,ASPQ_1AEPO0,ASPQ_BEeRpU]).addService(googletag.pubads());});</script></div>
+    <div class="container-wrapper">
+
+      <div id="container" class="container main-container">
+
+      
+<div id="print-logo" class="visible-print">
+  <img src="/sites/all/themes/bbcw_goodfood/images/logo.png" alt="" /></div>
+
+<div id="print-ad-leaderboard" class="print-leaderboard-ad visible-print">
+  <img src="http://www.bbcgoodfood.com/sites/default/files/printout/gf-print-leaderboard.jpg" alt="" /></div>
+
+<header id="masthead" class="page-header clearfix grid-padding region region-header " role="banner">
+
+		<div id="main-gf-logo" class="logo">
+			<span>BBC Good Food</span>
+		<a href="/" title="Home">
+			<img src="http://www.bbcgoodfood.com/sites/default/files/logo/goodfood-web-logo_1.png" alt="Home" data-big-logo="http://www.bbcgoodfood.com/sites/default/files/logo/goodfood-web-logo_1.png" data-small-logo="sites/all/themes/bbcw_goodfood/images/bbcgfoct2014-logo-gf-mobile.png" id="logo-image">
+		</a>
+		<div id="skip-link">
+		  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+		</div>
+
+		</div>
+			
+<section class="mgf-bar cleargridindent-right">
+	<h2 class="epsilon green">My Good Food</h2>
+	<div class="user-profile-bar bg-green">
+		<p class="user-name"><a href="/user/register">Create an account</a></p>
+		<div class="user-menu"><div class="user-state bg-green"><a href="/user/login">Sign in</a><i class="icon-arrow-white-down-alt arrow-white-down-alt"></i></div>
+			<div class="hover-saver"><!-- Here to bridge gap between the hover tooltip and the link as theres a gap -->
+				<div class="user-login-overlay well rounded-corners bg-gray-darker white tail-top tail-top-small tail-position-right">
+						<form action="/recipes/75604/classic-potato-salad?destination=node/95300" method="post" id="user-login-form" accept-charset="UTF-8"><fieldset><div class="form-item form-type-textfield form-item-name">
+<div class="field-main">  <label for="edit-name">Email or username: <span class="form-required" title="This field is required.">*</span></label>
+ <input class="input-bg-turquoise form-text required" type="text" id="edit-name" name="name" value="" size="15" maxlength="60" />
+</div>
+</div>
+<div class="form-item form-type-password form-item-pass">
+<div class="field-main">  <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input class="input-bg-turquoise form-text required" type="password" id="edit-pass" name="pass" size="15" maxlength="128" />
+</div>
+</div>
+<div class="form-item form-type-checkbox form-item-remember-me">
+<div class="field-main"> <input type="checkbox" id="edit-remember-me" name="remember_me" value="1" checked="checked" class="form-checkbox" />  <label class="option" for="edit-remember-me">Stay signed in </label>
+
+</div>
+</div>
+<input type="hidden" name="form_build_id" value="form-9EAcEpwFgj6_kXj4BactjfE9B65H0vNuRTcEv9yzEPY" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions"><input class="btn btn--primary form-submit btn" type="submit" id="edit-submit" name="op" value="Sign in" /></div><a href="/user/password" title="Request new password via e-mail." class="forgotten-password text-style-alt">Forgotten your password?</a></fieldset></form>				</div>
+			</div>
+		</div>
+			  	<p class="shopping-list"><a href="/shopping-list/my-shopping-list">Shopping List</a></p>
+	  	</div>
+</section>
+<div id="block-views-exp-bbcgf-search-recipes" class="block block-views">
+
+    
+	<form class="search-form" action="/search/recipes" method="get" id="views-exposed-form-bbcgf-search-recipes" accept-charset="UTF-8"><fieldset>
+    <div class="form-item form-type-textfield form-item-query">
+<div class="field-main"> <input placeholder="ingredient, dish, keyword…" class="auto_submit form-text form-autocomplete" type="text" id="edit-query" name="query" value="" size="30" maxlength="128" /><input type="hidden" id="edit-query-autocomplete" value="http://www.bbcgoodfood.com/index.php?q=search_api_autocomplete/search_api_views_bbcgf_search/-" disabled="disabled" class="autocomplete" />
+</div>
+</div>
+
+<div class="form-actions form-wrapper" id="edit-actions">
+  <input class="btn--primary form-submit btn" type="submit" id="edit-submit-bbcgf-search" name="" value="Search" /></div>
+
+</fieldset></form></div>
+</header>
+
+<div id="nav-touch" class="nav-touch">
+	<div class="primary-nav-wrap">
+	  <nav id="nav-touch-inner" role="navigation" class="overthrow">
+      <ul class="menu"><li class="first leaf"><a href="/">Home</a></li>
+<li class="expanded"><a href="/recipes">Recipes</a><ul class="menu"><li class="first expanded"><a href="/recipes/category/healthy">Healthy</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/7-day" title="">7-a-day</a></li>
+<li class="leaf"><a href="/recipes/collection/cheap-and-healthy">Cheap &amp; healthy</a></li>
+<li class="leaf"><a href="/recipes/collection/healthy-breakfast">Healthy breakfast</a></li>
+<li class="leaf"><a href="/recipes/collection/healthy-lunch">Healthy lunch</a></li>
+<li class="last leaf"><a href="/recipes/category/healthy">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/family-kids">Family &amp; kids</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/family-meal">Family meals</a></li>
+<li class="leaf"><a href="/recipes/collection/kids-party">Kids&#039; party</a></li>
+<li class="leaf"><a href="/recipes/collection/lunchbox">Lunchbox</a></li>
+<li class="leaf"><a href="/recipes/collection/snacks-kids">Snacks for kids</a></li>
+<li class="last leaf"><a href="/recipes/category/family-kids">see more...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/cakes-baking">Cakes &amp; baking</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/brownie" title="">Brownie</a></li>
+<li class="leaf"><a href="/recipes/collection/cheesecake">Cheesecake</a></li>
+<li class="leaf"><a href="/recipes/collection/chocolate-cake" title="">Chocolate cake</a></li>
+<li class="leaf"><a href="/recipes/collection/easy-baking" title="">Easy baking</a></li>
+<li class="last leaf"><a href="/recipes/category/cakes-baking">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/cuisines">Cuisines</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/american" title="">American</a></li>
+<li class="leaf"><a href="/recipes/collection/chinese" title="">Chinese</a></li>
+<li class="leaf"><a href="/recipes/collection/greek" title="">Greek</a></li>
+<li class="leaf"><a href="/recipes/collection/mexican">Mexican</a></li>
+<li class="last leaf"><a href="/recipes/category/cuisines">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/dishes">Dishes</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/pasta" title="">Pasta</a></li>
+<li class="leaf"><a href="/recipes/collection/soup" title="">Soup</a></li>
+<li class="leaf"><a href="/recipes/collection/pie">Pie</a></li>
+<li class="leaf"><a href="/recipes/collection/casserole">Casserole</a></li>
+<li class="last leaf"><a href="/recipes/category/dishes">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/events">Events</a><ul class="menu"><li class="first leaf"><a href="/recipes/category/valentines-day">Valentine&#039;s Day</a></li>
+<li class="leaf"><a href="/recipes/collection/pancake-day">Pancake Day</a></li>
+<li class="leaf"><a href="/recipes/collection/mothers-day" title="">Mother&#039;s Day</a></li>
+<li class="leaf"><a href="/recipes/collection/easter" title="">Easter</a></li>
+<li class="last leaf"><a href="/recipes/category/events">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/everyday">Everyday</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/freezable">Freezable</a></li>
+<li class="leaf"><a href="/recipes/collection/batch-cooking">Batch cooking</a></li>
+<li class="leaf"><a href="/recipes/collection/cheap-eat">Cheap eats</a></li>
+<li class="leaf"><a href="/recipes/collection/leftovers">Leftovers</a></li>
+<li class="last leaf"><a href="/recipes/category/everyday">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/ingredients">Ingredients</a><ul class="menu"><li class="first leaf"><a href="/recipes/category/fish">Fish</a></li>
+<li class="leaf"><a href="/recipes/category/fruit">Fruit</a></li>
+<li class="leaf"><a href="/recipes/category/meat">Meat</a></li>
+<li class="leaf"><a href="/recipes/category/vegetables">Vegetables</a></li>
+<li class="last leaf"><a href="/recipes/category/ingredients">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/occasions">Occasions</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/sunday-lunch">Sunday lunch</a></li>
+<li class="leaf"><a href="/recipes/category/dinner-party">Dinner party</a></li>
+<li class="leaf"><a href="/recipes/collection/afternoon-tea" title="">Afternoon tea</a></li>
+<li class="leaf"><a href="/recipes/collection/easy-entertaining" title="">Easy entertaining</a></li>
+<li class="last leaf"><a href="/recipes/category/occasions">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/quick-easy">Quick &amp; easy</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/easy-impressive">Easy but impressive</a></li>
+<li class="leaf"><a href="/recipes/collection/quick-and-healthy">Quick &amp; healthy</a></li>
+<li class="leaf"><a href="/recipes/collection/quick-cake">Quick cake</a></li>
+<li class="leaf"><a href="/recipes/collection/under-20-minutes">Under 20 minutes</a></li>
+<li class="last leaf"><a href="/recipes/category/quick-easy">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/seasonal">Seasonal</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/top-20-spring">Spring</a></li>
+<li class="leaf"><a href="/recipes/collection/summer">Summer</a></li>
+<li class="leaf"><a href="/recipes/collection/top-20-autumn">Autumn</a></li>
+<li class="leaf"><a href="/recipes/collection/top-20-winter">Winter</a></li>
+<li class="last leaf"><a href="/recipes/category/seasonal">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/special-diets">Special diets</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/dairy-free">Dairy-free</a></li>
+<li class="leaf"><a href="/recipes/collection/gluten-free">Gluten-free</a></li>
+<li class="leaf"><a href="/recipes/collection/low-fat">Low-fat</a></li>
+<li class="leaf"><a href="/recipes/collection/low-gi">Low-GI</a></li>
+<li class="last leaf"><a href="/recipes/category/special-diets">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/vegetarian">Vegetarian</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/iron-rich-vegetarian">Iron-rich</a></li>
+<li class="leaf"><a href="/recipes/collection/vegan">Vegan</a></li>
+<li class="leaf"><a href="/recipes/collection/vegetarian-barbecue">Vegetarian barbecue</a></li>
+<li class="leaf"><a href="/recipes/collection/vegetarian-party">Vegetarian party</a></li>
+<li class="last leaf"><a href="/recipes/category/vegetarian">see more ...</a></li>
+</ul></li>
+<li class="expanded"><a href="/recipes/category/more-recipe-ideas">More recipe ideas</a><ul class="menu"><li class="first leaf"><a href="/recipes/collection/cheap-eat" title="">Cheap eats</a></li>
+<li class="leaf"><a href="/recipes/category/courses">Courses</a></li>
+<li class="leaf"><a href="/recipes/collection/slow-cooker">Slow cooker</a></li>
+<li class="leaf"><a href="/recipes/collection/cheap-cut">Cheap cut</a></li>
+<li class="last leaf"><a href="/recipes/category/more-recipe-ideas">see more ...</a></li>
+</ul></li>
+<li class="leaf"><a href="/recipes/collection/christmas-biscuits" title="">Christmas biscuits</a></li>
+<li class="leaf"><a href="/recipes/collection/christmas-gifts" title="">Christmas gifts</a></li>
+<li class="leaf"><a href="/recipes/collection/festive-dessert" title="">Festive desserts</a></li>
+<li class="leaf"><a href="/recipes/collection/vegetarian-christmas" title="">Vegetarian Christmas</a></li>
+<li class="last leaf"><a href="/recipes/category/christmas" title="">see more...</a></li>
+</ul></li>
+<li class="leaf"><a href="/recipes" title="">Recipe inspiration</a></li>
+<li class="expanded"><a href="/howto/guide/category/cookery">How to</a><ul class="menu"><li class="first expanded"><a href="/howto/guide/category/cookery">Guides &amp; techniques</a><ul class="menu"><li class="first leaf"><a href="/howto/guide/category/cookery">Cookery</a></li>
+<li class="leaf"><a href="/howto/guide/category/health-nutrition" title="">Health &amp; nutrition</a></li>
+<li class="leaf"><a href="/howto/guide/collection/events-occasions">Occasions &amp; events</a></li>
+<li class="leaf"><a href="/howto/guide/collection/family-kids">Family &amp; kids</a></li>
+<li class="last leaf"><a href="/howto/guide/collection/everyday">Everyday</a></li>
+</ul></li>
+<li class="expanded"><a href="/conversion-guides">Tools</a><ul class="menu"><li class="first leaf"><a href="/roast-timer">Roast calculator</a></li>
+<li class="leaf"><a href="/conversion-guides">Cake tin size guide</a></li>
+<li class="leaf"><a href="/conversion-guides">Volume &amp; weight convertors</a></li>
+<li class="leaf"><a href="/conversion-guides">Oven temperature guide</a></li>
+<li class="leaf"><a href="/conversion-guides">Sugar temperature guide</a></li>
+<li class="leaf"><a href="/feature/reviews" title="">Equipment reviews</a></li>
+<li class="last leaf"><a href="/glossary/a">Glossary</a></li>
+</ul></li>
+<li class="last leaf"><a href="/seasonal-calendar/all" title="">Seasonal calendar</a></li>
+</ul></li>
+<li class="expanded"><a href="/feature/health-nutrition" title="">Lifestyle &amp; events</a><ul class="menu"><li class="first expanded"><a href="/feature/health-nutrition" title="">Lifestyle</a><ul class="menu"><li class="first leaf"><a href="/feature/health-nutrition" title="">Health &amp; nutrition</a></li>
+<li class="leaf"><a href="/feature/family-and-kids" title="">Family &amp; kids</a></li>
+<li class="leaf"><a href="/feature/budget" title="">Budget &amp; everyday</a></li>
+<li class="leaf"><a href="/feature/entertaining" title="">Entertaining</a></li>
+<li class="last leaf"><a href="/feature/travel" title="">Travel</a></li>
+</ul></li>
+<li class="last expanded"><a href="/feature/christmas-kitchen" title="">Events</a><ul class="menu"><li class="first leaf"><a href="/feature/valentines-day" title="">Valentine&#039;s Day</a></li>
+<li class="leaf"><a href="/feature/pancake-day" title="">Pancake Day</a></li>
+<li class="leaf"><a href="/feature/halloween" title="">Halloween</a></li>
+<li class="leaf"><a href="/feature/bonfire-night" title="">Bonfire Night</a></li>
+<li class="last leaf"><a href="/feature/christmas-kitchen" title="">Christmas</a></li>
+</ul></li>
+</ul></li>
+<li class="expanded"><a href="/magazines/bbc-good-food-magazine">More Good Food</a><ul class="menu"><li class="first leaf"><a href="/magazines/bbc-good-food-magazine">Good Food magazine</a></li>
+<li class="leaf"><a href="http://www.buysubscriptions.com/food-and-cooking-magazines/good-food-magazine-subscription?offer=GFWMAG13&amp;billingCountryCode=GBR&amp;utm_medium=brandsite&amp;utm_source=bbcgoodfood.com&amp;utm_campaign=subscribe_GFWMAG13_GDFD_normal">Subscribe now</a></li>
+<li class="leaf"><a href="/good-food-reader-offers">Good Food reader offers</a></li>
+<li class="leaf"><a href="/competitions" title="">Competitions</a></li>
+<li class="leaf"><a href="/good-food-mobile-apps">Good Food apps</a></li>
+<li class="leaf"><a href="/good-food-live-events">Good Food events</a></li>
+<li class="leaf"><a href="/contact">Contact Us</a></li>
+<li class="last leaf"><a href="/article/join-us-social-media" title="">Follow us</a></li>
+</ul></li>
+<li class="last leaf"><a href="/feature/health-nutrition" title="">Health</a></li>
+</ul>	  </nav>
+	</div>
+</div>
+
+<div id="nav-toolbar" class="nav-toolbar">
+  <nav id="nav-bar" role="navigation" class="nav-bar overthrow">
+    <h1 class="element-invisible">Main navigation</h1>
+    <div class="primary-nav-wrap" class="grid-padding">
+      <ul id="primary-nav" class="primary-nav horizontal-elements separator-dashed-bottom"><li class="first leaf link-level-1 no-sub-level item-1"><a href="/" title=""><span>Home</span></a></li>
+<li class="expanded link-level-1 item-2 left-nav-info is-active"><a href="/recipes" title="" class="has-sub-level"><span>Recipes</span></a><div class="dd-wrap element-invisible col-5 full-width"><div class="nav-info">
+                    <h2 class="separator separator-dashed-bottom">Not sure what to cook?</h2>
+                    <p>We’ve pulled together our most popular recipes, our latest additions and our editor’s picks, so there’s sure to be something tempting for you to try.</p>
+                    <a class="btn btn--primary" href="/recipes">Inspire me</a>
+                  </div><ul class="sub-level-1"><li class="first expanded link-level-2"><a href="/recipes/category/healthy" class="has-sub-level"><span>Healthy</span></a><ul class="sub-level-2"><li class="first leaf link-level-3 no-sub-level"><a href="/recipes/collection/7-day" title=""><span>7-a-day</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/cheap-and-healthy" title=""><span>Cheap &amp; healthy</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/healthy-breakfast" title=""><span>Healthy breakfast</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/healthy-lunch"><span>Healthy lunch</span></a></li>
+<li class="last leaf link-level-3 no-sub-level"><a href="/recipes/category/healthy"><span>see more ...</span></a></li>
+</ul></li>
+<li class="expanded link-level-2"><a href="/recipes/category/family-kids" title="" class="has-sub-level"><span>Family &amp; kids</span></a><ul class="sub-level-2"><li class="first leaf link-level-3 no-sub-level"><a href="/recipes/collection/family-meal" title=""><span>Family meals</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/kids-party" title=""><span>Kids&#039; party</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/lunchbox" title=""><span>Lunchbox</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/snacks-kids" title=""><span>Snacks for kids</span></a></li>
+<li class="last leaf link-level-3 no-sub-level"><a href="/recipes/category/family-kids" title=""><span>see more...</span></a></li>
+</ul></li>
+<li class="expanded link-level-2"><a href="/recipes/category/cakes-baking" class="has-sub-level"><span>Cakes &amp; baking</span></a><ul class="sub-level-2"><li class="first leaf link-level-3 no-sub-level"><a href="/recipes/collection/brownie" title=""><span>Brownie</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/cheesecake"><span>Cheesecake</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/chocolate-cake" title=""><span>Chocolate cake</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/easy-baking" title=""><span>Easy baking</span></a></li>
+<li class="last leaf link-level-3 no-sub-level"><a href="/recipes/category/cakes-baking"><span>see more ...</span></a></li>
+</ul></li>
+<li class="expanded link-level-2"><a href="/recipes/category/cuisines" class="has-sub-level"><span>Cuisines</span></a><ul class="sub-level-2"><li class="first leaf link-level-3 no-sub-level"><a href="/recipes/collection/american" title=""><span>American</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/chinese" title=""><span>Chinese</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/greek" title=""><span>Greek</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/mexican" title=""><span>Mexican</span></a></li>
+<li class="last leaf link-level-3 no-sub-level"><a href="/recipes/category/cuisines"><span>see more ...</span></a></li>
+</ul></li>
+<li class="expanded link-level-2"><a href="/recipes/category/dishes" class="has-sub-level"><span>Dishes</span></a><ul class="sub-level-2"><li class="first leaf link-level-3 no-sub-level"><a href="/recipes/collection/pasta" title=""><span>Pasta</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/soup" title=""><span>Soup</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/pie" title=""><span>Pie</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/casserole" title=""><span>Casserole</span></a></li>
+<li class="last leaf link-level-3 no-sub-level"><a href="/recipes/category/dishes"><span>see more ...</span></a></li>
+</ul></li>
+<li class="expanded link-level-2"><a href="/recipes/category/events" class="has-sub-level"><span>Events</span></a><ul class="sub-level-2"><li class="first leaf link-level-3 no-sub-level"><a href="/recipes/category/valentines-day"><span>Valentine&#039;s Day</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/pancake-day" title=""><span>Pancake Day</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/mothers-day" title=""><span>Mother&#039;s Day</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/easter" title=""><span>Easter</span></a></li>
+<li class="last leaf link-level-3 no-sub-level"><a href="/recipes/category/events"><span>see more ...</span></a></li>
+</ul></li>
+<li class="expanded link-level-2"><a href="/recipes/category/everyday" class="has-sub-level"><span>Everyday</span></a><ul class="sub-level-2"><li class="first leaf link-level-3 no-sub-level"><a href="/recipes/collection/batch-cooking"><span>Batch cooking</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/cheap-eat"><span>Cheap eats</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/freezable" title=""><span>Freezable</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/leftovers"><span>Leftovers</span></a></li>
+<li class="last leaf link-level-3 no-sub-level"><a href="/recipes/category/everyday"><span>see more ...</span></a></li>
+</ul></li>
+<li class="expanded link-level-2"><a href="/recipes/category/ingredients" class="has-sub-level"><span>Ingredients</span></a><ul class="sub-level-2"><li class="first leaf link-level-3 no-sub-level"><a href="/recipes/category/fish"><span>Fish</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/category/fruit"><span>Fruit</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/category/meat"><span>Meat</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/category/vegetables"><span>Vegetables</span></a></li>
+<li class="last leaf link-level-3 no-sub-level"><a href="/recipes/category/ingredients"><span>see more ...</span></a></li>
+</ul></li>
+<li class="expanded link-level-2"><a href="/recipes/category/occasions" class="has-sub-level"><span>Occasions</span></a><ul class="sub-level-2"><li class="first leaf link-level-3 no-sub-level"><a href="/recipes/collection/afternoon-tea" title=""><span>Afternoon tea</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/category/dinner-party" title=""><span>Dinner party</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/easy-entertaining" title=""><span>Easy entertaining</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/sunday-lunch" title=""><span>Sunday lunch</span></a></li>
+<li class="last leaf link-level-3 no-sub-level"><a href="/recipes/category/occasions"><span>see more ...</span></a></li>
+</ul></li>
+<li class="expanded link-level-2"><a href="/recipes/category/quick-easy" class="has-sub-level"><span>Quick &amp; easy</span></a><ul class="sub-level-2"><li class="first leaf link-level-3 no-sub-level"><a href="/recipes/collection/easy-impressive"><span>Easy but impressive</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/quick-and-healthy" title=""><span>Quick &amp; healthy</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/quick-cake" title=""><span>Quick cake</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/under-20-minutes"><span>Under 20 minutes</span></a></li>
+<li class="last leaf link-level-3 no-sub-level"><a href="/recipes/category/quick-easy"><span>see more ...</span></a></li>
+</ul></li>
+<li class="expanded link-level-2"><a href="/recipes/category/seasonal" class="has-sub-level"><span>Seasonal</span></a><ul class="sub-level-2"><li class="first leaf link-level-3 no-sub-level"><a href="/recipes/collection/top-20-spring"><span>Spring</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/summer"><span>Summer</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/top-20-autumn"><span>Autumn</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/top-20-winter"><span>Winter</span></a></li>
+<li class="last leaf link-level-3 no-sub-level"><a href="/recipes/category/seasonal"><span>see more ...</span></a></li>
+</ul></li>
+<li class="expanded link-level-2"><a href="/recipes/category/special-diets" class="has-sub-level"><span>Special diets</span></a><ul class="sub-level-2"><li class="first leaf link-level-3 no-sub-level"><a href="/recipes/collection/dairy-free" title=""><span>Dairy-free</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/gluten-free"><span>Gluten-free</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/low-fat"><span>Low-fat</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/low-gi" title=""><span>Low-GI</span></a></li>
+<li class="last leaf link-level-3 no-sub-level"><a href="/recipes/category/special-diets"><span>see more ...</span></a></li>
+</ul></li>
+<li class="expanded link-level-2"><a href="/recipes/category/vegetarian" class="has-sub-level"><span>Vegetarian</span></a><ul class="sub-level-2"><li class="first leaf link-level-3 no-sub-level"><a href="/recipes/collection/iron-rich-vegetarian" title=""><span>Iron-rich</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/vegan"><span>Vegan</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/vegetarian-barbecue" title=""><span>Vegetarian barbecue</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/vegetarian-party" title=""><span>Vegetarian party</span></a></li>
+<li class="last leaf link-level-3 no-sub-level"><a href="/recipes/category/vegetarian"><span>see more ...</span></a></li>
+</ul></li>
+<li class="last expanded link-level-2"><a href="/recipes/category/more-recipe-ideas" title="" class="has-sub-level"><span>More recipe ideas</span></a><ul class="sub-level-2"><li class="first leaf link-level-3 no-sub-level"><a href="/recipes/collection/cheap-cut"><span>Cheap cut</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/cheap-eat" title=""><span>Cheap eats</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/category/courses"><span>Courses</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/recipes/collection/slow-cooker"><span>Slow cooker</span></a></li>
+<li class="last leaf link-level-3 no-sub-level"><a href="/recipes/category/more-recipe-ideas"><span>see more ...</span></a></li>
+</ul></li>
+</ul></div></li>
+<li class="expanded link-level-1 item-3 right-nav-info"><a href="/howto/guide/category/cookery" title="" class="has-sub-level"><span>How to</span></a><div class="dd-wrap element-invisible col-2 withpromo"><div class="nav-info">
+                    <a href="/seasonal-calendar/all" class="magazine_moregoodfood_link">
+                      <div class="adaptive-image" data-adaptive="" data-adaptive-image-breakpoints="600" data-img-600="" data-img-max="/sites/all/themes/bbcw_goodfood/images/ui/calendarDropDownImage.png" data-alt="Seasonal Calendar">
+                        <noscript>&amp;lt;img src="/sites/all/themes/bbcw_goodfood/images/ui/calendarDropDownImage.png" width="332" height="151" alt="Seasonal Calendar" /&amp;gt;</noscript>
+                      </div>
+                    </a>
+                    <h4 class="nav-info-title">What's in season?</h4>
+                    <p>Find out what to eat when with our calendar of seasonal produce.</p>
+                    <a class="see-more text-style-alt" href="/seasonal-calendar/all">View our seasonal calendar</a>
+                  </div><ul class="sub-level-1"><li class="first expanded link-level-2"><a href="/howto/guide/category/cookery" title="" class="has-sub-level"><span>Guides &amp; techniques</span></a><ul class="sub-level-2"><li class="first leaf link-level-3 no-sub-level"><a href="/howto/guide/category/cookery" title=""><span>Cookery</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/howto/guide/category/health-nutrition" title=""><span>Health &amp; nutrition</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/howto/guide/collection/events-occasions" title=""><span>Occasions &amp; events</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/howto/guide/collection/family-kids" title=""><span>Family &amp; kids</span></a></li>
+<li class="last leaf link-level-3 no-sub-level"><a href="/howto/guide/collection/everyday" title=""><span>Everyday</span></a></li>
+</ul></li>
+<li class="last expanded link-level-2"><a href="/conversion-guides" title="" class="has-sub-level"><span>Tools</span></a><ul class="sub-level-2"><li class="first leaf link-level-3 no-sub-level"><a href="/roast-timer" title=""><span>Roast calculator</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/conversion-guides#cake-tin" title=""><span>Cake tin size guide</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/conversion-guides#volume-conversion" title=""><span>Volume &amp; weight convertors</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/conversion-guides#oven-temperature" title=""><span>Oven temperature guide</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/conversion-guides#sugar-temperature" title=""><span>Sugar temperature guide</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/feature/reviews" title=""><span>Equipment reviews</span></a></li>
+<li class="last leaf link-level-3 no-sub-level"><a href="/glossary/a" title=""><span>Glossary</span></a></li>
+</ul></li>
+</ul></div></li>
+<li class="expanded link-level-1 item-4 right-nav-info"><a href="/" title="" class="has-sub-level"><span>Lifestyle &amp; events</span></a><div class="dd-wrap element-invisible col-2 withpromo"><div class="nav-info">
+                    <a href="/feature/family-and-kids" class="magazine_moregoodfood_link">
+                      <div class="adaptive-image" data-adaptive="" data-adaptive-image-breakpoints="600" data-img-600="" data-img-max="/sites/all/themes/bbcw_goodfood/images/ui/lifestyle-menu-image.jpg" data-alt="Family and Kids">
+                        <noscript>&amp;lt;img src="/sites/all/themes/bbcw_goodfood/images/ui/lifestyle-menu-image.jpg" width="332" height="151" alt="Family and Kids" /&amp;gt;</noscript>
+                      </div>
+                    </a>
+                    <h4 class="nav-info-title">Family & kids</h4>
+                    <p>Get inspiration and advice for feeding a family.</p><a href="/feature/family-and-kids" class="see-more text-style-alt">Visit our family and kids section</a></div><ul class="sub-level-1"><li class="first expanded link-level-2"><a href="/feature/christmas-kitchen" title="" class="has-sub-level"><span>Lifestyle</span></a><ul class="sub-level-2"><li class="first leaf link-level-3 no-sub-level"><a href="/feature/health-nutrition" title=""><span>Health &amp; nutrition</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/feature/family-and-kids" title=""><span>Family &amp; kids</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/feature/budget" title=""><span>Budget &amp; everyday</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/feature/entertaining" title=""><span>Entertaining</span></a></li>
+<li class="last leaf link-level-3 no-sub-level"><a href="/feature/travel" title=""><span>Travel</span></a></li>
+</ul></li>
+<li class="last expanded link-level-2"><a href="/feature/health-nutrition" title="" class="has-sub-level"><span>Events</span></a><ul class="sub-level-2"><li class="first leaf link-level-3 no-sub-level"><a href="/feature/valentines-day" title=""><span>Valentine&#039;s Day</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/feature/pancake-day" title=""><span>Pancake Day</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/feature/halloween" title=""><span>Halloween</span></a></li>
+<li class="leaf link-level-3 no-sub-level"><a href="/feature/bonfire-night" title=""><span>Bonfire Night</span></a></li>
+<li class="last leaf link-level-3 no-sub-level"><a href="/feature/christmas-kitchen" title=""><span>Christmas</span></a></li>
+</ul></li>
+</ul></div></li>
+<li class="expanded link-level-1 item-5 right-nav-info"><a href="/magazines/bbc-good-food-magazine" title="" class="has-sub-level"><span>More Good Food</span></a><div class="dd-wrap element-invisible col-1 withpromo one-level-deep"><div class="nav-info">
+                    <a href="http://www.buysubscriptions.com/bbc-good-food-magazine-subscriptions?promo=GFWMAG15&utm_medium=brandsite&utm_source=bbcgoodfood.com&utm_campaign=more-good-food-5-for-5-banner_GFWMAG15_Brand&utm_content=Navigation-Menu" class="magazine_moregoodfood_link" rel="external" onclick="_gaq.push(['_trackEvent', 'Magazines', 'subscribe', 'Nav' ])">
+                      <div class="adaptive-image" data-adaptive="" data-adaptive-image-breakpoints="600" data-img-600="" data-img-max="http://www.bbcgoodfood.com/sites/default/files/magazine/dropdown-menu-.jpg" data-alt="BBC Good Food Magazine">
+                        <noscript>&amp;lt;img src="http://www.bbcgoodfood.com/sites/default/files/magazine/dropdown-menu-.jpg" width="332" height="151" alt="BBC Good Food Magazine" /&amp;gt;</noscript>
+                      </div>
+                    </a>
+                    <h4 class="nav-info-title">Subscribe today</h4>
+                    <p>Subscribe to BBC Good Food magazine and get triple-tested recipes delivered to your door, every month.</p>
+                    <a href="http://www.buysubscriptions.com/bbc-good-food-magazine-subscriptions?promo=GFWMAG15&utm_medium=brandsite&utm_source=bbcgoodfood.com&utm_campaign=more-good-food-5-for-5-banner_GFWMAG15_Brand&utm_content=Navigation-Menu" rel="external" class="see-more text-style-alt" onclick="_gaq.push(['_trackEvent', 'Magazines', 'subscribe', 'Nav' ])">Order today and receive your first 5 issues for £5</a>
+                  </div><ul class="sub-level-1"><li class="first leaf link-level-2 no-sub-level"><a href="/magazines/bbc-good-food-magazine" title=""><span>Good Food magazine</span></a></li>
+<li class="leaf link-level-2 no-sub-level"><a href="http://www.buysubscriptions.com/bbc-good-food-magazine-subscriptions?promo=GFWMAG15&amp;utm_medium=brandsite&amp;utm_source=bbcgoodfood.com&amp;utm_campaign=more-good-food-5-for-5_GFWMAG13_Brand&amp;utm_content=Navigation-Menu" title=""><span>Subscribe now</span></a></li>
+<li class="leaf link-level-2 no-sub-level"><a href="/good-food-reader-offers" title=""><span>Good Food reader offers</span></a></li>
+<li class="leaf link-level-2 no-sub-level"><a href="/competitions" title=""><span>Competitions</span></a></li>
+<li class="leaf link-level-2 no-sub-level"><a href="/good-food-mobile-apps" title=""><span>Good Food apps</span></a></li>
+<li class="leaf link-level-2 no-sub-level"><a href="/good-food-live-events" title=""><span>Good Food events</span></a></li>
+<li class="last leaf link-level-2 no-sub-level"><a href="/contact" title=""><span>Contact us</span></a></li>
+</ul></div></li>
+<li class="leaf link-level-1 no-sub-level item-6 wildcard-scheme healthy"><a href="/feature/health-nutrition" title=""><span>Health &amp; nutrition</span></a></li>
+<li class="last leaf link-level-1 no-sub-level item-7 wildcard-scheme christmas"><a href="/feature/family-and-kids" title=""><span>Family &amp; kids</span></a></li>
+</ul>      <span class="subscribe-link">
+        <a href="https://www.buysubscriptions.com/bbc-good-food-magazine-subscriptions?promo=GFWBT15&utm_medium=brandsite&utm_source=bbcgoodfood.com&utm_campaign=5-for-5-footer_GFWBT16_Brand&utm_content=Footer-Promotion" rel="external" onclick="_gaq.push(['_trackEvent', 'Magazines', 'subscribe', 'Header' ])">
+                    <img src="http://www.bbcgoodfood.com/sites/default/files/magazine/subscribe-now-june.jpg" alt="Subscribe" title="Subscribe" />
+        </a>
+      </span>
+    </div>
+  </nav>
+</div>
+
+        <!--  ====================  -->
+        <!--  === MAIN CONTENT ===  -->
+        <!--  ====================  -->
+                <div  id="main-content" role="main" class="row main node-type-recipe">
+                    <!-- /region: sidebar -->
+
+            
+<article id="node-95300" class="node node-recipe node-full clearfix" itemscope itemtype="http://schema.org/Recipe">
+
+  
+  <header class="recipe-header">
+        <div class="recipe-header__media
+      ">
+      <i class="saved-recipe-badge"></i>
+      <div class="img-container ratio-11-10">
+        	<img itemprop="image" src="http://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--77500_12.jpg?itok=sJ2MYNsV" width="500" height="454" alt="Classic potato salad" title="Classic potato salad" />
+              </div><!-- /.img-container -->
+    </div><!-- /.recipe-header__media -->
+
+    <div class="recipe-header__details">
+      <div class="recipe-header__details-first">
+        <h1 itemprop="name" class="recipe-header__title">Classic potato salad</h1>
+        <div class="recipe-header__chef recipe-header__chef--first"><span class="author">By <a href="/chef/matt-tebbutt">Matt Tebbutt</a></span></div>
+
+        <div class="recipe-header__rating">
+          <div class="form-item form-type-item">
+<div class="field-main">  <label>recipe rating static </label>
+ <div class="rate-widget-2 rate-widget clear-block rate-average rate-widget-fivestar rate-799f599c618b2ff6d5fea56fd537f8b7 rate-node-95300-2-3" id="rate-node-95300-2-3">
+<ul><li class="first"><span class="rate-button rate-fivestar-btn-filled rate-fivestar-1" id="rate-button-210">1</span></li>
+<li><span class="rate-button rate-fivestar-btn-filled rate-fivestar-2" id="rate-button-211">2</span></li>
+<li><span class="rate-button rate-fivestar-btn-filled rate-fivestar-3" id="rate-button-212">3</span></li>
+<li><span class="rate-button rate-fivestar-btn-filled rate-fivestar-4" id="rate-button-213">4</span></li>
+<li class="last"><span class="rate-button rate-fivestar-btn-filled rate-fivestar-5" id="rate-button-214">5</span></li>
+</ul>
+  <div class="rate-info">(9 ratings)</div>
+
+
+  <span  itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+    <meta itemprop="ratingValue" content="4.72222" />
+<meta itemprop="bestRating" content="5" />
+<meta itemprop="worstRating" content="1" />
+<meta itemprop="ratingCount" content="9" />
+  </span>
+</div>
+</div>
+</div>
+                  </div><!-- /.recipe-header__rating -->
+
+                  <div class="recipe-header__chef recipe-header__chef--second"><span class="author">By <a href="/chef/matt-tebbutt">Matt Tebbutt</a></span></div>
+        
+        <div class="recipe-header__magazine">
+          <a href="http://www.buysubscriptions.com/food-and-cooking-magazines/good-food-magazine-subscription?offerCode=GFWRE15&amp;utm_medium=brandsite&amp;utm_source=bbcgoodfood.com&amp;utm_campaign=recipetext_GFWRE15_Brand"
+             rel="external" onclick="_gaq.push(['_trackEvent', 'Magazines', 'subscribe', 'Recipeheader' ])">
+            Magazine subscription – 5 issues for £5          </a>
+        </div>
+      </div><!-- /.recipe-header__details-first -->
+
+      <div class="recipe-header__details-second">
+
+        <div class="recipe-details">
+          <section class="recipe-details__item recipe-details__item--cooking-time">
+            <div class="recipe-details__text">
+              <h2 class="element-invisible"></h2>
+                            <span class="recipe-details__cooking-time-prep">
+                <strong>Prep:</strong> 	<span class="mins">20 mins</span>              </span>
+                                          <span class="recipe-details__cooking-time-cook">
+                <strong>Cook:</strong> 	<span class="mins">20 mins</span>              </span>
+                                        </div>
+          </section>
+          <section class="recipe-details__item recipe-details__item--skill-level">
+            <h2 class="element-invisible"></h2>
+            <span class="recipe-details__text">
+              Easy            </span>
+          </section>
+          <section class="recipe-details__item recipe-details__item--servings">
+            <h2 class="element-invisible"></h2>
+            <span class="recipe-details__text" itemprop="recipeYield">
+              Serves 6 with leftovers            </span>
+          </section>
+          <meta itemprop="sourceOrganization" content="BBC Good Food" />
+<meta itemprop="accountablePerson" content="BBC Good Food" />
+<meta itemprop="datePublished" content="2009-12-01" />
+<meta itemprop="cookTime" content="PT20M" />
+<meta itemprop="prepTime" content="PT20M" />
+<meta itemprop="totalTime" content="PT40M" />
+<meta itemprop="recipeCuisine" content="British" />
+<meta itemprop="recipeCategory" content="Side dish" />
+<meta itemprop="recipeCategory" content="Buffet" />
+<meta itemprop="recipeCategory" content="Dinner" />
+<meta itemprop="recipeCategory" content="Afternoon tea" />
+<meta itemprop="keywords" content="Matt Tebbutt" />
+<meta itemprop="keywords" content="Potato salad" />
+<meta itemprop="keywords" content="Classic" />
+<meta itemprop="keywords" content="Salad" />
+<meta itemprop="keywords" content="Side dish" />
+<meta itemprop="keywords" content="Christmas Eve" />
+<meta itemprop="keywords" content="Caper" />
+<meta itemprop="keywords" content="Capers" />
+<meta itemprop="keywords" content="Cornichon" />
+<meta itemprop="keywords" content="Cornichons" />
+<meta itemprop="keywords" content="Mayonnaise" />
+<meta itemprop="keywords" content="New potato" />
+<meta itemprop="keywords" content="New potatoes" />
+<meta itemprop="keywords" content="Parsley" />
+<meta itemprop="keywords" content="Shallot" />
+<meta itemprop="keywords" content="Shallots" />
+<meta itemprop="keywords" content="White wine vinegar" />
+<meta itemprop="keywords" content="Easy" />
+<meta itemprop="keywords" content="Vegetarian" />
+<meta itemprop="keywords" content="Bonfire Night" />
+<meta itemprop="keywords" content="Boxing Day" />
+<meta itemprop="keywords" content="Hogmanay" />
+<meta itemprop="keywords" content="Family favourite" />
+<meta itemprop="keywords" content="New Year" />
+<meta itemprop="keywords" content="Christmas" />
+<meta itemprop="keywords" content="Easter" />
+<meta itemprop="keywords" content="Christening" />
+<meta itemprop="keywords" content="Mother&#039;s Day" />
+<meta itemprop="keywords" content="Father&#039;s Day" />
+<meta itemprop="keywords" content="Burns Night" />
+<meta itemprop="keywords" content="Easily halved" />
+<meta itemprop="keywords" content="Easily doubled" />
+<meta itemprop="keywords" content="Dinner party" />
+<meta itemprop="keywords" content="Barbecue" />
+<meta itemprop="keywords" content="Wedding" />
+<meta itemprop="keywords" content="Picnic" />
+<meta itemprop="keywords" content="Celebration" />
+<meta itemprop="keywords" content="Summer" />
+<meta itemprop="keywords" content="Casual" />
+        </div><!-- /.recipe-details -->
+
+      </div><!-- /.recipe-header__details-second -->
+
+      <div class="recipe-header__description" itemprop="description">
+        <div class="field field-name-body field-type-text-with-summary field-label-hidden method__content"><div class="field-items"><div class="field-item even">Team with Christmas leftovers or summer BBQ favourites. Either way, Matt Tebbutt's Classic potato salad is hard resist</div></div></div>      </div>
+
+    </div><!-- /.recipe-header__details -->
+
+    <div class="recipe-header__bottom">
+      <div class="recipe-header__share">
+              <div class="service-links"><div class="service-label">Share: </div><ul class="service-links-primary"><li class="service-links-facebook first"><a href="http://www.facebook.com/sharer.php?u=http%3A//www.bbcgoodfood.com/recipes/75604/classic-potato-salad&amp;t=Classic%20potato%20salad" title="Share on Facebook" class="service-links-facebook service-links-link" rel="nofollow" data-service-name="Facebook"><i class="font-icon font-icon-facebook-large"></i><span class="service-links-text">Facebook</span></a></li>
+<li class="service-links-pinterest"><a href="http://pinterest.com/pin/create/bookmarklet?media=http%3A//www.bbcgoodfood.com/sites/default/files/recipe_images/recipe-image-legacy-id--77500_12.jpg&amp;url=http%3A//www.bbcgoodfood.com/recipes/75604/classic-potato-salad&amp;title=Classic%20potato%20salad&amp;is_video=false&amp;description=" title="Pin it on Pinterest" class="service-links-pinterest service-links-link" rel="nofollow" data-service-name="Pinterest"><i class="font-icon font-icon-pinterest-large"></i><span class="service-links-text">Pinterest</span></a></li>
+<li class="service-links-twitter"><a href="http://twitter.com/share?url=http%3A//www.bbcgoodfood.com/recipes/75604/classic-potato-salad&amp;text=Classic%20potato%20salad" title="Share this on Twitter" class="service-links-twitter service-links-link" rel="nofollow" data-service-name="Twitter"><i class="font-icon font-icon-twitter-large"></i><span class="service-links-text">Twitter</span></a></li>
+<li class="service-links-google-plus"><a href="https://plus.google.com/share?url=http%3A//www.bbcgoodfood.com/recipes/75604/classic-potato-salad" title="Share this on Google+" class="service-links-google-plus service-links-link" rel="nofollow" data-service-name="Google+"><i class="font-icon font-icon-google-large"></i><span class="service-links-text">Google+</span></a></li>
+<li class="service-links-email last"><a href="mailto:?subject=Classic%20potato%20salad&amp;body=http%3A//www.bbcgoodfood.com/recipes/75604/classic-potato-salad" title="Email a friend" class="service-links-email service-links-link" rel="nofollow" data-service-name="Email"><i class="font-icon font-icon-email-large"></i><span class="service-links-text">Email</span></a></li>
+</ul></div>        </div>
+
+      <section>
+        <h2 class="recipe-header__more-info-toggle">
+          <a href="#recipe-header-more-info" class="btn btn--tertiary btn--block btn--icon-right">Nutrition and extra info</a>
+        </h2>
+        <div id="recipe-header-more-info" class="recipe-header__more-info">
+          <div class="recipe-header__more-info-inner">
+                          <div class="recipe-header__additional">
+                <ul class="additional-info"><li class="easily first"><i class="font-icon font-icon-doubled-halved-extra-small"></i>Easily doubled / halved</li>
+<li class="vegetarian last"><i class="font-icon font-icon-vegetarian-extra-small"></i>Vegetarian</li>
+</ul>              </div>
+                        <div class="recipe-header__nutrition">
+              <h3 class="recipe-header__nutrition-title"><strong>Nutrition:</strong> per serving</h3>
+              <ul class="nutrition" itemprop="nutrition" itemscope itemtype="http://schema.org/NutritionInformation">
+                <li><span class="nutrition__label">kcal</span><span class="nutrition__value" itemprop="calories">144</span></li>
+                <li><span class="nutrition__label">fat</span><span class="nutrition__value" itemprop="fatContent">6g</span></li>
+                <li><span class="nutrition__label">saturates</span><span class="nutrition__value" itemprop="saturatedFatContent">1g</span></li>
+                <li><span class="nutrition__label">carbs</span><span class="nutrition__value" itemprop="carbohydrateContent">22g</span></li>
+                <li><span class="nutrition__label">sugars</span><span class="nutrition__value" itemprop="sugarContent">2g</span></li>
+                <li><span class="nutrition__label">fibre</span><span class="nutrition__value" itemprop="fiberContent">2g</span></li>
+                <li><span class="nutrition__label">protein</span><span class="nutrition__value" itemprop="proteinContent">2g</span></li>
+                <li><span class="nutrition__label nutrition__label--low">salt</span><span class="nutrition__value" itemprop="sodiumContent">0.04g</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="recipe-header__actions">
+        <div class="flyout"><a href="/user/login" class="btn btn--primary btn--save btn--block btn--icon-right" rel="nofollow"><span class="btn__text">Save <span class="wide-only">to My Good Food</span></span></a><div class="flyout__content"><div class="flyout__content-inner">Please <a href="/user/login?destination=node/95300">sign in</a> or <a href="/user/register?destination=node/95300">register</a> to save recipes.</div></div></div>        <div class="recipe-header__print">
+          <a href="/node/95300/bbcgf_pdf" class="btn btn--default btn--icon-right btn--print">
+            <span class="btn__text">Print</span>
+            <i class="font-icon font-icon-print"></i>
+          </a>
+        </div>
+      </div><!-- /.recipe-header__actions -->
+    </div><!-- /.recipe-header__bottom -->
+  </header><!-- /.recipe-header -->
+
+  <div class="grid-padding">
+    <div class="col span8">
+     <div id="ad-mpu-premium-1-mobile" class="mt4 ad-mpu-premium-1-mobile">
+        <div class="ad ad--mpu-premium-1-mobile" id="ad-manager-ad-mpu_premium_1_mobile-e5b5a3ce82"><script type="text/javascript">Drupal.GPT.createSlot("ad-manager-ad-mpu_premium_1_mobile-e5b5a3ce82", function () {var m = Drupal.GPT.buildSizeMapping([[[0,0],[[300,250],[300,600]]],[[480,0],[]]]);var s = googletag.defineSlot(Drupal.GPT.unitPath(), m.define, "ad-manager-ad-mpu_premium_1_mobile-e5b5a3ce82").defineSizeMapping(m.mapping.build()).setTargeting("pos", ["mpu_premium_1"]).setTargeting("gwd", [ASPQ_s0IuO0]).addService(googletag.pubads());});</script></div>      </div>
+      <div id="recipetools"
+           class="constantco-widget"
+           data-app-resource-id="95300"
+           data-type="recipetools"
+           data-params="mobile_breakpoint=821"></div>
+
+      <div class="responsive-tabs responsive-tabs--2">
+        <ul class="responsive-tabs__tabs">
+          <li class="responsive-tabs__tab is-active">
+            <a href="#recipe-ingredients">Ingredients</a>
+          </li>
+          <li class="responsive-tabs__tab">
+            <a href="#recipe-method">Method</a>
+          </li>
+        </ul>
+
+        <div class="responsive-tabs__panes">
+          <section id="recipe-ingredients" class="responsive-tabs__pane is-active">
+            <h2 class="responsive-tabs__pane-title">Ingredients</h2>
+
+            <div class="ingredients-list"><div class="ingredients-list__content"><ul class="ingredients-list__group">    <li class="ingredients-list__item" itemprop="ingredients">800g small <a href="/glossary/new-potatoes" class="ingredients-list__glossary-link" data-tooltip-content="#ingredients-glossary &gt; article" data-tooltip-width="350" data-tooltip-hide-delay="200" data-tooltip-flyout="true">new potato</a><span class="ingredients-list__glossary-element" id="ingredients-glossary"><article id="node-252081" role="main" class="node node-glossary-item node-teaser node-teaser clearfix main row grid-padding">
+      <div class="node-image">
+      <a href="/glossary/new-potatoes">	<img src="http://www.bbcgoodfood.com/sites/default/files/styles/bbcgf_thumbnail_search/public/glossary/newpotatoes.jpg?itok=5RTc1Q7v" width="100" height="100" alt="New potatoes" title="New potatoes have thin, wispy skins and a crisp, waxy texture" /></a>
+    </div>
+    <h2 class="node-title node-glossary-title"><a href="/glossary/new-potatoes">New potatoes</a></h2>
+    <span class="fonetic text-style-alt">n-ew po-tate-oes</span>
+    <p>New potatoes have thin, wispy skins and a crisp, waxy texture. They are young potatoes and…</p>
+    </article>
+</span></li>    <li class="ingredients-list__item" itemprop="ingredients">3 <a href="/glossary/shallot" class="ingredients-list__glossary-link" data-tooltip-content="#ingredients-glossary--2 &gt; article" data-tooltip-width="350" data-tooltip-hide-delay="200" data-tooltip-flyout="true">shallot</a>, finely chopped<span class="ingredients-list__glossary-element" id="ingredients-glossary--2"><article id="node-253846" role="main" class="node node-glossary-item node-teaser node-teaser clearfix main row grid-padding">
+      <div class="node-image">
+      <a href="/glossary/shallot">	<img src="http://www.bbcgoodfood.com/sites/default/files/styles/bbcgf_thumbnail_search/public/glossary/shallot.jpg?itok=6KWhGf6M" width="100" height="100" alt="Shallot" title="Related to the onion, shallots grow in clusters at the leaf base" /></a>
+    </div>
+    <h2 class="node-title node-glossary-title"><a href="/glossary/shallot">Shallot</a></h2>
+    <span class="fonetic text-style-alt">shal-lot</span>
+    <p>Related to the onion (as opposed to being a younger version of it), shallots grow in clusters at…</p>
+    </article>
+</span></li>    <li class="ingredients-list__item" itemprop="ingredients">1 tbsp small <a href="/glossary/capers" class="ingredients-list__glossary-link" data-tooltip-content="#ingredients-glossary--3 &gt; article" data-tooltip-width="350" data-tooltip-hide-delay="200" data-tooltip-flyout="true">capers</a> (optional)<span class="ingredients-list__glossary-element" id="ingredients-glossary--3"><article id="node-259596" role="main" class="node node-glossary-item node-teaser node-teaser clearfix main row grid-padding">
+      <div class="node-image">
+      <a href="/glossary/capers">	<img src="http://www.bbcgoodfood.com/sites/default/files/styles/bbcgf_thumbnail_search/public/glossary/capers.jpg?itok=Y4lUQ4FD" width="100" height="100" alt="Capers" title="Capers are the small flower buds of the Capparis shrub, which grows in the Mediterranean" /></a>
+    </div>
+    <h2 class="node-title node-glossary-title"><a href="/glossary/capers">Capers</a></h2>
+    <span class="fonetic text-style-alt">kay-per</span>
+    <p>Capers are the small flower buds of the Capparis shrub, which grows in the Mediterranean. As…</p>
+    </article>
+</span></li>    <li class="ingredients-list__item" itemprop="ingredients">2 tbsp cornichons, finely chopped (optional)</li>    <li class="ingredients-list__item" itemprop="ingredients">3 tbsp mayonnaise, or to taste</li>    <li class="ingredients-list__item" itemprop="ingredients">3 tbsp extra-virgin olive oil</li>    <li class="ingredients-list__item" itemprop="ingredients">1 tbsp white wine vinegar</li>    <li class="ingredients-list__item" itemprop="ingredients">small handful <a href="/glossary/parsley" class="ingredients-list__glossary-link" data-tooltip-content="#ingredients-glossary--4 &gt; article" data-tooltip-width="350" data-tooltip-hide-delay="200" data-tooltip-flyout="true">parsley</a> leaves, roughly chopped<span class="ingredients-list__glossary-element" id="ingredients-glossary--4"><article id="node-259636" role="main" class="node node-glossary-item node-teaser node-teaser clearfix main row grid-padding">
+      <div class="node-image">
+      <a href="/glossary/parsley">	<img src="http://www.bbcgoodfood.com/sites/default/files/styles/bbcgf_thumbnail_search/public/glossary/parsley.jpg?itok=ZJpglKu3" width="100" height="100" alt="Parsley" title="The traditional British choice is curly parsley, but flat leaved (Continental) parsley is also widely available" /></a>
+    </div>
+    <h2 class="node-title node-glossary-title"><a href="/glossary/parsley">Parsley</a></h2>
+    <span class="fonetic text-style-alt">par-slee</span>
+    <p>One of the most ubiquitous herbs in British cookery, parsley is also popular in European and…</p>
+    </article>
+</span></li></ul></div></div>          </section><!-- /.responsive-tabs__pane -->
+
+          <section id="recipe-method" class="responsive-tabs__pane">
+            <h2 class="responsive-tabs__pane-title">Method</h2>
+
+            <div class="method">
+                            <ol class="method__list">
+      <li class="method__item" itemprop="recipeInstructions">
+<p>Boil the potatoes in salted water for 20 mins until just cooked, drain, then cool.</p>
+</li>
+      <li class="method__item" itemprop="recipeInstructions">
+<p>Cut the potatoes into chunks, then throw into a bowl with the shallots, capers and cornichons, if using. Add enough mayonnaise to bind, then mix together the olive oil and vinegar and add just enough to give a little sharpness to the salad. Stir in the finely chopped parsley and serve.</p>
+</li>
+  </ol>
+            </div>
+
+            <footer class="recipe-info">
+              
+              <div class="recipe-info__publication">Recipe from Good Food magazine, <a href="/search/recipes/date/1259625600" class="text-style-alt">December 2009</a></div>
+
+              <a class="recipe-info__magazine-ad"
+                 href="http://www.buysubscriptions.com/bbc-good-food-magazine-subscriptions?promo=GFWR15&utm_medium=brandsite&utm_source=bbcgoodfood.com&utm_campaign=5-for-5-recipe-banner_GFWR15_Brand&utm_content=Article-Banner"
+                 rel="external" onclick="_gaq.push(['_trackEvent', 'Magazines', 'subscribe', 'Recipe' ])">
+                <img src="/sites/all/themes/bbcw_goodfood/images/dummy-content/GFMagSubscribeRecipe.png" alt="BBC GoodFood Magazine" />
+              </a>
+            </footer><!-- /.recipe-info -->
+          </section><!-- /.responsive-tabs__pane -->
+
+        </div><!-- /.responsive-tabs__panes -->
+      </div><!-- /.responsive-tabs -->
+
+              <div>
+          <div class="col span6 push6">
+            <div class="tips-carousel"><div class="field field-name-field-bbcgf-tips field-type-entityreference field-label-hidden"><div class="field-items"><div class="field-item even"><div class="view view-recipe-views view-id-recipe_views view-display-id-tips view-dom-id-d4fd73cb3149332114880d40b51eecb8">
+        
+  
+  
+      <div class="view-content">
+      <div class="carousel recipe-tip">
+  <div class="flexslider type-3" data-type="3">
+    <ul class="slides">
+		    		      <li class=""><h3 class="turquoise-safe">Tip</h3>
+<blockquote>
+  <h4><span class="field-content">Matt says...</span></h4>
+  <p>My kids love potato salad, but don’t like the
+strong flavours of capers or cornichons, so
+I’ve made them both optional.</p>
+</blockquote>
+</li>
+		    		      <li class=""><h3 class="turquoise-safe">Tip</h3>
+<blockquote>
+  <h4><span class="field-content">Get ahead</span></h4>
+  <p>This salad and can be made the day before, chilled
+and then pulled out a few hours
+before serving</p>
+</blockquote>
+</li>
+		    		</ul>
+    <div class="tip-tail"></div>
+	</div>
+</div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div></div></div></div>
+          </div>
+        </div>
+      
+              <section class="related-content clearfix">
+          <div id="block-ad-manager-mpu-premium-1-tablet" class="block block-ad-manager">
+
+    
+	<div class="ad ad--mpu-premium-1-tablet" id="ad-manager-ad-mpu_premium_1_tablet-3aaa127cc0"><script type="text/javascript">Drupal.GPT.createSlot("ad-manager-ad-mpu_premium_1_tablet-3aaa127cc0", function () {var m = Drupal.GPT.buildSizeMapping([[[0,0],[]],[[480,0],[[300,250],[300,600]]],[[820,0],[]]]);var s = googletag.defineSlot(Drupal.GPT.unitPath(), m.define, "ad-manager-ad-mpu_premium_1_tablet-3aaa127cc0").defineSizeMapping(m.mapping.build()).setTargeting("pos", ["mpu_premium_1"]).setTargeting("gwd", [ASPQ_s0IuO0]).addService(googletag.pubads());});</script></div></div>
+<section id="block-views-bbcgf-search-block-1" class="section-box section-box--you-may-also-like block block-views">
+  <header class="section-box__header">
+    <h2 class="section-box__title">You may also like</h2>
+  </header>
+  <div class="section-box__content">
+            <div class="carousel">
+	<div class="flexslider type-1" data-type="1">
+		<ul class="slides">
+		    		      <li class="">
+<article id="node-98459" class="node node-recipe node-carousel-slide-narrow clearfix">
+
+  
+          <div class="vertical-push-item__image">
+                  <img src="http://www.bbcgoodfood.com/sites/default/files/styles/carousel_small/public/recipe_images/recipe-image-legacy-id--424475_11.jpg?itok=2me79dT3" width="324" height="294" alt="Coconut panna cotta with pineapple salsa" title="Coconut panna cotta with pineapple salsa" />              </div>
+      <h3 class="vertical-push-item__title">
+        <a href="/recipes/4984/coconut-panna-cotta-with-pineapple-salsa">
+          Coconut panna cotta with pineapple salsa        </a>
+      </h3>
+      <div class="push-item__ratings">
+        	<div class="clearfix fivestar-average-stars fivestar-average-text"><div class="fivestar-static-form-item"><div class="form-item form-type-item">
+<div class="field-main"> <div class="fivestar-bbcgoodfood"><div  class="clearfix fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5"><div class="star star-1 star-odd star-first"><span class="on">3.25</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="off"></span></div><div class="star star-5 star-odd star-last"><span class="off"></span></div></div></div>
+</div>
+<div class="description"><p class="fivestar-summary fivestar-summary-">(4 <span class="rating-text"> ratings</span>)</p></div>
+</div>
+</div></div>      </div>
+
+    
+  </article>
+</li>
+		    		      <li class="">
+<article id="node-101537" class="node node-recipe node-carousel-slide-narrow clearfix">
+
+  
+          <div class="vertical-push-item__image">
+                  <img src="http://www.bbcgoodfood.com/sites/default/files/styles/carousel_small/public/recipe_images/recipe-image-legacy-id--4801_11.jpg?itok=5-h-XaDi" width="324" height="294" alt="Pancetta chicken wraps" title="Pancetta chicken wraps" />              </div>
+      <h3 class="vertical-push-item__title">
+        <a href="/recipes/3225/pancetta-chicken-wraps">
+          Pancetta chicken wraps        </a>
+      </h3>
+      <div class="push-item__ratings">
+        	<div class="clearfix fivestar-average-stars fivestar-average-text"><div class="fivestar-static-form-item"><div class="form-item form-type-item">
+<div class="field-main"> <div class="fivestar-bbcgoodfood"><div  class="clearfix fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5"><div class="star star-1 star-odd star-first"><span class="on">4.666665</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on"></span></div><div class="star star-5 star-odd star-last"><span class="on"></span></div></div></div>
+</div>
+<div class="description"><p class="fivestar-summary fivestar-summary-">(3 <span class="rating-text"> ratings</span>)</p></div>
+</div>
+</div></div>      </div>
+
+    
+  </article>
+</li>
+		    		      <li class="">
+<article id="node-93867" class="node node-recipe node-carousel-slide-narrow clearfix">
+
+  
+          <div class="vertical-push-item__image">
+                  <img src="http://www.bbcgoodfood.com/sites/default/files/styles/carousel_small/public/recipe_images/recipe-image-legacy-id--4569_11.jpg?itok=jTheVVec" width="324" height="294" alt="Berry vinaigrette" title="Berry vinaigrette" />              </div>
+      <h3 class="vertical-push-item__title">
+        <a href="/recipes/3116/berry-vinaigrette">
+          Berry vinaigrette        </a>
+      </h3>
+      <div class="push-item__ratings">
+        	<div class="clearfix fivestar-average-stars fivestar-average-text"><div class="fivestar-static-form-item"><div class="form-item form-type-item">
+<div class="field-main"> <div class="fivestar-bbcgoodfood"><div  class="clearfix fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5"><div class="star star-1 star-odd star-first"><span class="on">5</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on"></span></div><div class="star star-5 star-odd star-last"><span class="on"></span></div></div></div>
+</div>
+<div class="description"><p class="fivestar-summary fivestar-summary-">(1<span class="rating-text"> rating</span>)</p></div>
+</div>
+</div></div>      </div>
+
+    
+  </article>
+</li>
+		    		      <li class="">
+<article id="node-95648" class="node node-recipe node-carousel-slide-narrow clearfix">
+
+  
+          <div class="vertical-push-item__image">
+                  <img src="http://www.bbcgoodfood.com/sites/default/files/styles/carousel_small/public/user-collections/my-colelction-image/2015/12/recipe-image-legacy-id--340634_11.jpg?itok=mM5pEpcV" width="324" height="294" alt="Real Spanish omelette" title="Real Spanish omelette" />              </div>
+      <h3 class="vertical-push-item__title">
+        <a href="/recipes/2738/real-spanish-omelette">
+          Real Spanish omelette        </a>
+      </h3>
+      <div class="push-item__ratings">
+        	<div class="clearfix fivestar-average-stars fivestar-average-text"><div class="fivestar-static-form-item"><div class="form-item form-type-item">
+<div class="field-main"> <div class="fivestar-bbcgoodfood"><div  class="clearfix fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5"><div class="star star-1 star-odd star-first"><span class="on">4.766665</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on"></span></div><div class="star star-5 star-odd star-last"><span class="on"></span></div></div></div>
+</div>
+<div class="description"><p class="fivestar-summary fivestar-summary-">(15 <span class="rating-text"> ratings</span>)</p></div>
+</div>
+</div></div>      </div>
+
+    
+  </article>
+</li>
+		    		      <li class="">
+<article id="node-94597" class="node node-recipe node-carousel-slide-narrow clearfix">
+
+  
+          <div class="vertical-push-item__image">
+                  <img src="http://www.bbcgoodfood.com/sites/default/files/styles/carousel_small/public/recipe_images/recipe-image-legacy-id--10396_11.jpg?itok=2-ICOuW0" width="324" height="294" alt="Courgette &amp; watercress salad with grilled fish &amp; herbed aïoli" title="Courgette &amp; watercress salad with grilled fish &amp; herbed aïoli" />              </div>
+      <h3 class="vertical-push-item__title">
+        <a href="/recipes/6672/courgette-and-watercress-salad-with-grilled-fish-a">
+          Courgette &amp; watercress salad with grilled fish &amp; herbed aïoli        </a>
+      </h3>
+      <div class="push-item__ratings">
+        	<div class="clearfix fivestar-average-stars fivestar-average-text"><div class="fivestar-static-form-item"><div class="form-item form-type-item">
+<div class="field-main"> <div class="fivestar-bbcgoodfood"><div  class="clearfix fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5"><div class="star star-1 star-odd star-first"><span class="on">4.5</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on"></span></div><div class="star star-5 star-odd star-last"><span class="on"></span></div></div></div>
+</div>
+<div class="description"><p class="fivestar-summary fivestar-summary-">(2 <span class="rating-text"> ratings</span>)</p></div>
+</div>
+</div></div>      </div>
+
+    
+  </article>
+</li>
+		    		      <li class="">
+<article id="node-102148" class="node node-recipe node-carousel-slide-narrow clearfix">
+
+  
+          <div class="vertical-push-item__image">
+                  <img src="http://www.bbcgoodfood.com/sites/default/files/styles/carousel_small/public/recipe_images/recipe-image-legacy-id--4315_11.jpg?itok=_2DyZE5P" width="324" height="294" alt="Snowman in the garden cake" title="Snowman in the garden cake" />              </div>
+      <h3 class="vertical-push-item__title">
+        <a href="/recipes/2997/snowman-in-the-garden-cake">
+          Snowman in the garden cake        </a>
+      </h3>
+      <div class="push-item__ratings">
+        	<div class="clearfix fivestar-average-stars fivestar-average-text"><div class="fivestar-static-form-item"><div class="form-item form-type-item">
+<div class="field-main"> <div class="fivestar-bbcgoodfood"><div  class="clearfix fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5"><div class="star star-1 star-odd star-first"><span class="on">4.833335</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on"></span></div><div class="star star-5 star-odd star-last"><span class="on"></span></div></div></div>
+</div>
+<div class="description"><p class="fivestar-summary fivestar-summary-">(6 <span class="rating-text"> ratings</span>)</p></div>
+</div>
+</div></div>      </div>
+
+    
+  </article>
+</li>
+		    		      <li class="">
+<article id="node-100818" class="node node-recipe node-carousel-slide-narrow clearfix">
+
+  
+          <div class="vertical-push-item__image">
+                  <img src="http://www.bbcgoodfood.com/sites/default/files/styles/carousel_small/public/recipe_images/recipe-image-legacy-id--2285_11.jpg?itok=oNt8qWsv" width="324" height="294" alt="Roast goose with potato &amp; stuffing" title="Roast goose with potato &amp; stuffing" />              </div>
+      <h3 class="vertical-push-item__title">
+        <a href="/recipes/2177/roast-goose-with-potato-and-stuffing">
+          Roast goose with potato &amp; stuffing        </a>
+      </h3>
+      <div class="push-item__ratings">
+        	<div class="clearfix fivestar-average-stars fivestar-average-text"><div class="fivestar-static-form-item"><div class="form-item form-type-item">
+<div class="field-main"> <div class="fivestar-bbcgoodfood"><div  class="clearfix fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5"><div class="star star-1 star-odd star-first"><span class="off">0</span></div><div class="star star-2 star-even"><span class="off"></span></div><div class="star star-3 star-odd"><span class="off"></span></div><div class="star star-4 star-even"><span class="off"></span></div><div class="star star-5 star-odd star-last"><span class="off"></span></div></div></div>
+</div>
+<div class="description"><p class="fivestar-summary fivestar-summary-">(0<span class="rating-text"> ratings</span>)</p></div>
+</div>
+</div></div>      </div>
+
+    
+  </article>
+</li>
+		    		      <li class="">
+<article id="node-94985" class="node node-recipe node-carousel-slide-narrow clearfix">
+
+  
+          <div class="vertical-push-item__image">
+                  <img src="http://www.bbcgoodfood.com/sites/default/files/styles/carousel_small/public/recipe_images/recipe-image-legacy-id--1081451_11.jpg?itok=zXLQSSAg" width="324" height="294" alt="Ham with boozy cranberry &amp; mushroom sauce" title="Ham with boozy cranberry &amp; mushroom sauce" />              </div>
+      <h3 class="vertical-push-item__title">
+        <a href="/recipes/1149/ham-with-boozy-cranberry-and-mushroom-sauce">
+          Ham with boozy cranberry &amp; mushroom sauce        </a>
+      </h3>
+      <div class="push-item__ratings">
+        	<div class="clearfix fivestar-average-stars fivestar-average-text"><div class="fivestar-static-form-item"><div class="form-item form-type-item">
+<div class="field-main"> <div class="fivestar-bbcgoodfood"><div  class="clearfix fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5"><div class="star star-1 star-odd star-first"><span class="on">5</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on"></span></div><div class="star star-5 star-odd star-last"><span class="on"></span></div></div></div>
+</div>
+<div class="description"><p class="fivestar-summary fivestar-summary-">(3 <span class="rating-text"> ratings</span>)</p></div>
+</div>
+</div></div>      </div>
+
+    
+  </article>
+</li>
+		    		</ul>
+	</div>
+</div>
+    </div>
+</section>
+<div id="block-bbcgf-outbrain-outbrain-widget" class="block block-bbcgf-outbrain">
+
+    
+	<div id="outbrain_widget" data-src="http://www.bbcgoodfood.com/node/95300" data-ob-template="BBCGoodFood"></div></div>
+        </section>
+      
+      <div class="adsense-ads separator" id="adsense-0">
+  <h2>Ads by Google</h2>
+      <div class="adsense-container border-stitched-gray">
+      <script type="text/javascript">
+        var adWidth = document.getElementById("adsense-0").offsetWidth,
+          sizes = [{"width":728,"height":90},{"width":468,"height":60},{"width":300,"height":250},{"width":250,"height":250},{"width":200,"height":200}];
+
+        google_ad_client = 'ca-bbc-goodfood'; // substitute your client_id
+        google_ad_type = 'text'; // type of ads to display
+        google_safe = 'high'; // specify the ad safety
+        google_adtest = 'off';
+        google_color_bg = 'ffffff';
+        google_color_border = 'ffffff';
+        google_color_link = '000000';
+        google_color_text = '666666';
+        google_color_url = '59a399';
+
+        for (var i in sizes) {
+          if (sizes.hasOwnProperty(i)) {
+            if (adWidth >= sizes[i].width) {
+              google_ad_width = sizes[i].width;
+              google_ad_height = sizes[i].height;
+              google_ad_format = sizes[i].width + 'x' + sizes[i].height + '_pas_abg';
+              break;
+            }
+          }
+        }
+      </script>
+    <script src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+    </div>
+  </div>
+
+      <section class="comments">
+        <header class="comment-section-header">
+          <h2>Comments, questions and tips</h2>
+
+          
+        </header>
+
+                  <div class="well pad bg-turquoise-safe bg-stitched join-discussion">
+            <a href="/user/login?destination=node/95300">Sign in</a> or <a href="/user/register?destination=node/95300">create your My Good Food account</a> to join the discussion.          </div>
+          <div id="comments" class="comment-wrapper">
+  <!-- <h2 class="title comment-form">Comments, questions and tips</h2> -->
+
+            <div class="bg-beige-alt comment-form-wrapper">
+              </div>
+      
+  </div>
+<div class="region-comments" data-nid="95300">
+  <div class="tabs turquoise-tabs" data-tabactive=">1" data-iscount="true">
+    <section id="tab-comments" class="tab" data-tabname="comment" data-comment="/node/95300/comment-comment?destination=recipes/75604/classic-potato-salad&amp;tab=comment&amp;response_type=embed">
+  <h1 class="tab-header gamma">Comments (16)</h1>
+  <div class="tab-content">
+    <div class="tab-inner-content">
+      <div class="view view-comment-views-comment-ajax view-id-comment_views_comment_ajax view-display-id-comment_page view-dom-id-cba0a02b21ddead84d1e8a37bfda472c">
+        
+  
+  
+      <div class="view-content">
+        <div>
+    <div id="comment-wrapper-917251"><a id="comment-917251"></a>
+<article class="comment clearfix">
+
+	<div class="comment-content separator-solid-grayoffwhite ">
+
+		<header class="comment-header bg-beige-alt clearfix">
+			  <div class="user-picture">
+    <img src="http://www.bbcgoodfood.com/sites/default/files/styles/avatar/public/default-avatar.jpg?itok=EYlJH5Kp" width="40" height="40" alt="lammy1971@gmail.com&#039;s picture" title="lammy1971@gmail.com&#039;s picture" />  </div>
+ <span class="comment-metadata"><span class="username">lammy1971@gmail.com</span><span class="comment-date text-style-alt">9th Apr, 2016</span></span>
+		</header>
+
+		<div class="comment-body">
+      			<blockquote>
+				<div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>I swapped the vinegar for lemon juice &amp; zest.<br />
+I also added finely chopped red chilli.<br />
+Gorgeous.</p>
+</div></div></div>							</blockquote>
+		</div>
+
+    <footer>
+      <div class="comment-links clearfix">
+
+        
+        <div class="comment-links-links epsilon text-style-alt">
+          <ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=node/95300%23comment-form">Sign in</a> or <a href="/user/register?destination=node/95300%23comment-form">register</a> to post comments</span></li>
+</ul>        </div>
+      </div>
+
+      <div class="comment-reply-wrapper bg-beige-alt">
+              </div>
+    </footer>
+
+	</div>
+
+</article>
+</div>  </div>
+  <div>
+    <div id="comment-wrapper-857161"><a id="comment-857161"></a>
+<article class="comment clearfix">
+
+	<div class="comment-content separator-solid-grayoffwhite ">
+
+		<header class="comment-header bg-beige-alt clearfix">
+			  <div class="user-picture">
+    <img src="http://www.bbcgoodfood.com/sites/default/files/styles/avatar/public/default-avatar.jpg?itok=EYlJH5Kp" width="40" height="40" alt="Frantic Flapjack&#039;s picture" title="Frantic Flapjack&#039;s picture" />  </div>
+ <span class="comment-metadata"><span class="username">Frantic Flapjack</span><span class="comment-date text-style-alt">2nd Jun, 2015</span></span>
+		</header>
+
+		<div class="comment-body">
+      <div class="rate-widget rate-widget-fivestar clear-block rate-processed"><div class="fivestar-bbcgoodfood"><div  class="clearfix fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5"><div class="star star-1 star-odd star-first"><span class="on">2.5</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="off"></span></div><div class="star star-5 star-odd star-last"><span class="off"></span></div></div></div></div>			<blockquote>
+				<div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>This potato salad was okay but not the best ever.  I left out the capers but used cornichons.  Also I didn't bother with the olive oil and white wine vinegar.  The chopped parsley gave it a lovely fresh flavour.</p>
+</div></div></div>							</blockquote>
+		</div>
+
+    <footer>
+      <div class="comment-links clearfix">
+
+        
+        <div class="comment-links-links epsilon text-style-alt">
+          <ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=node/95300%23comment-form">Sign in</a> or <a href="/user/register?destination=node/95300%23comment-form">register</a> to post comments</span></li>
+</ul>        </div>
+      </div>
+
+      <div class="comment-reply-wrapper bg-beige-alt">
+              </div>
+    </footer>
+
+	</div>
+
+</article>
+</div>  </div>
+  <div>
+    <div id="comment-wrapper-872256" class="indented"><a id="comment-872256"></a>
+<article class="comment clearfix">
+
+	<div class="comment-content separator-solid-grayoffwhite ">
+
+		<header class="comment-header bg-beige-alt clearfix">
+			  <div class="user-picture">
+    <img src="http://www.bbcgoodfood.com/sites/default/files/styles/avatar/public/pictures/picture-3651311-1417111337.jpg?itok=Bea0oZZY" width="40" height="40" alt="CherryBrownie&#039;s picture" title="CherryBrownie&#039;s picture" />  </div>
+ <span class="comment-metadata"><span class="username">CherryBrownie</span><span class="comment-date text-style-alt">25th Aug, 2015</span></span>
+		</header>
+
+		<div class="comment-body">
+      			<blockquote>
+				<div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Hilarious, I also find that chocolate brownies are a bit rubbish but I always leave out the chocolate, sugar and flour ;-)</p>
+</div></div></div>							</blockquote>
+		</div>
+
+    <footer>
+      <div class="comment-links clearfix">
+
+        
+        <div class="comment-links-links epsilon text-style-alt">
+          <ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=node/95300%23comment-form">Sign in</a> or <a href="/user/register?destination=node/95300%23comment-form">register</a> to post comments</span></li>
+</ul>        </div>
+      </div>
+
+      <div class="comment-reply-wrapper bg-beige-alt">
+              </div>
+    </footer>
+
+	</div>
+
+</article>
+</div>  </div>
+  <div>
+    <div id="comment-wrapper-863381" class="indented"><a id="comment-863381"></a>
+<article class="comment clearfix">
+
+	<div class="comment-content separator-solid-grayoffwhite ">
+
+		<header class="comment-header bg-beige-alt clearfix">
+			  <div class="user-picture">
+    <img src="http://www.bbcgoodfood.com/sites/default/files/styles/avatar/public/pictures/picture-196258-1435748455.jpg?itok=qqsDk6ZJ" width="40" height="40" alt="dhoohar&#039;s picture" title="dhoohar&#039;s picture" />  </div>
+ <span class="comment-metadata"><span class="username">dhoohar</span><span class="comment-date text-style-alt">5th Jul, 2015</span></span>
+		</header>
+
+		<div class="comment-body">
+      			<blockquote>
+				<div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Maybe it would have turned out better if you hadn't omitted the capers, olive oil and white wine vinegar. I find it odd that you rate a recipe when you left out nearly half of the ingredients!</p>
+</div></div></div>							</blockquote>
+		</div>
+
+    <footer>
+      <div class="comment-links clearfix">
+
+        
+        <div class="comment-links-links epsilon text-style-alt">
+          <ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=node/95300%23comment-form">Sign in</a> or <a href="/user/register?destination=node/95300%23comment-form">register</a> to post comments</span></li>
+</ul>        </div>
+      </div>
+
+      <div class="comment-reply-wrapper bg-beige-alt">
+              </div>
+    </footer>
+
+	</div>
+
+</article>
+</div>  </div>
+  <div>
+    <div id="comment-wrapper-796856"><a id="comment-796856"></a>
+<article class="comment clearfix">
+
+	<div class="comment-content separator-solid-grayoffwhite ">
+
+		<header class="comment-header bg-beige-alt clearfix">
+			  <div class="user-picture">
+    <img src="http://www.bbcgoodfood.com/sites/default/files/styles/avatar/public/default-avatar.jpg?itok=EYlJH5Kp" width="40" height="40" alt="jess7498&#039;s picture" title="jess7498&#039;s picture" />  </div>
+ <span class="comment-metadata"><span class="username">jess7498</span><span class="comment-date text-style-alt">16th Sep, 2014</span></span>
+		</header>
+
+		<div class="comment-body">
+      <div class="rate-widget rate-widget-fivestar clear-block rate-processed"><div class="fivestar-bbcgoodfood"><div  class="clearfix fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5"><div class="star star-1 star-odd star-first"><span class="on">5</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on"></span></div><div class="star star-5 star-odd star-last"><span class="on"></span></div></div></div></div>			<blockquote>
+				<div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>This is much nicer than shop bought, however it wasn't quite as tasty as I thought it might be. I didn't have any capers but everything else was as recipe. Still v nice.</p>
+</div></div></div>							</blockquote>
+		</div>
+
+    <footer>
+      <div class="comment-links clearfix">
+
+        
+        <div class="comment-links-links epsilon text-style-alt">
+          <ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=node/95300%23comment-form">Sign in</a> or <a href="/user/register?destination=node/95300%23comment-form">register</a> to post comments</span></li>
+</ul>        </div>
+      </div>
+
+      <div class="comment-reply-wrapper bg-beige-alt">
+              </div>
+    </footer>
+
+	</div>
+
+</article>
+</div>  </div>
+  <div>
+    <div id="comment-wrapper-690656"><a id="comment-690656"></a>
+<article class="comment clearfix">
+
+	<div class="comment-content separator-solid-grayoffwhite ">
+
+		<header class="comment-header bg-beige-alt clearfix">
+			  <div class="user-picture">
+    <img src="http://www.bbcgoodfood.com/sites/default/files/styles/avatar/public/default-avatar.jpg?itok=EYlJH5Kp" width="40" height="40" alt="katycooks&#039;s picture" title="katycooks&#039;s picture" />  </div>
+ <span class="comment-metadata"><span class="username">katycooks</span><span class="comment-date text-style-alt">13th Sep, 2013</span></span>
+		</header>
+
+		<div class="comment-body">
+      			<blockquote>
+				<div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>I made this exactly according to the recipe and it was simply delicious.   So much nicer than shop bought versions and very easy to do.  This is my "go to" recipe now.</p>
+</div></div></div>							</blockquote>
+		</div>
+
+    <footer>
+      <div class="comment-links clearfix">
+
+        
+        <div class="comment-links-links epsilon text-style-alt">
+          <ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=node/95300%23comment-form">Sign in</a> or <a href="/user/register?destination=node/95300%23comment-form">register</a> to post comments</span></li>
+</ul>        </div>
+      </div>
+
+      <div class="comment-reply-wrapper bg-beige-alt">
+              </div>
+    </footer>
+
+	</div>
+
+</article>
+</div>  </div>
+  <div>
+    <div id="comment-wrapper-272546"><a id="comment-272546"></a>
+<article class="comment clearfix">
+
+	<div class="comment-content separator-solid-grayoffwhite ">
+
+		<header class="comment-header bg-beige-alt clearfix">
+			  <div class="user-picture">
+    <img src="http://www.bbcgoodfood.com/sites/default/files/styles/avatar/public/default-avatar.jpg?itok=EYlJH5Kp" width="40" height="40" alt="fizzh89&#039;s picture" title="fizzh89&#039;s picture" />  </div>
+ <span class="comment-metadata"><span class="username">fizzh89</span><span class="comment-date text-style-alt">15th Jul, 2013</span></span>
+		</header>
+
+		<div class="comment-body">
+      			<blockquote>
+				<div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Made this for a bbq yesterday, and in my opinion it beats the shop bought ones hands down! I've never been a big fan of bought potato salad, as the dressings taste so artificial. I didn't have cornichons (I admit I had to google it to find out it's geurkhins!) but will get some for next time I make it. Will most definitely be making this again, quick easy and yummy!</p>
+</div></div></div>							</blockquote>
+		</div>
+
+    <footer>
+      <div class="comment-links clearfix">
+
+        
+        <div class="comment-links-links epsilon text-style-alt">
+          <ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=node/95300%23comment-form">Sign in</a> or <a href="/user/register?destination=node/95300%23comment-form">register</a> to post comments</span></li>
+</ul>        </div>
+      </div>
+
+      <div class="comment-reply-wrapper bg-beige-alt">
+              </div>
+    </footer>
+
+	</div>
+
+</article>
+</div>  </div>
+  <div>
+    <div id="comment-wrapper-200486"><a id="comment-200486"></a>
+<article class="comment clearfix">
+
+	<div class="comment-content separator-solid-grayoffwhite ">
+
+		<header class="comment-header bg-beige-alt clearfix">
+			  <div class="user-picture">
+    <img src="http://www.bbcgoodfood.com/sites/default/files/styles/avatar/public/default-avatar.jpg?itok=EYlJH5Kp" width="40" height="40" alt="dwatson27&#039;s picture" title="dwatson27&#039;s picture" />  </div>
+ <span class="comment-metadata"><span class="username">dwatson27</span><span class="comment-date text-style-alt">24th May, 2013</span></span>
+		</header>
+
+		<div class="comment-body">
+      <div class="rate-widget rate-widget-fivestar clear-block rate-processed"><div class="fivestar-bbcgoodfood"><div  class="clearfix fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5"><div class="star star-1 star-odd star-first"><span class="on">5</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on"></span></div><div class="star star-5 star-odd star-last"><span class="on"></span></div></div></div></div>			<blockquote>
+				<div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Made this recipe several times now and it goes down a treat! I have to make it in large quantities as everyone wants an extra portion to take home :).</p>
+</div></div></div>							</blockquote>
+		</div>
+
+    <footer>
+      <div class="comment-links clearfix">
+
+        
+        <div class="comment-links-links epsilon text-style-alt">
+          <ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=node/95300%23comment-form">Sign in</a> or <a href="/user/register?destination=node/95300%23comment-form">register</a> to post comments</span></li>
+</ul>        </div>
+      </div>
+
+      <div class="comment-reply-wrapper bg-beige-alt">
+              </div>
+    </footer>
+
+	</div>
+
+</article>
+</div>  </div>
+  <div>
+    <div id="comment-wrapper-198261"><a id="comment-198261"></a>
+<article class="comment clearfix">
+
+	<div class="comment-content separator-solid-grayoffwhite ">
+
+		<header class="comment-header bg-beige-alt clearfix">
+			  <div class="user-picture">
+    <img src="http://www.bbcgoodfood.com/sites/default/files/styles/avatar/public/default-avatar.jpg?itok=EYlJH5Kp" width="40" height="40" alt="pinkpuppyuk2002&#039;s picture" title="pinkpuppyuk2002&#039;s picture" />  </div>
+ <span class="comment-metadata"><span class="username">pinkpuppyuk2002</span><span class="comment-date text-style-alt">19th May, 2013</span></span>
+		</header>
+
+		<div class="comment-body">
+      			<blockquote>
+				<div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Made this today for the family and there were no leftovers. Went down really well for a very picky family.<br />
+Tasted fantastic i added a tsp of wholegrain mustard for the flavour and was not over powering at all.<br />
+Great recipes thanks for sharing will definitely be making it again.</p>
+</div></div></div>							</blockquote>
+		</div>
+
+    <footer>
+      <div class="comment-links clearfix">
+
+        
+        <div class="comment-links-links epsilon text-style-alt">
+          <ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=node/95300%23comment-form">Sign in</a> or <a href="/user/register?destination=node/95300%23comment-form">register</a> to post comments</span></li>
+</ul>        </div>
+      </div>
+
+      <div class="comment-reply-wrapper bg-beige-alt">
+              </div>
+    </footer>
+
+	</div>
+
+</article>
+</div>  </div>
+  <div>
+    <div id="comment-wrapper-872261" class="indented"><a id="comment-872261"></a>
+<article class="comment clearfix">
+
+	<div class="comment-content separator-solid-grayoffwhite ">
+
+		<header class="comment-header bg-beige-alt clearfix">
+			  <div class="user-picture">
+    <img src="http://www.bbcgoodfood.com/sites/default/files/styles/avatar/public/pictures/picture-3651311-1417111337.jpg?itok=Bea0oZZY" width="40" height="40" alt="CherryBrownie&#039;s picture" title="CherryBrownie&#039;s picture" />  </div>
+ <span class="comment-metadata"><span class="username">CherryBrownie</span><span class="comment-date text-style-alt">25th Aug, 2015</span></span>
+		</header>
+
+		<div class="comment-body">
+      			<blockquote>
+				<div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Thanks for the tip, making for a family do tomorrow and I might add mustard too!</p>
+</div></div></div>							</blockquote>
+		</div>
+
+    <footer>
+      <div class="comment-links clearfix">
+
+        
+        <div class="comment-links-links epsilon text-style-alt">
+          <ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=node/95300%23comment-form">Sign in</a> or <a href="/user/register?destination=node/95300%23comment-form">register</a> to post comments</span></li>
+</ul>        </div>
+      </div>
+
+      <div class="comment-reply-wrapper bg-beige-alt">
+              </div>
+    </footer>
+
+	</div>
+
+</article>
+</div>  </div>
+  <div>
+    <div id="comment-wrapper-901416" class="indented"><a id="comment-901416"></a>
+<div class='indented'><article class="comment clearfix">
+
+	<div class="comment-content separator-solid-grayoffwhite ">
+
+		<header class="comment-header bg-beige-alt clearfix">
+			  <div class="user-picture">
+    <img src="http://www.bbcgoodfood.com/sites/default/files/styles/avatar/public/default-avatar.jpg?itok=EYlJH5Kp" width="40" height="40" alt="gastronomica-10&#039;s picture" title="gastronomica-10&#039;s picture" />  </div>
+ <span class="comment-metadata"><span class="username">gastronomica-10</span><span class="comment-date text-style-alt">23rd Jan, 2016</span></span>
+		</header>
+
+		<div class="comment-body">
+      			<blockquote>
+				<div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Yes, I would definitely add the mustard as it adds another dimension and more depth of flavour. I made it twice and the second time I forgot the mustard and the taste was less interesting.</p>
+</div></div></div>							</blockquote>
+		</div>
+
+    <footer>
+      <div class="comment-links clearfix">
+
+        
+        <div class="comment-links-links epsilon text-style-alt">
+          <ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=node/95300%23comment-form">Sign in</a> or <a href="/user/register?destination=node/95300%23comment-form">register</a> to post comments</span></li>
+</ul>        </div>
+      </div>
+
+      <div class="comment-reply-wrapper bg-beige-alt">
+              </div>
+    </footer>
+
+	</div>
+
+</article>
+</div></div>  </div>
+  <div>
+    <div id="comment-wrapper-126577"><a id="comment-126577"></a>
+<article class="comment clearfix">
+
+	<div class="comment-content separator-solid-grayoffwhite ">
+
+		<header class="comment-header bg-beige-alt clearfix">
+			  <div class="user-picture">
+    <img src="http://www.bbcgoodfood.com/sites/default/files/styles/avatar/public/default-avatar.jpg?itok=EYlJH5Kp" width="40" height="40" alt="boistizon&#039;s picture" title="boistizon&#039;s picture" />  </div>
+ <span class="comment-metadata"><span class="username">boistizon</span><span class="comment-date text-style-alt">27th Jun, 2012</span></span>
+		</header>
+
+		<div class="comment-body">
+      <div class="rate-widget rate-widget-fivestar clear-block rate-processed"><div class="fivestar-bbcgoodfood"><div  class="clearfix fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5"><div class="star star-1 star-odd star-first"><span class="on">5</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on"></span></div><div class="star star-5 star-odd star-last"><span class="on"></span></div></div></div></div>			<blockquote>
+				<div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Made this for a bbq party, everyone who tried it asked me for the recipe.  I would recommend, even if you are not a huge cornichon and caper fan, put them in, they add a whole new dimension to the simple potato salad.  will make again and again I am sure.</p>
+</div></div></div>							</blockquote>
+		</div>
+
+    <footer>
+      <div class="comment-links clearfix">
+
+        
+        <div class="comment-links-links epsilon text-style-alt">
+          <ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=node/95300%23comment-form">Sign in</a> or <a href="/user/register?destination=node/95300%23comment-form">register</a> to post comments</span></li>
+</ul>        </div>
+      </div>
+
+      <div class="comment-reply-wrapper bg-beige-alt">
+              </div>
+    </footer>
+
+	</div>
+
+</article>
+</div>  </div>
+  <div>
+    <div id="comment-wrapper-121825"><a id="comment-121825"></a>
+<article class="comment clearfix">
+
+	<div class="comment-content separator-solid-grayoffwhite ">
+
+		<header class="comment-header bg-beige-alt clearfix">
+			  <div class="user-picture">
+    <img src="http://www.bbcgoodfood.com/sites/default/files/styles/avatar/public/default-avatar.jpg?itok=EYlJH5Kp" width="40" height="40" alt="cath79&#039;s picture" title="cath79&#039;s picture" />  </div>
+ <span class="comment-metadata"><span class="username">cath79</span><span class="comment-date text-style-alt">5th May, 2012</span></span>
+		</header>
+
+		<div class="comment-body">
+      <div class="rate-widget rate-widget-fivestar clear-block rate-processed"><div class="fivestar-bbcgoodfood"><div  class="clearfix fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5"><div class="star star-1 star-odd star-first"><span class="on">5</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on"></span></div><div class="star star-5 star-odd star-last"><span class="on"></span></div></div></div></div>			<blockquote>
+				<div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Made this for a picnic and it was the best potato salad I've had. As with most of the other comments I left out the capers and cornichons, still lovely.</p>
+</div></div></div>							</blockquote>
+		</div>
+
+    <footer>
+      <div class="comment-links clearfix">
+
+        
+        <div class="comment-links-links epsilon text-style-alt">
+          <ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=node/95300%23comment-form">Sign in</a> or <a href="/user/register?destination=node/95300%23comment-form">register</a> to post comments</span></li>
+</ul>        </div>
+      </div>
+
+      <div class="comment-reply-wrapper bg-beige-alt">
+              </div>
+    </footer>
+
+	</div>
+
+</article>
+</div>  </div>
+  <div>
+    <div id="comment-wrapper-84037"><a id="comment-84037"></a>
+<article class="comment clearfix">
+
+	<div class="comment-content separator-solid-grayoffwhite ">
+
+		<header class="comment-header bg-beige-alt clearfix">
+			  <div class="user-picture">
+    <img src="http://www.bbcgoodfood.com/sites/default/files/styles/avatar/public/default-avatar.jpg?itok=EYlJH5Kp" width="40" height="40" alt="dimum1&#039;s picture" title="dimum1&#039;s picture" />  </div>
+ <span class="comment-metadata"><span class="username">dimum1</span><span class="comment-date text-style-alt">30th Apr, 2011</span></span>
+		</header>
+
+		<div class="comment-body">
+      			<blockquote>
+				<div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Made a double quantitiy for a Royal Wedding Buffet and it went down a treat with everyone. Left out the capers and cornichons and used an onion instead of shallots. Yummy!</p>
+</div></div></div>							</blockquote>
+		</div>
+
+    <footer>
+      <div class="comment-links clearfix">
+
+        
+        <div class="comment-links-links epsilon text-style-alt">
+          <ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=node/95300%23comment-form">Sign in</a> or <a href="/user/register?destination=node/95300%23comment-form">register</a> to post comments</span></li>
+</ul>        </div>
+      </div>
+
+      <div class="comment-reply-wrapper bg-beige-alt">
+              </div>
+    </footer>
+
+	</div>
+
+</article>
+</div>  </div>
+  <div>
+    <div id="comment-wrapper-70324"><a id="comment-70324"></a>
+<article class="comment clearfix">
+
+	<div class="comment-content separator-solid-grayoffwhite ">
+
+		<header class="comment-header bg-beige-alt clearfix">
+			  <div class="user-picture">
+    <img src="http://www.bbcgoodfood.com/sites/default/files/styles/avatar/public/default-avatar.jpg?itok=EYlJH5Kp" width="40" height="40" alt="Jeisy3&#039;s picture" title="Jeisy3&#039;s picture" />  </div>
+ <span class="comment-metadata"><span class="username">Jeisy3</span><span class="comment-date text-style-alt">23rd Dec, 2010</span></span>
+		</header>
+
+		<div class="comment-body">
+      <div class="rate-widget rate-widget-fivestar clear-block rate-processed"><div class="fivestar-bbcgoodfood"><div  class="clearfix fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5"><div class="star star-1 star-odd star-first"><span class="on">5</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on"></span></div><div class="star star-5 star-odd star-last"><span class="on"></span></div></div></div></div>			<blockquote>
+				<div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>This the best tasting home-made potato salad that I have ever had. I put in the recommended amount of cornichons but only half of the capers.  Absolutely delicious!</p>
+</div></div></div>							</blockquote>
+		</div>
+
+    <footer>
+      <div class="comment-links clearfix">
+
+        
+        <div class="comment-links-links epsilon text-style-alt">
+          <ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=node/95300%23comment-form">Sign in</a> or <a href="/user/register?destination=node/95300%23comment-form">register</a> to post comments</span></li>
+</ul>        </div>
+      </div>
+
+      <div class="comment-reply-wrapper bg-beige-alt">
+              </div>
+    </footer>
+
+	</div>
+
+</article>
+</div>  </div>
+  <div>
+    <div id="comment-wrapper-56686"><a id="comment-56686"></a>
+<article class="comment clearfix">
+
+	<div class="comment-content separator-solid-grayoffwhite ">
+
+		<header class="comment-header bg-beige-alt clearfix">
+			  <div class="user-picture">
+    <img src="http://www.bbcgoodfood.com/sites/default/files/styles/avatar/public/default-avatar.jpg?itok=EYlJH5Kp" width="40" height="40" alt="helenew&#039;s picture" title="helenew&#039;s picture" />  </div>
+ <span class="comment-metadata"><span class="username">helenew</span><span class="comment-date text-style-alt">21st Jul, 2010</span></span>
+		</header>
+
+		<div class="comment-body">
+      <div class="rate-widget rate-widget-fivestar clear-block rate-processed"><div class="fivestar-bbcgoodfood"><div  class="clearfix fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5"><div class="star star-1 star-odd star-first"><span class="on">5</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on"></span></div><div class="star star-5 star-odd star-last"><span class="on"></span></div></div></div></div>			<blockquote>
+				<div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Very easy to make and very tasty.  I leave out the caper and cornichons which is fine.</p>
+<p>Would recommend this for light summer side dish or for BBQ's.</p>
+</div></div></div>							</blockquote>
+		</div>
+
+    <footer>
+      <div class="comment-links clearfix">
+
+        
+        <div class="comment-links-links epsilon text-style-alt">
+          <ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=node/95300%23comment-form">Sign in</a> or <a href="/user/register?destination=node/95300%23comment-form">register</a> to post comments</span></li>
+</ul>        </div>
+      </div>
+
+      <div class="comment-reply-wrapper bg-beige-alt">
+              </div>
+    </footer>
+
+	</div>
+
+</article>
+</div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</section>
+<section id="tab-questions" class="tab" data-tabname="question" data-comment="/node/95300/comment-quest?destination=recipes/75604/classic-potato-salad&amp;tab=question&amp;response_type=embed">
+  <h1 class="tab-header gamma">Questions (0)</h1>
+  <div class="tab-content">
+    <div class="tab-inner-content">
+      <div class="view view-comment-views-comment-ajax view-id-comment_views_comment_ajax view-display-id-quest_page view-dom-id-402df78e9a5316de054a5d233fbe7d5e">
+        
+  
+  
+      <div class="view-empty">
+      <div class="no-comments">
+<p>Unsure about the cooking time or want to swap an ingredient? Ask us your questions and we’ll try and help you as soon as possible. Or if you want to offer a solution to another user’s question, feel free to get involved…</p>
+<p>Be the first to ask a question about this recipe…</p>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</section>
+<section id="tab-tips" class="tab" data-tabname="tip" data-comment="/node/95300/comment-tip?destination=recipes/75604/classic-potato-salad&amp;tab=tip&amp;response_type=embed">
+  <h1 class="tab-header gamma">Tips (1)</h1>
+  <div class="tab-content">
+    <div class="tab-inner-content">
+      <div class="view view-comment-views-comment-ajax view-id-comment_views_comment_ajax view-display-id-tip_page view-dom-id-5bc7d2f9659f90132c5d591c2fbd9679">
+        
+  
+  
+      <div class="view-content">
+        <div>
+    <div id="comment-wrapper-727716"><a id="comment-727716"></a>
+<article class="comment clearfix">
+
+	<div class="comment-content separator-solid-grayoffwhite ">
+
+		<header class="comment-header bg-beige-alt clearfix">
+			  <div class="user-picture">
+    <img src="http://www.bbcgoodfood.com/sites/default/files/styles/avatar/public/default-avatar.jpg?itok=EYlJH5Kp" width="40" height="40" alt="dantan&#039;s picture" title="dantan&#039;s picture" />  </div>
+ <span class="comment-metadata"><span class="username">dantan</span><span class="comment-date text-style-alt">7th Jan, 2014</span></span>
+		</header>
+
+		<div class="comment-body">
+      			<blockquote>
+				<div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Wonderful recipe i added a teaspoon of dijon mustard to the mayo before adding it to the salad and a good measure of freshly ground black pepper. I think this makes a good addition.</p>
+</div></div></div>							</blockquote>
+		</div>
+
+    <footer>
+      <div class="comment-links clearfix">
+
+        
+        <div class="comment-links-links epsilon text-style-alt">
+          <ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=node/95300%23comment-form">Sign in</a> or <a href="/user/register?destination=node/95300%23comment-form">register</a> to post comments</span></li>
+</ul>        </div>
+      </div>
+
+      <div class="comment-reply-wrapper bg-beige-alt">
+              </div>
+    </footer>
+
+	</div>
+
+</article>
+</div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</section>
+  </div>
+</div>
+        
+      </section><!-- /.comments -->
+
+    </div><!-- /.col -->
+
+    <aside class="col span4">
+      <div id="ad-mpu-premium-1-wide" class="mt4 ad-mpu-premium-1-wide">
+        <div class="ad ad--mpu-premium-1-wide" id="ad-manager-ad-mpu_premium_1_wide-0f44dd090f"><script type="text/javascript">Drupal.GPT.createSlot("ad-manager-ad-mpu_premium_1_wide-0f44dd090f", function () {var m = Drupal.GPT.buildSizeMapping([[[0,0],[]],[[770,0],[[300,250],[300,600]]]]);var s = googletag.defineSlot(Drupal.GPT.unitPath(), m.define, "ad-manager-ad-mpu_premium_1_wide-0f44dd090f").defineSizeMapping(m.mapping.build()).setTargeting("pos", ["mpu_premium_1"]).setTargeting("gwd", [ASPQ_s0IuO0]).addService(googletag.pubads());});</script></div>      </div>
+      <div id="print-ad-mpu-premium-1" class="print-mpu-ad-premium-1 visible-print">
+        <img src="http://www.bbcgoodfood.com/sites/default/files/printout/gf-print-mpu.jpg" alt="" />      </div>
+      <div id="ad-mpu-premium-2">
+        <div class="ad ad--mpu-premium-2" id="ad-manager-ad-mpu_premium_2-f5c425fc2d"><script type="text/javascript">Drupal.GPT.createSlot("ad-manager-ad-mpu_premium_2-f5c425fc2d", function () {var m = Drupal.GPT.buildSizeMapping([[[0,0],[[300,250],[300,251]]]]);var s = googletag.defineSlot(Drupal.GPT.unitPath(), m.define, "ad-manager-ad-mpu_premium_2-f5c425fc2d").defineSizeMapping(m.mapping.build()).setTargeting("pos", ["mpu_premium_2"]).addService(googletag.pubads());});</script></div>      </div>
+              <div id="block-ad-manager-mpu-programmatic" class="block block-ad-manager">
+
+    
+	<div class="ad ad--mpu-programmatic" id="ad-manager-ad-mpu_programmatic-f935a9d9c0"><script type="text/javascript">Drupal.GPT.createSlot("ad-manager-ad-mpu_programmatic-f935a9d9c0", function () {var m = Drupal.GPT.buildSizeMapping([[[0,0],[[300,250],[300,252]]]]);var s = googletag.defineSlot("\/4817\/p4681.bbcgoodfood.com\/programmatic", m.define, "ad-manager-ad-mpu_programmatic-f935a9d9c0").defineSizeMapping(m.mapping.build()).setTargeting("pos", ["mpu_programmatic"]).addService(googletag.pubads());});</script></div></div>
+<section id="block-views-bbcgf-search-block-3" class="section-box section-box--alternative-recipes block block-views">
+  <header class="section-box__header">
+    <h2 class="section-box__title">Alternative recipes</h2>
+  </header>
+  <div class="section-box__content">
+              <ul class="section-box__list">
+    <li class="push-item push-item--ratings">
+    <div class="push-item__image">
+  <img src="http://www.bbcgoodfood.com/sites/default/files/styles/push_item/public/recipe_images/recipe-image-legacy-id--776463_11.jpg?itok=Cb2pn-z6" width="196" height="160" alt="Classic jacket potatoes" title="Classic jacket potatoes" /></div>
+<h3 class="push-item__title">
+  <a href="/recipes/1656645/classic-jacket-potatoes">Classic jacket potatoes</a></h3>
+<div class="push-item__ratings">
+  <span class="field-content"><div class="clearfix fivestar-average-stars fivestar-user-text fivestar-average-text fivestar-combo-text"><div class="fivestar-static-form-item"><div class="form-item form-type-item">
+<div class="field-main"> <div class="fivestar-bbcgoodfood"><div  class="clearfix fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5"><div class="star star-1 star-odd star-first"><span class="on">5</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on"></span></div><div class="star star-5 star-odd star-last"><span class="on"></span></div></div></div>
+</div>
+<div class="description"><p class="fivestar-summary fivestar-summary-">(1<span class="rating-text"> rating</span>)</p></div>
+</div>
+</div></div></span></div>
+  </li>
+    <li class="push-item push-item--ratings">
+    <div class="push-item__image">
+  <img src="http://www.bbcgoodfood.com/sites/default/files/styles/push_item/public/recipe_images/recipe-image-legacy-id--3122_12.jpg?itok=WC7yoxBr" width="196" height="160" alt="Potato &amp; avocado salad" title="Potato &amp; avocado salad" /></div>
+<h3 class="push-item__title">
+  <a href="/recipes/2488/potato-and-avocado-salad">Potato &amp; avocado salad</a></h3>
+<div class="push-item__ratings">
+  <span class="field-content"><div class="clearfix fivestar-average-stars fivestar-user-text fivestar-average-text fivestar-combo-text"><div class="fivestar-static-form-item"><div class="form-item form-type-item">
+<div class="field-main"> <div class="fivestar-bbcgoodfood"><div  class="clearfix fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5"><div class="star star-1 star-odd star-first"><span class="on">3</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="off"></span></div><div class="star star-5 star-odd star-last"><span class="off"></span></div></div></div>
+</div>
+<div class="description"><p class="fivestar-summary fivestar-summary-">(1<span class="rating-text"> rating</span>)</p></div>
+</div>
+</div></div></span></div>
+  </li>
+    <li class="push-item push-item--ratings">
+    <div class="push-item__image">
+  <img src="http://www.bbcgoodfood.com/sites/default/files/styles/push_item/public/recipe_images/recipe-image-legacy-id--4660_12.jpg?itok=QbFrFMkL" width="196" height="160" alt="Herbed potato salad" title="Herbed potato salad" /></div>
+<h3 class="push-item__title">
+  <a href="/recipes/3164/herbed-potato-salad">Herbed potato salad</a></h3>
+<div class="push-item__ratings">
+  <span class="field-content"><div class="clearfix fivestar-average-stars fivestar-user-text fivestar-average-text fivestar-combo-text"><div class="fivestar-static-form-item"><div class="form-item form-type-item">
+<div class="field-main"> <div class="fivestar-bbcgoodfood"><div  class="clearfix fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5"><div class="star star-1 star-odd star-first"><span class="on">4.666665</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on"></span></div><div class="star star-5 star-odd star-last"><span class="on"></span></div></div></div>
+</div>
+<div class="description"><p class="fivestar-summary fivestar-summary-">(3 <span class="rating-text"> ratings</span>)</p></div>
+</div>
+</div></div></span></div>
+  </li>
+  </ul>
+    </div>
+</section>
+<section id="block-views-bbcgf-search-related-technique" class="section-box section-box--related-techniques block block-views">
+  <header class="section-box__header">
+    <h2 class="section-box__title">Related guides</h2>
+  </header>
+  <div class="section-box__content">
+              <ul class="section-box__list">
+    <li class="push-item push-item--video">
+    <div class="push-item__image">
+  <img src="http://www.bbcgoodfood.com/sites/default/files/styles/push_item/public/potato-main_0.png?itok=sqkAP8eB" width="196" height="160" alt="Seven ways to perfect potato salad" title="Seven ways to perfect potato salad" /></div>
+<h3 class="push-item__title">
+  <a href="/howto/guide/seven-ways-perfect-potato-salad">Seven ways to perfect potato salad</a></h3>
+<div class="push-item__text-content">
+  This much-loved side dish is a universal, year-round classic – but how do you like yours? With...</div>
+  </li>
+    <li class="push-item push-item--video">
+    <div class="push-item__image">
+  <img src="http://www.bbcgoodfood.com/sites/default/files/styles/push_item/public/classic-cocktails_0.jpg?itok=DThUpzy4" width="196" height="160" alt="Classic cocktails" title="Classic cocktails" /></div>
+<h3 class="push-item__title">
+  <a href="/howto/guide/guide-classic-cocktails">A guide to classic cocktails</a></h3>
+<div class="push-item__text-content">
+  A guide to help you find the perfect tipple</div>
+  </li>
+    <li class="push-item push-item--video">
+    <div class="push-item__image">
+  <img src="http://www.bbcgoodfood.com/sites/default/files/styles/push_item/public/victoria-sponge-th.jpg?itok=qINzsQNg" width="196" height="160" alt="Victoria sponge" title="Victoria sponge" /></div>
+<h3 class="push-item__title">
+  <a href="/howto/guide/our-guide-classic-cakes">Our guide to classic cakes</a></h3>
+<div class="push-item__text-content">
+  For all the weird and wonderful variants, we believe there are a handful of staples we always...</div>
+  </li>
+  </ul>
+    </div>
+</section>
+<div id="block-ad-manager-promo-1" class="block block-ad-manager">
+
+    
+	<div class="ad ad--promo-1" id="ad-manager-ad-promo_1-c67d2d1a31"><script type="text/javascript">Drupal.GPT.createSlot("ad-manager-ad-promo_1-c67d2d1a31", function () {var m = Drupal.GPT.buildSizeMapping([[[0,0],[[340,350]]]]);var s = googletag.defineSlot("\/4817\/p4681.bbcgoodfood.com.promomodules\/recipes", m.define, "ad-manager-ad-promo_1-c67d2d1a31").defineSizeMapping(m.mapping.build()).setTargeting("pos", ["goodfood_promo_1"]).addService(googletag.pubads());});</script></div></div>
+<div id="block-ad-manager-promo-2" class="block block-ad-manager">
+
+    
+	<div class="ad ad--promo-2" id="ad-manager-ad-promo_2-40783bc581"><script type="text/javascript">Drupal.GPT.createSlot("ad-manager-ad-promo_2-40783bc581", function () {var m = Drupal.GPT.buildSizeMapping([[[0,0],[[340,350]]]]);var s = googletag.defineSlot("\/4817\/p4681.bbcgoodfood.com.promomodules\/recipes", m.define, "ad-manager-ad-promo_2-40783bc581").defineSizeMapping(m.mapping.build()).setTargeting("pos", ["goodfood_promo_2"]).addService(googletag.pubads());});</script></div></div>
+<div id="block-ad-manager-promo-3" class="block block-ad-manager">
+
+    
+	<div class="ad ad--promo-3" id="ad-manager-ad-promo_3-1a2fdb6623"><script type="text/javascript">Drupal.GPT.createSlot("ad-manager-ad-promo_3-1a2fdb6623", function () {var m = Drupal.GPT.buildSizeMapping([[[0,0],[[340,350]]]]);var s = googletag.defineSlot("\/4817\/p4681.bbcgoodfood.com.promomodules\/recipes", m.define, "ad-manager-ad-promo_3-1a2fdb6623").defineSizeMapping(m.mapping.build()).setTargeting("pos", ["goodfood_promo_3"]).addService(googletag.pubads());});</script></div></div>
+<div id="block-ad-manager-promo-4" class="block block-ad-manager">
+
+    
+	<div class="ad ad--promo-4" id="ad-manager-ad-promo_4-fc7791347e"><script type="text/javascript">Drupal.GPT.createSlot("ad-manager-ad-promo_4-fc7791347e", function () {var m = Drupal.GPT.buildSizeMapping([[[0,0],[[340,350]]]]);var s = googletag.defineSlot("\/4817\/p4681.bbcgoodfood.com.promomodules\/recipes", m.define, "ad-manager-ad-promo_4-fc7791347e").defineSizeMapping(m.mapping.build()).setTargeting("pos", ["goodfood_promo_4"]).addService(googletag.pubads());});</script></div></div>
+<div id="block-ad-manager-promo-5" class="block block-ad-manager">
+
+    
+	<div class="ad ad--promo-5" id="ad-manager-ad-promo_5-3b55781da2"><script type="text/javascript">Drupal.GPT.createSlot("ad-manager-ad-promo_5-3b55781da2", function () {var m = Drupal.GPT.buildSizeMapping([[[0,0],[[340,350]]]]);var s = googletag.defineSlot("\/4817\/p4681.bbcgoodfood.com.promomodules\/recipes", m.define, "ad-manager-ad-promo_5-3b55781da2").defineSizeMapping(m.mapping.build()).setTargeting("pos", ["goodfood_promo_5"]).addService(googletag.pubads());});</script></div></div>
+<div id="block-ad-manager-promo-6" class="block block-ad-manager">
+
+    
+	<div class="ad ad--promo-6" id="ad-manager-ad-promo_6-85e487faea"><script type="text/javascript">Drupal.GPT.createSlot("ad-manager-ad-promo_6-85e487faea", function () {var m = Drupal.GPT.buildSizeMapping([[[0,0],[[340,350]]]]);var s = googletag.defineSlot("\/4817\/p4681.bbcgoodfood.com.promomodules\/recipes", m.define, "ad-manager-ad-promo_6-85e487faea").defineSizeMapping(m.mapping.build()).setTargeting("pos", ["goodfood_promo_6"]).addService(googletag.pubads());});</script></div></div>
+      <!-- /blocks: content_aside -->
+
+    </aside>
+  </div><!-- /.grid-padding -->
+
+  
+  </article>
+
+        </div><!-- /.main -->
+
+      </div><!-- /.main-container -->
+    </div> <!-- container-wrapper -->
+
+    <!--  ==============  -->
+    <!--  === FOOTER ===  -->
+    <!--  ==============  -->
+    
+<footer id="footer" role="contentinfo">
+      <div class="about-gf">
+      <div class="container grid-padding">
+        <div class="row">
+        	<div class="col span3">
+    	<h2>Skills & know how</h2>
+    <p class="pad-right">As well as helping you decide what to cook we can also help you to cook it. From tips on cookery techniques to facts and information about health and nutrition, we’ve a wealth of foodie know how for you to explore.</p>
+<p class="link-italic"><a href="/node/260366">See our how to section...</a></p></div>
+<div class="col span3">
+    	<h2>About BBC Good Food</h2>
+    <p class="pad-right">We’re all about good recipes, and about quality home cooking that everyone can enjoy. Whether you’re looking for some healthy inspiration or learning how to cook a decadent dessert, we’ve trustworthy guidance for all your foodie needs.</p></div>
+<div class="col span3">
+    	<h2>Our recipes</h2>
+    <p class="pad-right">All our recipes are tested thoroughly by us to make sure they’re suitable for your kitchen at home. We know many of you are concerned about healthy eating, so we send them to a qualified nutritionist for thorough analysis too.</p>
+<p class="link-italic">
+  <a href="/recipes">Start browsing our recipes now</a>
+</p></div>
+<div class="col span3">
+    	<h2>Tell us what you think…</h2>
+    <p>Love the new look or think we’ve missed the mark? We want to hear your thoughts – good and bad – to make sure we make the new website as useful as possible.
+</p>
+<p class="link-italic">
+  <a href="mailto:goodfoodwebsite@bbc.com">Get in touch</a>
+</p></div>
+        </div>
+        <div class="row">
+            <div class="col span3">
+  
+<div class="separator separator-dashed-bottom">
+    <a href="https://www.buysubscriptions.com/bbc-good-food-magazine-subscriptions?promo=GFWBT15&amp;utm_medium=brandsite&amp;utm_source=bbcgoodfood.com&amp;utm_campaign=5-for-5-footer_GFWBT16_Brand&amp;utm_content=Footer-Promotion  " rel="external" onclick="_gaq.push(['_trackEvent', 'Magazines', 'subscribe', 'Footer' ])">
+      <div class="adaptive-image" data-adaptive="" data-adaptive-image-breakpoints="600" data-img-600="" data-img-max="/sites/all/themes/bbcw_goodfood/images/footer/footer-magazinev2.jpg" data-alt="BBC Good Food Magazine">
+          <noscript><img src="/sites/all/themes/bbcw_goodfood/images/footer/footer-magazinev2.jpg" width="250" height="130" alt="BBC Good Food Magazine" title="BBC Good Food Magazine" /></noscript>
+      </div>
+    </a>
+</div>
+<h2>Magazine</h2>
+<p class="pad-right">Subscribe to BBC Good Food magazine and get triple-tested recipes delivered to your door, every month.</p>
+<p class="link-italic"><a href="https://www.buysubscriptions.com/bbc-good-food-magazine-subscriptions?promo=GFWBT15&amp;utm_medium=brandsite&amp;utm_source=bbcgoodfood.com&amp;utm_campaign=5-for-5-footer_GFWBT16_Brand&amp;utm_content=Footer-Promotion  " rel="external" onclick="_gaq.push(['_trackEvent', 'Magazines', 'subscribe', 'Footer' ])">Order today!</a></p>
+</div>
+<div class="col span3">
+  
+<div class="separator separator-dashed-bottom">
+  <a href="http://www.bbcgoodfoodshow.com/?utm_source=bbcgoodfood.com%2B&amp;utm_medium=Web%2Bfooter&amp;utm_campaign=all%2Bshows" rel="external">
+    <div class="adaptive-image" data-adaptive="" data-adaptive-image-breakpoints="600" data-img-600="" data-img-max="/sites/all/themes/bbcw_goodfood/images/footer/footer-shows.jpg" data-alt="BBC Good Food Events">
+      <noscript><img src="/sites/all/themes/bbcw_goodfood/images/footer/footer-shows.jpg" width="250" height="130" alt="BBC Good Food Events" title="BBC Good Food Events" /></noscript>
+    </div>
+  </a>
+</div>
+<h2>Events</h2>
+<p class="pad-right">Discover the dates and details of all the BBC Good Food Shows.</p>
+<p class="link-italic"><a href="http://www.bbcgoodfoodshow.com/?utm_source=bbcgoodfood.com%2B&amp;utm_medium=Web%2Bfooter&amp;utm_campaign=all%2Bshows" onclick="_gaq.push(['_trackEvent', 'GFLiveEvents', 'BookNow', 'BookNow_Footer' ])" rel="external">Book tickets now</a></p>
+</div>
+<div class="col span3">
+  
+<div class="separator separator-dashed-bottom">
+  <a href="http://goodfoodchannel.co.uk" rel="external">
+    <div class="adaptive-image" data-adaptive="" data-adaptive-image-breakpoints="600" data-img-600="" data-img-max="/sites/all/themes/bbcw_goodfood/images/footer/footer-goodfoodchannel.jpg" data-alt="BBC Good Food On TV">
+      <noscript><img src="/sites/all/themes/bbcw_goodfood/images/footer/footer-goodfoodchannel.jpg" width="250" height="130" alt="BBC Good Food On TV" title="BBC Good Food On TV" /></noscript>
+    </div>
+  </a>
+</div>
+<h2>On TV</h2>
+<p class="pad-right">See your favourite chefs on Sky Channel 247, Virgin TV 260 and find their recipes at <a href="http://goodfoodchannel.co.uk" rel="external">goodfoodchannel.co.uk</a></p>
+</div>
+<div class="col span3">
+  
+<div class="separator separator-dashed-bottom">
+  <a href="http://www.bbcgoodfood.com/article/join-us-social-media">
+    <div class="adaptive-image" data-adaptive="" data-adaptive-image-breakpoints="600" data-img-600="" data-img-max="/sites/all/themes/bbcw_goodfood/images/footer/footer-social.jpg" data-alt="BBC Follow us">
+      <noscript><img src="/sites/all/themes/bbcw_goodfood/images/footer/footer-social.jpg" width="250" height="130" alt="BBC Follow us" title="BBC Follow us" /></noscript>
+    </div>
+  </a>
+</div>
+<h2>Follow us</h2>
+<p class="pad-right">Join the BBC Good Food community by following us on Facebook, Twitter, Pinterest, Instagram and Google Plus.</p>
+<p class="link-italic"><a href="http://www.bbcgoodfood.com/article/join-us-social-media">Find out more here</a></p>
+</div>
+        </div>
+      </div>
+    </div>
+        <div class="footer-base">
+      <div class="container row grid-padding">
+        <div class="col span8">
+  <img class="logo-bbcw" src="/sites/all/themes/bbcw_goodfood/images/logo-bbcw.jpg" alt="BBC Worldwide">
+
+  <div class="text-wrap">
+    <h4>This website is made by BBC Worldwide.</h4>
+<p>BBC Worldwide is a commercial company that is owned by the BBC (and just the BBC). No money from the licence fee was used to create this website. The profits we make from it go back to BBC programme-makers to help fund great new BBC programmes.</p>
+<p>&copy; BBC Worldwide Ltd. The GoodFood word mark and logo are trademarks of BBC Worldwide Ltd.</p>  </div>
+</div>
+
+<div class="col span4">
+  <div class="footer-nav">
+    <ul class="links"><li class="menu-477 first"><a href="http://www.bbcworldwide.com/bbcworldwidewebsites-siteterms.aspx" title="Site terms">Site terms</a></li>
+<li class="menu-474"><a href="/privacy-policy" title="Privacy policy">Privacy policy</a></li>
+<li class="menu-475"><a href="/cookies-policy" title="Cookies policy">Cookies policy</a></li>
+<li class="menu-473"><a href="http://www.bbcworldwide.com/bbcworldwideandmagswebsites-codeofconduct.aspx" title="Code of conduct">Code of conduct</a></li>
+<li class="menu-457"><a href="/contact" title="Contact us">Contact us</a></li>
+<li class="menu-472 last"><a href="http://www.immediate.co.uk/brands/bbc-good-food-magazine/#advertising" title="Advertise with us">Advertise with us</a></li>
+</ul>  </div>
+</div>
+      </div>
+    </div>
+  </footer>
+
+  </div><!-- /.scroller -->
+</div><!-- /.scroll-wrapper -->
+
+    <script type="text/javascript" src="//www.bbcgoodfood.com/sites/default/files/advagg_js/js__4jyftbCB58Wp0p-pBXo1N4s-trZun5wciJJvepPxELM__KTOCgwXQIWJrS1FzySd0xW8E2zwvClQ0Ri5Hz0-jUv8__BS0Z9bGj_uLGKe1U-NvuRMFdFXlYjqD6zk-MBETrm1g.js"></script>
+<script type="text/javascript" async="async" src="//admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script type="text/javascript" src="//www.bbcgoodfood.com/sites/default/files/advagg_js/js__EFjECaNVss8yLn1XY6-AjDVUGykykQgYhcN0cC6xu1Q__qlxcDqscou3-LXJ0qXUHOjLQ_awZ-ubyJITtG5AOWww__BS0Z9bGj_uLGKe1U-NvuRMFdFXlYjqD6zk-MBETrm1g.js"></script>
+<script type="text/javascript" src="//widgets.outbrain.com/outbrain.js"></script>
+<script type="text/javascript" src="//www.bbcgoodfood.com/sites/default/files/advagg_js/js__TkIVZE9j74vrt244PaawjGxgpvLk6ZKV5Pm1a0ZShMs__m4LiCRzKHx5pDnOPWNzuQJimXJz5JSQArLFSU4rb2OQ__BS0Z9bGj_uLGKe1U-NvuRMFdFXlYjqD6zk-MBETrm1g.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.constantCoAppId = '7bzsSDBP9J';
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function() {var fjs = document.createElement('script');fjs.type = 'text/javascript'; fjs.async = true;fjs.src = '//js.foodity.com/constantco-cdn.js';var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(fjs, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="//www.bbcgoodfood.com/sites/default/files/advagg_js/js__FA5CG7RR3zY1kUxRwdX_zwOq3FKvJpt0w822AaOs_PE__C1qhvBTZj7sGg1DW_1hpWElHfn-biEH-lAZh7Q07en4__BS0Z9bGj_uLGKe1U-NvuRMFdFXlYjqD6zk-MBETrm1g.js"></script>
+
+    <script>
+      (function() {
+        var s = document.createElement('script'), el = document.getElementsByTagName('script')[0];
+        s.async = true;
+        s.src = '//secure.imrworldwide.com/v60.js';
+        s.onload = function () {
+          var pvar = { cid: "au-bbc", content: "0", server: "secure-au" };
+          var trac = nol_t(pvar);
+          trac.record().post();
+        }
+        el.parentNode.insertBefore(s, el);
+      })();
+    </script>
+    <noscript><div><img src="//secure.imrworldwide.com/cgi-bin/m?ci=au-bbc&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt="" /></div></noscript>
+
+    <div id="ad-interstitial">
+      <div class="ad ad--interstitial" id="ad-manager-ad-interstitial-a61c3b6b0b"><script type="text/javascript">Drupal.GPT.createSlot("ad-manager-ad-interstitial-a61c3b6b0b", function () {var s = googletag.defineOutOfPageSlot(Drupal.GPT.unitPath(), "ad-manager-ad-interstitial-a61c3b6b0b").setTargeting("pos", ["interstitial"]).addService(googletag.pubads());});</script></div>    </div>
+
+  </body>
+</html>
