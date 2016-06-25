@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="lt-ie10 lt-ie9 lt-ie8 lt-ie7 ie6"  lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 7 ]>    <html class="lt-ie10 lt-ie9 lt-ie8 ie7"  lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 8 ]>    <html class="lt-ie10 lt-ie9 ie8"  lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 9 ]>    <html class="lt-ie10 ie9"  lang="en" dir="ltr"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html  lang="en" dir="ltr"> <!--<![endif]-->
+
+<!--html.tpl.php-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="path" content="beefy-taco-salad" />
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+<link rel="shortcut icon" href="http://cdn-image.myrecipes.com/sites/all/themes/myrecipes/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=1020px" />
+<link rel="dns-prefetch" href="//cdn-image.myrecipes.com" />
+<link rel="dns-prefetch" href="//cdn-js.myrecipes.com" />
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="render_time" content="2016-06-25 09:24:54" />
+<link rel="dns-prefetch" href="//cdn-css.myrecipes.com" />
+<meta name="description" content="Oven-safe bowls, cooking spray, and flour tortillas are all you need to create crispy, low-fat edible tortilla bowls." />
+<meta name="keywords" content="Main Dishes, Salads, American, Southwest, Kid-Friendly, Beef" />
+<link rel="canonical" href="http://www.myrecipes.com/recipe/beefy-taco-salad" />
+<meta property="fb:app_id" content="182096525173207" />
+<meta property="og:site_name" content="MyRecipes.com" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.myrecipes.com/recipe/beefy-taco-salad" />
+<meta property="og:title" content="Beefy Taco Salad Recipe" />
+<meta property="og:description" content="Oven-safe bowls, cooking spray, and flour tortillas are all you need to create crispy, low-fat edible tortilla bowls." />
+<meta property="og:image" content="http://cdn-image.myrecipes.com/sites/default/files/styles/300x300/public?itok=W93sS7_k" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="http://www.myrecipes.com/m/recipe/beefy-taco-salad" />
+<meta name="ctype" content="recipe" />
+<meta name="pinterest:description" content="Oven-safe bowls, cooking spray, and flour tortillas are all you need to create crispy, low-fat edible tortilla bowls." />
+<meta name="pinterest:url" content="http://www.myrecipes.com/recipe/beefy-taco-salad" />
+<meta name="pinterest:media" content="http://cdn-image.myrecipes.com/sites/default/files/styles/300x300/public?itok=W93sS7_k" />
+  <title>Beefy Taco Salad Recipe | MyRecipes.com</title>
+  <link type="text/css" rel="stylesheet" href="http://cdn-css.myrecipes.com/sites/default/files/advagg_css/css__-tIdX-QHpgA-8aSeQIRGjnzdD6uXvYrithZxdRaQFTY__0NF9gyyZXU4JO2LgDvEzBOHe8YccnMCkXqKCtkjr7FY__okqcULUhAFH13FFz8HCZAXiO-JojY7wZpjuJm6Tfrmk.css" media="all" />
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+.menu-main-menu li:nth-of-type(3).menu-main-menu__leaf--nochild{pointer-events:none;cursor:default}
+/*]]>*/-->
+</style>
+<link type="text/css" rel="stylesheet" href="http://cdn-css.myrecipes.com/sites/default/files/advagg_css/css__kg7S0dNHB51gTPALGAOAOThnISlBjTi_y7Sso2n2qOg__BTWp3W9drSse25DdWVDqOTveyoc3yVq9LWdACeGI4Aw__okqcULUhAFH13FFz8HCZAXiO-JojY7wZpjuJm6Tfrmk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://cdn-css.myrecipes.com/sites/default/files/advagg_css/css__6k229rBz0vfEVWG8RPJvN9u6syp3ku0yfoGtlxBUSu0__OLSS96Du-pLcS75cwBqDkujyuiWOZpU3NooTCqYq_0A__okqcULUhAFH13FFz8HCZAXiO-JojY7wZpjuJm6Tfrmk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://cdn-css.myrecipes.com/sites/default/files/advagg_css/css__PY9iYMCVR8OkzdSo_wnZttP2XDeYcA4d1_lXyX2H_TA__VVu57NCC2xH0cn08346e4iBE3FR89Wetcw-izJ1F36c__okqcULUhAFH13FFz8HCZAXiO-JojY7wZpjuJm6Tfrmk.css" media="all" />
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var LSGMobileRedirect=true;seperator_var=0;var monster={set:function(name,value,days,path,secure){var date=new Date(),expires='',type=typeof value,valueToUse='',secureFlag='';path=path||"/";if(days){date.setTime(date.getTime()+(days*24*60*60*1e3));expires="; expires="+date.toUTCString()};if(type==="object"&&type!=="undefined"){if(!("JSON"in window))throw"Bummer, your browser doesn't support JSON parsing.";valueToUse=JSON.stringify({v:value})}else valueToUse=encodeURIComponent(value);if(secure)secureFlag="; secure";document.cookie=name+"="+valueToUse+expires+"; path="+path+secureFlag},get:function(name){var nameEQ=name+"=",ca=document.cookie.split(';'),value='',firstChar='',parsed={};for(var i=0;i<ca.length;i++){var c=ca[i];while(c.charAt(0)==' ')c=c.substring(1,c.length);if(c.indexOf(nameEQ)===0){value=c.substring(nameEQ.length,c.length);firstChar=value.substring(0,1);if(firstChar=="{"){parsed=JSON.parse(value);if("v"in parsed)return parsed.v};if(value=="undefined")return undefined;return decodeURIComponent(value)}};return null},remove:function(name){this.set(name,"",-1)},increment:function(name,days){var value=this.get(name)||0;this.set(name,(parseInt(value,10)+1),days)},decrement:function(name,days){var value=this.get(name)||0;this.set(name,(parseInt(value,10)-1),days)}};(function(cookie,redirect){var cookieName="TI_PREFS",cookieValue=cookie.get(cookieName),match=function(pattern){return pattern.test(navigator.userAgent)},mobileRedirect=function(){var l=document.location,destination;if(!(/^\/m\//.test(l.pathname))){monster.set('orig_ref',document.referrer,1);destination=l.protocol+"//"+l.host+"/m"+l.pathname;if(l.search)destination+=l.search;if(l.hash)destination+=l.hash;setTimeout(function(destination){document.location.replace(destination)}.bind(this,destination),0)}};if(cookieValue=="phone"){if(redirect===true)mobileRedirect();return}else if(cookieValue=="default")return;if(!(window.navigator&&navigator.userAgent))cookie.set(cookieName,"default");if(match(/(ads|google|bing|msn|yandex|baidu|ro|career|)bot/i)||match(/(baidu|jike|symantec)spider/i)||match(/scanner/i)||match(/(web)crawler/i)){cookieValue="default"}else if(match(/ipad/i)){cookieValue="default"}else if(match(/ip(hone|od)/i)){cookieValue="phone"}else if(match(/android.*(mobile|mini)/i)){cookieValue="phone"}else if(match(/android 3/i)){cookieValue="default"}else if(match(/android/i)){cookieValue="default"}else if(match(/Mobile.+Firefox/)){cookieValue="phone"}else if(match(/^HTC/)||match(/Fennec/)||match(/IEMobile/)||match(/BlackBerry/)||match(/SymbianOS.*AppleWebKit/)||match(/Opera Mobi/)){cookieValue="phone"}else if(match(/symbian/i)||match(/^sonyericsson/i)||match(/^nokia/i)||match(/^samsung/i)||match(/^lg/i)||match(/bada/i)||match(/blazer/i)||match(/cellphone/i)||match(/iemobile/i)||match(/midp-2.0/i)||match(/u990/i)||match(/netfront/i)||match(/opera mini/i)||match(/palm/i)||match(/nintendo wii/i)||match(/playstation portable/i)||match(/portalmmm/i)||match(/proxinet/i)||match(/sonyericsson/i)||match(/symbian/i)||match(/windows\ ?ce/i)||match(/winwap/i)||match(/eudoraweb/i)||match(/htc/i)||match(/240x320/i)||match(/avantgo/i))cookieValue="phone";cookie.set(cookieName,cookieValue);if(cookieValue=="phone")if(redirect===true)mobileRedirect()}(monster,LSGMobileRedirect));
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var TGX_SITE_CONFIG={gpt_sync_mode:"async",bluekai:false}
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://cdn-js.myrecipes.com/sites/default/files/advagg_js/js__9Cx5V9kgfqBOBsVd7ynjlMqo7MQiW51n4JtwKGs0EXw__x4aTKZ1-p9TKEP60zycQP_WMi7ZT-xiFhhjbPmcnbM0__okqcULUhAFH13FFz8HCZAXiO-JojY7wZpjuJm6Tfrmk.js"></script>
+<script type="text/javascript" src="http://tiads.myrecipes.com/ads/tgx.js"></script>
+<script type="text/javascript" src="http://cdn-js.myrecipes.com/sites/default/files/advagg_js/js__mNdHOs16qqyjxIWIpfKqaz4NZoqetfuHYTaTxei57y8__ehkbXErZq8gAr3y8ATBMlGbcst-MMDfQXpEsySH2tbk__okqcULUhAFH13FFz8HCZAXiO-JojY7wZpjuJm6Tfrmk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var adConfig=new TiiAdConfig("3475.mre2");adConfig.setCmSitename("cm.mre");adConfig.setRevSciTracking(true);
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var adzone="recipes/recipefinder",adFactory=new TiiAdFactory(adConfig,"recipes/recipefinder");adFactory.setChannel("ka");adFactory.setArticleId("237432");adFactory.setParam('pub','southernliving');adFactory.setParam('conv','kidfriendly');adFactory.setParam('cours','salads');adFactory.setParam('cuis',["american","southwest"]);adFactory.setParam('ingr','beef');adFactory.setParam('occ',["spring","summer"]);adFactory.setContentType("recipe");if(typeof isSearchCampaign=='function')if(isSearchCampaign())adConfig.setPopups(false);adFactory.setContentPage();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://cdn-js.myrecipes.com/sites/default/files/advagg_js/js__9ici6QMeDS-cROq8R0RhuICsMGMP2wcJZNQQFsqQi44__kKk1vx9QaQA8XM8k0PNTcTXYlsWokNLm5_-mBpKvW6I__okqcULUhAFH13FFz8HCZAXiO-JojY7wZpjuJm6Tfrmk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _sf_startpt=(new Date()).getTime();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://cdn-js.myrecipes.com/sites/default/files/advagg_js/js__naXHrE6sVA9_jIjdaKXpPN7hFBG8FV3x9aFyjlK-msM__wPhXc1eYzr2gy21wp6NQRRwtpfPaBIq74JJqmh7fwE4__okqcULUhAFH13FFz8HCZAXiO-JojY7wZpjuJm6Tfrmk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{basePath:"\/",pathPrefix:"",ajaxPageState:{theme:"myrecipes",theme_token:"R02GxfWitvPuguDevYTJjsaYrqdDewSXqOc2mxZzKMA",jquery_version:"1.7",css:{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/ldap\/ldap_user\/ldap_user.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"0":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/ldap\/ldap_servers\/ldap_servers.admin.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/twocol_bricks\/twocol_bricks.css":1,"sites\/all\/modules\/contrib\/purr_messages\/purrcss\/purr.css":1,"sites\/all\/modules\/contrib\/field_collection\/field_collection.theme.css":1,"sites\/all\/themes\/myrecipes\/css\/style.css":1,"sites\/all\/themes\/myrecipes\/system.menus.css":1,"sites\/all\/themes\/myrecipes\/system.theme.css":1,"sites\/all\/themes\/myrecipes\/flexslider.css":1},js:{"sites\/all\/modules\/custom\/content_types\/ti_lsg_mr_recipe\/js\/recipe.js":1,"sites\/all\/modules\/custom\/ti_lsg_mr_ouibounce\/js\/mr_ouibounce.js":1,"http:\/\/admin.brightcove.com\/js\/BrightcoveExperiences.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/all\/modules\/custom\/layouts\/ti_lsg_mr_layouts_homepage\/js\/ti_lsg_mr_layouts_homepage.js":1,"sites\/all\/modules\/custom\/ti_lsg_mr_social_tools\/social_tools.js":1,"sites\/all\/modules\/custom\/content_types\/ti_lsg_mr_recipe\/js\/send2friends.js":1,"sites\/all\/modules\/custom\/ti_lsg_mr_ouibounce\/js\/ouibounce.min.js":1,"misc\/progress.js":1,"http:\/\/widgets.outbrain.com\/outbrain.js":1,"sites\/all\/modules\/custom\/ti_udo\/js\/metadata.js":1,"sites\/all\/modules\/custom\/ti_lsg_mr_social_tools\/js\/shared_count.js":1,"sites\/all\/modules\/custom\/ti_lsg_mr_social_tools\/js\/onebot.js":1,"sites\/all\/themes\/myrecipes\/js\/scripts.js":1,"\/\/cdn.optimizely.com\/js\/61589417.js":1,"sites\/all\/themes\/myrecipes\/js\/global.js":1,"sites\/all\/themes\/myrecipes\/js\/jquery.freezeOnScroll.js":1,"sites\/all\/modules\/custom\/ti_lsg_mr_search\/js\/ti_lsg_mr_search.js":1,"sites\/all\/modules\/custom\/ti_lsg_mr_ingredient_chef\/js\/ingredient-chef.js":1,"\/\/myrecipes.chicoryapp.com\/widget_v2\/":1,"http:\/\/www.myrecipes.com\/sites\/all\/modules\/custom\/ti_lsg_mr_sitecatalyst\/js\/ka-omniture.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"http:\/\/tiads.myrecipes.com\/ads\/tgx.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1}},colorbox:{opacity:"0.85",current:"{current} of {total}",previous:"\u00ab Prev",next:"Next \u00bb",close:"Close",maxWidth:"98%",maxHeight:"98%",fixed:true,mobiledetect:true,mobiledevicewidth:"480px"},urlIsAjaxTrusted:{"\/recipe\/beefy-taco-salad":true,"\/system\/ajax":true},top_navigation_font_size:"13",ajax:{"newsletter-submit":{callback:"ti_lsg_mr_newsletters_signup_dynamic_form_callback",wrapper:"newletter_signup_form",event:"mousedown",keypress:true,prevent:"click",url:"\/system\/ajax",submit:{_triggering_element_name:"op",_triggering_element_value:"Submit"}}},chartbeat:{sections:"recipe"},myrecipes:{css_js_query_string:"o96tnh"},referral_tracking:{globalreferrer:"http:\/\/www.myrecipes.com\/family-recipes"},display_recipe_toolbar:1,mp_toolbar_sponsored:0,cozi_auth_overlay_override:0,cozi_links_new_tab:1,cozi_migration_enabled:0,nid:"237432",lf_network_name:"myrecipes.fyre.co",lf_site_id:"369992",enable_livefyre:1});
+//--><!]]>
+</script>
+  
+<!--[if lt IE 9]>
+<script type="text/javascript" src="http://cdn-js.myrecipes.com/sites/all/libraries/html5shiv/dist/html5shiv.js" />
+<![endif]-->
+
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-237432 node-type-recipe" >
+  
+<!-- Begin Metadata Object -->
+  <script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+    window.Ti = window.Ti || {};
+    window.Ti.udo_metadata = {"channel":"myrecipes","site_theme":"v2","site_display_format":"desktop","publish_date":"2007-05-17","friendly_url":"http:\/\/www.myrecipes.com\/recipe\/beefy-taco-salad","page_name":"beefy taco salad","site_section1":"recipe finder","site_section2":"southern living recipes","content_id":"237432","template_type":"recipes","field_dietary_considerations":"","food_main_ingredients":"beef","food_excluded_ingredients":"alcohol, eggs, nuts, fish, shellfish, soy","food_season_occasion":"spring, summer","food_cuisine":"american, southwest","food_courses":"salads","food_convenience":"kid-friendly","food_cooking_method":"","publication_source":"southern living"};
+    window.Ti.udo_data_layer = ["article_teaser_type","author_name","author_type","available_app_ids","browse_refine_type","browse_refine_value","bundle_id","channel","click_id","content_access","content_id","content_package","content_package_id","content_package_section","country_code","currency_code","customer_country","customer_email","customer_first_name","customer_id","customer_state","customer_zip","display_date","event_name","food_convenience","food_cooking_method","food_courses","food_cuisine","food_dietary_considerations","food_excluded_ingredients","food_main_ingredients","food_season_occasion","franchise_name","franchise_year","franchise_list_view_type","franchise_pagination_value","franchise_sort_type","franchise_is_methodology","franchise_slide_number","friendly_url","grade_level","grocery_deals_category","grocery_deals_retailer","grocery_deals_search","grocery_deals_zip","has_continuous_service","has_donor","has_print_subscription","image_id","is_active_subscriber","is_agent_subscription","is_bill_me","is_giftee","is_renewable","health_journey","language_code","login_status","magazine_cover_title","magazine_feed","magazine_issue_date","markets","page_name","page_number","personality_name","primary_tag","publication_source","publish_date","rr_modules","search_keyword","search_results","secondary_renewal_offer","site_display_format","site_section1","site_section2","site_section3","site_section4","site_theme","slide_title","subscriber_expiration_date","subscriber_id","subscriber_type","subscription_status","tcm_conversion_microsite","tcm_conversion_page_flow","tag_keywords","tag_visibility","tcm_effort_key","tcm_form_error","tcm_keycode","tcm_newsletter_optin","tcm_mag_code","tcm_microsite","tcm_order_id","tcm_order_shipping_amount","tcm_order_subtotal","tcm_order_tax_amount","tcm_order_total","tcm_order_type","tcm_page_flow","tcm_payment_method","tcm_prefix","tcm_product_name","tcm_product_price","tcm_product_quantity","tcm_product_sku","tcm_product_sku_options","tcm_shipping_method","tcm_variation_id","team_name","template_type","ticker_symbol","tier_level","total_amount_due","treat_as_registered","user_actions","video_asset_id","video_franchise","video_name","video_player","video_player_type","video_segment","gallery_view","is_sponsored_page"];
+    window.Ti.udo_map = [];
+    //--><!]]>
+  </script>
+<!-- End Metadata Object -->
+<!-- Begin Tealium Integration -->
+
+  <script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+    var utag_data = {"channel":"myrecipes","site_theme":"v2","site_display_format":"desktop","publish_date":"2007-05-17","friendly_url":"http:\/\/www.myrecipes.com\/recipe\/beefy-taco-salad","page_name":"beefy taco salad","site_section1":"recipe finder","site_section2":"southern living recipes","content_id":"237432","template_type":"recipes","food_main_ingredients":"beef","food_excluded_ingredients":"alcohol, eggs, nuts, fish, shellfish, soy","food_season_occasion":"spring, summer","food_cuisine":"american, southwest","food_courses":"salads","food_convenience":"kid-friendly","food_cooking_method":"","publication_source":"southern living"};
+    //--><!]]>
+  </script>
+
+  <script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+    (function(a,b,c,d){
+      a='//tags.tiqcdn.com/utag/timeinc/myrecipes.com/prod/utag.js';
+      b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+      a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+    //--><!]]>
+  </script>
+
+  
+<!-- End Tealium Integration -->
+  <div class="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <div id="top"></div>
+  <div class="site-wrapper container-wrapper">
+    
+<!-- page.tpl.php -->
+<div class="header-main-wrapper container-wrapper">
+  <header class="header-main container" role="banner">
+    <div class="header-top" itemscope="" itemtype="http://schema.org/Organization">
+      <div class="sticky-header-top">
+                <a class="branding__logo" href="/" title="MyRecipes.com" itemprop="url" rel="home" id="logo">
+          <img src="http://cdn-image.myrecipes.com/sites/all/themes/myrecipes/logo.png?20160516" alt="MyRecipes.com" itemprop="logo" />
+        </a>
+                <div class="ff-fix-banner-ad"><div class="advertisement advertisement-2x9"><div id="ad2x9"><script type="text/javascript">ad = adFactory.getAd(2,9);ad.write("ad2x9");</script></div></div></div><div class="advertisement advertisement-728x90"><div id="ad728x90"><script type="text/javascript"> ad = adFactory.getAd(728,90);ad.setPosition(1);ad.write("ad728x90");</script></div></div>      </div>
+        <div class="region region-header">
+    
+<aside id="block-ti-lsg-core-brand-list" class="block-ti-lsg-core-brand-list block block-ti-lsg-core">
+  <div class="block-inner">
+              
+    <div class="item-list"><ul class="brand-list"><li class="brand-list__item--ay brand-list__item first"><a href="http://www.allyou.com?xid=logobar-mr" rel="nofollow" target="_blank" title="All You">All You</a></li>
+<li class="brand-list__item--cx brand-list__item"><a href="http://www.coastalliving.com?xid=logobar-mr" rel="nofollow" target="_blank" title="Coastal Living">Coastal Living</a></li>
+<li class="brand-list__item--cl brand-list__item"><a href="http://www.cookinglight.com?xid=logobar-mr" rel="nofollow" target="_blank" title="Cooking Light">Cooking Light</a></li>
+<li class="brand-list__item--fw brand-list__item"><a href="http://www.foodandwine.com?xid=logobar-mr" rel="nofollow" target="_blank" title="Food and Wine">Food and Wine</a></li>
+<li class="brand-list__item--hl brand-list__item"><a href="http://www.health.com/health?xid=logobar-mr" rel="nofollow" target="_blank" title="Health">Health</a></li>
+<li class="brand-list__item--mr brand-list__item--active brand-list__item">My Recipes</li>
+<li class="brand-list__item--rs brand-list__item"><a href="http://www.realsimple.com?xid=logobar-mr" rel="nofollow" target="_blank" title="Real Simple">Real Simple</a></li>
+<li class="brand-list__item--sl brand-list__item"><a href="http://www.southernliving.com?xid=logobar-mr" rel="nofollow" target="_blank" title="Southern Living">Southern Living</a></li>
+<li class="brand-list__item--st brand-list__item last"><a href="http://www.sunset.com?xid=logobar-mr" rel="nofollow" target="_blank" title="Sunset">Sunset</a></li>
+</ul></div>  </div>
+</aside>
+
+<aside id="block-new-relic-ti-new-relic-header" class="block-new-relic-ti-new-relic-header block block-new-relic-ti">
+  <div class="block-inner">
+              
+    <script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgIFUFZbGwAHXVlVBAY="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,-1!==o.indexOf("dev")&&(s.dev=!0),-1!==o.indexOf("nr_dev")&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f?f.apply(this,a(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),s.on(m,function(){this.bstStart=Date.now()}),s.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(17)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;d>r;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||10>p)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;d>a;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(t,e){return function(){o(t,[(new Date).getTime()].concat(a(arguments)),null,e)}}var o=t("handle"),i=t(15),a=t(16);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var s=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(s,function(t,e){newrelic[e]=r(f+e,"api")}),i(c,function(t,e){newrelic[e]=r(f+e)}),e.exports=newrelic,newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),o("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;s>c;c++)a[c].apply(i,r);var u=f[w[n]];return u&&u.push([v,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",w[n]=e,e in f||(f[e]=[])})}var m={},w={},v={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return v}function i(){return new r}var a="nr@context",s=t("gos"),c=t(15),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!g++){var t=y.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(w,function(e,n){t[e]||(t[e]=n)});var n="https"===m.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(15),f=window,u=f.document,d="addEventListener",l="attachEvent",p=f.XMLHttpRequest,h=p&&p.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:p,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var m=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-952.min.js"},v=p&&h&&h[d]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:m,features:{},xhrWrappable:v};u[d]?(u[d]("DOMContentLoaded",i,!1),f[d]("load",r,!1)):(u[l]("onreadystatechange",o),f[l]("onload",r)),s("mark",["firstbyte",a()],null,"api");var g=0},{}]},{},["loader",2,10,4,3]);</script>  </div>
+</aside>
+  </div>
+    </div>
+    <div class="header-bottom">
+        <div class="region region-header-bottom">
+    
+<aside id="block-menu-menu-subnav-bar" class="block-menu-menu-subnav-bar block block-menu">
+  <div class="block-inner">
+              
+      </div>
+</aside>
+
+<aside id="block-ti-lsg-mr-header-footer-ka-signin" class="block-ti-lsg-mr-header-footer-ka-signin block block-ti-lsg-mr-header-footer">
+  <div class="block-inner">
+              
+    <div class='signinbar'><div><a href='http://www.myrecipes.com/r/login/' onclick=omniTigr('mr_hd_signin');>Sign In</a> | <a href='http://www.myrecipes.com/r/profiles/new/' onclick=omniTigr('mr_hd_join');>Join Now for Free</a> | <a href='http://www.myrecipes.com/r/shopping_lists/' onclick=omniTigr('mr_hd_shoplist');>Shopping Lists</a></div></div>  </div>
+</aside>
+  </div>
+    </div>
+    <nav class="nav-main" role="navigation">
+        <div class="region region-nav-main">
+    
+<aside id="block-system-main-menu" class="block-system-main-menu block block-system block-menu">
+  <div class="block-inner">
+              
+    <ul class="menu menu-main-menu"><li class="first collapsed menu-main-menu__leaf--first menu-main-menu__leaf--collapsed menu-main-menu__leaf"><a href="/" title="">Home</a></li>
+<li class="expanded menu-main-menu__leaf--expanded menu-main-menu__leaf"><a href="http://www.myrecipes.com/recipe-finder" title="">Recipes</a><ul class="menu menu-main-menu menu-main-menu--tier2"><li class="first leaf menu-main-menu--tier2__leaf--first menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/recipe-finder" title="">Browse Recipes</a></li>
+<li class="leaf menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/recipe-finder/sponsor-recipes/sponsor-recipes" title="">Advertiser Recipes</a></li>
+<li class="last leaf menu-main-menu--tier2__leaf--last menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="https://www.cookinglightdiet.com/?utm_source=un_site_ros_mr_20160222_RecipesNavBardropdown" title="Replaced: http://www.cookinglight.com/microsites/1400-calorie-diet/?xid=un_ckdiet_sampleweek%20%C2%A0
+With: https://www.cookinglightdiet.com/?utm_source=un_site_ros_mr_20160222_RecipesNavBardropdown">Diet Recipes</a></li>
+</ul>
+</li>
+<li class="leaf menu-main-menu__leaf menu-main-menu__leaf--nochild"><a href="http://www.myrecipes.com/r/my_recipe_file" title="">My Recipe Box</a></li>
+<li class="expanded menu-main-menu__leaf--expanded menu-main-menu__leaf"><a href="http://www.myrecipes.com/quick-and-easy" title="">Quick &amp; Easy</a><ul class="menu menu-main-menu menu-main-menu--tier2"><li class="first leaf menu-main-menu--tier2__leaf--first menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/no-cook-recipes" title="">No Cook Recipes</a></li>
+<li class="leaf menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/chicken-recipes" title="">Chicken Recipes</a></li>
+<li class="leaf menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/make-ahead-recipes" title="">Make Ahead Recipes</a></li>
+<li class="leaf menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/slow-cooker-recipes" title="">Slow-Cooker Recipes</a></li>
+<li class="leaf menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/quick-and-easy/5-ingredients-or-less/five-and-dine" title="">5 Ingredient Recipes</a></li>
+<li class="leaf menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/quick-and-easy/15-minute-recipes" title="">15-Minute Recipes</a></li>
+<li class="last leaf menu-main-menu--tier2__leaf--last menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/quick-and-easy/dinner-tonight" title="">Dinner Tonight</a></li>
+</ul>
+</li>
+<li class="expanded menu-main-menu__leaf--expanded menu-main-menu__leaf"><a href="http://www.myrecipes.com/menus" title="">Menus</a><ul class="menu menu-main-menu menu-main-menu--tier2"><li class="first leaf menu-main-menu--tier2__leaf--first menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/tailgating-recipes" title="">Tailgating</a></li>
+<li class="leaf menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/holidays-and-occasions" title="">Holidays</a></li>
+<li class="leaf menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/appetizer-recipes" title="">Appetizers</a></li>
+<li class="leaf menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/drink-recipes" title="">Cocktails</a></li>
+<li class="leaf menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/dessert-recipes" title="">Desserts</a></li>
+<li class="leaf menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/wedding-and-shower-recipes" title="">Weddings &amp; Showers</a></li>
+<li class="last leaf menu-main-menu--tier2__leaf--last menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/menus/weeknight-meal-planners" title="">Weeknight Meal Plans</a></li>
+</ul>
+</li>
+<li class="expanded menu-main-menu__leaf--expanded menu-main-menu__leaf"><a href="http://www.myrecipes.com/healthy-diet" title="">Healthy</a><ul class="menu menu-main-menu menu-main-menu--tier2"><li class="first leaf menu-main-menu--tier2__leaf--first menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/diabetic-recipes" title="">Diabetic Recipes</a></li>
+<li class="leaf menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/gluten-free-recipes" title="">Gluten Free</a></li>
+<li class="leaf menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/heart-healthy-recipes" title="">Heart Healthy</a></li>
+<li class="leaf menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/healthy-diet/super-foods" title="">Superfoods</a></li>
+<li class="leaf menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/vegetarian-recipes" title="">Vegetarian Recipes</a></li>
+<li class="last leaf menu-main-menu--tier2__leaf--last menu-main-menu--tier2__leaf menu-main-menu--tier2__leaf--nochild"><a href="http://www.myrecipes.com/healthy-diet/calorie-counts" title="">Calorie Counts</a></li>
+</ul>
+</li>
+<li class="collapsed menu-main-menu__leaf--collapsed menu-main-menu__leaf"><a href="http://www.myrecipes.com/how-to/video/cooking-videos" title="">Video</a></li>
+<li class="leaf menu-main-menu__leaf menu-main-menu__leaf--nochild"><a href="http://www.myrecipes.com/menus/weeknight-meal-planners" title="">Meal Planner</a></li>
+<li class="leaf menu-main-menu__leaf menu-main-menu__leaf--nochild"><a href="http://www.myrecipes.com/general/summer-fruits-and-vegetables" title="">Produce Guide</a></li>
+<li class="leaf menu-main-menu__leaf menu-main-menu__leaf--nochild"><a href="http://www.myrecipes.com/summer-grilling" title="">Grilling</a></li>
+<li class="last leaf menu-main-menu__leaf--last menu-main-menu__leaf menu-main-menu__leaf--nochild"><a href="http://youvegottotastethis.myrecipes.com/" title="">Blog</a></li>
+</ul>
+  </div>
+</aside>
+
+<aside id="block-ti-lsg-mr-search-search-overlay" class="block-ti-lsg-mr-search-search-overlay block block-ti-lsg-mr-search">
+  <div class="block-inner">
+              
+    <div class="search-icon">
+   <img typeof="foaf:Image" src="http://cdn-image.myrecipes.com/sites/all/themes/myrecipes/images/legacy/icon-search.png" alt="Search" title="Search" /><span>SEARCH</span></div>
+<div id="site-searchbox-overlay" class="overlay-hidden">
+  <div class="search-overlay-close"><img typeof="foaf:Image" src="http://cdn-image.myrecipes.com/sites/all/themes/myrecipes/images/static/i/search-close.png" alt="Close" title="Close" /></div>
+  <div class="sitewide-searchbox-form">
+    <div class="search-form-overlay"><form action="/recipe/beefy-taco-salad" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search 65,000+ delicious, kitchen-tested recipes" id="edit-search-block-form" type="text" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form--1C39i1vKt8Bdg-ucp8n-3ToYfyRz9Z6b1vFAsr0VCs" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form></div>
+    <div class="search-links"><a href="/nutrition-search" title="Nutrition Search">Nutrition Search</a></div>
+    <div class="build-a-meal-overlay">
+    <div class="head-title"><div>
+  <div class = "ingredient-chef-graphic-text">
+  <div class = "ingredients-chef-header-graphic"><img typeof="foaf:Image" src="http://cdn-image.myrecipes.com/sites/all/themes/myrecipes/images/new_graphic.png" alt="Search" title="Search" /></div>
+  <div class = "ingredients-chef-search-main-header">Try Build-A-Meal</div>
+  </div>
+  <div class = "sub-main-head">(find recipes with ingredients you have on hand)</div>
+  <div class = "ingredients-chef-search-header">Start with your ingredients:</div>
+</div></div>
+    <div class="build-a-meal-form">
+      <div class="sponsor-logo" id="sponsor-logo"></div>
+      <form id="ti_lsg_mr_ingredient_chef_form_overlay" action="/recipe/beefy-taco-salad" method="get" accept-charset="UTF-8"><div><div class="ingredients-fields-header"></div><div class="ingredients-fields-container"><div class="form-item form-type-textfield form-item-available-ingredient-00">
+  <input placeholder="e.g. chicken" class="ingredients-input form-text" id="edit-available-ingredient-10" type="text" name="available_ingredient_00" value="" size="25" maxlength="128" />
+</div>
+<div class="plus form-wrapper" id="edit-plus1"></div><div class="form-item form-type-textfield form-item-available-ingredient-01">
+  <input placeholder="e.g. rice" class="ingredients-input form-text" id="edit-available-ingredient-11" type="text" name="available_ingredient_01" value="" size="25" maxlength="128" />
+</div>
+<div class="plus form-wrapper" id="edit-plus2"></div><div class="form-item form-type-textfield form-item-available-ingredient-02">
+  <input placeholder="e.g. cheese" class="ingredients-input form-text" id="edit-available-ingredient-12" type="text" name="available_ingredient_02" value="" size="25" maxlength="128" />
+</div>
+<div class = "ingredients-chef-additional-header">I also have:</div><div id="edit-ingredient-checkbox" class="form-checkboxes"><div class="form-item form-type-checkbox form-item-ingredient-checkbox-Milk">
+ <input type="checkbox" id="edit-ingredient-checkbox-milk" name="ingredient_checkbox[Milk]" value="Milk" class="form-checkbox" />  <label class="option" for="edit-ingredient-checkbox-milk">Milk </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-ingredient-checkbox-Eggs">
+ <input type="checkbox" id="edit-ingredient-checkbox-eggs" name="ingredient_checkbox[Eggs]" value="Eggs" class="form-checkbox" />  <label class="option" for="edit-ingredient-checkbox-eggs">Eggs </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-ingredient-checkbox-Cheese">
+ <input type="checkbox" id="edit-ingredient-checkbox-cheese" name="ingredient_checkbox[Cheese]" value="Cheese" class="form-checkbox" />  <label class="option" for="edit-ingredient-checkbox-cheese">Cheese </label>
+
+</div>
+</div><input class="ingredients-submit form-submit" type="submit" id="edit-submit--2" name="op" value="FIND RECIPES" /></div><input type="hidden" name="form_build_id" value="form-9fT-Go83qH-4rlBPJuhAb9Q8aJkRIrRfh4C8hAiGQt8" />
+<input type="hidden" name="form_id" value="ti_lsg_mr_ingredient_chef_form" />
+</div></form>    </div>
+    </div>
+  </div>
+</div>
+  </div>
+</aside>
+  </div>
+    </nav>
+  </header>
+</div>
+
+<div class="page-wrapper container-wrapper  clearfix">
+  <div class="page container">
+              <div class="column-main" role="main" itemtype="http://schema.org/Recipe" itemscope="">
+          
+            <div class="breadcrumb-wrapper container-wrapper">
+        <div class="breadcrumb container">
+          <div class="breadcrumb"><a href="http://www.myrecipes.com/recipe-finder">Recipes</a> &raquo; Beefy Taco Salad</div>        </div>
+      </div>
+      
+      
+      
+      
+      
+                                           <h1 itemprop="name" class="title page-header__title" id="page-title">Beefy Taco Salad</h1>
+                              
+      
+      
+      
+      
+      <article>
+        <div id="main-content" class="main-content ">
+          <div class="region region-content">
+    
+<div id="block-system-main" class="block-system-main block block-system">
+  <div class="panel-display panel-2col-bricks clearfix" >
+  <div class="panel-panel panel-col-top">
+    <div class="inside"></div>
+  </div>
+  <div class="center-wrapper">
+    <div class="panel-panel panel-col-first">
+      <div class="inside"><div class="panel-pane pane-block pane-ti-lsg-mr-recipe-recipe-fallback-image" >
+  
+      
+  
+  <div class="pane-content">
+    <img typeof="foaf:Image" src="http://cdn-image.myrecipes.com/sites/all/themes/myrecipes/images/legacy/img_noPhoto150.gif" width="300" height="300" alt="recipe" />  </div>
+
+  
+  </div>
+</div>
+    </div>
+
+    <div class="panel-panel panel-col-last">
+      <div class="inside"><div class="panel-pane pane-block pane-ti-lsg-mr-recipe-ratings-reviews" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="rating1" >
+      <span class="top_rating">
+        <span style="display:none">0</span>
+      </span>
+      <span class="top_review" style="display:none"></span>
+      <div class="rating1star starRating rating-star-0" data-score="0"></div>
+      <div class="rating1rev">
+        <a href="#mr-livefyre-ratings">Read Reviews (<span >0</span>)</a>
+      </div>
+    </div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-entity-field pane-node-field-deck" >
+  
+      
+  
+  <div class="pane-content">
+    <div itemprop="description">
+  <div class="field-deck">
+    Oven-safe bowls, cooking spray, and flour tortillas are all you need to create crispy, low-fat edible tortilla bowls.  </div>
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-entity-field pane-node-field-yield" >
+  
+        <h2 class="pane-title">Yield:</h2>
+    
+  
+  <div class="pane-content">
+    <div itemprop="recipeYield">
+  <div class="field-yield">
+    Makes 6 servings  </div>
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-entity-field pane-node-field-cost-per-serving" >
+  
+      
+  
+  <div class="pane-content">
+    
+  <div class="field-cost-per-serving">
+      </div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-ti-lsg-mr-social-tools-social-tools-share social_share_small" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="item-list"><ul id="social-tools-share" class="social-tools-share"><li class="first"><div class="toolbarShareBtnsSmall"><a href="#" class="shareBtn shareBtnSave"></a></div></li>
+<li class="social-tools-share__item social-tools-share__item--facebook"><a class="shareBtn shareBtnFacebook pop" href="https://www.facebook.com/sharer/sharer.php?u=http://bit.ly/102v3OP" target="_blank" title="[Opens in new window]" sl-processed="1" onclick="omniCommunityTracker('share-FB')"></a></li>
+<li class="social-tools-share__item social-tools-share__item--pinit"><a class="shareBtn shareBtnPinterest pop" href="http://pinterest.com/pin/create/button/?url=http://www.myrecipes.com/recipe/beefy-taco-salad&description=Beefy%20Taco%20Salad%20%7C%20MyRecipes.com&media=http%3A//www.myrecipes.com/sites/all/themes/myrecipes/images/static/i/img_noPhoto300.gif" onclick="omniCommunityTracker('pinterest-ctr');" target="_blank" title="[Opens in new window]" sl-processed="1"></a></li>
+<li class="social-tools-share__item social-tools-share__item--googleplus"><a class="shareBtn shareBtnGoogle pop" href="https://plus.google.com/share?url=http://bit.ly/102v3OP" onclick="omniCommunityTracker('google-plus-ctr');" target="_blank" title="[Opens in new window]" sl-processed="1"></a></li>
+<li class="social-tools-share__item social-tools-share__item--twitter last"><a class="shareBtn shareBtnTwitter pop" href="http://twitter.com/share?url=http://bit.ly/102v3OP&text=Beefy Taco Salad  via @My_Recipes" onclick="omniCommunityTracker('twitter-ctr');" target="_blank" title="[Opens in new window]" sl-processed="1"></a></li>
+</ul></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-entity-field pane-node-field-related-videos" >
+  
+      
+  
+  <div class="pane-content">
+    <div id=  "videoBelt"><ul><li><!-- node--tout-default.tpl.php -->
+<aside class="node node-tout node-promoted node--tout--tout_related_videos node--tout_related_videos node--tout">
+  <div class="content">
+
+          <a class="tout_thumb_image_link" href="http://www.myrecipes.com/how-to/video/how-to-make-classic-beef-pot-roast"><a href="http://www.myrecipes.com/how-to/video/how-to-make-classic-beef-pot-roast"><img typeof="foaf:Image" src="http://cdn-image.myrecipes.com/sites/default/files/styles/75x75/public/classic-beef-pot-roast-ck.jpg?itok=uhyWvSig" width="75" height="75" alt="" /></a></a>
+    
+          <h4>Cooking Tips:<a href="http://www.myrecipes.com/how-to/video/how-to-make-classic-beef-pot-roast"><a href="http://www.myrecipes.com/how-to/video/how-to-make-classic-beef-pot-roast"><div class="tout-headline">  <h3 class="field-label">
+    Tout Headline  </h3>
+
+  <div class="field-tout-headline">
+    Our Most Popular Beef Recipe... Ever  </div>
+</div></a></a></h4>
+    
+  </div>
+</aside>
+</li></ul></div>  </div>
+
+  
+  </div>
+</div>
+    </div>
+  </div>
+  <div class="panel-panel panel-col-middle">
+    <div class="inside"></div>
+  </div>
+  <div class="center-wrapper">
+    <div class="panel-panel panel-col-first">
+      <div class="inside"><div class="panel-pane pane-entity-field pane-node-field-source" >
+  
+      
+  
+  <div class="pane-content">
+    
+  <div class="field-source">
+    <div class="recipe-more-from">
+  <div class="source-info">
+    <p>Recipe from</p>
+          <a href="http://www.southernliving.com/"><div class="search_sponsor_source"><img class="Southern Living" typeof="foaf:Image" src="http://cdn-image.myrecipes.com/sites/default/files/1413216654/from_southernliving.png" alt="Southern Living" /></div></a>
+      </div>
+      <div class="link-list">
+    <h4>More from <em>Southern Living</em></h4>
+      <ul>
+        <div class="advertisement advertisement-cmad-142x70 cmAd"><div id="adasynccmad142x70"><script type="text/javascript">ad = adFactory.getCmAd(142,70,"article","text");ad.write("adasynccmad142x70");</script></div></div>                <li>
+  <div class="field-external-link">
+    <a href="http://www.southernliving.com/food/how-to/how-to-make-barbecue-sauce-video">Master Three Southern BBQ Sauces</a>  </div>
+</li>
+                <li>
+  <div class="field-external-link">
+    <a href="http://www.southernliving.com/food/entertaining/appetizer-recipes">81 Party Appetizers</a>  </div>
+</li>
+                <li>
+  <div class="field-external-link">
+    <a href="http://www.southernliving.com/food/holidays-occasions/best-summer-fruit-cobblers-recipes">Crazy-Good Fruit Cobbler Recipes</a>  </div>
+</li>
+                <li>
+  <div class="field-external-link">
+    <a href="http://www.southernliving.com/food/how-to/baking-substitutions-video">11 Solutions for Common Baking Ingredients</a>  </div>
+</li>
+                <li>
+  <div class="field-external-link">
+    <a href="http://www.southernliving.com/food/kitchen-assistant/strawberry-pie-recipes">Strawberry Pie Recipes</a>  </div>
+</li>
+                <li>
+  <div class="field-external-link">
+    <a href="http://www.southernliving.com/food/whats-for-supper/slow-cooker-recipes">Slow Cooker Recipes</a>  </div>
+</li>
+              </ul>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-entity-field pane-node-field-nutrition-data" >
+  
+        <h2 class="pane-title">Nutritional Information</h2>
+    
+  
+  <div class="pane-content">
+      <div itemprop="nutrition" itemscope itemtype="http://schema.org/NutritionInformation">
+  <div class="field-nutrition-data">
+    <div class="field-collection-view clearfix view-mode-recipe-nutrition">
+<div>Calories<span itemprop="calories">
+  391 </span>
+</div>
+</div>  </div>
+  <div class="field-nutrition-data">
+    <div class="field-collection-view clearfix view-mode-recipe-nutrition">
+<div>Caloriesfromfat<span itemprop="">
+  34 %</span>
+</div>
+</div>  </div>
+  <div class="field-nutrition-data">
+    <div class="field-collection-view clearfix view-mode-recipe-nutrition">
+<div>Fat<span itemprop="fatContent">
+  15 g</span>
+</div>
+</div>  </div>
+  <div class="field-nutrition-data">
+    <div class="field-collection-view clearfix view-mode-recipe-nutrition">
+<div>Satfat<span itemprop="saturatedFatContent">
+  3.6 g</span>
+</div>
+</div>  </div>
+  <div class="field-nutrition-data">
+    <div class="field-collection-view clearfix view-mode-recipe-nutrition">
+<div>Monofat<span itemprop="unsaturatedFatContent">
+  2.5 g</span>
+</div>
+</div>  </div>
+  <div class="field-nutrition-data">
+    <div class="field-collection-view clearfix view-mode-recipe-nutrition">
+<div>Polyfat<span itemprop="unsaturatedFatContent">
+  0.6 g</span>
+</div>
+</div>  </div>
+  <div class="field-nutrition-data">
+    <div class="field-collection-view clearfix view-mode-recipe-nutrition">
+<div>Protein<span itemprop="proteinContent">
+  22 g</span>
+</div>
+</div>  </div>
+  <div class="field-nutrition-data">
+    <div class="field-collection-view clearfix view-mode-recipe-nutrition">
+<div>Carbohydrate<span itemprop="carbohydrateContent">
+  45 g</span>
+</div>
+</div>  </div>
+  <div class="field-nutrition-data">
+    <div class="field-collection-view clearfix view-mode-recipe-nutrition">
+<div>Fiber<span itemprop="fiberContent">
+  8.6 g</span>
+</div>
+</div>  </div>
+  <div class="field-nutrition-data">
+    <div class="field-collection-view clearfix view-mode-recipe-nutrition">
+<div>Cholesterol<span itemprop="cholesterolContent">
+  23 mg</span>
+</div>
+</div>  </div>
+  <div class="field-nutrition-data">
+    <div class="field-collection-view clearfix view-mode-recipe-nutrition">
+<div>Iron<span itemprop="">
+  3.7 mg</span>
+</div>
+</div>  </div>
+  <div class="field-nutrition-data">
+    <div class="field-collection-view clearfix view-mode-recipe-nutrition">
+<div>Sodium<span itemprop="sodiumContent">
+  993 mg</span>
+</div>
+</div>  </div>
+  <div class="field-nutrition-data">
+    <div class="field-collection-view clearfix view-mode-recipe-nutrition field-collection-view-final">
+<div>Calcium<span itemprop="">
+  135 mg</span>
+</div>
+</div>  </div>
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-ti-lsg-mr-recipe-recipe-search-by-nutrition-data" >
+  
+      
+  
+  <div class="pane-content">
+    <a href="http://search.myrecipes.com/nutrition-search.html">Search for Recipes by Nutrition Data</a>  </div>
+
+  
+  </div>
+</div>
+    </div>
+
+    <div class="panel-panel panel-col-last">
+      <div class="inside"><div class="panel-pane pane-block pane-ti-lsg-mr-recipe-recipes-toolbar" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="toolbar clr">
+        <ul class="pt1">
+          <li class="print" onclick="omniCommunityTracker('print');">
+            <a href="/recipe/beefy-taco-salad/print" target="_blank">Print Recipe</a>
+          </li>
+          <li class="email_popup">
+            <a href="/recipe/beefy-taco-salad" title="Email this content." onclick="omniCommunityTracker(&#039;email&#039;); return popMailWin();" class="active">Email</a>
+           </li>
+        </ul>
+        <ul class="pt2">
+          <li><a href="#" class="save1">Save Recipe</a></li>
+          <li><a href="#" class="save2">Add to Menu</a></li>
+          <li><a href="#" class="save3">Add to Shopping List</a></li>
+        </ul>
+      </div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-entity-field pane-node-field-ingredients" >
+  
+        <h2 class="pane-title">Ingredients</h2>
+    
+  
+  <div class="pane-content">
+    <div class="field-collection-container clearfix">
+  <div class="field-ingredients">
+    <div class="field-collection-view clearfix view-mode-recipe-ingredients">
+
+<div itemprop="recipeIngredient"  >
+  <span>1 pound</span>
+  <span> extra lean ground beef </span>
+  <span> </span>
+</div>
+</div>  </div>
+  <div class="field-ingredients">
+    <div class="field-collection-view clearfix view-mode-recipe-ingredients">
+
+<div itemprop="recipeIngredient"  >
+  <span> </span>
+  <span> Vegetable cooking spray </span>
+  <span> </span>
+</div>
+</div>  </div>
+  <div class="field-ingredients">
+    <div class="field-collection-view clearfix view-mode-recipe-ingredients">
+
+<div itemprop="recipeIngredient"  >
+  <span>1 </span>
+  <span> small onion, chopped </span>
+  <span> </span>
+</div>
+</div>  </div>
+  <div class="field-ingredients">
+    <div class="field-collection-view clearfix view-mode-recipe-ingredients">
+
+<div itemprop="recipeIngredient"  >
+  <span>1 </span>
+  <span> garlic clove, pressed </span>
+  <span> </span>
+</div>
+</div>  </div>
+  <div class="field-ingredients">
+    <div class="field-collection-view clearfix view-mode-recipe-ingredients">
+
+<div itemprop="recipeIngredient"  >
+  <span>1 tablespoon</span>
+  <span> fajita seasoning </span>
+  <span> </span>
+</div>
+</div>  </div>
+  <div class="field-ingredients">
+    <div class="field-collection-view clearfix view-mode-recipe-ingredients">
+
+<div itemprop="recipeIngredient"  >
+  <span>1 </span>
+  <span> (12-ounce) jar salsa verde, divided </span>
+  <span> </span>
+</div>
+</div>  </div>
+  <div class="field-ingredients">
+    <div class="field-collection-view clearfix view-mode-recipe-ingredients">
+
+<div itemprop="recipeIngredient"  >
+  <span>6 </span>
+  <span> (8-inch) flour tortillas </span>
+  <span> </span>
+</div>
+</div>  </div>
+  <div class="field-ingredients">
+    <div class="field-collection-view clearfix view-mode-recipe-ingredients">
+
+<div itemprop="recipeIngredient"  >
+  <span> </span>
+  <span> <a href="http://www.myrecipes.com/recipe/smashed-pinto-beans">Smashed Pinto Beans (see recipe)*</a> </span>
+  <span> </span>
+</div>
+</div>  </div>
+  <div class="field-ingredients">
+    <div class="field-collection-view clearfix view-mode-recipe-ingredients">
+
+<div itemprop="recipeIngredient"  >
+  <span>1/2 </span>
+  <span> head iceberg lettuce, shredded </span>
+  <span> </span>
+</div>
+</div>  </div>
+  <div class="field-ingredients">
+    <div class="field-collection-view clearfix view-mode-recipe-ingredients">
+
+<div itemprop="recipeIngredient"  >
+  <span> </span>
+  <span> <a href="http://www.myrecipes.com/recipe/chunky-avocado-sauce">Chunky Avocado Sauce</a> </span>
+  <span> </span>
+</div>
+</div>  </div>
+  <div class="field-ingredients">
+    <div class="field-collection-view clearfix view-mode-recipe-ingredients field-collection-view-final">
+
+<div itemprop="recipeIngredient"  >
+  <span> </span>
+  <span> Garnish: chopped fresh tomatoes </span>
+  <span> </span>
+</div>
+</div>  </div>
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-entity-field pane-node-field-instructions" >
+  
+        <h2 class="pane-title">Preparation</h2>
+    
+  
+  <div class="pane-content">
+    <div itemprop="recipeInstructions"><div class="field-instructions"><div class="field-items"><div class="field-item even"><p>Cook beef in a nonstick skillet coated with cooking spray 7 minutes or until beef crumbles and is no longer pink. Drain and pat dry with paper towels; set beef aside.</p><p>Sauté onion in skillet coated with cooking spray 5 minutes. Add garlic, and sauté 1 minute. Return beef to skillet. Add fajita seasoning and 1/2 cup salsa verde. Cook over medium-high heat 3 minutes or until thoroughly heated and liquid is evaporated.</p><p>Coat both sides of 1 tortilla with cooking spray. Place tortilla inside a 7-inch oven-safe bowl. Place bowl on a baking sheet.</p><p>Bake at 350° for 10 to 15 minutes or until golden. Remove tortilla from bowl; bake 5 more minutes. Remove from oven, and let cool 5 minutes. Repeat with remaining tortillas and cooking spray. (You may prepare 2 to 3 bowls at a time in your oven.)</p><p>Spread 1/4 cup Smashed Pinto Beans evenly over bottom of each tortilla shell. Sprinkle evenly with lettuce and beef mixture. Top evenly with Chunky Avocado Sauce. Serve with remaining salsa verde. Garnish, if desired.</p><p>*Canned fat-free refried beans may be substituted.</p><p>Note: Salsa verde, also called green salsa, may be found in the Mexican food aisle of supermarket.</p></div></div></div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-ti-lsg-mr-recipe-recipe-chicory-button" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="chicory-order-ingredients"></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-entity-field pane-node-field-test-kitchen-notes" >
+  
+      
+  
+  <div class="pane-content">
+    
+  <div class="field-test-kitchen-notes">
+      </div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-ti-lsg-mr-recipe-recipes-bottom-information" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="recipe-bottom-information" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><p class="field-sponsor"><a href="http://www.southernliving.com/">Southern Living</a></p>
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-entity-field pane-node-field-magazine-date" >
+  
+      
+  
+  <div class="pane-content">
+    
+  <div class="field-magazine-date">
+    <span itemprop="datePublished" class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2003-05-01T05:00:00-04:00">May 2003</span>
+  </div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-ti-lsg-mr-recipe-recipe-previous-magazine-date" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field-previous-magazine-date"></div>  </div>
+
+  
+  </div>
+</div>
+    </div>
+  </div>
+  <div class="panel-panel panel-col-bottom">
+    <div class="inside"><div class="panel-pane pane-block pane-ti-lsg-outbrain-outbrain-web" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="OUTBRAIN" data-src="http://www.myrecipes.com/recipe/beefy-taco-salad" data-widget-id="AR_1" data-ob-template="myrecipes" ></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-ti-lsg-mr-recipe-ka-ratings-comments" >
+  
+      
+  
+  <div class="pane-content">
+    <div id="mr-livefyre-ratings"></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-ti-lsg-mr-ouibounce-recipe-ouibounce" >
+  
+      
+  
+  <div class="pane-content">
+    <div id="ouibounce-modal"><div class="underlay"></div><div class="modal">
+                      <div class="modal-footer"></div><form action="/recipe/beefy-taco-salad" method="post" id="ti-lsg-mr-ouibounce-form" accept-charset="UTF-8"><div><img typeof="foaf:Image" src="http://cdn-image.myrecipes.com/sites/default/files/ouibounce_promo/ckl-diet-meal-planning-v2.jpg" alt="Cooking Light Diet" /><a href="//www.cookinglightdiet.com/?utm_source=un_site_ros_mr_20160502_ouibounceMealplanning" class="ck-diet-ouibounce">Cooking Light Diet</a><input type="hidden" name="form_build_id" value="form-p_2rPnzQYgFkJ0UmyhOURmHLfO2HcJ2yHr8b40BGhq4" />
+<input type="hidden" name="form_id" value="ti_lsg_mr_ouibounce_form" />
+</div></form></div></div>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+</div>
+<script>s_account = "timemyrecipesnew";</script><script src="http://www.myrecipes.com/sites/all/modules/custom/ti_lsg_mr_sitecatalyst/js/myrecipes-consolidated.js?20160607"></script><script>
+s_time.prop31 =  'non-logged-in';
+s_time.prop2 =  'southern living';
+s_time.prop8 =  'kid-friendly';
+s_time.prop3 =  'beef';
+s_time.prop9 =  '';
+s_time.prop4 =  'alcohol,eggs,nuts,fish,shellfish,soy';
+s_time.prop5 =  'salads';
+s_time.prop6 =  'spring,summer';
+s_time.prop7 =  'american,southwest';
+s_time.prop10 =  '';
+s_time.prop43 =  'ground beef';
+s_time.prop16 =  'recipe finder';
+s_time.prop11 =  '';
+s_time.prop34 =  '237432';
+s_time.prop20 =  'recipes';
+s_time.prop32 =  '';
+s_time.prop26 =  '237432';
+s_time.recipeName =  'displayrecipe:beefy taco salad';
+s_time.prop51 =  '2007-05-17';
+s_time.prop53 =  '237432';
+s_time.pageName =  'myrecipes|recipe finder|displayrecipe:beefy taco salad';
+</script><noscript><img src="http://timeinc.122.2o7.net/b/ss/timemyrecipesnew1/H.21--NS/0?gn=myrecipes%7Cno%20javascript&amp;ch=myrecipes&amp;c16=general&amp;c17=D%3Dreferer" alt="log" width="1" height="1" /></noscript>  </div>
+        </div>
+      </article>
+
+      
+    </div>
+
+        <div class="sidebar">
+      <div class="region region-sidebar-first">
+    
+<aside id="block-ti-lsg-mr-newsletters-newsletters-signup-dyn" class="block-ti-lsg-mr-newsletters-newsletters-signup-dyn block block-ti-lsg-mr-newsletters">
+  <div class="block-inner">
+              
+    <form action="/recipe/beefy-taco-salad" method="post" id="ti-lsg-mr-newsletters-signup-dynamic-form" accept-charset="UTF-8"><div><div id="newletter_signup_form"><div class="newsletters-signup form-wrapper" id="edit-newsletter-signup"><p class="newsletters-signup__title">Get the best of MyRecipes, plus special offers</p>
+<div class="form-item form-type-textfield form-item-email-address">
+ <input class="newsletters-signup__email form-text required" onfocus="if (this.value == &#039;Email Address&#039;) {this.value = &#039;&#039;;}" onblur="if (this.value == &#039;&#039;) {this.value = &#039;Email Address&#039;;}" type="text" id="edit-email-address" name="email_address" value="Email Address" size="60" maxlength="128" />
+</div>
+<input type="hidden" name="source" value="MR_rr_recipe_finder" />
+<input type="hidden" name="newsletter_name" value="WEEKLY_SPECIALS" />
+<input class="newsletters-signup__submit form-submit" type="submit" id="newsletter-submit" name="op" value="Submit" /><div class="newsletters-signup__links form-wrapper" id="edit-newsletter-links"><a href="/newsletters" target="_blank">See More Newletters</a></div></div></div><input type="hidden" name="form_build_id" value="form-S29yKTtFe9P0KaYGOJ0o6KzO0ypTLmgIKjnr-bkpc3c" />
+<input type="hidden" name="form_id" value="ti_lsg_mr_newsletters_signup_dynamic_form" />
+</div></form>  </div>
+</aside>
+
+<aside id="block-ti-lsg-mr-ads-multiad-300x250" class="block-ti-lsg-mr-ads-multiad-300x250 block block-ti-lsg-mr-ads">
+  <div class="block-inner">
+              
+    <p class="adtxt"><span>Advertisement</span></p><div id="ad300x250"><script type="text/javascript">
+  ad=adFactory.getMultiAd(new Array("300x250","300x600","300x1050"));
+  ad.setPosition("1");ad.write("ad300x250" );
+</script></div>  </div>
+</aside>
+
+<aside id="block-ti-lsg-mr-ingredient-chef-build-a-meal" class="block-ti-lsg-mr-ingredient-chef-build-a-meal block block-ti-lsg-mr-ingredient-chef">
+  <div class="block-inner">
+              
+    <form id="ti-lsg-mr-ingredient-chef-form" action="/recipe/beefy-taco-salad" method="get" accept-charset="UTF-8"><div><div class="ingredients-fields-header"></div><div class="ingredients-fields-container"><div class="form-item form-type-textfield form-item-available-ingredient-00">
+  <input placeholder="e.g. chicken" class="ingredients-input form-text" id="edit-available-ingredient-00" type="text" name="available_ingredient_00" value="" size="25" maxlength="128" />
+</div>
+<div class="plus form-wrapper" id="edit-plus1--2"></div><div class="form-item form-type-textfield form-item-available-ingredient-01">
+  <input placeholder="e.g. rice" class="ingredients-input form-text" id="edit-available-ingredient-01" type="text" name="available_ingredient_01" value="" size="25" maxlength="128" />
+</div>
+<div class="plus form-wrapper" id="edit-plus2"></div><div class="form-item form-type-textfield form-item-available-ingredient-02">
+  <input placeholder="e.g. cheese" class="ingredients-input form-text" id="edit-available-ingredient-02" type="text" name="available_ingredient_02" value="" size="25" maxlength="128" />
+</div>
+<div class = "ingredients-chef-additional-header">I also have:</div><div id="edit-ingredient-checkbox--2" class="form-checkboxes"><div class="form-item form-type-checkbox form-item-ingredient-checkbox-Milk">
+ <input type="checkbox" id="edit-ingredient-checkbox-milk--2" name="ingredient_checkbox[Milk]" value="Milk" class="form-checkbox" />  <label class="option" for="edit-ingredient-checkbox-milk--2">Milk </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-ingredient-checkbox-Eggs">
+ <input type="checkbox" id="edit-ingredient-checkbox-eggs--2" name="ingredient_checkbox[Eggs]" value="Eggs" class="form-checkbox" />  <label class="option" for="edit-ingredient-checkbox-eggs--2">Eggs </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-ingredient-checkbox-Cheese">
+ <input type="checkbox" id="edit-ingredient-checkbox-cheese--2" name="ingredient_checkbox[Cheese]" value="Cheese" class="form-checkbox" />  <label class="option" for="edit-ingredient-checkbox-cheese--2">Cheese </label>
+
+</div>
+</div><input class="ingredients-submit form-submit" type="submit" id="edit-submit--3" name="op" value="FIND RECIPES" /></div><input type="hidden" name="form_build_id" value="form-qJFibAnzxK9VEbeOcJAIx7mJhxkLFOJxhTsH8_58HEo" />
+<input type="hidden" name="form_id" value="ti_lsg_mr_ingredient_chef_form" />
+</div></form>  </div>
+</aside>
+
+<aside id="block-ti-lsg-outbrain-outbrain-right-rail" class="block-ti-lsg-outbrain-outbrain-right-rail block block-ti-lsg-outbrain">
+  <div class="block-inner">
+                  <header><h3>from our partners</h3></header>
+          
+    <div class="OUTBRAIN" data-src="http://www.myrecipes.com/recipe/beefy-taco-salad" data-widget-id="AR_6" data-ob-template="myrecipes" ></div>  </div>
+</aside>
+
+<aside id="block-ti-lsg-mr-recipe-recipes-related" class="block-ti-lsg-mr-recipe-recipes-related block block-ti-lsg-mr-recipe">
+  <div class="block-inner">
+              
+    <h3 class='relate-recipes-header'>More Recipes Like This</h3><div class="tout-wrapper"><!-- node--tout-default.tpl.php -->
+<aside class="node node-recipe node-promoted node--recipe--tout_related_recipes node--tout_related_recipes node--tout">
+  <div class="content">
+
+          <a href="/recipe/chipotle-rubbed-shrimp-taco-salad"><div class="tout-image">
+  <div class="field-images">
+    <!-- node--image--default.tpl.php -->
+<div class="tout-image-thumb">
+
+  <div class="field-image">
+    <img typeof="foaf:Image" src="http://cdn-image.myrecipes.com/sites/default/files/styles/75x75/public/image/recipes/ck/10/08/shrimp-taco-salad-ck-x.jpg?itok=COrEf1sK" width="75" height="75" alt="Chipotle-Rubbed Shrimp Taco Salad Recipe" />  </div>
+  </div>
+  </div>
+</div></a>
+    
+          <h4><a href="/recipe/chipotle-rubbed-shrimp-taco-salad"><div class="tout-headline">
+  <div class="field-tout-headline">
+    Chipotle-Rubbed Shrimp Taco Salad  </div>
+</div></a></h4>
+    
+    
+  <div class="field-source">
+    Cooking Light  </div>
+
+  </div>
+</aside>
+<!-- node--tout-default.tpl.php -->
+<aside class="node node-recipe node-promoted node--recipe--tout_related_recipes node--tout_related_recipes node--tout">
+  <div class="content">
+
+          <a href="/recipe/chicken-taco-salad"><div class="tout-image">
+  <div class="field-images">
+    <!-- node--image--default.tpl.php -->
+<div class="tout-image-thumb">
+
+  <div class="field-image">
+    <img typeof="foaf:Image" src="http://cdn-image.myrecipes.com/sites/default/files/styles/75x75/public/image/recipes/ck/14/03/chicken-taco-salad-ck-x.jpg?itok=DaXKajzT" width="75" height="75" alt="Chicken Taco Salad Recipe" />  </div>
+  </div>
+  </div>
+</div></a>
+    
+          <h4><a href="/recipe/chicken-taco-salad"><div class="tout-headline">
+  <div class="field-headline">
+    Chicken Taco Salad  </div>
+</div></a></h4>
+    
+    
+  <div class="field-source">
+    Cooking Light  </div>
+
+  </div>
+</aside>
+<!-- node--tout-default.tpl.php -->
+<aside class="node node-recipe node-promoted node--recipe--tout_related_recipes node--tout_related_recipes node--tout">
+<div id="ad80x146"><script type="text/javascript">  ad = adFactory.getMultiAd(new Array("1x5", "80x146"));ad.write("ad80x146");</script></div>  <div class="content">
+
+          <a href="/recipe/taco-salad-1"><div class="tout-image">
+  <div class="field-images">
+    <!-- node--image--default.tpl.php -->
+<div class="tout-image-thumb">
+
+  <div class="field-image">
+    <img typeof="foaf:Image" src="http://cdn-image.myrecipes.com/sites/default/files/styles/75x75/public/image/recipes/ay/13/ReaderRecipes/taco-salad-ay-x.jpg?itok=HAFj9UzY" width="75" height="75" alt="Taco Salad Recipe" />  </div>
+  </div>
+  </div>
+</div></a>
+    
+          <h4><a href="/recipe/taco-salad-1"><div class="tout-headline">
+  <div class="field-tout-headline">
+    Taco Salad  </div>
+</div></a></h4>
+    
+    
+  <div class="field-source">
+    MyRecipes  </div>
+
+  </div>
+</aside>
+<div class="clear-both"></div></div><div class="arrow-container left"><a href="/recipe/chipotle-rubbed-shrimp-taco-salad" class="arrow left" title="Chipotle-Rubbed Shrimp Taco Salad"></a></div><div class="arrow-container right"><a href="/recipe/taco-salad-1" class="arrow right" title="Taco Salad"></a></div>  </div>
+</aside>
+
+<aside id="block-ti-lsg-mr-ads-100x75" class="block-ti-lsg-mr-ads-100x75 block block-ti-lsg-mr-ads">
+  <div class="block-inner">
+              
+    <div id="ad100x75"><script type="text/javascript">ad = adFactory.getAd(100,75);ad.write("ad100x75");</script></div>  </div>
+</aside>
+
+<aside id="block-ti-lsg-mr-ads-cmad-300x300" class="block-ti-lsg-mr-ads-cmad-300x300 block block-ti-lsg-mr-ads">
+  <div class="block-inner">
+              
+    <div id="adasynccmad300x300"><script type="text/javascript">ad = adFactory.getCmAd(300,300,"recipes","ofie");ad.write("adasynccmad300x300");</script></div>  </div>
+</aside>
+  </div>
+    </div>
+    
+  </div> <!-- /page -->
+</div> <!-- /page-wrapper -->
+
+<div class="footer-wrapper container-wrapper">
+  <footer class="footer container" role="footer">
+            <div class="region region-footer-top">
+    
+<aside id="block-menu-menu-footer-one" class="block-menu-menu-footer-one block block-menu">
+  <div class="block-inner">
+              
+    <ul class="menu menu-menu-footer-one"><li class="first leaf menu-menu-footer-one__leaf--first menu-menu-footer-one__leaf menu-menu-footer-one__leaf--nochild"><a href="http://www.myrecipes.com/recipe-finder/" title="">Recipes</a></li>
+<li class="leaf menu-menu-footer-one__leaf menu-menu-footer-one__leaf--nochild"><a href="http://www.myrecipes.com/r/my_recipe_file/" title="">My Recipe File</a></li>
+<li class="leaf menu-menu-footer-one__leaf menu-menu-footer-one__leaf--nochild"><a href="http://www.myrecipes.com/quick-and-easy/" title="">Quick &amp; Easy</a></li>
+<li class="leaf menu-menu-footer-one__leaf menu-menu-footer-one__leaf--nochild"><a href="http://www.myrecipes.com/menus/" title="">Menus</a></li>
+<li class="leaf menu-menu-footer-one__leaf menu-menu-footer-one__leaf--nochild"><a href="http://www.myrecipes.com/healthy-diet/" title="">Healthy</a></li>
+<li class="leaf menu-menu-footer-one__leaf menu-menu-footer-one__leaf--nochild"><a href="http://www.myrecipes.com/how-to/video/cooking-videos-00420000005876/" title="">Video</a></li>
+<li class="leaf menu-menu-footer-one__leaf menu-menu-footer-one__leaf--nochild"><a href="http://www.myrecipes.com/menus/weeknight-meal-planners-00420000011372/" title="">Meal Planner</a></li>
+<li class="leaf menu-menu-footer-one__leaf menu-menu-footer-one__leaf--nochild"><a href="http://youvegottotastethis.myrecipes.com/" title="">Blog</a></li>
+<li class="last leaf menu-menu-footer-one__leaf--last menu-menu-footer-one__leaf menu-menu-footer-one__leaf--nochild"><a href="http://www.myrecipes.com/chicken-recipes" title="">Chicken</a></li>
+</ul>
+  </div>
+</aside>
+  </div>
+        <div class="footer-middle-wrapper">
+      <a class="footer_logo" href="/" title="MyRecipes.com" rel="home" id="logo">
+        <img src="/sites/all/themes/myrecipes/footer_logo.png?20160517" alt="MyRecipes.com" />
+      </a>
+                <div class="region region-footer-middle">
+    
+<aside id="block-menu-menu-footer-two" class="block-menu-menu-footer-two block block-menu">
+  <div class="block-inner">
+              
+      </div>
+</aside>
+
+<aside id="block-ti-lsg-mr-social-tools-social-tools-footer" class="block-ti-lsg-mr-social-tools-social-tools-footer block block-ti-lsg-mr-social-tools">
+  <div class="block-inner">
+                  <header><h3>Connect with MyRecipes</h3></header>
+          
+    <div class="item-list"><ul class="socialIcons"><li class="facebook first"><a href="https://www.facebook.com/myrecipes" title="Share"></a></li>
+<li class="twitter"><a href="https://twitter.com/My_Recipes" title="Twitter"></a></li>
+<li class="pinIt"><a href="http://www.pinterest.com/myrecipes/" title="Pinterest"></a></li>
+<li class="googleplus last"><a href="https://plus.google.com/114484026750431741179/posts" title="Google+"></a></li>
+</ul></div><div class="item-list"><ul class="nonSocialIcons"><li class="mobile first"><a href="http://www.myrecipes.com/m/" title="Mobile">Mobile</a></li>
+<li class="newsletter last"><a href="http://www.myrecipes.com/newsletters/" title="Sign up for newsletters">Sign up for newsletters</a></li>
+</ul></div><div class="item-list"><ul class="internalLinks"><li class="subscribe first"><a href="https://subscription.timeinc.com/storefront/link/1004465.html" title="Subscribe to Our Magazines">Subscribe to Our Magazines</a></li>
+<li class="gift"><a href="https://subscription.cookinglight.com/storefront/subscribe-to-cooking-light/site/ck-gift0110.html?xid=myrdonor_ck&amp;link=1003789" title="Give a Gift">Give a Gift</a></li>
+<li class="connect_ecookbooks last"><a href="http://www.myrecipes.com/menus/weeknight-meal-planners" title="Meal Plans">Meal Plans</a></li>
+</ul></div>  </div>
+</aside>
+
+<aside id="block-menu-menu-footer-three" class="block-menu-menu-footer-three block block-menu">
+  <div class="block-inner">
+              
+    <ul class="menu menu-menu-footer-three"><li class="first leaf menu-menu-footer-three__leaf--first menu-menu-footer-three__leaf menu-menu-footer-three__leaf--nochild"><a href="http://www.myrecipes.com/about-us/" title="">About</a></li>
+<li class="leaf menu-menu-footer-three__leaf menu-menu-footer-three__leaf--nochild"><a href="http://www.myrecipes.com/microsites/myrecipes-media-kit/index.html" title="">Advertising</a></li>
+<li class="leaf menu-menu-footer-three__leaf menu-menu-footer-three__leaf--nochild"><a href="http://www.timeinc.com/careers/" title="">Careers</a></li>
+<li class="leaf menu-menu-footer-three__leaf menu-menu-footer-three__leaf--nochild"><a href="http://www.myrecipes.com/contact-us/" title="">Contact</a></li>
+<li class="leaf menu-menu-footer-three__leaf menu-menu-footer-three__leaf--nochild"><a href="http://www.myrecipes.com/frequently-asked-questions/" title="">FAQ</a></li>
+<li class="leaf menu-menu-footer-three__leaf menu-menu-footer-three__leaf--nochild"><a href="http://www.myrecipes.com/press/" title="">Press</a></li>
+<li class="leaf menu-menu-footer-three__leaf menu-menu-footer-three__leaf--nochild"><a href="http://www.myrecipes.com/rss/" title="">RSS</a></li>
+<li class="last leaf menu-menu-footer-three__leaf--last menu-menu-footer-three__leaf menu-menu-footer-three__leaf--nochild"><a href="http://www.myrecipes.com/sitemap" title="">Site Map</a></li>
+</ul>
+  </div>
+</aside>
+
+<aside id="block-menu-menu-footer-four" class="block-menu-menu-footer-four block block-menu">
+  <div class="block-inner">
+              
+      </div>
+</aside>
+<img src="https://data.actnx.com/v2d?tok=3731a0a3-7ebb-4b63-b8f0-bc55bdcaa92a&dev={OPERATING_SYSTEM}:{OS_VERSION}:{DEVICE_MODEL}&v=s:f:1&sync=true&pixel=true">  </div>
+          </div>
+            <div class="region region-footer-bottom">
+    
+<aside id="block-new-relic-ti-new-relic-footer" class="block-new-relic-ti-new-relic-footer block block-new-relic-ti">
+  <div class="block-inner">
+              
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7fc7d5aa08","applicationID":"3798737","transactionName":"YFABN0tQCxJQUkEMXVkaIgBNWAoPHkFUAldoWAINWFYAE25fWgFXaEMKBk5uFQBWVA==","queueTime":0,"applicationTime":407,"atts":"TBcCQQNKGBw=","errorBeacon":"bam.nr-data.net","agent":""}</script>  </div>
+</aside>
+
+<aside id="block-ti-lsg-mr-ads-gumgum-1x6" class="block-ti-lsg-mr-ads-gumgum-1x6 block block-ti-lsg-mr-ads">
+  <div class="block-inner">
+              
+    <div id="ad1x6"><script type="text/javascript">ad = adFactory.getAd(1,6);ad.write("ad1x6");</script></div>  </div>
+</aside>
+
+<aside id="block-ti-lsg-core-copyright" class="block-ti-lsg-core-copyright block block-ti-lsg-core">
+  <div class="block-inner">
+              
+    <span class="copyright"><p class="copyright">
+  Copyright © 2016 Time Inc. Lifestyle Group. All Rights Reserved. Use of this
+  site constitutes acceptance of our
+  <a href="http://cgi.timeinc.net/cgi-bin/mail/dnp/terms_of_service.cgi/myrecipes" target="_blank">
+    Terms of Use
+  </a>
+  and
+  <a href="https://subscription.timeinc.com/storefront/privacy/myrecipes/generic_privacy_new.html?dnp-source=E" target="_blank">
+    Privacy Policy
+  </a>
+  <a href="https://subscription.timeinc.com/storefront/privacy/myrecipes/generic_privacy_new.html?dnp-source=E#california" target="_blank">
+    (Your California Privacy Rights)
+  </a>.
+  <a class="adchoice" href="http://subscription-assets.timeinc.com/prod/assets/themes/magazines/default/template-resources/html/legal/ti-corp-behavioral.html" target="_blank">
+    Ad Choices
+  </a>
+</p></span>  </div>
+</aside>
+
+<aside id="block-ti-lsg-mr-ads-teads-5x5" class="block-ti-lsg-mr-ads-teads-5x5 block block-ti-lsg-mr-ads">
+  <div class="block-inner">
+              
+    <div id="ad5x5"><script type="text/javascript">ad = adFactory.getAd(5,5);ad.write("ad5x5");</script></div>  </div>
+</aside>
+  </div>
+      </footer>
+</div>
+  </div>
+  <script src="http://js.revsci.net/gateway/gw.js?csid=H07710" type="text/javascript"></script>
+<script type="text/javascript">TiiAdTrackRevSci();</script>
+<script src="http://edge.quantserve.com/quant.js" type="text/javascript"></script>
+<script type="text/javascript">
+_qacct='p-5dyPa639IrgIw';
+quantserve();
+</script>
+<noscript>
+<a href="http://www.quantcast.com/p-5dyPa639IrgIw" target="_blank">
+<img alt="" src="http://pixel.quantserve.com/pixel/p-5dyPa639IrgIw.gif" style="display: none;" border="0" height="1" width="1"></img>
+</a>
+</noscript><script type="text/javascript" src="http://cdn-js.myrecipes.com/sites/all/modules/custom/content_types/ti_lsg_mr_recipe/js/recipe.js?o96tnh"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _sf_async_config={};_sf_async_config.uid=59300,_sf_async_config.domain="myrecipes.com",_sf_async_config.useCanonical=!0,_sf_async_config.sections=Drupal.settings.chartbeat.sections,_sf_async_config.authors="",function(){function n(){window._sf_endpt=(new Date).getTime();var n=document.createElement("script");n.setAttribute("language","javascript"),n.setAttribute("type","text/javascript"),n.setAttribute("src","//static.chartbeat.com/js/chartbeat.js"),document.body.appendChild(n)}var t=window.onload;window.onload="function"!=typeof window.onload?n:function(){t(),n()}}();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://cdn-js.myrecipes.com/sites/all/modules/custom/ti_lsg_mr_ouibounce/js/mr_ouibounce.js?1466861093"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+recipe=this_recipe={recipe_id:"237432",created_at:"2003-04-24T12:14:23-04:00",edit_created:true,name:"Beefy Taco Salad",description:"Oven-safe bowls, cooking spray, and flour tortillas are all you need to create crispy, low-fat edible tortilla bowls.",cook_times:[""],premalink:"beefy-taco-salad",ingredients:{ingredient:[{index:"1",amount:"1",unit:"pound",shoppingData:"meat",isPresentation:"",name:"extra lean ground beef"},{index:"2",amount:"",unit:"none",shoppingData:"spices",isPresentation:"",name:"Vegetable cooking spray"},{index:"3",amount:"1",unit:"none",shoppingData:"produce",isPresentation:"",name:"small onion, chopped"},{index:"4",amount:"1",unit:"none",shoppingData:"produce",isPresentation:"",name:"garlic clove, pressed"},{index:"5",amount:"1",unit:"tablespoon",shoppingData:"special",isPresentation:"",name:"fajita seasoning"},{index:"6",amount:"1",unit:"none",shoppingData:"special",isPresentation:"",name:"(12-ounce) jar salsa verde, divided"},{index:"7",amount:"6",unit:"none",shoppingData:"special",isPresentation:"",name:"(8-inch) flour tortillas"},{index:"8",amount:"",unit:"none",shoppingData:"none",isPresentation:"",name:"Smashed Pinto Beans (see recipe)*"},{index:"9",amount:"1\/2",unit:"none",shoppingData:"produce",isPresentation:"",name:"head iceberg lettuce, shredded"},{index:"10",amount:"",unit:"none",shoppingData:"none",isPresentation:"",name:"Chunky Avocado Sauce"},{index:"11",amount:"",unit:"none",shoppingData:"produce",isPresentation:"",name:"Garnish: chopped fresh tomatoes"}]},preparation:"<p>Cook beef in a nonstick skillet coated with cooking spray 7 minutes or until beef crumbles and is no longer pink. Drain and pat dry with paper towels; set beef aside.<\/p><p>Saut\u00e9 onion in skillet coated with cooking spray 5 minutes. Add garlic, and saut\u00e9 1 minute. Return beef to skillet. Add fajita seasoning and 1\/2 cup salsa verde. Cook over medium-high heat 3 minutes or until thoroughly heated and liquid is evaporated.<\/p><p>Coat both sides of 1 tortilla with cooking spray. Place tortilla inside a 7-inch oven-safe bowl. Place bowl on a baking sheet.<\/p><p>Bake at 350\u00b0 for 10 to 15 minutes or until golden. Remove tortilla from bowl; bake 5 more minutes. Remove from oven, and let cool 5 minutes. Repeat with remaining tortillas and cooking spray. (You may prepare 2 to 3 bowls at a time in your oven.)<\/p><p>Spread 1\/4 cup Smashed Pinto Beans evenly over bottom of each tortilla shell. Sprinkle evenly with lettuce and beef mixture. Top evenly with Chunky Avocado Sauce. Serve with remaining salsa verde. Garnish, if desired.<\/p><p>*Canned fat-free refried beans may be substituted.<\/p><p>Note: Salsa verde, also called green salsa, may be found in the Mexican food aisle of supermarket.<\/p>",editorial_recipe_data:{publication_logo_url:"",extra_large_image_photo_credit:"",omit_from_search:false,rendered_at:"2016-06-25T09:24:55-04:00",seo_title:"Beefy Taco Salad Recipes",last_modified_at:"2014-10-07T11:31:38-04:00",servings_yield:"Makes 6 servings",nutritional_info:[{type:"calories",unit:"none",amount:"391"},{type:"caloriesfromfat",unit:"%",amount:"34"},{type:"fat",unit:"g",amount:"15"},{type:"satfat",unit:"g",amount:"3.6"},{type:"monofat",unit:"g",amount:"2.5"},{type:"polyfat",unit:"g",amount:"0.6"},{type:"protein",unit:"g",amount:"22"},{type:"carbohydrate",unit:"g",amount:"45"},{type:"fiber",unit:"g",amount:"8.6"},{type:"cholesterol",unit:"mg",amount:"23"},{type:"iron",unit:"mg",amount:"3.7"},{type:"sodium",unit:"mg",amount:"993"},{type:"calcium",unit:"mg",amount:"135"}]},conveniences:["Kid Friendly"],course:["Salads"],main_ingredients:["Beef"],cuisines:["American","Southwest"],dietary:[],cooking_methods:[],occasions:[]}
+//--><!]]>
+</script>
+<script type="text/javascript" async="async" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script type="text/javascript" src="http://cdn-js.myrecipes.com/sites/default/files/advagg_js/js__amTzwSyV8dWeCbN6RoPqoOb0PrV5uJFqI1SSbtVMQ6A__aBe1zN84lqNUZoIc871UHJNfK8abccWihWZ6ZXjAGvk__okqcULUhAFH13FFz8HCZAXiO-JojY7wZpjuJm6Tfrmk.js"></script>
+<script type="text/javascript" src="http://cdn-js.myrecipes.com/sites/default/files/advagg_js/js__NmywKAn7pAsR4jkELvQ7aW6hQHw-P3fN7heCcdDdrRs__pCdhtj-NRncDS4MZOwOFkSJpljuJbkQlLM5B5snSY0c__okqcULUhAFH13FFz8HCZAXiO-JojY7wZpjuJm6Tfrmk.js"></script>
+<script type="text/javascript" src="http://cdn-js.myrecipes.com/sites/default/files/advagg_js/js__y-kCCYjsZZgvGtU2je7xu1MrTtJIlwNHP69Ld5FjRdA__z8ZTWUCVr2cXN0pja4gQAYltPqgSc4_RfU-KIeWSrPI__okqcULUhAFH13FFz8HCZAXiO-JojY7wZpjuJm6Tfrmk.js"></script>
+<script type="text/javascript" src="http://widgets.outbrain.com/outbrain.js"></script>
+<script type="text/javascript" src="http://cdn-js.myrecipes.com/sites/default/files/advagg_js/js__stvtJJsqlBga8tPtt85ALuo9PtguQXzZk4WmICWp2I8__I5cYIMXyqBQcppBMuKgpakSeKQ_33Z-juN2aLGRP8to__okqcULUhAFH13FFz8HCZAXiO-JojY7wZpjuJm6Tfrmk.js"></script>
+<script type="text/javascript" src="//cdn.optimizely.com/js/61589417.js"></script>
+<script type="text/javascript" src="http://cdn-js.myrecipes.com/sites/all/themes/myrecipes/js/global.js?o96tnh"></script>
+<script type="text/javascript" src="http://cdn-js.myrecipes.com/sites/all/themes/myrecipes/js/jquery.freezeOnScroll.js?o96tnh"></script>
+<script type="text/javascript" src="http://cdn-js.myrecipes.com/sites/all/modules/custom/ti_lsg_mr_search/js/ti_lsg_mr_search.js?1466861093"></script>
+<script type="text/javascript" src="http://cdn-js.myrecipes.com/sites/all/modules/custom/ti_lsg_mr_ingredient_chef/js/ingredient-chef.js?1466861093"></script>
+<script type="text/javascript" async="async" src="//myrecipes.chicoryapp.com/widget_v2/"></script>
+<script type="text/javascript" src="http://www.myrecipes.com/sites/all/modules/custom/ti_lsg_mr_sitecatalyst/js/ka-omniture.js"></script>
+</body>
+</html>

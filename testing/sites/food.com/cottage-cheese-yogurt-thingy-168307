@@ -1,0 +1,1652 @@
+
+
+<!DOCTYPE html>
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+
+
+<head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+    if (typeof SNI_COMMUNITY_SERVICES == 'undefined') {
+        SNI_COMMUNITY_SERVICES = {};
+    }
+    SNI_COMMUNITY_SERVICES.SITE_NAME = "fooddotcom";
+    SNI_COMMUNITY_SERVICES.SITE_CODE = "fdc";
+
+</script>
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+
+
+
+        <meta name="keywords" content="fat-free cottage cheese,non-fat vanilla yogurt,Splenda sugar substitute,strawberries recipe, recipes, recipies,15-minutes-or-less,time-to-make,course,main-ingredient,preparation,occasion,for-1-or-2,5-ingredients-or-less,breakfast,eggs-dairy,easy,kid-friendly,dietary,inexpensive,taste-mood,sweet,number-of-servings,3-steps-or-less,15-minutes-or-less,time-to-make,course,main-ingredient,preparation,occasion,for-1-or-2,5-ingredients-or-less,breakfast,eggs-dairy,easy,kid-friendly,dietary,inexpensive,taste-mood,sweet,number-of-servings,3-steps-or-less,15-minutes-or-less,time-to-make,course,main-ingredient,preparation,occasion,for-1-or-2,5-ingredients-or-less,breakfast,eggs-dairy,easy,kid-friendly,dietary,inexpensive,taste-mood,sweet,number-of-servings,3-steps-or-less" />
+        <meta name="description" content="Make and share this Cottage Cheese Yogurt Thingy recipe from Food.com." />
+        <meta name="sailthru.tags" content="15-minutes-or-less,time-to-make,course,main-ingredient,preparation,occasion,for-1-or-2,5-ingredients-or-less,breakfast,eggs-dairy,easy,kid-friendly,dietary,inexpensive,taste-mood,sweet,number-of-servings,3-steps-or-less" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="apple-itunes-app" content="app-id=418971697, affiliate-data=ct=fd-smart-banner&pt=260410" />
+        <meta property="fb:app_id" content="293868454060703" />
+        <meta property="fb:pages" content="118337671518735" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Cottage Cheese Yogurt Thingy Recipe - Food.com" />
+        <meta property="og:url" content="http://www.food.com/recipe/cottage-cheese-yogurt-thingy-168307" />
+        <meta property="og:description" content="Make and share this Cottage Cheese Yogurt Thingy recipe from Food.com." />
+        <meta property="og:image" content="http://img.sndimg.com/food/image/upload/w_614,h_461,c_fit/v1/img/recipes/16/83/07/picFV37q6.jpg" />
+
+
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(e,n){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,n)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var c=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],u=["addPageAction"],f="api-";i(c,function(e,n){newrelic[n]=r(f+n,"api")}),i(u,function(e,n){newrelic[n]=r(f+n)}),n.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?c(e,a,i):i()}function t(t,r,o){e&&e(t,r,o);for(var i=n(o),a=l(t),c=a.length,u=0;c>u;u++)a[u].apply(i,r);var s=f[m[t]];return s&&s.push([w,t,r,i]),i}function p(e,n){g[e]=l(e).concat(n)}function l(e){return g[e]||[]}function d(e){return s[e]=s[e]||o(t)}function v(e,n){u(e,function(e,t){n=n||"feature",m[t]=n,n in f||(f[n]=[])})}var g={},m={},w={on:p,emit:t,get:d,listeners:l,context:n,buffer:v};return w}function i(){return new r}var a="nr@context",c=e("gos"),u=e(2),f={},s={},p=n.exports=o();p.backlog=f},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!b++){var e=y.info=NREUM.info,n=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){u(m,function(n,t){e[n]||(e[n]=t)});var t="https"===g.split(":")[0]||e.sslForHttp;y.proto=t?"https://":"http://",c("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+e.agent,n.parentNode.insertBefore(r,n)}}}function o(){"complete"===s.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=e("handle"),u=e(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-952.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=n.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader"]);</script>
+
+<title>Cottage Cheese Yogurt Thingy Recipe - Food.com</title>
+
+<link rel="image_src" href="http://img.sndimg.com/food/image/upload/w_614,h_461,c_fit/v1/img/recipes/16/83/07/picFV37q6.jpg" />
+<link rel="shortcut icon" type="image/x-icon" href="http://img.food.com/fdc/img/ico/favicon.ico"/>
+
+<link rel="touch-icon" href="http://img.food.com/fdc/mobile/icons/touch-icon-iphone.png" />
+<link rel="touch-icon" sizes="76x76" href="http://img.food.com/fdc/mobile/icons/touch-icon-ipad.png" />
+<link rel="touch-icon" sizes="120x120" href="http://img.food.com/fdc/mobile/icons/touch-icon-ipad@2x.png" />
+<link rel="touch-icon" sizes="152x152" href="http://img.food.com/fdc/mobile/icons/touch-icon-iphone@3x.png" />
+<link rel="touch-icon-precomposed" href="http://img.food.com/fdc/mobile/icons/touch-icon-iphone@2x.png"/>
+
+
+
+<link rel="canonical" href="http://www.food.com/recipe/cottage-cheese-yogurt-thingy-168307"/>
+
+
+
+<link rel="amphtml" href="http://www.food.com/amp/recipe/cottage-cheese-yogurt-thingy-168307"/>
+
+
+
+<link rel="alternate" href="android-app://com.food.mobile/http/food.com/recipes/168307" />
+
+
+
+<link rel="publisher" href="https://plus.google.com/117908044835237955765" />
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="http://img.food.com/fd/css/bootstrap.min.css?v=89a" />
+    <link rel="stylesheet" type="text/css" href="http://img.food.com/fd/css/fd.min.css?v=89a" />
+
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="http://img.food.com/fd/css/pages/recipe.min.css?v=89a" />
+
+    <style type="text/css">
+
+    </style>
+
+
+
+
+
+
+
+<script>
+    window.__gigyaConf = {
+        defaultRegScreenSet: "FDC-LoginReg",
+        defaultMobileRegScreenSet: "FDC-LoginReg",
+        enabledProviders:'facebook,twitter,instagram,google,yahoo',
+        sessionExpiration: 31536000
+    };
+</script>
+
+
+
+
+
+        <script type="text/javascript" src="http://img.food.com/fd/js/lib-bundle.min.js?v=89a" ></script>
+
+        <script type="text/javascript" src="http://code.adsales.snidigital.com/conf/ads-config.min.js" ></script>
+
+        <script type="text/javascript" src="http://code.adsales.snidigital.com/lib/1/sni-ads.min.js" ></script>
+
+        <script type="text/javascript" src="http://cdn.gigya.com/JS/socialize.js?apikey=3_Vstt7Zpmd0yMcuvT3s56RZuF1CU7IkBgcni4jzx28fjUmb0QQP2TLqXeOwNoQmnS" ></script>
+
+        <script type="text/javascript" src="http://img.food.com/fd/js/core.min.js?v=89a" ></script>
+
+        <script type="text/javascript" src="//assets.adobedtm.com/076e416a6caa07234c15d9bd371ee9e19eef88d3/satelliteLib-bcf5f78965434ee359ed8599c3c4e330702525b7.js" ></script>
+
+
+<script type="text/javascript">
+
+        //Criteo Ad Enhancement
+        var crtg_nid = '3261';
+        var crtg_cookiename = 'crtg_scripps';
+        var crtg_varname = 'crtg_content';
+        function crtg_getCookie(c_name){ var i,x,y,ARRCookies=document.cookie.split(';');for(i=0;i<ARRCookies.length;i++){x=ARRCookies[i].substr(0,ARRCookies[i].indexOf('='));y=ARRCookies[i].substr(ARRCookies[i].indexOf('=')+1);x=x.replace(/^\s+|\s+$/g,'');if(x==c_name){return unescape(y);} } return '';}
+        var crtg_content = crtg_getCookie(crtg_cookiename);
+        var crtg_rnd=Math.floor(Math.random()*99999999999);
+        (function(){
+            var crtg_url=location.protocol+'//rtax.criteo.com/delivery/rta/rta.js?netId='+escape(crtg_nid);
+                crtg_url +='&cookieName='+escape(crtg_cookiename);
+                crtg_url +='&rnd='+crtg_rnd;
+                crtg_url +='&varName=' + escape(crtg_varname);
+            var crtg_script=document.createElement('script');crtg_script.type='text/javascript';crtg_script.src=crtg_url;crtg_script.async=true;
+            if(document.getElementsByTagName('head').length>0)document.getElementsByTagName('head')[0].appendChild(crtg_script);
+            else if(document.getElementsByTagName('body').length>0)document.getElementsByTagName('body')[0].appendChild(crtg_script);
+        })();
+
+        mdManager = typeof mdManager !== 'undefined' ? mdManager : new MetaDataManager();
+        mdManager.addParameter("adkey1", "KID_FRIENDLY");
+        mdManager.addParameter("adkey2", "");
+        mdManager.addParameter("CategoryDspName", "RECIPES");
+        mdManager.addParameter("Classification", "RECIPES,RECIPES,FOODCOM");
+        mdManager.addParameter("ingredients", "fat-free cottage cheese,non-fat vanilla yogurt,Splenda sugar substitute,strawberries");
+        mdManager.addParameter("keywordids", "11,12,13,14,16,17,25,32,84,97,141,161,252,299,455,457,465,469");
+        mdManager.addParameter("keywords", "15_minutes_or_less,time_to_make,course,main_ingredient,preparation,occasion,for_1_or_2,5_ingredients_or_less,breakfast,eggs_dairy,easy,kid_friendly,dietary,inexpensive,taste_mood,sweet,number_of_servings,3_steps_or_less");
+        mdManager.addParameter("SctnDspName", "RECIPES");
+        mdManager.addParameter("Site", "FOODCOM");
+        mdManager.addParameter("Sponsorship", "");
+        mdManager.addParameter("type", "RECIPE");
+        mdManager.addParameter("UniqueId", "1-168307-MAIN");
+        mdManager.addParameter("Subdomain", "");
+        mdManager.addParameter("Url", "http://www.food.com/recipe/cottage-cheese-yogurt-thingy-168307");
+        mdManager.addParameter("Title", "Cottage Cheese Yogurt Thingy Recipe - Food.com");
+        mdManager.addParameter("PrepTime", "1");
+        mdManager.addParameter("Version", "beta");
+        mdManager.addParameter("Site Tier", "direct");
+        mdManager.addParameter("OrigPubDate", "2006-05-16|2011-08-13");
+        mdManager.addParameter("TopRecipe", "false");
+        mdManager.addParameter("TopSlideshow", "true");
+        mdManager.addParameter("DeliveryChannel", (FD && FD.viewports && FD.viewports.viewport().label) || null);
+
+
+</script>
+
+
+
+<!-- Include Page Data JS Configuration -->
+
+
+
+<script type="text/javascript">
+
+    // creates the FD and FD.Page namespace
+    if (typeof FD == 'undefined') { FD = {}; }
+    if (!FD.Page) { FD.Page = {}; }
+
+    // initialize the page configuration
+    (function() {
+
+        // set up SNI object
+        if (typeof SNI == 'undefined') { SNI = {}; }
+        $.extend(true, SNI, {
+            Config: {
+                name: 'FOODCOM',
+                domain: 'http://www.food.com',
+                imgDomain: 'http://img.food.com',
+                aimDomain: 'http://aim.food.com',
+                shareDomain: 'http://share.food.com',
+                cookieDomain: '.food.com',
+                Video: {
+                    fallbackSiteSectionId: '953690', // Unique for each site and each environment
+                    networkId: '191701', // Shared across all Scripps properties
+                    nielsen: {
+                        apid: 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX'
+                    },
+                    playerUrl: {
+                        base: 'http://www.player.video.snidigital.com/vpc/1/6',
+                        css: 'http://www.player.video.snidigital.com/vpc/1/6/css/sni-video.min.css',
+                        skin: 'http://www.player.video.snidigital.com/vpc/1/6/skins/sni-default/sni-default.json',
+                        layout: 'http://www.player.video.snidigital.com/vpc/1/6/skins/sni-default/layout-no-embed.xml'
+                    }
+                }
+            },
+            Community: {
+                xUrlPre: '',
+                aimDomain: 'http://aim.food.com',
+                ur3Domain: 'http://share.food.com',
+                ssoController: 'http://www.scrippscontroller.com/sso/checkcontrollercookie.html',
+
+                UR: {
+                    initialized: true,
+                    noAIM: true,
+
+                    // moved userInfo parameters to FD.Session.init()
+
+                    shareServerUrl: 'http://share.food.com',
+                    globalLoginURL: 'http://www.food.com/login',
+                    globalLogoutBaseUrl: 'http://share.food.com/redirectors/logout_redirector.jsp',
+                    globalRegistrationURL: 'http://www.food.com/login',
+                    globalRegistrationLiteURL: 'http://www.food.com/login',
+                    globalPrivateProfileUrl: 'http://www.food.com/user',
+                    globalUserSettingsUrl: 'http://www.food.com/user',
+                    imageServerUrl: 'http://img.food.com',
+                    previewUrl: 'null'
+                }
+            }
+        });
+
+        // initialize the core components
+        FD.Session.init({
+            MetaData: {
+                environment: 'production',
+                deliveryChannel: FD.viewports.viewport().label,
+                pageType: 'RECIPE',
+                gigyaMode: FD.Util.isGigyaEnabled()
+            },
+
+            environment: 'production',
+            serverURL:'http://www.food.com',
+            imgServerURL:'http://img.food.com',
+            secureServerURL:'https://api.food.com',
+            shareServerURL: 'http://share.food.com',
+            aimServerURL: 'http://aim.food.com',
+            ssoControllerURL: 'http://www.scrippscontroller.com/sso/checkcontrollercookie.html',
+            apiServerURL: 'http://www.food.com',
+            RecipeBoxApiURL: 'http://recipes.food.com',
+            RecipeBoxWrapperURL: 'http://www.food.com'+'/services/mobile/recipebox/wrap-rb',
+            groceryListURL: 'http://recipes.food.com/shopping-list',
+            newsletterURL: 'http://mynewsletters.scrippsnetworks.com/?mode=subscribe&nlbrand=foodcom&source=0000_FC_HEADER',
+            adServer: 'adsremote.scrippsnetworks.com',
+            ctiURL: 'http://cti.w55c.net/ct/ct-db44eb055e234032a827dbac431ef7e9.js',
+            reCaptcha: '6LdYrfASAAAAAD4ciUco6uTHK6sQ3s9hjoyppvNc',
+            gigyaURL: 'http://cdn.gigya.com/JS/socialize.js?apikey=3_Vstt7Zpmd0yMcuvT3s56RZuF1CU7IkBgcni4jzx28fjUmb0QQP2TLqXeOwNoQmnS',
+            defaultAvatarURL: 'http://img.sndimg.com/food/image/upload/w_45,h_45,q_100,c_thumb/v1/fdc/img/placeholder/avatar.jpg',
+            cookieDomain: '.food.com',
+            reviewSubmissionURL: 'http://www.food.com/services/mobile/recipe/review/submit',
+            IS: { FB: { id: '293868454060703' } },
+
+            Video: {
+
+            },
+
+            SocialUploader: {
+                apiKey: 'A6x6UxJTDSEenRnl6jrIsz',
+                preSubmitUrl: "/rzfoodservices/web/photo-upload/{assetType}/presubmit",
+                submitUrl: "/rzfoodservices/web/photo-upload/{assetType}/submit",
+                triggerClass: 'add-pictures',
+                pickOptions: {
+                    multiple: true
+                },
+                storeOptions: {
+                    path: null,
+                    transId: null
+                },
+                cloudinaryPathPrefix: '',
+                cloudinaryAvatarPathPrefix: '/food_avatar',
+                cloudinaryImgBasePath: 'img.sndimg.com/food',
+                cloudinaryUrl: 'http://img.sndimg.com/food/image/upload',
+                cloudinaryV1: '/v1/img',
+                cloudinaryFullBucket: '/v1/fdc'
+            },
+
+            useShortUrl: true
+        });
+
+    }());
+
+    // Google Analytics
+    var g_adkeyword="Cottage Cheese Yogurt Thingy Recipe - Food.com";
+    var g_aduniqueid = '';
+    var g_recipesource= '';
+
+</script>
+
+
+<!--[if lt IE 9]>
+<script src="http://img.food.com/js/html5shiv.js"></script>
+<![endif]-->
+
+<style>
+    body {
+        background-image: none;
+    }
+    .fd-logo .ie-logo {
+        display: none;
+    }
+</style>
+
+
+
+
+</head>
+<body>
+<div class="fd-site-wrapper">
+
+    
+
+
+
+
+
+
+<!-- header -->
+
+<div class="ad-wrap">
+    <div class="fd-ad fd-leaderboard" id="dfp_leaderboard" data-dfp-type="dfp_leaderboard" data-dfp="loaded"></div>
+</div>
+
+<a name="top"></a>
+
+
+<div class="fd-header-wrap analytic-box" data-module="globalHeader">
+    <div class="navbar navbar-default navbar-static-top" role="navigation" id="fdc-navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#fdc-navigation">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="icon-fdc-burger"></i>
+                </button>
+                <div id="fd-logo">
+                    <div class="fd-logo">
+                        <object data="http://img.food.com/fdc/img/logo/FDC-logo.svg" type="image/svg+xml" height="100%" width="100%" title="Food.com: The most complete collection of free recipes on the Internet, trusted by home chefs throughout the world.">
+                            <img src="http://img.sndimg.com/food/image/upload/w_100,fl_progressive/v1/fdc/img/logo/FDC-logo-header.png" alt="Food.com: The most complete collection of free recipes on the Internet, trusted by home chefs throughout the world." height="100%" width="100%" />
+                        </object>
+                        <a class="ie-logo" href="http://www.food.com"><img src="http://img.sndimg.com/food/image/upload/w_100,fl_progressive/v1/fdc/img/logo/FDC-logo-header.png" alt="Food.com - Home of the Home Chef" height="100%" width="100%" /></a>
+                    </div>
+                </div>
+
+                <div class="fd-search">
+    <form id="search-form" action="http://www.food.com/search/all" data-params="">
+        <div class="fd-search-group">
+            <i class="icon-btn icon-fdc-search"></i>
+            <input type="search" placeholder="Search Food." />
+            <div class="ta-list" >
+                <div class="list-title"></div>
+                <ul></ul>
+            </div>
+        </div>
+        <span class="fd-search-cancel"><i class="icon-fdc-close"></i></span>
+        <a class="fd-back-to-top" href="#top"><i class="icon-fdc-arrow-up"></i>TOP</a>
+    </form>
+</div>
+
+                <ul class="nav-links">
+
+                    <!-- sm, md, lg breakpoints -->
+                    <!-- not authenticated -->
+
+                    <!-- Sign Up/Login -->
+                    <li class="hidden-xs">
+                        <button type="button" class="navbar-toggle fd-log-btn sso-login" id="fd-login-btn">Log In</button>
+                    </li>
+                    <li class="hidden-xs">
+                        <button type="button" class="navbar-toggle fd-sup-btn sso-sign-up" id="fd-signup-btn">
+                            <span>Sign Up</span>
+                        </button>
+                    </li>
+
+                    <!-- / not authenticated -->
+                    <!-- authenticated -->
+
+                    <!-- RecipeBox -->
+                    <li class="hidden-xs">
+                        <a href="http://recipes.food.com/shopping-list" class="navbar-toggle btn fd-gl-btn" id="fd-grocery-list-btn" title="Grocery List">
+                            <i class="icon-fdc-grocery-list"></i>
+                        </a>
+                        <a href="http://recipes.food.com" class="navbar-toggle btn fd-rb-btn" id="fd-recipe-box-btn" title="Recipe Box">
+                            <i class="icon-fdc-recipe-box"></i>
+                        </a>
+                    </li>
+
+                   <!-- /authenticated -->
+                   <!-- /sm, md, lg breakpoints -->
+
+
+                    <!-- all breakpoints -->
+                    <!-- not authenticated -->
+
+                    <!-- recent history button -->
+                    <li class="fd-avatar-noauth">
+                        <button type="button" class="navbar-toggle fd-user-icon-btn" data-toggle="collapse" data-target="#fd-user-recent-menu">
+                            <i class="icon-fdc-profile"></i>
+                        </button>
+                    </li>
+
+                    <!-- /not authenticated -->
+                    <!-- authenticated -->
+
+                    <!-- User Avatar -->
+                    <li class="fd-avatar-auth">
+                        <button type="button" class="navbar-toggle fd-user-btn" data-toggle="collapse" data-target="#fdc-user-menu">
+                            <span class="fd-avatar">
+                                <img alt="generic user avatar" src="http://img.sndimg.com/food/image/upload/w_45,h_45,q_100,c_thumb/v1/fdc/img/placeholder/avatar.jpg">
+                            </span>
+                            <span class="fd-greet">Hi, [user]</span>
+                            <i class="icon-fdc-navigate-down"></i>
+                        </button>
+                    </li>
+
+                    <!-- /authenticated -->
+                    <!-- /all breakpoints -->
+
+                    <!-- xs screen only -->
+                    <!-- search button -->
+                    <li class="visible-xs hidden-sm">
+                        <button type="button" class="navbar-toggle fd-sch-btn" id="fd-search-button">
+                            <span class="sr-only">Toggle search field</span>
+                            <i class="icon-fdc-search"></i>
+                        </button>
+                    </li>
+                    <!--/search button -->
+                    <!-- /xs screen only -->
+                </ul>
+            </div>
+            <div class="navbar-collapse fdc-menu collapse" id="fdc-navigation">
+                <ul class="nav navbar-nav">
+                    <li class="navbar-lead">
+                        <a href="http://www.food.com/slideshow/popular-facebook-recipes-393" data-clicktrack="true">
+                            <div class="asset-label">Featured</div>
+                            <div class="asset-feature">Our Top 50 Facebook Recipes</div>
+                        </a>
+                    </li>
+                    <li><a href="http://www.food.com" data-clicktrack="true">Home</a></li>
+                    <li><a href="http://www.food.com/recipe" data-clicktrack="true">Recipes</a></li>
+                    <li><a href="http://www.food.com/photo-gallery" data-clicktrack="true">Photo Galleries</a></li>
+                    <li><a href="http://www.food.com/videos/all-videos-20" data-clicktrack="true">Videos</a></li>
+                    <li><a href="http://www.food.com/how-to" data-clicktrack="true">How-Tos</a></li>
+                    <li><a href="http://www.food.com/topics" data-clicktrack="true">All Categories</a></li>
+                    <li class="navbar-footer">
+                        <div class="asset-label more-food">
+                            More Food.com
+                        </div>
+                        <ul>
+                            <li><a href="http://mynewsletters.scrippsnetworks.com/?mode=subscribe&nlbrand=foodcom&source=0000_FC_HEADER" data-clicktrack="true">Newsletters</a></li>
+                            <li><a href="http://www.food.com/how-to/about-us-31" data-clicktrack="true">About Us</a></li>
+                            <li><a href="http://www.food.com/html-sitemap">Site Map</a></li>
+                            <li><a href="http://www.food.com/feedback" data-clicktrack="true">Contact Us</a></li>
+                        </ul>
+                        <div class="fd-navbar-tools">
+                                <dl>
+                                    <dd>
+                                        <a class="icon-fdc-facebook" href="http://www.facebook.com/Food.com" target="_blank" data-clicktrack="true"></a>
+                                    </dd>
+                                    <dd>
+                                        <a class="icon-fdc-pinterest" href="http://pinterest.com/fooddotcom/" target="_blank" data-clicktrack="true"></a>
+                                    </dd>
+                                    <dd>
+                                        <a class="icon-fdc-twitter" href="https://twitter.com/fooddotcom" target="_blank" data-clicktrack="true"></a>
+                                    </dd>
+                                    <dd>
+                                        <a class="icon-fdc-google" href="https://plus.google.com/117908044835237955765/posts" target="_blank" data-clicktrack="true"></a>
+                                    </dd>
+                                    <dd>
+                                        <a class="icon-fdc-instagram" href="http://instagram.com/fooddotcom" target="_blank" data-clicktrack="true"></a>
+                                    </dd>
+                                    <dd>
+                                        <a class="icon-fdc-email" href="http://mynewsletters.scrippsnetworks.com/?mode=subscribe&nlbrand=foodcom&source=0000_FC_HEADER"></a>
+                                    </dd>
+                                </dl>
+                        </div>
+                        <div class="fd-legal">
+                            <p>
+                                <span class="fns">Food Network Sites</span>
+                                &copy; 2016  <a href="http://www.scrippsnetworks.com" rel="Scripps Networks" data-clicktrack="true">Scripps Networks</a>, LLC.<br/>
+                                All Rights Reserved.
+                            </p>
+                            <ul>
+                                <li><a href="http://www.scrippsnetworksdigital.com" data-clicktrack="true" target="_blank">Advertise With Us</a></li>
+                                <li><a id="_bapw-link" href="http://info.evidon.com/pub_info/1212?v=1&nt=1&nw=false" target="_blank" data-clicktrack="true"><img id="_bapw-icon" src="http://c.betrad.com/pub/icon1.png"><span>AdChoices</span></a></li>
+                                <li><a href="http://www.scrippsnetworks.com/privacy.aspx" target="_blank" data-clicktrack="true">Privacy Policy</a></li>
+                                <li><a href="http://www.scrippsnetworks.com/terms.aspx" target="_blank" rel="gf-legal-1" data-clicktrack="true">Terms of Use</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-collapse fdc-menu fdc-user-menu collapse" id="fdc-user-menu">
+                <ul class="nav navbar-nav">
+                    <li class="navbar-lead fd-menu-greeting">
+                        <a href="http://www.food.com/user">Hi, [user greeting]</a>
+                    </li>
+                    <li><a href="http://www.food.com/user/">Profile</a></li>
+                    <li><a href="http://recipes.food.com">Recipe Box</a></li>
+                    <li><a href="http://recipes.food.com/shopping-list">Grocery List</a></li>
+                    <li><a class="hidden-xs" href="http://www.food.com/mail">Inbox</a></li>
+                    <li><a href="http://www.food.com/upload/recipe">Add a Recipe</a></li>
+                    <li><a href="http://www.food.com/user/settings">Account Settings</a></li>
+                    <li><a class="sso-logout" href="http://share.food.com/redirectors/logout_redirector.jsp?DEST_URL=">Log Out</a></li>
+                    <li class="fd-no-session sso-login"><a href="http://www.food.com/login?DEST_URL=">Log In</a></li>
+                    <li class="fd-no-session sso-sign-up"><a href="http://www.food.com/login?DEST_URL=">Sign Up</a></li>
+                </ul>
+            </div>
+
+
+
+            <!-- RECENTLY VIEWED ASSETS MENU -->
+            <div class="navbar-collapse fdc-menu collapse" id="fd-user-recent-menu">
+                <ul class="nav navbar-nav">
+                    <!--
+                    <li class="fd-session"><a href="http://recipes.dev1-food.com">Recipe Box</a></li>
+                    <li class="fd-session"><a href="http://recipes.dev1-food.com/shopping-list">Grocery List</a></li>
+                    <li class="fd-session"><a href="http://www.dev1-food.com/upload/recipe">Add a Recipe</a></li>
+                    -->
+                    <li class="fd-no-session fd-sso-item">
+                        <a  href="/login?dest" class="sso-login pull-right" data-toggle="collapse" data-target="#fd-user-recent-menu">Log&nbsp;In</a>
+                        <a href="/signup?dest" class="sso-sign-up" data-toggle="collapse" data-target="#fd-user-recent-menu">Sign&nbsp;Up</a>
+                    </li>
+
+
+                </ul>
+            </div>
+            <!-- /RECENTLY VIEWED ASSETS MENU -->
+
+
+
+            <!--/ Search Filter flyout /-->
+            <div class="navbar-collapse fdc-menu collapse" id="fd-filters">
+                <div class="filter-lead">
+                    <h3>
+                        <i class="icon-fdc-filters"></i>Filters
+                    </h3>
+                    <button class="btn-link" id="fd-filters-cancel" data-target="#fd-filters" data-toggle="collapse">Close</button>
+                    <button id="fd-filters-done" data-target="#fd-filters" data-toggle="collapse">Search</button>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <h3>What's in Your Fridge?</h3>
+
+                        <div class="dfp_searchfilters" class="hidden hide"></div>
+
+                        <div class="fd-typeahead" data-target=".fd-selected-items.included">
+                            <form id="search-form" action="http://www.food.com/services/mobile/fdc/suggest/food?key=">
+                                <label for="include-search">Includes</label>
+                                <div class="input-group" data-list-name="included">
+                                    <input type="text" id="include-search" class="form-control" autocomplete="off" placeholder="Find an Ingredient" />
+                                    <span class="input-group-addon"><i class="icon-fdc-search"></i></span>
+                                    <input type="hidden" id="include" />
+                                </div>
+                                <div class="ta-list" >
+                                    <div class="list-title"></div>
+                                    <ul></ul>
+                                </div>
+                            </form>
+
+                            <div class="fd-selected-items included" data-desc="container to show what's included">
+                            </div>
+                        </div>
+                        <div class="fd-typeahead" data-target=".fd-selected-items.excluded">
+                            <form id="search-form" action="http://www.food.com/services/mobile/fdc/suggest/food?key=">
+                                <label for="exclude-search">Excludes</label>
+                                <div class="input-group">
+                                    <input type="text" id="exclude-search" class="form-control" autocomplete="off" placeholder="Find an Ingredient" />
+                                    <span class="input-group-addon"><i class="icon-fdc-search"></i></span>
+                                    <input type="hidden" id="exclude" />
+                                </div>
+                                <div class="ta-list" >
+                                    <div class="list-title"></div>
+                                    <ul></ul>
+                                </div>
+                            </form>
+
+                            <div class="fd-selected-items excluded" data-desc="container to show what's excluded"></div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <h3>Browse By:</h3>
+
+                        <button id="fd-filters-clear" class="btn-link">Clear All</button>
+
+                        <div class="fd-combobox filter-ingredient" data-source="ingredient"></div>
+                        <div class="fd-combobox filter-meal" data-source="meal"></div>
+                        <div class="fd-combobox filter-course" data-source="course"></div>
+                        <div class="fd-combobox filter-diet-nutrition" data-source="nutrition"></div>
+                        <div class="fd-combobox filter-occasion" data-source="occasion"></div>
+                        <div class="fd-combobox filter-cuisine" data-source="cuisine"></div>
+                        <div class="fd-combobox filter-preparation" data-source="preparation"></div>
+                        <div class="fd-combobox filter-record-type" data-source="record-type"></div>
+                    </li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+</div>
+
+<script type="text/html-template" id="tmpl-selected-filter">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="icon-fdc-close"></i></span>
+        <div class="form-control">{food}</div>
+    </div>
+</script>
+<script type="text/html-template" id="tmpl-applied-filter">
+    <div class="input-group">
+        <div class="form-control">{food}</div>
+        <span class="input-group-addon"><i class="icon-fdc-close"></i></span>
+    </div>
+</script>
+
+<!-- /header -->
+
+    
+
+
+
+
+<div class="fd-next-recipe">
+    <div class="fd-container container-fluid">
+        <div class="prev-recipe">
+            <i class="icon-fdc-navigate-up"></i>
+            <a href="#">Previous <span class="recipe-text">Recipe</span></a>
+        </div>
+        <div class="next-recipe">
+            <a href="#">Next <span class="recipe-text">Recipe</span></a>
+            <i class="icon-fdc-navigate-down"></i>
+        </div>
+    </div>
+</div>
+
+
+<!-- Message Banner -->
+
+
+<div class="fd-container-full container-fluid pushdown-message hidden analytic-box" data-module="shinnyBanner">
+    <div class="fd-container container-fluid">
+        <p>Stumped for dinner? Get our life-saving Dinner Daily newsletter. You (and your stomach) can thank us later!</p>
+        <button class="close close-pushdown-message"><i class="icon-fdc-close"></i></button>
+    </div>
+
+    <div class="fd-container container-fluid fd-email-signup">
+        <input class="fd-email-input" type="text" placeholder="your@email.com">
+        <button class="btn btn-emphasis fd-email-signup-submit">Sign up</button>
+    </div>
+
+    <span class="invalid-email-message"></span>
+</div>
+
+<!-- Brandscape Container -->
+
+
+<div id="dfp_pushdown_brandscape"></div>
+
+<!-- Brandscape Container -->
+
+
+    <div class="fd-page-feed">
+        
+
+
+
+
+
+
+
+
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"Recipe","mainEntityOfPage":"true","name":"Cottage Cheese Yogurt Thingy","author":"KelBel","cookTime":"","prepTime":"PT1M","totalTime":"PT1M","datePublished":"May 16, 2006","description":"Make and share this Cottage Cheese Yogurt Thingy recipe from Food.com.","image":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/16/83/07/picFV37q6.jpg","recipeIngredient":["1/2 cup  fat-free cottage cheese","1/2 cup  non-fat vanilla yogurt","2  teaspoons  Splenda sugar substitute","1/2 cup  strawberry"],"aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"20"},"nutrition":{"@type":"NutritionInformation","calories":"83.3","fatContent":"0.4","saturatedFatContent":"0.1","cholesterolContent":"5.1","sodiumContent":"240","carbohydrateContent":"12.6","fiberContent":"1.4","sugarContent":"6.8","proteinContent":"8"},"recipeInstructions":{"@type":"ItemList","itemListElement":["Mix together and eat."]},"recipeYield":"1 serving(s)","review":[{"@type":"Review","description":"Absolutely delicious!  I made this with ff plain yogurt and raspberries.  I added 1/4 c cup granola too.  This was so good that I\u0027m considering making myself another serving.  This would probably also be nice with blueberries, bananas, or pineapple.","datePublished":"June 08, 2007","itemReviewed":{"@type":"Thing","name":"Cottage Cheese Yogurt Thingy"},"reviewRating":{"@type":"Rating","worstRating":"1","ratingValue":5,"bestRating":"5"},"author":"The Pixelated Vegetarian"},{"@type":"Review","description":"So good.  I did not use any sweetner as my yogurt was sweet enough.  I love to eat one of this yogurt thingy before my exercise.  Thanks.","datePublished":"August 13, 2011","itemReviewed":{"@type":"Thing","name":"Cottage Cheese Yogurt Thingy"},"reviewRating":{"@type":"Rating","worstRating":"1","ratingValue":5,"bestRating":"5"},"author":"YungB"},{"@type":"Review","description":"Great recipe.  I didn\u0027t use the sugar because the berries are sweet enough for me.  I also sprinkled the top with sliced almonds and chia seeds but granola sounds good to.  I just love love the mix of cottage cheese and yogurt.  Thanks I love to start my day this way, light but filling.  Thank you for sharing this one \u003d)","datePublished":"July 04, 2010","itemReviewed":{"@type":"Thing","name":"Cottage Cheese Yogurt Thingy"},"reviewRating":{"@type":"Rating","worstRating":"1","ratingValue":5,"bestRating":"5"},"author":"mari79"}],"publisher":{"@type":"Organization","name":"Food.com","logo":{"@type":"ImageObject","url":"http://img.food.com/fdc/img/FDC-logo-AMP-transparent.png"},"url":"http://www.food.com"}}</script>
+
+<div class="container fd-container">
+    
+</div>
+<article class="current" id="168307" data-recipe-id="168307" data-page-name="/recipe/cottage-cheese-yogurt-thingy-168307">
+    
+
+
+
+
+
+
+
+<div class="fd-container-full container-fluid">
+
+    
+
+    <div class="fd-container  container-fluid analytic-box" data-module="recipeHeading">
+
+        <header class="recipe">
+            <div class="sponsored">
+                <div id="dfp_logo"></div>
+            </div>
+
+            <div class="breadcrumbs">
+                <a href="http://www.food.com/recipe">Recipes</a>
+                <span class="separator"></span>
+                <a href="http://Breakfast.food.com/">Breakfast</a>
+            </div>
+
+            <h1 class="fd-recipe-title">Cottage Cheese Yogurt Thingy</h1>
+
+            <section class="subhead">
+                <ul class="fd-byline ">
+                    <li>
+                        <a href="http://www.food.com/user/141293">
+                            <span class="fd-avatar responsive"><img data-src="http://img.sndimg.com/food/image/upload/h_37,w_37,c_fill,q_92/v1/pickle_media1/media/rz_migration/14/Photo_Video_141293_medthumb_hor.jpg" /></span>By
+                            <span>KelBel</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                    
+                        <a class="review-link " href="http://www.food.com/recipe/cottage-cheese-yogurt-thingy-168307/review">
+                            <div class="fd-rating ">
+                                <div class="five-star"><span class="fd-rating-percent" style="width:99.00%;"><span class="sr-only">4.95</span></span></div>
+                                <a href="http://www.food.com/recipe/cottage-cheese-yogurt-thingy-168307/review" class="num-reviews">(20)</a>
+                            </div>
+                        </a>
+                    
+                    </li>
+                    
+                </ul>
+            </section>
+        </header>
+    </div>
+</div>
+
+
+
+<div class="fd-container-full container-fluid jumbotron  ">
+
+    <!-- can we just have the main image set -->
+    
+
+
+
+
+
+<div class="slideshow ">
+    <div class="slideshow_content">
+
+        
+
+        <div class="slideshow-nav">
+            <a class="button back icon-fdc-navigate-left" data-direction="-1"></a>
+            <a class="button next icon-fdc-navigate-right" data-direction="1"></a>
+        </div>
+        <div class="slideshow-interstitial" style='top: 0px;'>
+            <div id="dfp_photo_interstitial"></div>
+        </div>
+        <ul class="slides">
+            <li data-slide-position="3" class="slide">
+                <div class="slide_content">
+                    <span class="photographer">
+                        <a href="#"></a>
+                    </span>
+                    <div class="trans-img inner-wrapper">
+                        <img data-src="http://img.sndimg.com/food/image/upload/w_614,h_461,c_fit/v1/img/recipes/16/83/07/pickpxkH9.jpg" class="slide-photo" />
+                    </div>
+                </div>
+            </li>
+            <li data-slide-position="4" class="slide">
+                <div class="slide_content">
+                    <span class="photographer">
+                        <a href="#"></a>
+                    </span>
+                    <div class="trans-img inner-wrapper">
+                        <img data-src="http://img.sndimg.com/food/image/upload/w_614,h_461,c_fit/v1/img/recipes/16/83/07/pic2TbxSb.jpg" class="slide-photo" />
+                    </div>
+                </div>
+            </li>
+            <li data-slide-position="1" class="slide">
+                <div class="slide_content">
+                    <span class="photographer">
+                        <a href="#"></a>
+                    </span>
+                    <div class="trans-img inner-wrapper">
+                        <img data-src="http://img.sndimg.com/food/image/upload/w_614,h_461,c_fit/v1/img/recipes/16/83/07/picFV37q6.jpg" class="slide-photo"/>
+                    </div>
+                    <i class="add-pictures icon-fdc-camera" data-clicktrack="true" data-su-pick-options='{"multiple":true, "maxFiles": 5}' data-su-asset-meta-data='{ "asset_id" : "168307", "asset_type": "recipe", "asset_name": "" }' title="Add Photo"></i>
+
+                    
+
+                </div>
+            </li>
+            <li data-slide-position="2" class="slide">
+                <div class="slide_content">
+                    <span class="photographer">
+                        <a href="#"></a>
+                    </span>
+                    <div class="trans-img inner-wrapper">
+                        <img data-src="http://img.sndimg.com/food/image/upload/w_614,h_461,c_fit/v1/img/recipes/16/83/07/picZTfOTF.jpg" class="slide-photo" />
+                    </div>
+                </div>
+            </li>
+            <li data-slide-position="3" class="slide">
+                <div class="slide_content">
+                    <span class="photographer">
+                        <a href="#"></a>
+                    </span>
+                    <div class="trans-img inner-wrapper">
+                        <img data-src="http://img.sndimg.com/food/image/upload/w_614,h_461,c_fit/v1/img/recipes/16/83/07/pickpxkH9.jpg" class="slide-photo" />
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        
+
+    </div>
+
+</div>
+
+
+
+    <div class="fd-site-tools">
+        <div class="fd-container">
+            <dl class="util analytic-box" data-module="topRecipeTools">
+            <dt>
+                    <a href="" class="rb-open" title="Add to Recipe Box" data-recipe-id="168307">
+                        <i class="icon-fdc-plus"></i><span class="btn-text">Recipe Box</span></a>
+                </dt><dt>
+                    <a href="" class="grocery-list" title="Add to Grocery List"  data-recipe-id="168307">
+                        <i class="icon-fdc-plus"></i><span class="btn-text">Grocery List</span></a>
+                </dt><dd>
+                    <a href="http://www.food.com/recipeprint.do?rid=168307" title="Print"><i class="icon-fdc-print"></i><span class="btn-text">Print</span></a>
+                </dd><dt class="share">
+                    <a class="" data-toggle="modal" data-target="#social_share_modal" data-popup-id="#social_share_modal" title="Share"><i class="icon-fdc-share"></i><span class="btn-text">Share</span></a>
+                </dt><dd class="share-networks">
+                    <a href="" class="social-share" data-network="pinterest" title="Share on Pinterest"><i class="icon-fdc-pinterest"></i></a>
+                    <a href="" class="social-share" data-network="facebook" title="Share on Facebook"><i class="icon-fdc-facebook"></i></a>
+                    <a href="" class="social-share" data-network="twitter" title="Share on Twitter"><i class="icon-fdc-twitter"></i></a>
+                    <a href="" class="social-share" data-network="gplus" title="Share on Google+"><i class="icon-fdc-google"></i></a>
+
+                    <a class="social-share email-open" data-popup-id="#email" data-recipe-id="168307" href="mailto:?subject=Food.com for Cottage Cheese Yogurt Thingy&body=Here%27s a recipe for Cottage Cheese Yogurt Thingy from Food.com%3A http%3A%2F%2Fwww.food.com%2Frecipe%2Fcottage-cheese-yogurt-thingy-168307%3Fnl%3Demail_share" title="Share via Email"><i class="icon-fdc-email"></i></a>
+                </dd>
+            
+            </dl>
+        </div>
+    </div>
+</div>
+
+
+
+    <section class="container fd-container fd-page">
+
+        <div class="row recipe-detail col-md-19 col-lg-25">
+
+            <div class="row recipe-time">
+                <div class="total-time col-xs-5 col-sm-5 col-md-8 col-lg-8">
+                    <h6 class="title">Total Time</h6>
+                    
+                    
+                    <div>
+                        
+                        
+                        <span><strong>1</strong>min</span>
+                        
+                    </div>
+                </div>
+                <div class="time-details col-xs-3 col-sm-5">
+                    <div class="prep-time">
+                        <h6 class="title">Prep <small>1 min</small></h6>
+                    </div>
+                    <div class="cook-time">
+                        <h6 class="title">Cook <small>0 mins</small></h6>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="recipe-notes notes">
+                
+                <div class="row chef-note chef-note-168307">
+                    <div class="col-xs-1">
+                            <span  class="fd-avatar xs">
+                            <img data-src="http://img.sndimg.com/food/image/upload/h_37,w_37,c_fill,q_92/v1/pickle_media1/media/rz_migration/14/Photo_Video_141293_medthumb_hor.jpg" align="left" />
+                            </span>
+                    </div>
+                    <div class="col-xs-7">
+                        <p>A light, low fat breakfast or dessert.</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+
+            
+
+            <div class="row recipe-skip analytic-box" data-module="skipToNextRecipe">
+                
+                <div class="col-xs-8 col-sm-21 col-md-28 col-lg-35">
+                    <a href="#" data-next-recipe-id="382707" data-next-recipe-url="http://www.food.com/recipe/cottage-cheese-382707">Skip to Next Recipe</a><i class="icon-fdc-arrow-down"></i>
+                </div>
+                
+            </div>
+
+            <div class="ingredients col-xs-8 col-sm-7 col-md-11 col-lg-13 analytic-box" data-module="ingredients">
+                <h3>Ingredients
+                    <small><a class="nutrition" data-toggle="modal"  data-target="#168307_nutrition" data-popup-id="#168307_nutrition">Nutrition</a></small>
+                </h3>
+
+                <div class="amounts servings_unit">
+                    
+                    
+                        <a class="servings" data-toggle="modal" data-target="#168307_servings" data-popup-id="#168307_servings">
+                            
+                            <label>Servings</label>
+                            <span class="value">1</span>
+                            
+                        </a>
+                        
+                    
+
+                    
+                    
+
+                    <a class="units" data-toggle="modal" data-target="#168307_units" data-popup-id="#168307_units">
+                        <label>Units</label>
+                            <span class='value'>US</span>
+                    </a>
+                </div>
+
+                <ul>
+                    <li data-ingredient="fat-free+cottage+cheese"><span><sup>1</sup>&frasl;<sub>2</sub></span> cup  <a href="http://www.food.com/about/cottage-cheese-602">fat-free cottage cheese</a></li>
+                    <li data-ingredient="non-fat+vanilla+yogurt"><span><sup>1</sup>&frasl;<sub>2</sub></span> cup  <a href="http://www.food.com/about/yogurt-315">non-fat vanilla yogurt</a></li>
+                    <li data-ingredient="Splenda+sugar+substitute"><span>2 </span> teaspoons  <a href="http://www.food.com/about/artificial-sweetener-516">Splenda sugar substitute</a></li>
+                    <li data-ingredient="strawberry"><span><sup>1</sup>&frasl;<sub>2</sub></span> cup  <a href="http://www.food.com/about/strawberry-304">strawberry</a></li>
+                    
+                </ul>
+
+                <div class="extras">
+                    
+                    <input type="hidden" name="ingredient" value='["1/2 cup  fat-free cottage cheese","1/2 cup  non-fat vanilla yogurt","2  teaspoons  Splenda sugar substitute","1/2 cup  strawberry"]'>
+
+                </div>
+
+                <div class="fd-ad">
+                    <div class="dfp collapsable fd-onsale" data-dfp-type="dfp_grocery_list"></div>
+                </div>
+
+                <div class="fd-ad">
+                    <div class="dfp collapsable" data-dfp-type="dfp_native_ingredient"></div>
+                </div>
+
+                <div class="deals"></div>
+
+                <div class="top-cat-recipe analytic-box" data-module="top-cat-recipe">
+                    
+
+
+
+
+<div class="fd-promo TopRecipes">
+    <div class="fd-tile fd-recipe fd-tile-double">
+        <div class="fd-inner-tile">
+            <a href="http://Breakfast.food.com/popular">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="http://img.sndimg.com/food/image/upload/w_293,h_220,c_fit,fl_progressive,q_95/v1/img/recipes/25/69/0/picwslJ1c.jpg" alt="Check Out Our Top Breakfast Recipe" />
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title">Check Out Our Top Breakfast Recipe<i class="icon-fdc-arrow-right"></i></h2>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="fd-promo TopRecipes-v1" style="display: none;">
+    <div class="fd-tile fd-recipe fd-tile-double">
+        <div class="fd-inner-tile">
+            <a href="http://www.food.com/slideshow/all-time-best-dinner-recipes-334">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="http://pictures.food.com/api/file/a2ZX1DphTjK0YuAi916b-149-bourbon-chicken.jpg/convert?loc=/pictures.food.com/recipes/45/80/9/nFW9boVTGrjnGMv0b0RQ_149%20bourbon%20chicken.jpg&width=293&height=220&fit=max&flags=progressive&quality=95" alt="Check Out Our Top Breakfast Recipe" />
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title">50 All-Time Dinner Favorites <i class="icon-fdc-arrow-right"></i></h2>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+                </div>
+
+                
+
+
+<div class="relevant-slideshow analytic-box" data-module="relevant-slideshow">
+    <div class="fd-promo">
+        <div class="fd-tile fd-recipe fd-tile-double">
+            <div class="fd-inner-tile">
+                <a href="http://www.food.com/ideas/10-things-to-make-with-greek-yogurt-6069">
+                    <div class="fd-img-wrap">
+                        <div class="img-overlay">&nbsp;</div>
+                        <img src="http://img.sndimg.com/food/image/upload/q_92,fl_progressive/v1/img/recipes/30/72/4/picFPTKNH.jpg" alt="10 Things to Make with Greek Yogurt" />
+                    </div>
+                    <div class="tile-content">
+                        <div class="details">
+                            <h2 class="title">10 Things to Make with Greek Yogurt<i class="icon-fdc-arrow-right"></i></h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            </div>
+
+            <div class="directions analytic-box col-xs-8 col-sm-13 col-sm-offset-1 col-md-16 col-md-offset-1 col-lg-16 col-lg-offset-1" data-module="recipeDirections">
+                <h3>Directions</h3>
+                <ol>
+                    
+                    <li>Mix together and eat.</li>
+                    
+                </ol>
+            </div>
+
+            <div class="row fd-ad dfp-placeholder col-xs-8 col-sm-21 hidden-sm hidden-md hidden-lg">
+                
+
+
+<div class="dfp-bigbox">
+    <div class="dfp-ad-wrap">
+        <div class="dfp" data-dfp-type="dfp_bigbox" data-dfp-sync="dfp_native_ingredient"></div>
+        <span class="ad-label">Advertisement</span>
+    </div>
+</div>
+
+            </div>
+        </div><!-- .recipe-detail -->
+
+        <aside class="fd-ad hidden-xs hidden-sm">
+            
+
+
+<div class="dfp-bigbox">
+    <div class="dfp-ad-wrap">
+        <div class="dfp" data-dfp-type="dfp_bigbox" data-dfp-sync="dfp_native_ingredient"></div>
+        <span class="ad-label">Advertisement</span>
+    </div>
+</div>
+
+        </aside>
+
+        
+
+
+
+
+        
+        <div class="row recipe-reviews analytic-box" data-module="recipeReviews">
+
+            <!--vv RR Review content markup vv-->
+            <section class="review-content">
+
+                <div class="review-header">
+                    <h3>Reviews</h3>
+                    <div class="fd-rating">
+                        <div class="five-star">
+                            <a href="http://www.food.com/recipe/cottage-cheese-yogurt-thingy-168307/review"><span class="fd-rating-percent" style="width: 99.00%;;"></span></a>
+                        </div>
+                        <a href="http://www.food.com/recipe/cottage-cheese-yogurt-thingy-168307/review" class="num-reviews">(20)</a>
+                    </div>
+                    <div class="review-tools">
+                        <a href="http://www.food.com/recipe/cottage-cheese-yogurt-thingy-168307/review">See All Reviews</a>
+
+                        
+                        <a class="write-a-review" data-href="http://www.food.com/recipe/cottage-cheese-yogurt-thingy-168307/review?lrc=true"><i class="icon-fdc-write-a-review"></i>Write A Review</a>
+                        
+                    </div>
+                </div>
+
+
+                <section class="reviews fd-container-full">
+                    <h5>Most Helpful</h5>
+
+                    
+                    <article>
+                        <div class="fd-rating">
+                            <div class="five-star">
+                                <span class="fd-rating-percent" style="width: 100.00%;;"></span>
+                            </div>
+                        </div>
+
+                        
+                        <p>Absolutely delicious!  I made this with ff plain yogurt and raspberries.  I added 1/4 c cup granola too.  This was so good that I'm considering making myself another serving.  This would probably also be nice with blueberries, bananas, or pineapple.</p>
+                        
+
+                        <figure class="author">
+                                <span class="fd-avatar xs">
+                                    <a href="http://www.food.com/user/60101">
+                                        <img src="http://share.recipezaar.com/skins/main/images/profilephotolookup/21_square.gif" />
+                                    </a>
+                                </span>
+                            <figcaption>
+                                <a class="name" href="http://www.food.com/user/60101"><span>The Pixelated Vegetarian</span></a>
+                                <small class="date">June 08, 2007</small>
+                            </figcaption>
+                        </figure>
+
+                    </article>
+                    
+                    <article>
+                        <div class="fd-rating">
+                            <div class="five-star">
+                                <span class="fd-rating-percent" style="width: 100.00%;;"></span>
+                            </div>
+                        </div>
+
+                        
+                        <p>So good.  I did not use any sweetner as my yogurt was sweet enough.  I love to eat one of this yogurt thingy before my exercise.  Thanks.</p>
+                        
+
+                        <figure class="author">
+                                <span class="fd-avatar xs">
+                                    <a href="http://www.food.com/user/394077">
+                                        <img src="http://share.recipezaar.com/skins/main/images/profilephotolookup/21_square.gif" />
+                                    </a>
+                                </span>
+                            <figcaption>
+                                <a class="name" href="http://www.food.com/user/394077"><span>YungB</span></a>
+                                <small class="date">August 13, 2011</small>
+                            </figcaption>
+                        </figure>
+
+                    </article>
+                    
+                    <article>
+                        <div class="fd-rating">
+                            <div class="five-star">
+                                <span class="fd-rating-percent" style="width: 100.00%;;"></span>
+                            </div>
+                        </div>
+
+                        
+                        <p>Great recipe.  I didn't use the sugar because the berries are sweet enough for me.  I also sprinkled the top with sliced almonds and chia seeds but granola sounds good to.  I just love love the mix of cottage cheese and yogurt.  Thanks I love to start my day this way, light but filling.  Thank you for sharing this one =)</p>
+                        
+
+                        <figure class="author">
+                                <span class="fd-avatar xs">
+                                    <a href="http://www.food.com/user/128723">
+                                        <img src="http://img.sndimg.com/food/image/upload/h_120,w_160,c_fill,q_92/v1/avatars/21_square.gif" />
+                                    </a>
+                                </span>
+                            <figcaption>
+                                <a class="name" href="http://www.food.com/user/128723"><span>mari79</span></a>
+                                <small class="date">July 04, 2010</small>
+                            </figcaption>
+                        </figure>
+
+                    </article>
+                    
+
+                </section>
+
+            </section>
+
+            <!--^^ review-content ^^-->
+
+        </div>
+        
+
+        <div class="row recipe-tools col-xs-8 col-sm-21 col-md-28 col-lg-35">
+            <div class="fd-site-tools">
+                <div class="fd-container">
+                    <dl class="util analytic-box" data-module="bottomRecipeTools">
+                        <dt>
+                            <a href="#" class="rb-open" title="Add to Recipe Box" data-recipe-id="168307">
+                                <i class="icon-fdc-plus"></i><span class="btn-text">Recipe Box</span></a>
+                        </dt><dt>
+                        <a href="#" class="grocery-list" title="Add to Grocery List"  data-recipe-id="168307">
+                            <i class="icon-fdc-plus"></i><span class="btn-text">Grocery List</span></a>
+                    </dt><dd>
+                        <a href="http://www.food.com/recipeprint.do?rid=168307" title="Print"><i class="icon-fdc-print"></i><span class="btn-text">Print</span></a>
+                    </dd><dt class="share">
+                        <a class="#" data-toggle="modal" data-target="#social_share_modal" data-popup-id="#social_share_modal" title="Share"><i class="icon-fdc-share"></i><span class="btn-text">Share</span></a>
+                    </dt><dd class="share-networks">
+                        <a href="#" class="social-share" data-network="pinterest" title="Share on Pinterest"><i class="icon-fdc-pinterest"></i></a>
+                        <a href="#" class="social-share" data-network="facebook" title="Share on Facebook"><i class="icon-fdc-facebook"></i></a>
+                        <a href="#" class="social-share" data-network="twitter" title="Share on Twitter"><i class="icon-fdc-twitter"></i></a>
+                        <a href="#" class="social-share" data-network="gplus" title="Share on Google+"><i class="icon-fdc-google"></i></a>
+                        <a class="social-share" href="mailto:?subject=Food.com for Cottage Cheese Yogurt Thingy&body=Here%27s a recipe for Cottage Cheese Yogurt Thingy from Food.com%3A http%3A%2F%2Fwww.food.com%2Frecipe%2Fcottage-cheese-yogurt-thingy-168307%3Fnl%3Demail_share" title="Share via Email"><i class="icon-fdc-email"></i></a>
+                    </dd><dt class="submit-a-correction">
+                        <a class="submit-correction link-submit-correction" href="http://www.food.com/recipe/edit.php?rid=168307">
+                            <i class="icon-fdc-edit"></i><span class="btn-text">Submit a Correction</span></a>
+                    </dt>
+                        
+                    </dl>
+                </div>
+            </div>
+
+            <div class="row related-recipes analytic-box" data-module="recipeRelated">
+                
+                <dl>
+                    <dt>Related:</dt>
+                    
+                    <dd><a href="http://www.food.com/topic/eggs-dairy"><span>Eggs/Dairy</span></a></dd>
+                    
+                    <dd><a href="http://www.food.com/topic/kid-friendly"><span>Kid Friendly</span></a></dd>
+                    
+
+                </dl>
+                
+                <a class="btn btn-primary primary-category" href="http://Breakfast.food.com/">View All Breakfast Recipes</a>
+            </div>
+        </div>
+
+        <div class="row promo-module col-xs-8 col-sm-21 col-md-28 col-lg-35">
+            
+
+
+<div id="dfp_cartridge"></div>
+
+
+
+
+
+<div class="OUTBRAIN" data-src="http://www.food.com/recipe/cottage-cheese-yogurt-thingy-168307" data-widget-id="AR_3" data-ob-template="food" ></div>
+<script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script>
+
+
+        </div>
+
+        <div class="row fd-ad dfp-placeholder col-xs-8 col-sm-21 hidden-md hidden-lg">
+            
+
+
+<div class="dfp-bigbox">
+    <div class="dfp-ad-wrap">
+        <div class="dfp" data-dfp-type="dfp_bigbox" data-dfp-sync="dfp_native_ingredient"></div>
+        <span class="ad-label">Advertisement</span>
+    </div>
+</div>
+
+        </div>
+
+    </section>
+
+    <!-- modals -->
+    <div class="modal fade" id="168307_nutrition" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content nutrition">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Nutrition Info</h4>
+                </div>
+                <div class="modal-body">
+
+                    <p>Serving Size: <span>1 (146 g)</span></p>
+                    <p>Servings Per Recipe: 1</p>
+
+
+                    <dl class="nutrition">
+                        <dt>Amount Per Serving</dt>
+
+                        <dd>% Daily Value</dd>
+                        
+                        <dt class="cals nutrition">Calories <span class="calories">83.3</span>
+                        </dt><dd class="cals"></dd>
+
+                        <dt class="fat-cals nutrition">Calories from Fat 3
+                        </dt><dd class="fat-cals">5%</dd>
+
+                        <dt class="sub nutrition">Total Fat
+                            <span class="fat">0.4</span>
+                            <span class="type"> g</span>
+                        </dt><dd class="sub">0%</dd>
+
+                        <dt class="sub nutrition">Saturated Fat
+                            <span class="saturatedFat">0.1</span>
+                            <span class="type"> g</span>
+                        </dt><dd class="sub">0%</dd>
+
+                        <dt class="nutrition">Cholesterol
+                            <span class="cholesterol">5.1</span>
+                            <span class="type"> mg</span>
+                        </dt><dd>1%</dd>
+
+                        <dt class="nutrition">Sodium
+                            <span class="sodium">240</span>
+                            <span class="type"> mg</span>
+                        </dt><dd>9%</dd>
+
+                        <dt class="nutrition">Total Carbohydrate
+                            <span class="carbohydrates">12.6</span>
+                            <span class="type"> g</span>
+                        </dt><dd>4%</dd>
+
+                        <dt class="sub nutrition">Dietary Fiber
+                            <span class="fiber">1.4</span>
+                            <span class="type"> g</span>
+                        </dt><dd class="sub">5%</dd>
+
+                        <dt class="sub nutrition">Sugars
+                            <span class="fiber">6.8</span>
+                            <span class="type"> g</span>
+                        </dt><dd class="sub">27%</dd>
+
+                        <dt class="last nutrition">Protein
+                            <span class="protein">8</span>
+                            <span class="type"> g</span>
+                        </dt><dd class="last">15%</dd>
+                    </dl>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="168307_servings" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <form name="servingsModForm" action="" onsubmit="if(!$.isNumeric($(document.forms['servingsModForm']['scaleto']).val())) { document.forms['servingsModForm'].reset(); return false; } ">
+                    <input type="hidden" name="mode" value="us"/>
+                    <input type="hidden" name="st" value="true"/>
+
+                    
+
+                    
+
+
+                    <div class="modal-header">
+
+                        <h4 class="modal-title" id="myModalLabel">Serves</h4>
+                    </div>
+                    <div class="modal-body">
+                        <input type="text" class="amount" name="scaleto" value="1" data-original="1.0">
+                        <span class="unit"></span>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-link" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Done</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="168307_yield" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <form name="yieldModForm" action="" onsubmit="if(!$.isNumeric($(document.forms['yieldModForm']['scaleto']).val())) {  document.forms['yieldModForm'].reset(); return false; }">
+                    <input type="hidden" name="mode" value="us"/>
+                    <input type="hidden" name="st" value="true"/>
+
+                    
+
+
+                    
+
+
+                    <div class="modal-header">
+
+                        <h4 class="modal-title" id="myModalLabel">Yields</h4>
+                    </div>
+                    <div class="modal-body">
+                        <input type="text" class="amount" name="scaleto" value="null">
+                        <span class="unit"></span>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-link" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Done</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="168307_units" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <form action="">
+                    <input type="hidden" name="scaleto" value="1.0"/>
+                    <input type="hidden" name="st" value="null"/>
+
+                    
+
+
+                    
+
+                    <div class="modal-header">
+
+                        <h4 class="modal-title" id="myModalLabel">Units</h4>
+                    </div>
+                    <div class="modal-body">
+                        <input type="radio" id="r1" class="fa" name="mode" value="us" checked
+><label for="r1">US</label>
+                        <input type="radio" id="r2" class="fa" name="mode" value="metric" ><label for="r2">Metric </label>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-link" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Done</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="social_share_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content share">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <label class="modal-title">Share this recipe:</label>
+                    <h2 class='modal-title'>Cottage Cheese Yogurt Thingy</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="list-group list-group-white list-group-center analytic-box" data-module="modalShareRecipe">
+                        <a class="list-group-item share-recipe social-share" data-network="pinterest" href="#" data-recipe-id="168307"><i class="icon-fdc-pinterest"></i> Pinterest</a>
+                        <a class="list-group-item share-recipe social-share" data-network="facebook" href="#" data-recipe-id="168307"><i class="icon-fdc-facebook"></i> Facebook</a>
+                        <a class="list-group-item share-recipe social-share" data-network="twitter" href="#" data-recipe-id="168307"><i class="icon-fdc-twitter"></i> Twitter</a>
+                        <a class="list-group-item share-recipe social-share" data-network="gplus" href="#" data-recipe-id="168307"><i class="icon-fdc-google"></i> Google+</a>
+                        <a class="list-group-item share-recipe" href="mailto:?subject=Food.com for Cottage Cheese Yogurt Thingy&body=Here%27s a recipe for Cottage Cheese Yogurt Thingy from Food.com%3A http%3A%2F%2Fwww.food.com%2Frecipe%2Fcottage-cheese-yogurt-thingy-168307%3Fnl%3Demail_share"><i class="icon-fdc-email"></i> Email</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="168307_socialupload" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content share">
+                <div class="modal-header">
+                    <h4 class="modal-title">Saving Photo...</h4>
+                </div>
+                <div class="modal-body">
+                    <i class="icon-fdc-loading fa-spin"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade modal-content-collapse fd-timed-modal" id="modal_sharetimer" tabindex="-1" role="dialog" aria-labelledby="modal_cookedthis" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><i class="icon-fdc-close"></i><span class="sr-only">Close</span></button>
+                </div>
+                <div class="modal-body">
+                    <h4>Like what you see here?</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="#" class="rb-open" data-recipe-id="168307" title="Add to Recipe Box" onClick="$('#modal_sharetimer').modal('hide');">Save to Recipe Box</a></li>
+                        <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#social_share_modal" data-popup-id="#social_share_modal" title="Share" onClick="$('#modal_sharetimer').modal('hide');">Tell a Friend</a></li>
+                    </ul>
+                    <div class="fd-newsletter-signup">
+                        <h5>Get Our Daily Dinner Newsletter</h5>
+                        <div class="fd-email-signup">
+                            <input class="fd-email-input" type="text" placeholder="your@email.com">
+                            <span class="invalid-email-message">Please enter a valid email address.</span>
+                            <button class="btn btn-emphasis fd-email-signup-submit">Sign up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modal_recipebox" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content share">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Add to Recipe Box</h4>
+        <p>Please select a folder</p>
+      </div>
+      <div class="modal-body">
+
+        <div class="loading">
+            <i class="icon-fdc-loading fa-spin"></i>
+        </div>
+
+        <div class="list-group list-hide"></div>
+
+        <input type="text" class="amount folder-name" name="folder-name" value="" placeholder="Add a New Folder">
+        <span class="unit unit-bottom"><a href="#" class="recipe-box-add-new-folder" data-folder-name-class="folder-name" data-recipe-id="">+</a></span>
+
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- /modals -->
+
+    
+</article>
+
+
+
+            <script>
+                FD.subscribe( 'sales.widget.code.loaded' , function() {
+                    FD.Page.Recipe.initSalesWidget( '168307' , 'http://www.food.com' );
+                });
+            </script>
+
+
+    </div>
+
+    <div class="fd-overlay"></div>
+
+     
+
+
+
+
+
+
+
+
+<!-- footer -->
+
+
+<script type="text/javascript" src="http://statics.scrippsnetworks.com/wrapper/js/socialupload_widget.min.js" ></script>
+<script type="text/javascript" src="http://img.food.com/fd/js/recipe.min.js?v=89a" ></script>
+<script type="text/javascript" src="http://www.player.video.snidigital.com/vpc/1/6/js/sni-video.min.js" ></script>
+<script type="text/javascript" src="http://img.food.com/fd/js/components/videomodule.min.js?v=89a" ></script>
+
+
+<script type="text/javascript">
+//$(function () {
+(function($){$(function(){log("...DOM Ready (Gigya Events"),FD.subscribe("fd.session.loginVerified",function(){log("...login verified"),setTimeout(function(){FD.Page.loginRedirectUrl?window.location=FD.Page.loginRedirectUrl:window.location.reload()},200)}),FD.subscribe("fd.session.logoutVerified",function(){log("...login verified"),setTimeout(function(){window.location.reload()},200)})})})(jQuery);
+
+// DTM
+if(typeof _satellite != 'undefined') {_satellite.pageBottom();}
+
+// adds the CTI library to the page
+(function (d) {var h;var s = d.createElement('script');s.type = 'text/javascript';s.async = true;s.src = FD.Config.ctiURL;h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(document);
+
+// set Omniture parameters
+if (!SNI.Omniture) { SNI.Omniture = {}; }
+SNI.Omniture.pageType = FD.Config.MetaData.pageType;
+if(typeof SniAds === "object") { SniAdsConfig.adSlots[0].mapping.small = [300,250]; SniAdsConfig.adSlots[0].mapping.medium = [300,250]; }
+try { if(typeof SniAds === "object") SniAds.init({ breakpoints: FD.viewports.getSniAdBreakpoints() }); } catch(e) { log('=== SNI Ad Library Error! ==='); log(e); }
+$(function() {FD.Page.Recipe.init({id: '168307',url: 'http://www.food.com/recipe/cottage-cheese-yogurt-thingy-168307',public: true,mdManager: {"adkey1":"KID_FRIENDLY","adkey2":"","CategoryDspName":"RECIPES","Classification":"RECIPES,RECIPES,FOODCOM","ingredients":"fat-free cottage cheese,non-fat vanilla yogurt,Splenda sugar substitute,strawberries","keywordids":"11,12,13,14,16,17,25,32,84,97,141,161,252,299,455,457,465,469","keywords":"15_minutes_or_less,time_to_make,course,main_ingredient,preparation,occasion,for_1_or_2,5_ingredients_or_less,breakfast,eggs_dairy,easy,kid_friendly,dietary,inexpensive,taste_mood,sweet,number_of_servings,3_steps_or_less","SctnDspName":"RECIPES","Site":"FOODCOM","Sponsorship":"","type":"RECIPE","UniqueId":"1-168307-MAIN","Subdomain":"","Url":"http://www.food.com/recipe/cottage-cheese-yogurt-thingy-168307","Title":"Cottage Cheese Yogurt Thingy Recipe - Food.com","PrepTime":"1","Version":"beta","Site Tier":"direct","OrigPubDate":"2006-05-16|2011-08-13","TopRecipe":"false","TopSlideshow":"true","DeliveryChannel":"(FD && FD.viewports && FD.viewports.viewport().label) || null"},share: {imageUrl: 'http://img.sndimg.com/food/image/upload/w_614,h_461,c_fit/v1/img/recipes/16/83/07/picFV37q6.jpg',title: 'Cottage Cheese Yogurt Thingy'},nextRecipe: {id: '382707',url: 'http://www.food.com/recipe/cottage-cheese-382707'},picList: {"position":0, "slides":[{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/16/83/07/picFV37q6.jpg","position":"1","by":"Brooke the Cook in WI","profileUrl":"http://www.food.com/user/469903","photoId":139458},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/16/83/07/picZTfOTF.jpg","position":"2","by":"Troop Angel","profileUrl":"http://www.food.com/user/39334","photoId":61917},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/16/83/07/pickpxkH9.jpg","position":"3","by":"Troop Angel","profileUrl":"http://www.food.com/user/39334","photoId":61916},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/16/83/07/pic2TbxSb.jpg","position":"4","by":"justcallmetoni","profileUrl":"http://www.food.com/user/67656","photoId":56969}]},author: {avatarUrl: 'http://img.sndimg.com/food/image/upload/h_37,w_37,c_fill,q_92/v1/pickle_media1/media/rz_migration/14/Photo_Video_141293_medthumb_hor.jpg',name: 'KelBel',url: 'http://www.food.com/user/141293'},}, false);});
+  
+//});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="modal fade" id="share_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content share">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <label class="modal-title">Share:</label>
+                <h2 class='modal-title'>Food.com</h2>
+            </div>
+            <div class="modal-body">
+                <div class="list-group list-group-white list-group-center">
+                    <a class="list-group-item social-share" data-network="pinterest" href="#"><i class="icon-fdc-pinterest"></i> Pinterest</a>
+                    <a class="list-group-item social-share" data-network="facebook" href="#"><i class="icon-fdc-facebook"></i> Facebook</a>
+                    <a class="list-group-item social-share" data-network="twitter" href="#"><i class="icon-fdc-twitter"></i> Twitter</a>
+                    <a class="list-group-item social-share" data-network="gplus" href="#"><i class="icon-fdc-google"></i> Google+</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- New DFP Ad Slots -->
+<div id='dfp_utility1'></div>
+<div id='dfp_utility2'></div>
+
+ <div class="modal fade" id="modal_recipebox" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content share">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Add to Recipe Box</h4>
+        <p>Please select a folder</p>
+      </div>
+      <div class="modal-body">
+
+        <div class="loading">
+            <i class="icon-fdc-loading fa-spin"></i>
+        </div>
+
+        <div class="list-group list-hide"></div>
+
+        <input type="text" class="amount folder-name" name="folder-name" value="" placeholder="Add a New Folder">
+        <span class="unit unit-bottom"><a href="#" class="recipe-box-add-new-folder" data-folder-name-class="folder-name" data-recipe-id="">+</a></span>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"1b55c6690d","agent":"","beacon":"bam.nr-data.net","applicationTime":53,"applicationID":"4170511","transactionName":"Y1FaN0tQXhBVUUJdW1obaxNLWF4Ed11YQEZbWFQGSx5CBldbRlEbT19dGkQRGCRxZh8=","queueTime":0}</script>
+
+<!-- /footer -->
+
+</div>
+</body>
+</html>

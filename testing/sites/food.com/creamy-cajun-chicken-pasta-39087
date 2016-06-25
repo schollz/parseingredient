@@ -1,0 +1,1666 @@
+
+
+<!DOCTYPE html>
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+
+
+<head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+    if (typeof SNI_COMMUNITY_SERVICES == 'undefined') {
+        SNI_COMMUNITY_SERVICES = {};
+    }
+    SNI_COMMUNITY_SERVICES.SITE_NAME = "fooddotcom";
+    SNI_COMMUNITY_SERVICES.SITE_CODE = "fdc";
+
+</script>
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+
+
+
+        <meta name="keywords" content="boneless skinless chicken breast halves,linguine,cajun seasoning,butter,green onions,heavy whipping cream,sun-dried tomatoes,salt,dried basil,ground black pepper,garlic powder,parmesan cheese recipe, recipes, recipies" />
+        <meta name="description" content="Make and share this Creamy Cajun Chicken Pasta recipe from Food.com." />
+        <meta name="sailthru.tags" content="30-minutes-or-less,time-to-make,course,main-ingredient,cuisine,preparation,occasion,north-american,for-1-or-2,main-dish,eggs-dairy,pasta,poultry,american,cajun,southern-united-states,easy,dinner-party,kid-friendly,romantic,chicken,stove-top,dietary,spicy,comfort-food,meat,chicken-breasts,pasta-rice-and-grains,taste-mood,equipment,number-of-servings" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="apple-itunes-app" content="app-id=418971697, affiliate-data=ct=fd-smart-banner&pt=260410" />
+        <meta property="fb:app_id" content="293868454060703" />
+        <meta property="fb:pages" content="118337671518735" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Creamy Cajun Chicken Pasta Recipe - Food.com" />
+        <meta property="og:url" content="http://www.food.com/recipe/creamy-cajun-chicken-pasta-39087" />
+        <meta property="og:description" content="Make and share this Creamy Cajun Chicken Pasta recipe from Food.com." />
+        <meta property="og:image" content="http://img.sndimg.com/food/image/upload/w_614,h_461,c_fit/v1/img/recipes/39/08/7/piccZDaro.jpg" />
+
+
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(e,n){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,n)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var c=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],u=["addPageAction"],f="api-";i(c,function(e,n){newrelic[n]=r(f+n,"api")}),i(u,function(e,n){newrelic[n]=r(f+n)}),n.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?c(e,a,i):i()}function t(t,r,o){e&&e(t,r,o);for(var i=n(o),a=l(t),c=a.length,u=0;c>u;u++)a[u].apply(i,r);var s=f[m[t]];return s&&s.push([w,t,r,i]),i}function p(e,n){g[e]=l(e).concat(n)}function l(e){return g[e]||[]}function d(e){return s[e]=s[e]||o(t)}function v(e,n){u(e,function(e,t){n=n||"feature",m[t]=n,n in f||(f[n]=[])})}var g={},m={},w={on:p,emit:t,get:d,listeners:l,context:n,buffer:v};return w}function i(){return new r}var a="nr@context",c=e("gos"),u=e(2),f={},s={},p=n.exports=o();p.backlog=f},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!b++){var e=y.info=NREUM.info,n=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){u(m,function(n,t){e[n]||(e[n]=t)});var t="https"===g.split(":")[0]||e.sslForHttp;y.proto=t?"https://":"http://",c("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+e.agent,n.parentNode.insertBefore(r,n)}}}function o(){"complete"===s.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=e("handle"),u=e(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-952.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=n.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader"]);</script>
+
+<title>Creamy Cajun Chicken Pasta Recipe - Food.com</title>
+
+<link rel="image_src" href="http://img.sndimg.com/food/image/upload/w_614,h_461,c_fit/v1/img/recipes/39/08/7/piccZDaro.jpg" />
+<link rel="shortcut icon" type="image/x-icon" href="http://img.food.com/fdc/img/ico/favicon.ico"/>
+
+<link rel="touch-icon" href="http://img.food.com/fdc/mobile/icons/touch-icon-iphone.png" />
+<link rel="touch-icon" sizes="76x76" href="http://img.food.com/fdc/mobile/icons/touch-icon-ipad.png" />
+<link rel="touch-icon" sizes="120x120" href="http://img.food.com/fdc/mobile/icons/touch-icon-ipad@2x.png" />
+<link rel="touch-icon" sizes="152x152" href="http://img.food.com/fdc/mobile/icons/touch-icon-iphone@3x.png" />
+<link rel="touch-icon-precomposed" href="http://img.food.com/fdc/mobile/icons/touch-icon-iphone@2x.png"/>
+
+
+
+<link rel="canonical" href="http://www.food.com/recipe/creamy-cajun-chicken-pasta-39087"/>
+
+
+
+<link rel="amphtml" href="http://www.food.com/amp/recipe/creamy-cajun-chicken-pasta-39087"/>
+
+
+
+<link rel="alternate" href="android-app://com.food.mobile/http/food.com/recipes/39087" />
+
+
+
+<link rel="publisher" href="https://plus.google.com/117908044835237955765" />
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="http://img.food.com/fd/css/bootstrap.min.css?v=89a" />
+    <link rel="stylesheet" type="text/css" href="http://img.food.com/fd/css/fd.min.css?v=89a" />
+
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="http://img.food.com/fd/css/pages/recipe.min.css?v=89a" />
+
+    <style type="text/css">
+
+    </style>
+
+
+
+
+
+
+
+<script>
+    window.__gigyaConf = {
+        defaultRegScreenSet: "FDC-LoginReg",
+        defaultMobileRegScreenSet: "FDC-LoginReg",
+        enabledProviders:'facebook,twitter,instagram,google,yahoo',
+        sessionExpiration: 31536000
+    };
+</script>
+
+
+
+
+
+        <script type="text/javascript" src="http://img.food.com/fd/js/lib-bundle.min.js?v=89a" ></script>
+
+        <script type="text/javascript" src="http://code.adsales.snidigital.com/conf/ads-config.min.js" ></script>
+
+        <script type="text/javascript" src="http://code.adsales.snidigital.com/lib/1/sni-ads.min.js" ></script>
+
+        <script type="text/javascript" src="http://cdn.gigya.com/JS/socialize.js?apikey=3_Vstt7Zpmd0yMcuvT3s56RZuF1CU7IkBgcni4jzx28fjUmb0QQP2TLqXeOwNoQmnS" ></script>
+
+        <script type="text/javascript" src="http://img.food.com/fd/js/core.min.js?v=89a" ></script>
+
+        <script type="text/javascript" src="//assets.adobedtm.com/076e416a6caa07234c15d9bd371ee9e19eef88d3/satelliteLib-bcf5f78965434ee359ed8599c3c4e330702525b7.js" ></script>
+
+
+<script type="text/javascript">
+
+        //Criteo Ad Enhancement
+        var crtg_nid = '3261';
+        var crtg_cookiename = 'crtg_scripps';
+        var crtg_varname = 'crtg_content';
+        function crtg_getCookie(c_name){ var i,x,y,ARRCookies=document.cookie.split(';');for(i=0;i<ARRCookies.length;i++){x=ARRCookies[i].substr(0,ARRCookies[i].indexOf('='));y=ARRCookies[i].substr(ARRCookies[i].indexOf('=')+1);x=x.replace(/^\s+|\s+$/g,'');if(x==c_name){return unescape(y);} } return '';}
+        var crtg_content = crtg_getCookie(crtg_cookiename);
+        var crtg_rnd=Math.floor(Math.random()*99999999999);
+        (function(){
+            var crtg_url=location.protocol+'//rtax.criteo.com/delivery/rta/rta.js?netId='+escape(crtg_nid);
+                crtg_url +='&cookieName='+escape(crtg_cookiename);
+                crtg_url +='&rnd='+crtg_rnd;
+                crtg_url +='&varName=' + escape(crtg_varname);
+            var crtg_script=document.createElement('script');crtg_script.type='text/javascript';crtg_script.src=crtg_url;crtg_script.async=true;
+            if(document.getElementsByTagName('head').length>0)document.getElementsByTagName('head')[0].appendChild(crtg_script);
+            else if(document.getElementsByTagName('body').length>0)document.getElementsByTagName('body')[0].appendChild(crtg_script);
+        })();
+
+        mdManager = typeof mdManager !== 'undefined' ? mdManager : new MetaDataManager();
+        mdManager.addParameter("adkey1", "CHICKEN");
+        mdManager.addParameter("adkey2", "");
+        mdManager.addParameter("CategoryDspName", "RECIPES");
+        mdManager.addParameter("Classification", "RECIPES,RECIPES,FOODCOM");
+        mdManager.addParameter("ingredients", "boneless skinless chicken breast halves,butter,cajun seasoning,dried basil,garlic powder,green onions,ground black pepper,heavy whipping cream,linguine,parmesan cheese,salt,sun-dried tomatoes");
+        mdManager.addParameter("keywordids", "10,12,13,14,15,16,17,21,25,89,97,101,104,109,113,131,141,156,161,165,223,231,252,254,282,372,382,397,455,460,465");
+        mdManager.addParameter("keywords", "30_minutes_or_less,time_to_make,course,main_ingredient,cuisine,preparation,occasion,north_american,for_1_or_2,main_dish,eggs_dairy,pasta,poultry,american,cajun,southern_united_states,easy,dinner_party,kid_friendly,romantic,chicken,stove_top,dietary,spicy,comfort_food,meat,chicken_breasts,pasta_rice_and_grains,taste_mood,equipment,number_of_servings");
+        mdManager.addParameter("SctnDspName", "RECIPES");
+        mdManager.addParameter("Site", "FOODCOM");
+        mdManager.addParameter("Sponsorship", "FC_EASYDINNER");
+        mdManager.addParameter("type", "RECIPE");
+        mdManager.addParameter("UniqueId", "1-39087-MAIN");
+        mdManager.addParameter("Subdomain", "");
+        mdManager.addParameter("Url", "http://www.food.com/recipe/creamy-cajun-chicken-pasta-39087");
+        mdManager.addParameter("Title", "Creamy Cajun Chicken Pasta Recipe - Food.com");
+        mdManager.addParameter("PrepTime", "10");
+        mdManager.addParameter("Version", "beta");
+        mdManager.addParameter("Site Tier", "direct");
+        mdManager.addParameter("OrigPubDate", "2002-09-02|2016-06-17");
+        mdManager.addParameter("TopRecipe", "false");
+        mdManager.addParameter("TopSlideshow", "true");
+        mdManager.addParameter("DeliveryChannel", (FD && FD.viewports && FD.viewports.viewport().label) || null);
+
+
+</script>
+
+
+
+<!-- Include Page Data JS Configuration -->
+
+
+
+<script type="text/javascript">
+
+    // creates the FD and FD.Page namespace
+    if (typeof FD == 'undefined') { FD = {}; }
+    if (!FD.Page) { FD.Page = {}; }
+
+    // initialize the page configuration
+    (function() {
+
+        // set up SNI object
+        if (typeof SNI == 'undefined') { SNI = {}; }
+        $.extend(true, SNI, {
+            Config: {
+                name: 'FOODCOM',
+                domain: 'http://www.food.com',
+                imgDomain: 'http://img.food.com',
+                aimDomain: 'http://aim.food.com',
+                shareDomain: 'http://share.food.com',
+                cookieDomain: '.food.com',
+                Video: {
+                    fallbackSiteSectionId: '953690', // Unique for each site and each environment
+                    networkId: '191701', // Shared across all Scripps properties
+                    nielsen: {
+                        apid: 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX'
+                    },
+                    playerUrl: {
+                        base: 'http://www.player.video.snidigital.com/vpc/1/6',
+                        css: 'http://www.player.video.snidigital.com/vpc/1/6/css/sni-video.min.css',
+                        skin: 'http://www.player.video.snidigital.com/vpc/1/6/skins/sni-default/sni-default.json',
+                        layout: 'http://www.player.video.snidigital.com/vpc/1/6/skins/sni-default/layout-no-embed.xml'
+                    }
+                }
+            },
+            Community: {
+                xUrlPre: '',
+                aimDomain: 'http://aim.food.com',
+                ur3Domain: 'http://share.food.com',
+                ssoController: 'http://www.scrippscontroller.com/sso/checkcontrollercookie.html',
+
+                UR: {
+                    initialized: true,
+                    noAIM: true,
+
+                    // moved userInfo parameters to FD.Session.init()
+
+                    shareServerUrl: 'http://share.food.com',
+                    globalLoginURL: 'http://www.food.com/login',
+                    globalLogoutBaseUrl: 'http://share.food.com/redirectors/logout_redirector.jsp',
+                    globalRegistrationURL: 'http://www.food.com/login',
+                    globalRegistrationLiteURL: 'http://www.food.com/login',
+                    globalPrivateProfileUrl: 'http://www.food.com/user',
+                    globalUserSettingsUrl: 'http://www.food.com/user',
+                    imageServerUrl: 'http://img.food.com',
+                    previewUrl: 'null'
+                }
+            }
+        });
+
+        // initialize the core components
+        FD.Session.init({
+            MetaData: {
+                environment: 'production',
+                deliveryChannel: FD.viewports.viewport().label,
+                pageType: 'RECIPE',
+                gigyaMode: FD.Util.isGigyaEnabled()
+            },
+
+            environment: 'production',
+            serverURL:'http://www.food.com',
+            imgServerURL:'http://img.food.com',
+            secureServerURL:'https://api.food.com',
+            shareServerURL: 'http://share.food.com',
+            aimServerURL: 'http://aim.food.com',
+            ssoControllerURL: 'http://www.scrippscontroller.com/sso/checkcontrollercookie.html',
+            apiServerURL: 'http://www.food.com',
+            RecipeBoxApiURL: 'http://recipes.food.com',
+            RecipeBoxWrapperURL: 'http://www.food.com'+'/services/mobile/recipebox/wrap-rb',
+            groceryListURL: 'http://recipes.food.com/shopping-list',
+            newsletterURL: 'http://mynewsletters.scrippsnetworks.com/?mode=subscribe&nlbrand=foodcom&source=0000_FC_HEADER',
+            adServer: 'adsremote.scrippsnetworks.com',
+            ctiURL: 'http://cti.w55c.net/ct/ct-db44eb055e234032a827dbac431ef7e9.js',
+            reCaptcha: '6LdYrfASAAAAAD4ciUco6uTHK6sQ3s9hjoyppvNc',
+            gigyaURL: 'http://cdn.gigya.com/JS/socialize.js?apikey=3_Vstt7Zpmd0yMcuvT3s56RZuF1CU7IkBgcni4jzx28fjUmb0QQP2TLqXeOwNoQmnS',
+            defaultAvatarURL: 'http://img.sndimg.com/food/image/upload/w_45,h_45,q_100,c_thumb/v1/fdc/img/placeholder/avatar.jpg',
+            cookieDomain: '.food.com',
+            reviewSubmissionURL: 'http://www.food.com/services/mobile/recipe/review/submit',
+            IS: { FB: { id: '293868454060703' } },
+
+            Video: {
+
+            },
+
+            SocialUploader: {
+                apiKey: 'A6x6UxJTDSEenRnl6jrIsz',
+                preSubmitUrl: "/rzfoodservices/web/photo-upload/{assetType}/presubmit",
+                submitUrl: "/rzfoodservices/web/photo-upload/{assetType}/submit",
+                triggerClass: 'add-pictures',
+                pickOptions: {
+                    multiple: true
+                },
+                storeOptions: {
+                    path: null,
+                    transId: null
+                },
+                cloudinaryPathPrefix: '',
+                cloudinaryAvatarPathPrefix: '/food_avatar',
+                cloudinaryImgBasePath: 'img.sndimg.com/food',
+                cloudinaryUrl: 'http://img.sndimg.com/food/image/upload',
+                cloudinaryV1: '/v1/img',
+                cloudinaryFullBucket: '/v1/fdc'
+            },
+
+            useShortUrl: true
+        });
+
+    }());
+
+    // Google Analytics
+    var g_adkeyword="Creamy Cajun Chicken Pasta Recipe - Food.com";
+    var g_aduniqueid = '';
+    var g_recipesource= '';
+
+</script>
+
+
+<!--[if lt IE 9]>
+<script src="http://img.food.com/js/html5shiv.js"></script>
+<![endif]-->
+
+<style>
+    body {
+        background-image: none;
+    }
+    .fd-logo .ie-logo {
+        display: none;
+    }
+</style>
+
+
+
+
+</head>
+<body>
+<div class="fd-site-wrapper">
+
+    
+
+
+
+
+
+
+<!-- header -->
+
+<div class="ad-wrap">
+    <div class="fd-ad fd-leaderboard" id="dfp_leaderboard" data-dfp-type="dfp_leaderboard" data-dfp="loaded"></div>
+</div>
+
+<a name="top"></a>
+
+
+<div class="fd-header-wrap analytic-box" data-module="globalHeader">
+    <div class="navbar navbar-default navbar-static-top" role="navigation" id="fdc-navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#fdc-navigation">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="icon-fdc-burger"></i>
+                </button>
+                <div id="fd-logo">
+                    <div class="fd-logo">
+                        <object data="http://img.food.com/fdc/img/logo/FDC-logo.svg" type="image/svg+xml" height="100%" width="100%" title="Food.com: The most complete collection of free recipes on the Internet, trusted by home chefs throughout the world.">
+                            <img src="http://img.sndimg.com/food/image/upload/w_100,fl_progressive/v1/fdc/img/logo/FDC-logo-header.png" alt="Food.com: The most complete collection of free recipes on the Internet, trusted by home chefs throughout the world." height="100%" width="100%" />
+                        </object>
+                        <a class="ie-logo" href="http://www.food.com"><img src="http://img.sndimg.com/food/image/upload/w_100,fl_progressive/v1/fdc/img/logo/FDC-logo-header.png" alt="Food.com - Home of the Home Chef" height="100%" width="100%" /></a>
+                    </div>
+                </div>
+
+                <div class="fd-search">
+    <form id="search-form" action="http://www.food.com/search/all" data-params="">
+        <div class="fd-search-group">
+            <i class="icon-btn icon-fdc-search"></i>
+            <input type="search" placeholder="Search Food." />
+            <div class="ta-list" >
+                <div class="list-title"></div>
+                <ul></ul>
+            </div>
+        </div>
+        <span class="fd-search-cancel"><i class="icon-fdc-close"></i></span>
+        <a class="fd-back-to-top" href="#top"><i class="icon-fdc-arrow-up"></i>TOP</a>
+    </form>
+</div>
+
+                <ul class="nav-links">
+
+                    <!-- sm, md, lg breakpoints -->
+                    <!-- not authenticated -->
+
+                    <!-- Sign Up/Login -->
+                    <li class="hidden-xs">
+                        <button type="button" class="navbar-toggle fd-log-btn sso-login" id="fd-login-btn">Log In</button>
+                    </li>
+                    <li class="hidden-xs">
+                        <button type="button" class="navbar-toggle fd-sup-btn sso-sign-up" id="fd-signup-btn">
+                            <span>Sign Up</span>
+                        </button>
+                    </li>
+
+                    <!-- / not authenticated -->
+                    <!-- authenticated -->
+
+                    <!-- RecipeBox -->
+                    <li class="hidden-xs">
+                        <a href="http://recipes.food.com/shopping-list" class="navbar-toggle btn fd-gl-btn" id="fd-grocery-list-btn" title="Grocery List">
+                            <i class="icon-fdc-grocery-list"></i>
+                        </a>
+                        <a href="http://recipes.food.com" class="navbar-toggle btn fd-rb-btn" id="fd-recipe-box-btn" title="Recipe Box">
+                            <i class="icon-fdc-recipe-box"></i>
+                        </a>
+                    </li>
+
+                   <!-- /authenticated -->
+                   <!-- /sm, md, lg breakpoints -->
+
+
+                    <!-- all breakpoints -->
+                    <!-- not authenticated -->
+
+                    <!-- recent history button -->
+                    <li class="fd-avatar-noauth">
+                        <button type="button" class="navbar-toggle fd-user-icon-btn" data-toggle="collapse" data-target="#fd-user-recent-menu">
+                            <i class="icon-fdc-profile"></i>
+                        </button>
+                    </li>
+
+                    <!-- /not authenticated -->
+                    <!-- authenticated -->
+
+                    <!-- User Avatar -->
+                    <li class="fd-avatar-auth">
+                        <button type="button" class="navbar-toggle fd-user-btn" data-toggle="collapse" data-target="#fdc-user-menu">
+                            <span class="fd-avatar">
+                                <img alt="generic user avatar" src="http://img.sndimg.com/food/image/upload/w_45,h_45,q_100,c_thumb/v1/fdc/img/placeholder/avatar.jpg">
+                            </span>
+                            <span class="fd-greet">Hi, [user]</span>
+                            <i class="icon-fdc-navigate-down"></i>
+                        </button>
+                    </li>
+
+                    <!-- /authenticated -->
+                    <!-- /all breakpoints -->
+
+                    <!-- xs screen only -->
+                    <!-- search button -->
+                    <li class="visible-xs hidden-sm">
+                        <button type="button" class="navbar-toggle fd-sch-btn" id="fd-search-button">
+                            <span class="sr-only">Toggle search field</span>
+                            <i class="icon-fdc-search"></i>
+                        </button>
+                    </li>
+                    <!--/search button -->
+                    <!-- /xs screen only -->
+                </ul>
+            </div>
+            <div class="navbar-collapse fdc-menu collapse" id="fdc-navigation">
+                <ul class="nav navbar-nav">
+                    <li class="navbar-lead">
+                        <a href="http://www.food.com/slideshow/popular-facebook-recipes-393" data-clicktrack="true">
+                            <div class="asset-label">Featured</div>
+                            <div class="asset-feature">Our Top 50 Facebook Recipes</div>
+                        </a>
+                    </li>
+                    <li><a href="http://www.food.com" data-clicktrack="true">Home</a></li>
+                    <li><a href="http://www.food.com/recipe" data-clicktrack="true">Recipes</a></li>
+                    <li><a href="http://www.food.com/photo-gallery" data-clicktrack="true">Photo Galleries</a></li>
+                    <li><a href="http://www.food.com/videos/all-videos-20" data-clicktrack="true">Videos</a></li>
+                    <li><a href="http://www.food.com/how-to" data-clicktrack="true">How-Tos</a></li>
+                    <li><a href="http://www.food.com/topics" data-clicktrack="true">All Categories</a></li>
+                    <li class="navbar-footer">
+                        <div class="asset-label more-food">
+                            More Food.com
+                        </div>
+                        <ul>
+                            <li><a href="http://mynewsletters.scrippsnetworks.com/?mode=subscribe&nlbrand=foodcom&source=0000_FC_HEADER" data-clicktrack="true">Newsletters</a></li>
+                            <li><a href="http://www.food.com/how-to/about-us-31" data-clicktrack="true">About Us</a></li>
+                            <li><a href="http://www.food.com/html-sitemap">Site Map</a></li>
+                            <li><a href="http://www.food.com/feedback" data-clicktrack="true">Contact Us</a></li>
+                        </ul>
+                        <div class="fd-navbar-tools">
+                                <dl>
+                                    <dd>
+                                        <a class="icon-fdc-facebook" href="http://www.facebook.com/Food.com" target="_blank" data-clicktrack="true"></a>
+                                    </dd>
+                                    <dd>
+                                        <a class="icon-fdc-pinterest" href="http://pinterest.com/fooddotcom/" target="_blank" data-clicktrack="true"></a>
+                                    </dd>
+                                    <dd>
+                                        <a class="icon-fdc-twitter" href="https://twitter.com/fooddotcom" target="_blank" data-clicktrack="true"></a>
+                                    </dd>
+                                    <dd>
+                                        <a class="icon-fdc-google" href="https://plus.google.com/117908044835237955765/posts" target="_blank" data-clicktrack="true"></a>
+                                    </dd>
+                                    <dd>
+                                        <a class="icon-fdc-instagram" href="http://instagram.com/fooddotcom" target="_blank" data-clicktrack="true"></a>
+                                    </dd>
+                                    <dd>
+                                        <a class="icon-fdc-email" href="http://mynewsletters.scrippsnetworks.com/?mode=subscribe&nlbrand=foodcom&source=0000_FC_HEADER"></a>
+                                    </dd>
+                                </dl>
+                        </div>
+                        <div class="fd-legal">
+                            <p>
+                                <span class="fns">Food Network Sites</span>
+                                &copy; 2016  <a href="http://www.scrippsnetworks.com" rel="Scripps Networks" data-clicktrack="true">Scripps Networks</a>, LLC.<br/>
+                                All Rights Reserved.
+                            </p>
+                            <ul>
+                                <li><a href="http://www.scrippsnetworksdigital.com" data-clicktrack="true" target="_blank">Advertise With Us</a></li>
+                                <li><a id="_bapw-link" href="http://info.evidon.com/pub_info/1212?v=1&nt=1&nw=false" target="_blank" data-clicktrack="true"><img id="_bapw-icon" src="http://c.betrad.com/pub/icon1.png"><span>AdChoices</span></a></li>
+                                <li><a href="http://www.scrippsnetworks.com/privacy.aspx" target="_blank" data-clicktrack="true">Privacy Policy</a></li>
+                                <li><a href="http://www.scrippsnetworks.com/terms.aspx" target="_blank" rel="gf-legal-1" data-clicktrack="true">Terms of Use</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-collapse fdc-menu fdc-user-menu collapse" id="fdc-user-menu">
+                <ul class="nav navbar-nav">
+                    <li class="navbar-lead fd-menu-greeting">
+                        <a href="http://www.food.com/user">Hi, [user greeting]</a>
+                    </li>
+                    <li><a href="http://www.food.com/user/">Profile</a></li>
+                    <li><a href="http://recipes.food.com">Recipe Box</a></li>
+                    <li><a href="http://recipes.food.com/shopping-list">Grocery List</a></li>
+                    <li><a class="hidden-xs" href="http://www.food.com/mail">Inbox</a></li>
+                    <li><a href="http://www.food.com/upload/recipe">Add a Recipe</a></li>
+                    <li><a href="http://www.food.com/user/settings">Account Settings</a></li>
+                    <li><a class="sso-logout" href="http://share.food.com/redirectors/logout_redirector.jsp?DEST_URL=">Log Out</a></li>
+                    <li class="fd-no-session sso-login"><a href="http://www.food.com/login?DEST_URL=">Log In</a></li>
+                    <li class="fd-no-session sso-sign-up"><a href="http://www.food.com/login?DEST_URL=">Sign Up</a></li>
+                </ul>
+            </div>
+
+
+
+            <!-- RECENTLY VIEWED ASSETS MENU -->
+            <div class="navbar-collapse fdc-menu collapse" id="fd-user-recent-menu">
+                <ul class="nav navbar-nav">
+                    <!--
+                    <li class="fd-session"><a href="http://recipes.dev1-food.com">Recipe Box</a></li>
+                    <li class="fd-session"><a href="http://recipes.dev1-food.com/shopping-list">Grocery List</a></li>
+                    <li class="fd-session"><a href="http://www.dev1-food.com/upload/recipe">Add a Recipe</a></li>
+                    -->
+                    <li class="fd-no-session fd-sso-item">
+                        <a  href="/login?dest" class="sso-login pull-right" data-toggle="collapse" data-target="#fd-user-recent-menu">Log&nbsp;In</a>
+                        <a href="/signup?dest" class="sso-sign-up" data-toggle="collapse" data-target="#fd-user-recent-menu">Sign&nbsp;Up</a>
+                    </li>
+
+
+                </ul>
+            </div>
+            <!-- /RECENTLY VIEWED ASSETS MENU -->
+
+
+
+            <!--/ Search Filter flyout /-->
+            <div class="navbar-collapse fdc-menu collapse" id="fd-filters">
+                <div class="filter-lead">
+                    <h3>
+                        <i class="icon-fdc-filters"></i>Filters
+                    </h3>
+                    <button class="btn-link" id="fd-filters-cancel" data-target="#fd-filters" data-toggle="collapse">Close</button>
+                    <button id="fd-filters-done" data-target="#fd-filters" data-toggle="collapse">Search</button>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <h3>What's in Your Fridge?</h3>
+
+                        <div class="dfp_searchfilters" class="hidden hide"></div>
+
+                        <div class="fd-typeahead" data-target=".fd-selected-items.included">
+                            <form id="search-form" action="http://www.food.com/services/mobile/fdc/suggest/food?key=">
+                                <label for="include-search">Includes</label>
+                                <div class="input-group" data-list-name="included">
+                                    <input type="text" id="include-search" class="form-control" autocomplete="off" placeholder="Find an Ingredient" />
+                                    <span class="input-group-addon"><i class="icon-fdc-search"></i></span>
+                                    <input type="hidden" id="include" />
+                                </div>
+                                <div class="ta-list" >
+                                    <div class="list-title"></div>
+                                    <ul></ul>
+                                </div>
+                            </form>
+
+                            <div class="fd-selected-items included" data-desc="container to show what's included">
+                            </div>
+                        </div>
+                        <div class="fd-typeahead" data-target=".fd-selected-items.excluded">
+                            <form id="search-form" action="http://www.food.com/services/mobile/fdc/suggest/food?key=">
+                                <label for="exclude-search">Excludes</label>
+                                <div class="input-group">
+                                    <input type="text" id="exclude-search" class="form-control" autocomplete="off" placeholder="Find an Ingredient" />
+                                    <span class="input-group-addon"><i class="icon-fdc-search"></i></span>
+                                    <input type="hidden" id="exclude" />
+                                </div>
+                                <div class="ta-list" >
+                                    <div class="list-title"></div>
+                                    <ul></ul>
+                                </div>
+                            </form>
+
+                            <div class="fd-selected-items excluded" data-desc="container to show what's excluded"></div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <h3>Browse By:</h3>
+
+                        <button id="fd-filters-clear" class="btn-link">Clear All</button>
+
+                        <div class="fd-combobox filter-ingredient" data-source="ingredient"></div>
+                        <div class="fd-combobox filter-meal" data-source="meal"></div>
+                        <div class="fd-combobox filter-course" data-source="course"></div>
+                        <div class="fd-combobox filter-diet-nutrition" data-source="nutrition"></div>
+                        <div class="fd-combobox filter-occasion" data-source="occasion"></div>
+                        <div class="fd-combobox filter-cuisine" data-source="cuisine"></div>
+                        <div class="fd-combobox filter-preparation" data-source="preparation"></div>
+                        <div class="fd-combobox filter-record-type" data-source="record-type"></div>
+                    </li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+</div>
+
+<script type="text/html-template" id="tmpl-selected-filter">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="icon-fdc-close"></i></span>
+        <div class="form-control">{food}</div>
+    </div>
+</script>
+<script type="text/html-template" id="tmpl-applied-filter">
+    <div class="input-group">
+        <div class="form-control">{food}</div>
+        <span class="input-group-addon"><i class="icon-fdc-close"></i></span>
+    </div>
+</script>
+
+<!-- /header -->
+
+    
+
+
+
+
+<div class="fd-next-recipe">
+    <div class="fd-container container-fluid">
+        <div class="prev-recipe">
+            <i class="icon-fdc-navigate-up"></i>
+            <a href="#">Previous <span class="recipe-text">Recipe</span></a>
+        </div>
+        <div class="next-recipe">
+            <a href="#">Next <span class="recipe-text">Recipe</span></a>
+            <i class="icon-fdc-navigate-down"></i>
+        </div>
+    </div>
+</div>
+
+
+<!-- Message Banner -->
+
+
+<div class="fd-container-full container-fluid pushdown-message hidden analytic-box" data-module="shinnyBanner">
+    <div class="fd-container container-fluid">
+        <p>Stumped for dinner? Get our life-saving Dinner Daily newsletter. You (and your stomach) can thank us later!</p>
+        <button class="close close-pushdown-message"><i class="icon-fdc-close"></i></button>
+    </div>
+
+    <div class="fd-container container-fluid fd-email-signup">
+        <input class="fd-email-input" type="text" placeholder="your@email.com">
+        <button class="btn btn-emphasis fd-email-signup-submit">Sign up</button>
+    </div>
+
+    <span class="invalid-email-message"></span>
+</div>
+
+<!-- Brandscape Container -->
+
+
+<div id="dfp_pushdown_brandscape"></div>
+
+<!-- Brandscape Container -->
+
+
+    <div class="fd-page-feed">
+        
+
+
+
+
+
+
+
+
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"Recipe","mainEntityOfPage":"true","name":"Creamy Cajun Chicken Pasta","author":"Lorac","cookTime":"PT15M","prepTime":"PT10M","totalTime":"PT25M","datePublished":"September 02, 2002","description":"Make and share this Creamy Cajun Chicken Pasta recipe from Food.com.","image":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/piccZDaro.jpg","recipeIngredient":["2    boneless skinless chicken breast halves, cut into thin strips","4  ounces  linguine, cooked al dente","2  teaspoons  cajun seasoning (your recipe, \u003ca href\u003d\"http://www.food.com/recipe/cajun-seasoning-mix-14190\"\u003eCajun Seasoning Mix\u003c/a\u003e or store-bought)","2  tablespoons  butter","1   thinly sliced green onion","1/2 cup  heavy whipping cream","2  tablespoons chopped sun-dried tomatoes","1/4 teaspoon  salt","1/4 teaspoon  dried basil","1/8 teaspoon  ground black pepper","1/8 teaspoon  garlic powder","1/4 cup grated parmesan cheese"],"aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"1434"},"nutrition":{"@type":"NutritionInformation","calories":"719.1","fatContent":"41.1","saturatedFatContent":"24","cholesterolContent":"198.6","sodiumContent":"816.8","carbohydrateContent":"47.4","fiberContent":"2.5","sugarContent":"3.1","proteinContent":"39.3"},"recipeInstructions":{"@type":"ItemList","itemListElement":["Place chicken and Cajun seasoning in a bowl and toss to coat.","In a large skillet over medium heat, saut\u0026eacute; chicken in butter or margarine until chicken is tender, about 5 to 7 minutes.","Reduce heat add green onion, heavy cream, tomatoes, basil, salt, garlic powder, black pepper and heat through.","Pour over hot linguine and toss with Parmesan cheese."]},"recipeYield":"2 serving(s)","review":[{"@type":"Review","description":"FANTABULOUS!!!!  This dish was sooooo good I have to give a play-by-play.  I added 1 lb of halfed whole white button mushrooms.  For the sundried tomatoe I went to my freezer and grabbed a few of Mirj\u0027s \"Oven-dried tomatoes\" (which I have freezer bags full of) instead.    The only other thing that I used that was a first for me was the cajun seasoning.  Ironically, I had just purchased Pampered Chef\u0027s Cajun Seasoning.  I doubt this had anything to do with it, but I have never used a pre-mixed cajun seasoning before.  I layed a bed of pasta on a platter and poured the sauce over it all and served it \"family style.\"  We could have NEVER guessed what we were about to experience.  Honestly, with the exception of a straight-out alfredo, this is the best pasta sauce I have ever had.  The flavors just dance around in your mouth, not too overpowering, but they let you know they are there.  The entire meal my husband and I were scheming up different ways to make this recipe and we both agreed that we would like to try it with shrimp and also do just a veggie-version with lots of mushrooms, yellow/red/orange peppers, etc.  We are no food critics...but to us...this dish IS restaurant quality and is earning a spot in the front of the pasta section of my cookbook!!!  Thanks, Lorac, for this OUTSTANDING recipe!","datePublished":"October 06, 2002","itemReviewed":{"@type":"Thing","name":"Creamy Cajun Chicken Pasta"},"reviewRating":{"@type":"Rating","worstRating":"1","ratingValue":5,"bestRating":"5"},"author":"Shae"},{"@type":"Review","description":"Scrumpdillyumptious!!! We love alfredo but this spicier version was so good, our eyes were rolling in the back of our heads. I made no addtions or substitutions and your recipe as written is perfect for our tastes. The sauce was so rich and creamy. I agree with Shae, that we might try it with shrimp next time. Thanks Lorac, for a true delight.","datePublished":"October 11, 2002","itemReviewed":{"@type":"Thing","name":"Creamy Cajun Chicken Pasta"},"reviewRating":{"@type":"Rating","worstRating":"1","ratingValue":5,"bestRating":"5"},"author":"ratherbeswimmin\u0027"},{"@type":"Review","description":"This deserves 10 stars!!I just couldnt keep my hands outta the pot!This was soo creamty and the taste was outta this world:)Dinner was not only outragesouly good but it it was outragesouly easy to make!!Something so easy and tasty will definatly be seen on my table several times a month!!!I pretty much stuck to your recipe, I did add about a tablespoon or so of flour to the browned chicken and butter and I used about a cup of heavy whipping cream and a 1/2 cup milk.Like I said before outrageous!!!Thanks for sharing!!","datePublished":"January 28, 2003","itemReviewed":{"@type":"Thing","name":"Creamy Cajun Chicken Pasta"},"reviewRating":{"@type":"Rating","worstRating":"1","ratingValue":5,"bestRating":"5"},"author":"crawfish pie"}],"publisher":{"@type":"Organization","name":"Food.com","logo":{"@type":"ImageObject","url":"http://img.food.com/fdc/img/FDC-logo-AMP-transparent.png"},"url":"http://www.food.com"}}</script>
+
+<div class="container fd-container">
+    
+</div>
+<article class="current" id="39087" data-recipe-id="39087" data-page-name="/recipe/creamy-cajun-chicken-pasta-39087">
+    
+
+
+
+
+
+
+
+<div class="fd-container-full container-fluid">
+
+    
+
+    <div class="fd-container  container-fluid analytic-box" data-module="recipeHeading">
+
+        <header class="recipe">
+            <div class="sponsored">
+                <div id="dfp_logo"></div>
+            </div>
+
+            <div class="breadcrumbs">
+                <a href="http://www.food.com/recipe">Recipes</a>
+                <span class="separator"></span>
+                <a href="http://www.food.com/topic/chicken-breasts">Chicken Breast</a>
+            </div>
+
+            <h1 class="fd-recipe-title">Creamy Cajun Chicken Pasta</h1>
+
+            <section class="subhead">
+                <ul class="fd-byline ">
+                    <li>
+                        <a href="http://www.food.com/user/30534">
+                            <span class="fd-avatar responsive"><img data-src="http://img.sndimg.com/food/image/upload/v1/pickle_media1/media/userphoto/100506/U12633322/Photo_Video_64315216289960085162744_square.jpg" /></span>By
+                            <span>Lorac</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                    
+                        <a class="review-link " href="http://www.food.com/recipe/creamy-cajun-chicken-pasta-39087/review">
+                            <div class="fd-rating ">
+                                <div class="five-star"><span class="fd-rating-percent" style="width:96.60%;"><span class="sr-only">4.83</span></span></div>
+                                <a href="http://www.food.com/recipe/creamy-cajun-chicken-pasta-39087/review" class="num-reviews">(1434)</a>
+                            </div>
+                        </a>
+                    
+                    </li>
+                    
+                </ul>
+            </section>
+        </header>
+    </div>
+</div>
+
+
+
+<div class="fd-container-full container-fluid jumbotron  ">
+
+    <!-- can we just have the main image set -->
+    
+
+
+
+
+
+<div class="slideshow ">
+    <div class="slideshow_content">
+
+        
+
+        <div class="slideshow-nav">
+            <a class="button back icon-fdc-navigate-left" data-direction="-1"></a>
+            <a class="button next icon-fdc-navigate-right" data-direction="1"></a>
+        </div>
+        <div class="slideshow-interstitial" style='top: 0px;'>
+            <div id="dfp_photo_interstitial"></div>
+        </div>
+        <ul class="slides">
+            <li data-slide-position="73" class="slide">
+                <div class="slide_content">
+                    <span class="photographer">
+                        <a href="#"></a>
+                    </span>
+                    <div class="trans-img inner-wrapper">
+                        <img data-src="http://img.sndimg.com/food/image/upload/w_614,h_461,c_fit/v1/img/recipes/39/08/7/picmv6zr7.jpg" class="slide-photo" />
+                    </div>
+                </div>
+            </li>
+            <li data-slide-position="74" class="slide">
+                <div class="slide_content">
+                    <span class="photographer">
+                        <a href="#"></a>
+                    </span>
+                    <div class="trans-img inner-wrapper">
+                        <img data-src="http://img.sndimg.com/food/image/upload/w_614,h_461,c_fit/v1/img/recipes/39/08/7/picKyJ8Y0.jpg" class="slide-photo" />
+                    </div>
+                </div>
+            </li>
+            <li data-slide-position="1" class="slide">
+                <div class="slide_content">
+                    <span class="photographer">
+                        <a href="#"></a>
+                    </span>
+                    <div class="trans-img inner-wrapper">
+                        <img data-src="http://img.sndimg.com/food/image/upload/w_614,h_461,c_fit/v1/img/recipes/39/08/7/piccZDaro.jpg" class="slide-photo"/>
+                    </div>
+                    <i class="add-pictures icon-fdc-camera" data-clicktrack="true" data-su-pick-options='{"multiple":true, "maxFiles": 5}' data-su-asset-meta-data='{ "asset_id" : "39087", "asset_type": "recipe", "asset_name": "" }' title="Add Photo"></i>
+
+                    
+
+                </div>
+            </li>
+            <li data-slide-position="2" class="slide">
+                <div class="slide_content">
+                    <span class="photographer">
+                        <a href="#"></a>
+                    </span>
+                    <div class="trans-img inner-wrapper">
+                        <img data-src="http://img.sndimg.com/food/image/upload/w_614,h_461,c_fit/v1/img/recipes/39/08/7/4QMk5MBtQMyVXv7Tttko_IMG_0132.JPG" class="slide-photo" />
+                    </div>
+                </div>
+            </li>
+            <li data-slide-position="3" class="slide">
+                <div class="slide_content">
+                    <span class="photographer">
+                        <a href="#"></a>
+                    </span>
+                    <div class="trans-img inner-wrapper">
+                        <img data-src="http://img.sndimg.com/food/image/upload/w_614,h_461,c_fit/v1/img/recipes/39/08/7/9jwTYT2TxWlu0VQPTo1K_IMG_0131.JPG" class="slide-photo" />
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        
+
+    </div>
+
+</div>
+
+
+
+    <div class="fd-site-tools">
+        <div class="fd-container">
+            <dl class="util analytic-box" data-module="topRecipeTools">
+            <dt>
+                    <a href="" class="rb-open" title="Add to Recipe Box" data-recipe-id="39087">
+                        <i class="icon-fdc-plus"></i><span class="btn-text">Recipe Box</span></a>
+                </dt><dt>
+                    <a href="" class="grocery-list" title="Add to Grocery List"  data-recipe-id="39087">
+                        <i class="icon-fdc-plus"></i><span class="btn-text">Grocery List</span></a>
+                </dt><dd>
+                    <a href="http://www.food.com/recipeprint.do?rid=39087" title="Print"><i class="icon-fdc-print"></i><span class="btn-text">Print</span></a>
+                </dd><dt class="share">
+                    <a class="" data-toggle="modal" data-target="#social_share_modal" data-popup-id="#social_share_modal" title="Share"><i class="icon-fdc-share"></i><span class="btn-text">Share</span></a>
+                </dt><dd class="share-networks">
+                    <a href="" class="social-share" data-network="pinterest" title="Share on Pinterest"><i class="icon-fdc-pinterest"></i></a>
+                    <a href="" class="social-share" data-network="facebook" title="Share on Facebook"><i class="icon-fdc-facebook"></i></a>
+                    <a href="" class="social-share" data-network="twitter" title="Share on Twitter"><i class="icon-fdc-twitter"></i></a>
+                    <a href="" class="social-share" data-network="gplus" title="Share on Google+"><i class="icon-fdc-google"></i></a>
+
+                    <a class="social-share email-open" data-popup-id="#email" data-recipe-id="39087" href="mailto:?subject=Food.com for Creamy Cajun Chicken Pasta&body=Here%27s a recipe for Creamy Cajun Chicken Pasta from Food.com%3A http%3A%2F%2Fwww.food.com%2Frecipe%2Fcreamy-cajun-chicken-pasta-39087%3Fnl%3Demail_share" title="Share via Email"><i class="icon-fdc-email"></i></a>
+                </dd>
+            
+            </dl>
+        </div>
+    </div>
+</div>
+
+
+
+    <section class="container fd-container fd-page">
+
+        <div class="row recipe-detail col-md-19 col-lg-25">
+
+            <div class="row recipe-time">
+                <div class="total-time col-xs-5 col-sm-5 col-md-8 col-lg-8">
+                    <h6 class="title">Total Time</h6>
+                    
+                    
+                    <div>
+                        
+                        
+                        <span><strong>25</strong>mins</span>
+                        
+                    </div>
+                </div>
+                <div class="time-details col-xs-3 col-sm-5">
+                    <div class="prep-time">
+                        <h6 class="title">Prep <small>10 mins</small></h6>
+                    </div>
+                    <div class="cook-time">
+                        <h6 class="title">Cook <small>15 mins</small></h6>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="recipe-notes notes">
+                
+                <div class="row chef-note chef-note-39087">
+                    <div class="col-xs-1">
+                            <span  class="fd-avatar xs">
+                            <img data-src="http://img.sndimg.com/food/image/upload/v1/pickle_media1/media/userphoto/100506/U12633322/Photo_Video_64315216289960085162744_square.jpg" align="left" />
+                            </span>
+                    </div>
+                    <div class="col-xs-7">
+                        <p>N'awlin's style of chicken with an updated Alfredo sauce.</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+
+            
+
+            <div class="row recipe-skip analytic-box" data-module="skipToNextRecipe">
+                
+                <div class="col-xs-8 col-sm-21 col-md-28 col-lg-35">
+                    <a href="#" data-next-recipe-id="504424" data-next-recipe-url="http://www.food.com/recipe/creamy-cajun-chicken-pasta-504424">Skip to Next Recipe</a><i class="icon-fdc-arrow-down"></i>
+                </div>
+                
+            </div>
+
+            <div class="ingredients col-xs-8 col-sm-7 col-md-11 col-lg-13 analytic-box" data-module="ingredients">
+                <h3>Ingredients
+                    <small><a class="nutrition" data-toggle="modal"  data-target="#39087_nutrition" data-popup-id="#39087_nutrition">Nutrition</a></small>
+                </h3>
+
+                <div class="amounts servings_unit">
+                    
+                    
+                        <a class="servings" data-toggle="modal" data-target="#39087_servings" data-popup-id="#39087_servings">
+                            
+                            <label>Servings</label>
+                            <span class="value">2</span>
+                            
+                        </a>
+                        
+                    
+
+                    
+                    
+
+                    <a class="units" data-toggle="modal" data-target="#39087_units" data-popup-id="#39087_units">
+                        <label>Units</label>
+                            <span class='value'>US</span>
+                    </a>
+                </div>
+
+                <ul>
+                    <li data-ingredient="boneless+skinless+chicken+breast+halves"><span>2 </span>   <a href="http://www.food.com/about/chicken-221">boneless skinless chicken breast halves</a>, cut into thin strips</li>
+                    <li data-ingredient="linguine"><span>4 </span> ounces  <a href="http://www.food.com/about/pasta-273">linguine</a>, cooked al dente</li>
+                    <li data-ingredient="cajun+seasoning"><span>2 </span> teaspoons  cajun seasoning (your recipe, <a href="http://www.food.com/recipe/cajun-seasoning-mix-14190">Cajun Seasoning Mix</a> or store-bought)</li>
+                    <li data-ingredient="butter"><span>2 </span> tablespoons  <a href="http://www.food.com/about/butter-141">butter</a></li>
+                    <li data-ingredient="green+onion"><span>1 </span>  thinly sliced <a href="http://www.food.com/about/green-onion-363">green onion</a></li>
+                    <li data-ingredient="heavy+whipping+cream"><span><sup>1</sup>&frasl;<sub>2</sub></span> cup  <a href="http://www.food.com/about/heavy-cream-361">heavy whipping cream</a></li>
+                    <li data-ingredient="sun-dried+tomatoes"><span>2 </span> tablespoons chopped <a href="http://www.food.com/about/tomato-151">sun-dried tomatoes</a></li>
+                    <li data-ingredient="salt"><span><sup>1</sup>&frasl;<sub>4</sub></span> teaspoon  <a href="http://www.food.com/about/salt-359">salt</a></li>
+                    <li data-ingredient="dried+basil"><span><sup>1</sup>&frasl;<sub>4</sub></span> teaspoon  <a href="http://www.food.com/about/basil-317">dried basil</a></li>
+                    <li data-ingredient="ground+black+pepper"><span><sup>1</sup>&frasl;<sub>8</sub></span> teaspoon  <a href="http://www.food.com/about/pepper-337">ground black pepper</a></li>
+                    <li data-ingredient="garlic+powder"><span><sup>1</sup>&frasl;<sub>8</sub></span> teaspoon  <a href="http://www.food.com/about/garlic-powder-501">garlic powder</a></li>
+                    <li><h4>Garnish</h4></li><li data-ingredient="parmesan+cheese"><span><sup>1</sup>&frasl;<sub>4</sub></span> cup grated <a href="http://www.food.com/about/parmesan-cheese-467">parmesan cheese</a></li>
+                    
+                </ul>
+
+                <div class="extras">
+                    
+                    <input type="hidden" name="ingredient" value='["2    boneless skinless chicken breast halves, cut into thin strips","4  ounces  linguine, cooked al dente","2  teaspoons  cajun seasoning (your recipe, \u003ca href\u003d\"http://www.food.com/recipe/cajun-seasoning-mix-14190\"\u003eCajun Seasoning Mix\u003c/a\u003e or store-bought)","2  tablespoons  butter","1   thinly sliced green onion","1/2 cup  heavy whipping cream","2  tablespoons chopped sun-dried tomatoes","1/4 teaspoon  salt","1/4 teaspoon  dried basil","1/8 teaspoon  ground black pepper","1/8 teaspoon  garlic powder","1/4 cup grated parmesan cheese"]'>
+
+                </div>
+
+                <div class="fd-ad">
+                    <div class="dfp collapsable fd-onsale" data-dfp-type="dfp_grocery_list"></div>
+                </div>
+
+                <div class="fd-ad">
+                    <div class="dfp collapsable" data-dfp-type="dfp_native_ingredient"></div>
+                </div>
+
+                <div class="deals"></div>
+
+                <div class="top-cat-recipe analytic-box" data-module="top-cat-recipe">
+                    
+
+
+
+
+<div class="fd-promo TopRecipes">
+    <div class="fd-tile fd-recipe fd-tile-double">
+        <div class="fd-inner-tile">
+            <a href="http://www.food.com/topic/chicken-breasts/popular">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="http://pictures.food.com/api/file/a2ZX1DphTjK0YuAi916b-149-bourbon-chicken.jpg/convert?loc=/pictures.food.com/recipes/45/80/9/nFW9boVTGrjnGMv0b0RQ_149%20bourbon%20chicken.jpg&width=293&height=220&fit=max&flags=progressive&quality=95" alt="Check Out Our Top Chicken Breast Recipe" />
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title">Check Out Our Top Chicken Breast Recipe<i class="icon-fdc-arrow-right"></i></h2>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="fd-promo TopRecipes-v1" style="display: none;">
+    <div class="fd-tile fd-recipe fd-tile-double">
+        <div class="fd-inner-tile">
+            <a href="http://www.food.com/slideshow/all-time-best-dinner-recipes-334">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="http://pictures.food.com/api/file/a2ZX1DphTjK0YuAi916b-149-bourbon-chicken.jpg/convert?loc=/pictures.food.com/recipes/45/80/9/nFW9boVTGrjnGMv0b0RQ_149%20bourbon%20chicken.jpg&width=293&height=220&fit=max&flags=progressive&quality=95" alt="Check Out Our Top Chicken Breast Recipe" />
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title">50 All-Time Dinner Favorites <i class="icon-fdc-arrow-right"></i></h2>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+                </div>
+
+                
+
+
+<div class="relevant-slideshow analytic-box" data-module="relevant-slideshow">
+    <div class="fd-promo">
+        <div class="fd-tile fd-recipe fd-tile-double">
+            <div class="fd-inner-tile">
+                <a href="http://www.food.com/ideas/buffalo-chicken-6311">
+                    <div class="fd-img-wrap">
+                        <div class="img-overlay">&nbsp;</div>
+                        <img src="http://img.sndimg.com/food/image/upload/q_92,fl_progressive/v1/img/recipes/29/21/66/HC20RL1qSyCTtcXM8UBB_buffalo-chicken-sandwich-5755.jpg" alt="Buffalo Chicken, 19 Ways" />
+                    </div>
+                    <div class="tile-content">
+                        <div class="details">
+                            <h2 class="title">Buffalo Chicken, 19 Ways<i class="icon-fdc-arrow-right"></i></h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            </div>
+
+            <div class="directions analytic-box col-xs-8 col-sm-13 col-sm-offset-1 col-md-16 col-md-offset-1 col-lg-16 col-lg-offset-1" data-module="recipeDirections">
+                <h3>Directions</h3>
+                <ol>
+                    
+                    <li>Place chicken and Cajun seasoning in a bowl and toss to coat.</li>
+                    
+                    <li>In a large skillet over medium heat, saut&eacute; chicken in butter or margarine until chicken is tender, about 5 to 7 minutes.</li>
+                    
+                    <li>Reduce heat add green onion, heavy cream, tomatoes, basil, salt, garlic powder, black pepper and heat through.</li>
+                    
+                    <li>Pour over hot linguine and toss with Parmesan cheese.</li>
+                    
+                </ol>
+            </div>
+
+            <div class="row fd-ad dfp-placeholder col-xs-8 col-sm-21 hidden-sm hidden-md hidden-lg">
+                
+
+
+<div class="dfp-bigbox">
+    <div class="dfp-ad-wrap">
+        <div class="dfp" data-dfp-type="dfp_bigbox" data-dfp-sync="dfp_native_ingredient"></div>
+        <span class="ad-label">Advertisement</span>
+    </div>
+</div>
+
+            </div>
+        </div><!-- .recipe-detail -->
+
+        <aside class="fd-ad hidden-xs hidden-sm">
+            
+
+
+<div class="dfp-bigbox">
+    <div class="dfp-ad-wrap">
+        <div class="dfp" data-dfp-type="dfp_bigbox" data-dfp-sync="dfp_native_ingredient"></div>
+        <span class="ad-label">Advertisement</span>
+    </div>
+</div>
+
+        </aside>
+
+        
+
+
+
+
+        
+        <div class="row recipe-reviews analytic-box" data-module="recipeReviews">
+
+            <!--vv RR Review content markup vv-->
+            <section class="review-content">
+
+                <div class="review-header">
+                    <h3>Reviews</h3>
+                    <div class="fd-rating">
+                        <div class="five-star">
+                            <a href="http://www.food.com/recipe/creamy-cajun-chicken-pasta-39087/review"><span class="fd-rating-percent" style="width: 96.60%;;"></span></a>
+                        </div>
+                        <a href="http://www.food.com/recipe/creamy-cajun-chicken-pasta-39087/review" class="num-reviews">(1434)</a>
+                    </div>
+                    <div class="review-tools">
+                        <a href="http://www.food.com/recipe/creamy-cajun-chicken-pasta-39087/review">See All Reviews</a>
+
+                        
+                        <a class="write-a-review" data-href="http://www.food.com/recipe/creamy-cajun-chicken-pasta-39087/review?lrc=true"><i class="icon-fdc-write-a-review"></i>Write A Review</a>
+                        
+                    </div>
+                </div>
+
+
+                <section class="reviews fd-container-full">
+                    <h5>Most Helpful</h5>
+
+                    
+                    <article>
+                        <div class="fd-rating">
+                            <div class="five-star">
+                                <span class="fd-rating-percent" style="width: 100.00%;;"></span>
+                            </div>
+                        </div>
+
+                        
+                        <p>FANTABULOUS!!!!  This dish was sooooo good I have to give a play-by-play.  I added 1 lb of halfed whole white button mushrooms.  For the sundried tomatoe I went to my freezer and grabbed a few of Mirj's "Oven-dried tomatoes" (which I have freezer bags full of) instead.    The only other thing that I used that was a first for me was the cajun seasoning.  Ironically, I had just purchased Pampered Chef's Cajun Seasoning.  I doubt this had anything to do with it, but I have never used a pre-mixed cajun seasoning before.  I layed a bed of pasta on a platter and poured the sauce over it all and served it "family style."  We could have NEVER guessed what we were about to experience.  Honestly, with the exception of a straight-out alfredo, this is the best pasta sauce I have ever had.  The flavors just dance around in your mouth, not too overpowering, but they let you know they are there.  The entire meal my husband and I were scheming up different ways to make this recipe and we both agreed that we would like to try it with shrimp and also do just a veggie-version with lots of mushrooms, yellow/red/orange peppers, etc.  We are no food critics...but to us...this dish IS restaurant quality and is earning a spot in the front of the pasta section of my cookbook!!!  Thanks, Lorac, for this OUTSTANDING recipe!</p>
+                        
+
+                        <figure class="author">
+                                <span class="fd-avatar xs">
+                                    <a href="http://www.food.com/user/22724">
+                                        <img src="http://img.sndimg.com/food/image/upload/v1/pickle_media1/media/rz_migration/22/Photo_Video_22724_square.jpg" />
+                                    </a>
+                                </span>
+                            <figcaption>
+                                <a class="name" href="http://www.food.com/user/22724"><span>Shae</span></a>
+                                <small class="date">October 06, 2002</small>
+                            </figcaption>
+                        </figure>
+
+                    </article>
+                    
+                    <article>
+                        <div class="fd-rating">
+                            <div class="five-star">
+                                <span class="fd-rating-percent" style="width: 100.00%;;"></span>
+                            </div>
+                        </div>
+
+                        
+                        <p>Scrumpdillyumptious!!! We love alfredo but this spicier version was so good, our eyes were rolling in the back of our heads. I made no addtions or substitutions and your recipe as written is perfect for our tastes. The sauce was so rich and creamy. I agree with Shae, that we might try it with shrimp next time. Thanks Lorac, for a true delight.</p>
+                        
+
+                        <figure class="author">
+                                <span class="fd-avatar xs">
+                                    <a href="http://www.food.com/user/37779">
+                                        <img src="http://img.sndimg.com/food/image/upload/v1/pickle_media1/media/userphoto/130527/U25265290/Photo_Video_33255265926325795436075_square.jpg" />
+                                    </a>
+                                </span>
+                            <figcaption>
+                                <a class="name" href="http://www.food.com/user/37779"><span>ratherbeswimmin'</span></a>
+                                <small class="date">October 11, 2002</small>
+                            </figcaption>
+                        </figure>
+
+                    </article>
+                    
+                    <article>
+                        <div class="fd-rating">
+                            <div class="five-star">
+                                <span class="fd-rating-percent" style="width: 100.00%;;"></span>
+                            </div>
+                        </div>
+
+                        
+                        <p>This deserves 10 stars!!I just couldnt keep my hands outta the pot!This was soo creamty and the taste was outta this world:)Dinner was not only outragesouly good but it it was outragesouly easy to make!!Something so easy and tasty will definatly be seen on my table several times a month!!!I pretty much stuck to your recipe, I did add about a tablespoon or so of flour to the browned chicken and butter and I used about a cup of heavy whipping cream and a 1/2 cup milk.Like I said before outrageous!!!Thanks for sharing!!</p>
+                        
+
+                        <figure class="author">
+                                <span class="fd-avatar xs">
+                                    <a href="http://www.food.com/user/29920">
+                                        <img src="http://img.sndimg.com/food/image/upload/v1/pickle_media1/media/rz_migration/29/Photo_Video_29920_square.jpg" />
+                                    </a>
+                                </span>
+                            <figcaption>
+                                <a class="name" href="http://www.food.com/user/29920"><span>crawfish pie</span></a>
+                                <small class="date">January 28, 2003</small>
+                            </figcaption>
+                        </figure>
+
+                    </article>
+                    
+
+                </section>
+
+            </section>
+
+            <!--^^ review-content ^^-->
+
+        </div>
+        
+
+        <div class="row recipe-tools col-xs-8 col-sm-21 col-md-28 col-lg-35">
+            <div class="fd-site-tools">
+                <div class="fd-container">
+                    <dl class="util analytic-box" data-module="bottomRecipeTools">
+                        <dt>
+                            <a href="#" class="rb-open" title="Add to Recipe Box" data-recipe-id="39087">
+                                <i class="icon-fdc-plus"></i><span class="btn-text">Recipe Box</span></a>
+                        </dt><dt>
+                        <a href="#" class="grocery-list" title="Add to Grocery List"  data-recipe-id="39087">
+                            <i class="icon-fdc-plus"></i><span class="btn-text">Grocery List</span></a>
+                    </dt><dd>
+                        <a href="http://www.food.com/recipeprint.do?rid=39087" title="Print"><i class="icon-fdc-print"></i><span class="btn-text">Print</span></a>
+                    </dd><dt class="share">
+                        <a class="#" data-toggle="modal" data-target="#social_share_modal" data-popup-id="#social_share_modal" title="Share"><i class="icon-fdc-share"></i><span class="btn-text">Share</span></a>
+                    </dt><dd class="share-networks">
+                        <a href="#" class="social-share" data-network="pinterest" title="Share on Pinterest"><i class="icon-fdc-pinterest"></i></a>
+                        <a href="#" class="social-share" data-network="facebook" title="Share on Facebook"><i class="icon-fdc-facebook"></i></a>
+                        <a href="#" class="social-share" data-network="twitter" title="Share on Twitter"><i class="icon-fdc-twitter"></i></a>
+                        <a href="#" class="social-share" data-network="gplus" title="Share on Google+"><i class="icon-fdc-google"></i></a>
+                        <a class="social-share" href="mailto:?subject=Food.com for Creamy Cajun Chicken Pasta&body=Here%27s a recipe for Creamy Cajun Chicken Pasta from Food.com%3A http%3A%2F%2Fwww.food.com%2Frecipe%2Fcreamy-cajun-chicken-pasta-39087%3Fnl%3Demail_share" title="Share via Email"><i class="icon-fdc-email"></i></a>
+                    </dd><dt class="submit-a-correction">
+                        <a class="submit-correction link-submit-correction" href="http://www.food.com/recipe/edit.php?rid=39087">
+                            <i class="icon-fdc-edit"></i><span class="btn-text">Submit a Correction</span></a>
+                    </dt>
+                        
+                    </dl>
+                </div>
+            </div>
+
+            <div class="row related-recipes analytic-box" data-module="recipeRelated">
+                
+                <dl>
+                    <dt>Related:</dt>
+                    
+                    <dd><a href="http://www.food.com/topic/chicken"><span>Chicken</span></a></dd>
+                    
+                    <dd><a href="http://www.food.com/topic/poultry"><span>Poultry</span></a></dd>
+                    
+
+                </dl>
+                
+                <a class="btn btn-primary primary-category" href="http://www.food.com/topic/chicken-breasts">View All Chicken Breast Recipes</a>
+            </div>
+        </div>
+
+        <div class="row promo-module col-xs-8 col-sm-21 col-md-28 col-lg-35">
+            
+
+
+<div id="dfp_cartridge"></div>
+
+
+
+
+
+<div class="OUTBRAIN" data-src="http://www.food.com/recipe/creamy-cajun-chicken-pasta-39087" data-widget-id="AR_3" data-ob-template="food" ></div>
+<script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script>
+
+
+        </div>
+
+        <div class="row fd-ad dfp-placeholder col-xs-8 col-sm-21 hidden-md hidden-lg">
+            
+
+
+<div class="dfp-bigbox">
+    <div class="dfp-ad-wrap">
+        <div class="dfp" data-dfp-type="dfp_bigbox" data-dfp-sync="dfp_native_ingredient"></div>
+        <span class="ad-label">Advertisement</span>
+    </div>
+</div>
+
+        </div>
+
+    </section>
+
+    <!-- modals -->
+    <div class="modal fade" id="39087_nutrition" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content nutrition">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Nutrition Info</h4>
+                </div>
+                <div class="modal-body">
+
+                    <p>Serving Size: <span>1 (373 g)</span></p>
+                    <p>Servings Per Recipe: 2</p>
+
+
+                    <dl class="nutrition">
+                        <dt>Amount Per Serving</dt>
+
+                        <dd>% Daily Value</dd>
+                        
+                        <dt class="cals nutrition">Calories <span class="calories">719.1</span>
+                        </dt><dd class="cals"></dd>
+
+                        <dt class="fat-cals nutrition">Calories from Fat 370
+                        </dt><dd class="fat-cals">52%</dd>
+
+                        <dt class="sub nutrition">Total Fat
+                            <span class="fat">41.1</span>
+                            <span class="type"> g</span>
+                        </dt><dd class="sub">63%</dd>
+
+                        <dt class="sub nutrition">Saturated Fat
+                            <span class="saturatedFat">24</span>
+                            <span class="type"> g</span>
+                        </dt><dd class="sub">120%</dd>
+
+                        <dt class="nutrition">Cholesterol
+                            <span class="cholesterol">198.6</span>
+                            <span class="type"> mg</span>
+                        </dt><dd>66%</dd>
+
+                        <dt class="nutrition">Sodium
+                            <span class="sodium">816.8</span>
+                            <span class="type"> mg</span>
+                        </dt><dd>34%</dd>
+
+                        <dt class="nutrition">Total Carbohydrate
+                            <span class="carbohydrates">47.4</span>
+                            <span class="type"> g</span>
+                        </dt><dd>15%</dd>
+
+                        <dt class="sub nutrition">Dietary Fiber
+                            <span class="fiber">2.5</span>
+                            <span class="type"> g</span>
+                        </dt><dd class="sub">10%</dd>
+
+                        <dt class="sub nutrition">Sugars
+                            <span class="fiber">3.1</span>
+                            <span class="type"> g</span>
+                        </dt><dd class="sub">12%</dd>
+
+                        <dt class="last nutrition">Protein
+                            <span class="protein">39.3</span>
+                            <span class="type"> g</span>
+                        </dt><dd class="last">78%</dd>
+                    </dl>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="39087_servings" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <form name="servingsModForm" action="" onsubmit="if(!$.isNumeric($(document.forms['servingsModForm']['scaleto']).val())) { document.forms['servingsModForm'].reset(); return false; } ">
+                    <input type="hidden" name="mode" value="us"/>
+                    <input type="hidden" name="st" value="true"/>
+
+                    
+
+                    
+
+
+                    <div class="modal-header">
+
+                        <h4 class="modal-title" id="myModalLabel">Serves</h4>
+                    </div>
+                    <div class="modal-body">
+                        <input type="text" class="amount" name="scaleto" value="2" data-original="2.0">
+                        <span class="unit"></span>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-link" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Done</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="39087_yield" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <form name="yieldModForm" action="" onsubmit="if(!$.isNumeric($(document.forms['yieldModForm']['scaleto']).val())) {  document.forms['yieldModForm'].reset(); return false; }">
+                    <input type="hidden" name="mode" value="us"/>
+                    <input type="hidden" name="st" value="true"/>
+
+                    
+
+
+                    
+
+
+                    <div class="modal-header">
+
+                        <h4 class="modal-title" id="myModalLabel">Yields</h4>
+                    </div>
+                    <div class="modal-body">
+                        <input type="text" class="amount" name="scaleto" value="null">
+                        <span class="unit"></span>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-link" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Done</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="39087_units" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <form action="">
+                    <input type="hidden" name="scaleto" value="2.0"/>
+                    <input type="hidden" name="st" value="null"/>
+
+                    
+
+
+                    
+
+                    <div class="modal-header">
+
+                        <h4 class="modal-title" id="myModalLabel">Units</h4>
+                    </div>
+                    <div class="modal-body">
+                        <input type="radio" id="r1" class="fa" name="mode" value="us" checked
+><label for="r1">US</label>
+                        <input type="radio" id="r2" class="fa" name="mode" value="metric" ><label for="r2">Metric </label>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-link" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Done</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="social_share_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content share">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <label class="modal-title">Share this recipe:</label>
+                    <h2 class='modal-title'>Creamy Cajun Chicken Pasta</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="list-group list-group-white list-group-center analytic-box" data-module="modalShareRecipe">
+                        <a class="list-group-item share-recipe social-share" data-network="pinterest" href="#" data-recipe-id="39087"><i class="icon-fdc-pinterest"></i> Pinterest</a>
+                        <a class="list-group-item share-recipe social-share" data-network="facebook" href="#" data-recipe-id="39087"><i class="icon-fdc-facebook"></i> Facebook</a>
+                        <a class="list-group-item share-recipe social-share" data-network="twitter" href="#" data-recipe-id="39087"><i class="icon-fdc-twitter"></i> Twitter</a>
+                        <a class="list-group-item share-recipe social-share" data-network="gplus" href="#" data-recipe-id="39087"><i class="icon-fdc-google"></i> Google+</a>
+                        <a class="list-group-item share-recipe" href="mailto:?subject=Food.com for Creamy Cajun Chicken Pasta&body=Here%27s a recipe for Creamy Cajun Chicken Pasta from Food.com%3A http%3A%2F%2Fwww.food.com%2Frecipe%2Fcreamy-cajun-chicken-pasta-39087%3Fnl%3Demail_share"><i class="icon-fdc-email"></i> Email</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="39087_socialupload" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content share">
+                <div class="modal-header">
+                    <h4 class="modal-title">Saving Photo...</h4>
+                </div>
+                <div class="modal-body">
+                    <i class="icon-fdc-loading fa-spin"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade modal-content-collapse fd-timed-modal" id="modal_sharetimer" tabindex="-1" role="dialog" aria-labelledby="modal_cookedthis" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><i class="icon-fdc-close"></i><span class="sr-only">Close</span></button>
+                </div>
+                <div class="modal-body">
+                    <h4>Like what you see here?</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="#" class="rb-open" data-recipe-id="39087" title="Add to Recipe Box" onClick="$('#modal_sharetimer').modal('hide');">Save to Recipe Box</a></li>
+                        <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#social_share_modal" data-popup-id="#social_share_modal" title="Share" onClick="$('#modal_sharetimer').modal('hide');">Tell a Friend</a></li>
+                    </ul>
+                    <div class="fd-newsletter-signup">
+                        <h5>Get Our Daily Dinner Newsletter</h5>
+                        <div class="fd-email-signup">
+                            <input class="fd-email-input" type="text" placeholder="your@email.com">
+                            <span class="invalid-email-message">Please enter a valid email address.</span>
+                            <button class="btn btn-emphasis fd-email-signup-submit">Sign up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modal_recipebox" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content share">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Add to Recipe Box</h4>
+        <p>Please select a folder</p>
+      </div>
+      <div class="modal-body">
+
+        <div class="loading">
+            <i class="icon-fdc-loading fa-spin"></i>
+        </div>
+
+        <div class="list-group list-hide"></div>
+
+        <input type="text" class="amount folder-name" name="folder-name" value="" placeholder="Add a New Folder">
+        <span class="unit unit-bottom"><a href="#" class="recipe-box-add-new-folder" data-folder-name-class="folder-name" data-recipe-id="">+</a></span>
+
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- /modals -->
+
+    
+</article>
+
+
+
+            <script>
+                FD.subscribe( 'sales.widget.code.loaded' , function() {
+                    FD.Page.Recipe.initSalesWidget( '39087' , 'http://www.food.com' );
+                });
+            </script>
+
+
+    </div>
+
+    <div class="fd-overlay"></div>
+
+     
+
+
+
+
+
+
+
+
+<!-- footer -->
+
+
+<script type="text/javascript" src="http://statics.scrippsnetworks.com/wrapper/js/socialupload_widget.min.js" ></script>
+<script type="text/javascript" src="http://img.food.com/fd/js/recipe.min.js?v=89a" ></script>
+<script type="text/javascript" src="http://www.player.video.snidigital.com/vpc/1/6/js/sni-video.min.js" ></script>
+<script type="text/javascript" src="http://img.food.com/fd/js/components/videomodule.min.js?v=89a" ></script>
+
+
+<script type="text/javascript">
+//$(function () {
+(function($){$(function(){log("...DOM Ready (Gigya Events"),FD.subscribe("fd.session.loginVerified",function(){log("...login verified"),setTimeout(function(){FD.Page.loginRedirectUrl?window.location=FD.Page.loginRedirectUrl:window.location.reload()},200)}),FD.subscribe("fd.session.logoutVerified",function(){log("...login verified"),setTimeout(function(){window.location.reload()},200)})})})(jQuery);
+
+// DTM
+if(typeof _satellite != 'undefined') {_satellite.pageBottom();}
+
+// adds the CTI library to the page
+(function (d) {var h;var s = d.createElement('script');s.type = 'text/javascript';s.async = true;s.src = FD.Config.ctiURL;h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(document);
+
+// set Omniture parameters
+if (!SNI.Omniture) { SNI.Omniture = {}; }
+SNI.Omniture.pageType = FD.Config.MetaData.pageType;
+if(typeof SniAds === "object") { SniAdsConfig.adSlots[0].mapping.small = [300,250]; SniAdsConfig.adSlots[0].mapping.medium = [300,250]; }
+try { if(typeof SniAds === "object") SniAds.init({ breakpoints: FD.viewports.getSniAdBreakpoints() }); } catch(e) { log('=== SNI Ad Library Error! ==='); log(e); }
+$(function() {FD.Page.Recipe.init({id: '39087',url: 'http://www.food.com/recipe/creamy-cajun-chicken-pasta-39087',public: true,mdManager: {"adkey1":"CHICKEN","adkey2":"","CategoryDspName":"RECIPES","Classification":"RECIPES,RECIPES,FOODCOM","ingredients":"boneless skinless chicken breast halves,butter,cajun seasoning,dried basil,garlic powder,green onions,ground black pepper,heavy whipping cream,linguine,parmesan cheese,salt,sun-dried tomatoes","keywordids":"10,12,13,14,15,16,17,21,25,89,97,101,104,109,113,131,141,156,161,165,223,231,252,254,282,372,382,397,455,460,465","keywords":"30_minutes_or_less,time_to_make,course,main_ingredient,cuisine,preparation,occasion,north_american,for_1_or_2,main_dish,eggs_dairy,pasta,poultry,american,cajun,southern_united_states,easy,dinner_party,kid_friendly,romantic,chicken,stove_top,dietary,spicy,comfort_food,meat,chicken_breasts,pasta_rice_and_grains,taste_mood,equipment,number_of_servings","SctnDspName":"RECIPES","Site":"FOODCOM","Sponsorship":"FC_EASYDINNER","type":"RECIPE","UniqueId":"1-39087-MAIN","Subdomain":"","Url":"http://www.food.com/recipe/creamy-cajun-chicken-pasta-39087","Title":"Creamy Cajun Chicken Pasta Recipe - Food.com","PrepTime":"10","Version":"beta","Site Tier":"direct","OrigPubDate":"2002-09-02|2016-06-17","TopRecipe":"false","TopSlideshow":"true","DeliveryChannel":"(FD && FD.viewports && FD.viewports.viewport().label) || null"},share: {imageUrl: 'http://img.sndimg.com/food/image/upload/w_614,h_461,c_fit/v1/img/recipes/39/08/7/piccZDaro.jpg',title: 'Creamy Cajun Chicken Pasta'},nextRecipe: {id: '504424',url: 'http://www.food.com/recipe/creamy-cajun-chicken-pasta-504424'},picList: {"position":0, "slides":[{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/piccZDaro.jpg","position":"1","by":"Marg (CaymanDesigns)","profileUrl":"http://www.food.com/user/1535","photoId":336965},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/4QMk5MBtQMyVXv7Tttko_IMG_0132.JPG","position":"2","by":"Suchuwaato","profileUrl":"http://www.food.com/user/2485623","photoId":383592},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/9jwTYT2TxWlu0VQPTo1K_IMG_0131.JPG","position":"3","by":"Suchuwaato","profileUrl":"http://www.food.com/user/2485623","photoId":383591},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/roA6Lh0wTxqWar2INcVi_IMG_0130.JPG","position":"4","by":"Suchuwaato","profileUrl":"http://www.food.com/user/2485623","photoId":383590},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/2YdWUya0RquNmwYOBSpL_14657696912491492822655.jpg","position":"5","by":"jaredwilli","profileUrl":"http://www.food.com/user/2001042881","photoId":383456},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/01465256180.jpeg","position":"6","by":"Anonymous","profileUrl":"http://www.food.com/user/2001036374","photoId":383342},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/01463698961.jpeg","position":"7","by":"Anonymous","profileUrl":"http://www.food.com/user/2001018406","photoId":382727},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/01463541348.jpeg","position":"8","by":"Anonymous","profileUrl":"http://www.food.com/user/2001016365","photoId":382680},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/01459118810.jpeg","position":"9","by":"Chef #1800369208","profileUrl":"http://www.food.com/user/1800369208","photoId":381042},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/01457397598.jpeg","position":"10","by":"Anonymous","profileUrl":"http://www.food.com/user/2000909343","photoId":380664},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/qPTVK4wkTYy181PdYr4f_image.jpeg","position":"11","by":"Kimberleyyx","profileUrl":"http://www.food.com/user/2000599274","photoId":376615},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/x84jfWuyQ0i80CtAt0cD_IMG_20140725_203546884.jpg","position":"12","by":"Chef #1802967327","profileUrl":"http://www.food.com/user/1802967327","photoId":361834},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/CgDMsf7T2Wssje5yZMKu_munchkintime.com%20(17%20of%2019).JPG","position":"13","by":"lovekeil","profileUrl":"http://www.food.com/user/2745646","photoId":360733},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/ijM5P2ZQQfKASuCQjySV_10203691501108000.jpg","position":"14","by":"vaniajames","profileUrl":"http://www.food.com/user/2336168","photoId":359052},{"url":"http://pictures.food.com/api/file/7TC4DLuEQVy17MyGpEJ8-Creamy_Cajun_chicken_pasta.jpg/convert?loc=/pictures.food.com/recipes/39/08/7/tpB97nbFSoeg38myZymW_275333595975951.jpg&width=555&height=416&fit=max&flags=progressive&quality=95","position":"15","by":"Chef #1802567539","profileUrl":"http://www.food.com/user/1802567539","photoId":356366},{"url":"http://pictures.food.com/api/file/gPf5mQwROWuWgTgOJpyQ-image.jpg/convert?loc=/pictures.food.com/recipes/39/08/7/p3Zuo2xRMgmx6RrEeoQ5_image.jpg&width=555&height=416&fit=max&flags=progressive&quality=95","position":"16","by":"TiffanyLovesCooking","profileUrl":"http://www.food.com/user/1802555877","photoId":355537},{"url":"http://pictures.food.com/api/file/m6wtwjlSnyb7ySE1Xobx-image.jpg/convert?loc=/pictures.food.com/recipes/39/08/7/gAZdIqRTPOniUMHC0ybl_image.jpg&width=555&height=416&fit=max&flags=progressive&quality=95","position":"17","by":"TiffanyLovesCooking","profileUrl":"http://www.food.com/user/1802555877","photoId":355502},{"url":"http://pictures.food.com/api/file/TfNiqo2Rca8FnaUay6Yw-Cajun_fettuccine_Alfredo.jpg/convert?loc=/pictures.food.com/recipes/39/08/7/cjFZW2h3TNmiapMdsWRQ_Cajun_fettuccine_Alfredo.jpg&width=555&height=416&fit=max&flags=progressive&quality=95","position":"18","by":"ShankinShannon","profileUrl":"http://www.food.com/user/11815217","photoId":354515},{"url":"http://pictures.food.com/api/file/fj2thcI9R0mZJV0Rs62g-photo.jpg/convert?loc=/pictures.food.com/recipes/39/08/7/UeCcf1H3RnuA3Wg5GSX8_photo.jpg&rotate=90&width=555&height=416&fit=max&flags=progressive&quality=95","position":"19","by":"Chef #1800206094","profileUrl":"http://www.food.com/user/1800206094","photoId":349244},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picfVU9eZ.jpg","position":"20","by":"Cooking=Passion","profileUrl":"http://www.food.com/user/1800108102","photoId":347331},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picscds0W.jpg","position":"21","by":"wmasoner","profileUrl":"http://www.food.com/user/2777135","photoId":338758},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picYYFNFO.jpg","position":"22","by":"Marg (CaymanDesigns)","profileUrl":"http://www.food.com/user/1535","photoId":336964},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picvx5IdF.jpg","position":"23","by":"DorveraOwens","profileUrl":"http://www.food.com/user/2838691","photoId":336810},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/piczXhgE0.jpg","position":"24","by":"Loyd107","profileUrl":"http://www.food.com/user/2743681","photoId":331426},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picUVEZk3.jpg","position":"25","by":"loveeJass","profileUrl":"http://www.food.com/user/2741080","photoId":331270},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picbm2WpC.jpg","position":"26","by":"jslong13","profileUrl":"http://www.food.com/user/2704463","photoId":329406},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/pico8dkUV.jpg","position":"27","by":"Sharyn77","profileUrl":"http://www.food.com/user/2705345","photoId":329294},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picibtoqA.jpg","position":"28","by":"5nolans","profileUrl":"http://www.food.com/user/2687969","photoId":329189},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picWvf6yw.jpg","position":"29","by":"Liza at Food.com","profileUrl":"http://www.food.com/user/354675","photoId":328641},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picJ2usnM.jpg","position":"30","by":"Liza at Food.com","profileUrl":"http://www.food.com/user/354675","photoId":328640},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picvxptRt.jpg","position":"31","by":"Liza at Food.com","profileUrl":"http://www.food.com/user/354675","photoId":328639},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picjZES7g.jpg","position":"32","by":"dieudee","profileUrl":"http://www.food.com/user/2566685","photoId":324860},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/pic8gALwI.jpg","position":"33","by":"Robin2323","profileUrl":"http://www.food.com/user/2362468","photoId":316998},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/pic0Mber9.jpg","position":"34","by":"WhatIsCookingNow?","profileUrl":"http://www.food.com/user/2306240","photoId":312659},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/piczANp1K.jpg","position":"35","by":"AlainaF","profileUrl":"http://www.food.com/user/1974680","photoId":312216},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picfryWej.jpg","position":"36","by":"teemarie84","profileUrl":"http://www.food.com/user/1631411","photoId":309041},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picBWbI3K.jpg","position":"37","by":"Satyne","profileUrl":"http://www.food.com/user/1620171","photoId":306589},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picEI9BN9.jpg","position":"38","by":"Wife2uRick","profileUrl":"http://www.food.com/user/178742","photoId":305203},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picpDYeJd.jpg","position":"39","by":"feastofwords","profileUrl":"http://www.food.com/user/2198968","photoId":304989},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picLYqavx.jpg","position":"40","by":"Sueisabel","profileUrl":"http://www.food.com/user/376309","photoId":294480},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picZ8YUZK.jpg","position":"41","by":"sloe cooker","profileUrl":"http://www.food.com/user/364211","photoId":292192},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/pichoSMoq.jpg","position":"42","by":"sloe cooker","profileUrl":"http://www.food.com/user/364211","photoId":292191},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/piceYlDFY.jpg","position":"43","by":"williamdean","profileUrl":"http://www.food.com/user/1981388","photoId":290255},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/pic1BRyQx.jpg","position":"44","by":"popkutt","profileUrl":"http://www.food.com/user/934113","photoId":286529},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picGtNohU.jpg","position":"45","by":"LeMaire","profileUrl":"http://www.food.com/user/1910025","photoId":283421},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picVBBx9d.jpg","position":"46","by":"xobribrixo121","profileUrl":"http://www.food.com/user/1864863","photoId":278589},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picPmyEh1.jpg","position":"47","by":"michelleriffer","profileUrl":"http://www.food.com/user/1781202","photoId":272250},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picafogzY.jpg","position":"48","by":"Jennel86","profileUrl":"http://www.food.com/user/1546880","photoId":265273},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/pic3Ox17Y.jpg","position":"49","by":"run for your life","profileUrl":"http://www.food.com/user/1133190","photoId":260287},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/pictQef9z.jpg","position":"50","by":"LDS Chef Ashlie","profileUrl":"http://www.food.com/user/1011115","photoId":242425},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picI1wJio.jpg","position":"51","by":"Magalicious","profileUrl":"http://www.food.com/user/1540870","photoId":235390},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/pic3FslTv.jpg","position":"52","by":"Caroline Cooks","profileUrl":"http://www.food.com/user/162826","photoId":228157},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picJ0vfbZ.jpg","position":"53","by":"Caroline Cooks","profileUrl":"http://www.food.com/user/162826","photoId":228155},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picEPzC04.jpg","position":"54","by":"Karen Elizabeth","profileUrl":"http://www.food.com/user/323186","photoId":223073},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picp2N0ZR.jpg","position":"55","by":"Brookelynne26","profileUrl":"http://www.food.com/user/714468","photoId":221659},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/pickitSNL.jpg","position":"56","by":"Brookelynne26","profileUrl":"http://www.food.com/user/714468","photoId":221658},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picPlng8c.jpg","position":"57","by":"Chef #1396078","profileUrl":"http://www.food.com/user/1396078","photoId":216097},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picAU7iNp.jpg","position":"58","by":"chris929a","profileUrl":"http://www.food.com/user/1137358","photoId":210516},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picreehaY.jpg","position":"59","by":"chris929a","profileUrl":"http://www.food.com/user/1137358","photoId":210515},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picdkHAxX.jpg","position":"60","by":"plainchicken","profileUrl":"http://www.food.com/user/54301","photoId":201068},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picRVI2Zf.jpg","position":"61","by":"ninabinalovesbaking","profileUrl":"http://www.food.com/user/765776","photoId":178755},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picVp380F.jpg","position":"62","by":"appleydapply","profileUrl":"http://www.food.com/user/284180","photoId":177672},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picPJPJxN.jpg","position":"63","by":"MONI733","profileUrl":"http://www.food.com/user/1047127","photoId":174576},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picJwniPx.jpg","position":"64","by":"CareCook","profileUrl":"http://www.food.com/user/317934","photoId":168479},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picbfbzzI.jpg","position":"65","by":"Sandi (From CA)","profileUrl":"http://www.food.com/user/11176","photoId":167499},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/pic9TPjyy.jpg","position":"66","by":"rucagrl","profileUrl":"http://www.food.com/user/931465","photoId":151586},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/pic3yGwzU.jpg","position":"67","by":"Calee","profileUrl":"http://www.food.com/user/281399","photoId":146256},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/pic0qfxHo.jpg","position":"68","by":"Aizya","profileUrl":"http://www.food.com/user/449277","photoId":141389},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picz7ygVo.jpg","position":"69","by":"blueguitargirl1985","profileUrl":"http://www.food.com/user/83642","photoId":139252},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picngTw3V.jpg","position":"70","by":"Kennasmommy","profileUrl":"http://www.food.com/user/275438","photoId":77342},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/pic2I1cU8.jpg","position":"71","by":"LuvMyBabies","profileUrl":"http://www.food.com/user/316717","photoId":74799},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picKn3CGc.jpg","position":"72","by":"Pellerin","profileUrl":"http://www.food.com/user/221044","photoId":63350},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picmv6zr7.jpg","position":"73","by":"Chef shapeweaver \uFFFD","profileUrl":"http://www.food.com/user/50969","photoId":20404},{"url":"http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/08/7/picKyJ8Y0.jpg","position":"74","by":"* Pamela *","profileUrl":"http://www.food.com/user/59780","photoId":17969}]},author: {avatarUrl: 'http://img.sndimg.com/food/image/upload/v1/pickle_media1/media/userphoto/100506/U12633322/Photo_Video_64315216289960085162744_square.jpg',name: 'Lorac',url: 'http://www.food.com/user/30534'},}, false);});
+  
+//});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="modal fade" id="share_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content share">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <label class="modal-title">Share:</label>
+                <h2 class='modal-title'>Food.com</h2>
+            </div>
+            <div class="modal-body">
+                <div class="list-group list-group-white list-group-center">
+                    <a class="list-group-item social-share" data-network="pinterest" href="#"><i class="icon-fdc-pinterest"></i> Pinterest</a>
+                    <a class="list-group-item social-share" data-network="facebook" href="#"><i class="icon-fdc-facebook"></i> Facebook</a>
+                    <a class="list-group-item social-share" data-network="twitter" href="#"><i class="icon-fdc-twitter"></i> Twitter</a>
+                    <a class="list-group-item social-share" data-network="gplus" href="#"><i class="icon-fdc-google"></i> Google+</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- New DFP Ad Slots -->
+<div id='dfp_utility1'></div>
+<div id='dfp_utility2'></div>
+
+ <div class="modal fade" id="modal_recipebox" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content share">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Add to Recipe Box</h4>
+        <p>Please select a folder</p>
+      </div>
+      <div class="modal-body">
+
+        <div class="loading">
+            <i class="icon-fdc-loading fa-spin"></i>
+        </div>
+
+        <div class="list-group list-hide"></div>
+
+        <input type="text" class="amount folder-name" name="folder-name" value="" placeholder="Add a New Folder">
+        <span class="unit unit-bottom"><a href="#" class="recipe-box-add-new-folder" data-folder-name-class="folder-name" data-recipe-id="">+</a></span>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"1b55c6690d","agent":"","beacon":"bam.nr-data.net","applicationTime":84,"applicationID":"4170511","transactionName":"Y1FaN0tQXhBVUUJdW1obaxNLWF4Ed11YQEZbWFQGSx5CBldbRlEbT19dGkQRGCRxZh8=","queueTime":0}</script>
+
+<!-- /footer -->
+
+</div>
+</body>
+</html>
