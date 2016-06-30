@@ -8,8 +8,9 @@ An ingredient parser written in Golang
 
 ## Todo
 
-- [ ] Recipe item parser
+- [ ] Ingredient parser (using NYTimes phrase-tagger)
 - [ ] Unit converter
+- [ ] Recipe extractors
 
 
 ### Recipe Parser v1
@@ -30,38 +31,13 @@ it will return
 }
 ```
 
-How to do this?
+How to do this? Use [NYtimes Ingredient phrase tagger](https://github.com/schollz/ingredient-phrase-tagger)
 
-1. Eliminate things in parentheses, they aren't consistent.
-
-  ```bash
-  1 1/2 cup chopped green pepper
-  ```
-
-2. Then convert measurement names to standardized measurement names (e.g. `teaspoons -> tsp, cup -> cups, gallons -> gal, ...`). Longer names are preferable because they can be easier search/replaced.
-
-  ```bash
-  1 1/2 cups chopped green pepper
-  ```
-
-1. Reverse string. Find the *shortest length* string in the `sr28` database that *matches best* to the recipe item. Ideally, this would be `green pepper`. Then eliminate that from the recipe item, so now your left with:
-
-  `1 1/2 cups chopped`
-
-2. Now find the best match to the string in the measurement array. This should match `cup`. Then eliminate that so your left with:
-
-  `1 1/2 chopped`
-
-3. Now all up all the numbers, taking note of partial fractions and return:
-
-  ```json
-  {
-    "quantity":"1.5",
-    "measurement":"cups",
-    "ingredient":"green pepper",
-    "sr28":"1239810"
-  }
-  ```
+1. Make a file with the line. `input.txt`:
+```
+1 1/2 cup (4 oz) chopped green pepper
+```
+2. From the directory of the NYtimes Ingredient phrase tagger, `python lib/testing/parse-ingredients.py input.txt > input_formatted.txt &&  python lib/testing/convert-to-json.py input_formatted.txt`
 
 ### Unit converter v1
 
