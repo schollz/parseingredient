@@ -8,8 +8,9 @@ An ingredient parser written in Golang
 
 ## Todo
 
-- [ ] Recipe item parser
+- [ ] Ingredient parser (using NYTimes phrase-tagger)
 - [ ] Unit converter
+- [ ] Recipe extractors
 
 
 ### Recipe Parser v1
