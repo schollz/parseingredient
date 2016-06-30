@@ -33,13 +33,10 @@ it will return
 How to do this? Use [NYtimes Ingredient phrase tagger](https://github.com/schollz/ingredient-phrase-tagger)
 
 1. Make a file with the line. `input.txt`:
-  
 ```
 1 1/2 cup (4 oz) chopped green pepper
 ```
-
 2. From the directory of the NYtimes Ingredient phrase tagger, `python lib/testing/parse-ingredients.py input.txt > input_formatted.txt`. This will give something like this:
-
 ```bash
 -> % cat input_formatted.txt
 # 0.547990
@@ -53,9 +50,7 @@ chopped I7      L12     NoCAP   NoPAREN I-COMMENT/0.976875
 green   I8      L12     NoCAP   NoPAREN B-NAME/0.845135
 pepper  I9      L12     NoCAP   NoPAREN I-NAME/0.858413
 ```
-
 3. Then `crf_test -m tmp/model_file input_formatted.txt`, which will give something like this:
-
 ```bash
 -> % crf_test -m tmp/model_file input_formatted.txt
 1$1/2   I1      L12     NoCAP   NoPAREN B-QTY/0.975233  B-QTY
@@ -68,7 +63,6 @@ chopped I7      L12     NoCAP   NoPAREN I-COMMENT/0.976875      I-COMMENT
 green   I8      L12     NoCAP   NoPAREN B-NAME/0.845135 B-NAME
 pepper  I9      L12     NoCAP   NoPAREN I-NAME/0.858413 I-NAME
 ```
-
 4. The `B-QTY` is the number, `B-UNIT` is the unit, and `B-NAME/I-NAME` is the food.
 
 ### Unit converter v1
