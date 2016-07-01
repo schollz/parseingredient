@@ -1,15 +1,19 @@
 import multiprocessing
 import os
 
+from tqdm import tqdm
+
 from extractors.allrecipes import *
 from extractors.epicurious import *
-from tqdm import tqdm
+from extractors.cooks import *
 
 
 def processFile(f):
     if 'allrecipes.com' in f:
         extract_allrecipes(f)
     if 'epicurious' in f:
+        extract_epicurious(f)
+    if 'cooks.com' in f:
         extract_epicurious(f)
 
 
@@ -20,7 +24,10 @@ def main():
         os.makedirs('../finished/allrecipes.com')
     if not os.path.exists('../finished/epicurious.com'):
         os.makedirs('../finished/epicurious.com')
-    fs = glob.glob('../testing/sites/epicurious.com/*')
+    if not os.path.exists('../finished/cooks.com'):
+        os.makedirs('../finished/cooks.com')
+    fs = glob.glob('../testing/sites/cooks.com/*')
+    # fs = glob.glob('../testing/sites/*/*')
     processFile(fs[1])
     # processFile(fs[0])
     p = multiprocessing.Pool(multiprocessing.cpu_count())

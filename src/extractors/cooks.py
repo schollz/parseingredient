@@ -18,31 +18,31 @@ def extract_epicurious(file):
     text = open(file, 'r', encoding="ISO-8859-1").read()
     page = lxml.html.fromstring(text)
     recipe = copy.deepcopy(nullRecipe)
-    recipe['datePublished'] = page.xpath(
-        '//meta[@itemprop="datePublished"]')[0].attrib['content'].strip()
+    # recipe['datePublished'] = page.xpath(
+    #     '//meta[@itemprop="datePublished"]')[0].attrib['content'].strip()
     recipe['isBasedOnUrl'] = page.xpath(
-        '//link[@rel="canonical"]')[0].attrib['href'].strip()
+        '//input[@rel="shorturl"]')[0].attrib['value'].strip()
     recipe['author'] = page.xpath(
-        '//meta[@itemprop="author"]')[0].attrib['content'].strip()
+        '//meta[@name="author"]')[0].attrib['content'].strip()
     recipe['name'] = page.xpath(
-        '//meta[@itemprop="name"]')[0].attrib['content'].strip()
-    recipe['description'] = page.xpath(
-        '//meta[@name="description"]')[0].attrib['content'].strip()
+        '//title')[0].text_content().strip()
+    # recipe['description'] = page.xpath(
+    #     '//meta[@name="description"]')[0].attrib['content'].strip()
 
-    try:
-        recipe['recipeCuisine'] = page.xpath(
-            '//a[@itemprop="recipeCuisine"]')[0].text_content().strip()
-    except:
-        pass
-
-    try:
-        recipe['recipeCategory'] = page.xpath(
-            '//a[@itemprop="recipeCategory"]')[0].text_content().strip()
-    except:
-        pass
+    # try:
+    #     recipe['recipeCuisine'] = page.xpath(
+    #         '//a[@itemprop="recipeCuisine"]')[0].text_content().strip()
+    # except:
+    #     pass
+    #
+    # try:
+    #     recipe['recipeCategory'] = page.xpath(
+    #         '//a[@itemprop="recipeCategory"]')[0].text_content().strip()
+    # except:
+    #     pass
 
     recipeInstructions = page.xpath(
-        '//li[@class="preparation-step"]')
+        '//div[@class="instructions"]')
     recipe['recipeInstructions'] = []
     for instruction in recipeInstructions:
         data = instruction.text_content().strip()
@@ -69,15 +69,20 @@ def extract_epicurious(file):
     except:
         pass
     ingredients = page.xpath(
-        '//li[@class="ingredient" and @itemprop="ingredients"]')
+        '//span[@class="ingredient"]')
     for ingredient in ingredients:
         recipe['recipeIngredient'].append(ingredient.text_content().strip())
-    recipe['aggregateRating']['ratingValue'] = page.xpath(
-        '//meta[@itemprop="ratingValue"]')[0].attrib['content'].strip()
-    recipe['aggregateRating']['reviewCount'] = page.xpath(
-        '//span[@itemprop="reviewCount"]')[0].text_content()
-    recipe['aggregateRating']['bestRating'] = page.xpath(
-        '//meta[@itemprop="bestRating"]')[0].attrib['content'].strip()
+    try:
+        recipe['aggregateRating']['ratingValue'] = page.xpath(
+            '//span[@class="rating"]/span[@class="value-title"]')[0].attrib['title'].strip()
+    except:
+        pass
+    try:
+        recipe['aggregateRating']['reviewCount'] = page.xpath(
+            '//span[@class="count"]/span[@class="value-title"]')[0].attrib['title'].strip()
+    except:
+        pass
+    recipe['aggregateRating']['bestRating'] = '5'
     for nutrition in recipe['nutrition']:
         try:
             recipe['nutrition'][nutrition] = page.xpath(
@@ -87,6 +92,6 @@ def extract_epicurious(file):
     hasher = hashlib.sha1()
     hasher.update(json.dumps(
         recipe['recipeIngredient'] + recipe['recipeInstructions']).encode('utf-8'))
-    with open(os.path.join('../finished/epicurious.com/', str(hasher.hexdigest()) + '.json'), 'w') as f:
+    with open(os.path.join('../finished/cooks.com/', str(hasher.hexdigest()) + '.json'), 'w') as f:
         f.write(json.dumps(recipe, indent=2))
     print(json.dumps(recipe, indent=2))
