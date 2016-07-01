@@ -1,35 +1,27 @@
-import lxml.html
-import sys
-import json
-import warnings
-warnings.filterwarnings("ignore")
-import traceback
-from multiprocessing import Pool
+import multiprocessing
 import os
-import copy
 
-nullRecipe = json.load(open('../testing/recipe_example.json', 'r'))
-text = open('../testing/sites/allrecipes.com/index.html', 'r').read()
-page = lxml.html.fromstring(text)
-recipe = copy.deepcopy(nullRecipe)
-recipe['isBasedOnUrl'] = page.xpath(
-    '//link[@id="canonicalUrl"]')[0].attrib['href'].strip()
-recipe['author'] = page.xpath(
-    '//span[@class="submitter__name"]')[0].text_content().strip()
-recipe['name'] = page.xpath(
-    '//meta[@property="og:title"]')[0].attrib['content'].strip()
-recipe['description'] = page.xpath(
-    '//div[@class="submitter__description"]')[0].text_content().strip().replace('"', '')
-recipeInstructions = page.xpath(
-    '//span[@class="recipe-directions__list--item"]')
-recipe['recipeInstructions'] = []
-for instruction in recipeInstructions:
-    data = instruction.text_content().strip()
-    if len(data) > 0:
-        recipe['recipeInstructions'].append(data)
-recipe['recipeYield'] = page.xpath(
-    '//meta[@id="metaRecipeServings" and @itemprop="recipeYield"]')[0].attrib['content'].strip()
-recipe['cookTime'] = page.xpath('//')
-print(json.dumps(recipe, indent=2))
-# fooScore = scores[0].xpath(
-#     ".//div")[0].text_content().split(':')[1].split('/')[0].strip()
+from extractors.allrecipes import *
+from tqdm import tqdm
+
+
+def processFile(f):
+    if 'allrecipes.com' in f:
+        extract_allrecipes(f)
+
+
+def main():
+    if not os.path.exists('../finished'):
+        os.makedirs('../finished')
+    if not os.path.exists('../finished/allrecipes.com'):
+        os.makedirs('../finished/allrecipes.com')
+    fs = glob.glob('../testing/sites/allrecipes.com/*')
+    # processFile(fs[1])
+    # processFile(fs[0])
+    p = multiprocessing.Pool(multiprocessing.cpu_count())
+    print("Processing %d files..." % len(fs))
+    for i in tqdm(range(0, len(fs), 2 * multiprocessing.cpu_count())):
+        p.map(processFile, fs[i:i + 2 * multiprocessing.cpu_count()])
+
+if __name__ == "__main__":
+    main()
