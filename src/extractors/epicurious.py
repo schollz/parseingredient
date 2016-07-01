@@ -30,6 +30,18 @@ def extract_epicurious(file):
         '//meta[@name="description"]')[0].attrib['content'].strip()
     recipeInstructions = page.xpath(
         '//li[@class="preparation-step"]')
+    try:
+        recipe['recipeCuisine'] = page.xpath(
+            '//a[@itemprop="recipeCuisine"]')[0].text_content().strip()
+    except:
+        pass
+
+    try:
+        recipe['recipeCategory'] = page.xpath(
+            '//a[@itemprop="recipeCategory"]')[0].text_content().strip()
+    except:
+        pass
+
     recipe['recipeInstructions'] = []
     for instruction in recipeInstructions:
         data = instruction.text_content().strip()
