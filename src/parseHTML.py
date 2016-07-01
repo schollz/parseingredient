@@ -14,7 +14,7 @@ def processFile(f):
     if 'epicurious' in f:
         extract_epicurious(f)
     if 'cooks.com' in f:
-        extract_epicurious(f)
+        extract_cooks(f)
 
 
 def main():

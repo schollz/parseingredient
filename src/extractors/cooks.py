@@ -14,7 +14,7 @@ nullRecipe = json.load(
     open('../testing/recipe_example.json', 'r'), object_pairs_hook=OrderedDict)
 
 
-def extract_epicurious(file):
+def extract_cooks(file):
     text = open(file, 'r', encoding="ISO-8859-1").read()
     page = lxml.html.fromstring(text)
     recipe = copy.deepcopy(nullRecipe)
