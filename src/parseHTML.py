@@ -6,15 +6,18 @@ from tqdm import tqdm
 from extractors.allrecipes import *
 from extractors.epicurious import *
 from extractors.cooks import *
+from extractors.food import *
 
 
 def processFile(f):
     if 'allrecipes.com' in f:
         extract_allrecipes(f)
-    if 'epicurious' in f:
+    elif 'epicurious' in f:
         extract_epicurious(f)
-    if 'cooks.com' in f:
+    elif 'cooks.com' in f:
         extract_cooks(f)
+    elif 'food.com' in f:
+        extract_food(f)
 
 
 def main():
@@ -26,7 +29,9 @@ def main():
         os.makedirs('../finished/epicurious.com')
     if not os.path.exists('../finished/cooks.com'):
         os.makedirs('../finished/cooks.com')
-    fs = glob.glob('../testing/sites/cooks.com/*')
+    if not os.path.exists('../finished/food.com'):
+        os.makedirs('../finished/food.com')
+    fs = glob.glob('../testing/sites/food.com/*')
     # fs = glob.glob('../testing/sites/*/*')
     processFile(fs[1])
     # processFile(fs[0])
