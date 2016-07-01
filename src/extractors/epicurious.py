@@ -83,6 +83,6 @@ def extract_epicurious(file):
     hasher = hashlib.sha1()
     hasher.update(json.dumps(
         recipe['recipeIngredient'] + recipe['recipeInstructions']).encode('utf-8'))
-    with open(os.path.join('../finished/allrecipes.com/', str(hasher.hexdigest()) + '.json'), 'w') as f:
+    with open(os.path.join('../finished/epicurious.com/', str(hasher.hexdigest()) + '.json'), 'w') as f:
         f.write(json.dumps(recipe, indent=2))
     print(json.dumps(recipe, indent=2))
