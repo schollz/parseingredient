@@ -19,6 +19,8 @@ from extractors.recipes_latimes_com import recipes_latimes_com
 from extractors.seriouseats import seriouseats_com
 from extractors.simplyrecipes import simplyrecipes_com
 from extractors.yummly import yummly_com
+from extractors.cookpad import cookpad_com
+from extractors.bbcgoodfood import bbcgoodfood_com
 
 import lxml.html
 
@@ -38,6 +40,8 @@ availableParsers = ['allrecipes.com',
                     'recipes.latimes.com',
                     'seriouseats.com',
                     'simplyrecipes.com',
+                    'cookpad.com',
+                    'bbcgoodfood.com',
                     'yummly.com',
                     'kraftrecipes.com']
 

@@ -1,6 +1,7 @@
 import multiprocessing
 import os
 import glob
+import sys
 
 from tqdm import tqdm
 
@@ -15,7 +16,7 @@ def main():
             os.makedirs('../finished/%s' % parser)
 
     # Testing purposes
-    fs = glob.glob('../testing/sites/yummly*/*')
+    fs = glob.glob("../testing/sites/bbcgoodfood*/*")
     for f in fs:
         print(f)
         parseRecipe(f)
