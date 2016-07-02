@@ -27,16 +27,16 @@ def main():
         with open('files.json', 'w') as f:
             f.write(json.dumps(fs))
 
-    # # Testing purposes
-    # for f in fs:
-    #     print(f)
-    #     parseRecipe(f)
+    # Testing purposes
+    for f in fs:
+        print(f)
+        parseRecipe(f)
 
-    # Process all
-    p = multiprocessing.Pool(multiprocessing.cpu_count())
-    print("Processing %d files..." % len(fs))
-    for i in tqdm(range(0, len(fs), 2 * multiprocessing.cpu_count())):
-        p.map(parseRecipe, fs[i:i + 2 * multiprocessing.cpu_count()])
+    # # Process all
+    # p = multiprocessing.Pool(multiprocessing.cpu_count())
+    # print("Processing %d files..." % len(fs))
+    # for i in tqdm(range(0, len(fs), 2 * multiprocessing.cpu_count())):
+    #     p.map(parseRecipe, fs[i:i + 2 * multiprocessing.cpu_count()])
 
 if __name__ == "__main__":
     main()
