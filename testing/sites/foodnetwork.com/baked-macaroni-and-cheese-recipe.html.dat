@@ -1,0 +1,47 @@
+gigya._.apiAdapters.web.callback({
+  "streamInfo": {
+    "streamID": "5b3d4330-5e9e-4ba0-b9f1-48d2d4b613a5",
+    "status": "enabled",
+    "streamURL": "http://foodnetwork.com/recipes/alton-brown/baked-macaroni-and-cheese-recipe/index.html",
+    "streamTitle": "baked macaroni and cheese",
+    "streamTags": [],
+    "categoryID": "recipe",
+    "createDate": 1423893740812,
+    "commentCount": 2310,
+    "approvedCommentCount": 2310,
+    "threadCount": 2235,
+    "ratingCount": 2235,
+    "rssURL": "http://comments.us1.gigya.com/comments/rss/6714431/recipe/5b3d4330-5e9e-4ba0-b9f1-48d2d4b613a5",
+    "avgRatings": {
+      "_overall": 4.1
+    },
+    "lastCommentTimestamp": 1466798674045,
+    "isUserSubscribed": false,
+    "moderationMode": "inherit",
+    "moderationModes": {
+      "text": "inherit",
+      "image": "inherit",
+      "video": "inherit",
+      "url": "inherit",
+      "other": "inherit"
+    },
+    "ratingDetails": {
+      "_overall": {
+        "ratings": [
+          165,
+          154,
+          169,
+          437,
+          1304
+        ],
+        "avg": 4.1
+      }
+    }
+  },
+  "statusCode": 200,
+  "errorCode": 0,
+  "statusReason": "OK",
+  "callId": "a8e1016998f04ce09c055cffccd51f7d",
+  "time": "2016-07-02T16:57:28.977Z",
+  "context": "R3657983449"
+});

@@ -13,6 +13,7 @@ from extractors.betty import bettycrocker_com
 from extractors.chowhound import chowhound_com
 from extractors.foodandwine import foodandwine_com
 from extractors.kraftrecipes import kraftrecipes_com
+from extractors.foodnetwork import foodnetwork_com
 
 import lxml.html
 
@@ -23,6 +24,7 @@ availableParsers = ['allrecipes.com',
                     'epicurious.com',
                     'cooks.com',
                     'food.com',
+                    'foodnetwork.com',
                     'bbc.co.uk.food',
                     'bettycrocker.com',
                     'chowhound.com',
