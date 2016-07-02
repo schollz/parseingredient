@@ -3,6 +3,7 @@ import hashlib
 import json
 from collections import OrderedDict
 import os.path
+import sys
 
 from extractors.allrecipes import allrecipes_com
 from extractors.food import food_com
@@ -53,7 +54,13 @@ availableParsers = ['allrecipes.com',
 def parseRecipe(f):
     for parser in availableParsers:
         if '/' + parser + '/' in f:
-            extractRecipe(f, parser)
+            try:
+                extractRecipe(f, parser)
+            except:
+                e = sys.exc_info()[0]
+                print(e)
+                print(parser, f)
+                sys.exit(1)
 
 
 def extractRecipe(f, parser):
