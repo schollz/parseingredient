@@ -1,6 +1,3 @@
-import json
-
-
 def chowhound_com(page, recipe):
     # recipe['datePublished'] = page.xpath(
     #     '//meta[@itemprop="dateCreated"]')[0].attrib['content'].strip()
