@@ -15,8 +15,11 @@ def recipes_latimes_com(page, recipe):
             '//span[@itemprop="author"]')[0].text_content().strip()
     except:
         pass
-    recipe['name'] = page.xpath(
-        '//h1[@itemprop="name"]')[0].text_content().strip()
+    try:
+        recipe['name'] = page.xpath(
+            '//h1[@itemprop="name"]')[0].text_content().strip()
+    except:
+        return
     recipe['description'] = ' '.join(page.xpath(
         '//meta[@property="og:description"]')[0].attrib['content'].replace('Read more', '').split())
     recipeInstructions = page.xpath(
