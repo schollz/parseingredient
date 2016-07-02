@@ -1,14 +1,23 @@
 def epicurious_com(page, recipe):
-    recipe['datePublished'] = page.xpath(
-        '//meta[@itemprop="datePublished"]')[0].attrib['content'].strip()
-    recipe['isBasedOnUrl'] = page.xpath(
-        '//link[@rel="canonical"]')[0].attrib['href'].strip()
-    recipe['author'] = page.xpath(
-        '//meta[@itemprop="author"]')[0].attrib['content'].strip()
-    recipe['name'] = page.xpath(
-        '//meta[@itemprop="name"]')[0].attrib['content'].strip()
-    recipe['description'] = page.xpath(
-        '//meta[@name="description"]')[0].attrib['content'].strip()
+    try:
+        recipeInstructions = page.xpath(
+            '//li[@class="preparation-step"]')
+    except:
+        return
+
+    try:
+        recipe['datePublished'] = page.xpath(
+            '//meta[@itemprop="datePublished"]')[0].attrib['content'].strip()
+        recipe['isBasedOnUrl'] = page.xpath(
+            '//link[@rel="canonical"]')[0].attrib['href'].strip()
+        recipe['name'] = page.xpath(
+            '//meta[@itemprop="name"]')[0].attrib['content'].strip()
+        recipe['description'] = page.xpath(
+            '//meta[@name="description"]')[0].attrib['content'].strip()
+        recipe['author'] = page.xpath(
+            '//meta[@itemprop="author"]')[0].attrib['content'].strip()
+    except:
+        pass
 
     try:
         recipe['recipeCuisine'] = page.xpath(
@@ -22,8 +31,6 @@ def epicurious_com(page, recipe):
     except:
         pass
 
-    recipeInstructions = page.xpath(
-        '//li[@class="preparation-step"]')
     recipe['recipeInstructions'] = []
     for instruction in recipeInstructions:
         data = instruction.text_content().strip()

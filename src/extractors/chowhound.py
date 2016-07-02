@@ -1,22 +1,31 @@
 def chowhound_com(page, recipe):
     # recipe['datePublished'] = page.xpath(
     #     '//meta[@itemprop="dateCreated"]')[0].attrib['content'].strip()
-    for page2 in page.xpath('//a[@rel="nofollow"]'):
-        if 'data-sharetitle' in page2.attrib:
-            recipe['name'] = page2.attrib['data-sharetitle']
-        if 'data-sharedescription' in page2.attrib:
-            recipe['description'] = page2.attrib['data-sharedescription']
-        if 'data-shareurl' in page2.attrib:
-            recipe['isBasedOnUrl'] = page2.attrib['data-shareurl']
+    try:
+        for page2 in page.xpath('//a[@rel="nofollow"]'):
+            if 'data-sharetitle' in page2.attrib:
+                recipe['name'] = page2.attrib['data-sharetitle']
+            if 'data-sharedescription' in page2.attrib:
+                recipe['description'] = page2.attrib['data-sharedescription']
+            if 'data-shareurl' in page2.attrib:
+                recipe['isBasedOnUrl'] = page2.attrib['data-shareurl']
+    except:
+        pass
     try:
         recipe['description'] = ' '.join(page.xpath(
             '//div[@itemprop="description"]/p')[0].text_content().split())
     except:
         pass
-    recipe['author'] = page.xpath(
-        '//span[@itemprop="author"]')[0].text_content().strip()
-    recipeInstructions = page.xpath(
-        '//div[@itemprop="recipeInstructions"]/ol/li')
+    try:
+        recipe['author'] = page.xpath(
+            '//span[@itemprop="author"]')[0].text_content().strip()
+    except:
+        pass
+    try:
+        recipeInstructions = page.xpath(
+            '//div[@itemprop="recipeInstructions"]/ol/li')
+    except:
+        return
     recipe['recipeInstructions'] = []
     for instruction in recipeInstructions:
         data = ' '.join(instruction.text_content().strip().split())

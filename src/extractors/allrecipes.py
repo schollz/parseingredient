@@ -1,16 +1,34 @@
 def allrecipes_com(page, recipe):
-    recipe['datePublished'] = page.xpath(
-        '//meta[@itemprop="dateCreated"]')[0].attrib['content'].strip()
-    recipe['isBasedOnUrl'] = page.xpath(
-        '//link[@id="canonicalUrl"]')[0].attrib['href'].strip()
-    recipe['author'] = page.xpath(
-        '//span[@class="submitter__name"]')[0].text_content().strip()
-    recipe['name'] = page.xpath(
-        '//meta[@property="og:title"]')[0].attrib['content'].strip()
-    recipe['description'] = page.xpath(
-        '//div[@class="submitter__description"]')[0].text_content().strip().replace('"', '')
-    recipeInstructions = page.xpath(
-        '//span[@class="recipe-directions__list--item"]')
+    try:
+        recipe['datePublished'] = page.xpath(
+            '//meta[@itemprop="dateCreated"]')[0].attrib['content'].strip()
+    except:
+        pass
+    try:
+        recipe['isBasedOnUrl'] = page.xpath(
+            '//link[@id="canonicalUrl"]')[0].attrib['href'].strip()
+    except:
+        pass
+    try:
+        recipe['author'] = page.xpath(
+            '//span[@class="submitter__name"]')[0].text_content().strip()
+    except:
+        pass
+    try:
+        recipe['name'] = page.xpath(
+            '//meta[@property="og:title"]')[0].attrib['content'].strip()
+    except:
+        pass
+    try:
+        recipe['description'] = page.xpath(
+            '//div[@class="submitter__description"]')[0].text_content().strip().replace('"', '')
+    except:
+        pass
+    try:
+        recipeInstructions = page.xpath(
+            '//span[@class="recipe-directions__list--item"]')
+    except:
+        return
     recipe['recipeInstructions'] = []
     for instruction in recipeInstructions:
         data = instruction.text_content().strip()

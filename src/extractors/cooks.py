@@ -1,12 +1,20 @@
 def cooks_com(page, recipe):
+    try:
+        recipeInstructions = page.xpath(
+            '//div[@class="instructions"]')
+    except:
+        return
     # recipe['datePublished'] = page.xpath(
     #     '//meta[@itemprop="datePublished"]')[0].attrib['content'].strip()
-    recipe['isBasedOnUrl'] = page.xpath(
-        '//input[@rel="shorturl"]')[0].attrib['value'].strip()
-    recipe['author'] = page.xpath(
-        '//meta[@name="author"]')[0].attrib['content'].strip()
-    recipe['name'] = page.xpath(
-        '//title')[0].text_content().strip()
+    try:
+        recipe['isBasedOnUrl'] = page.xpath(
+            '//input[@rel="shorturl"]')[0].attrib['value'].strip()
+        recipe['author'] = page.xpath(
+            '//meta[@name="author"]')[0].attrib['content'].strip()
+        recipe['name'] = page.xpath(
+            '//title')[0].text_content().strip()
+    except:
+        pass
     # recipe['description'] = page.xpath(
     #     '//meta[@name="description"]')[0].attrib['content'].strip()
 
@@ -22,8 +30,6 @@ def cooks_com(page, recipe):
     # except:
     #     pass
 
-    recipeInstructions = page.xpath(
-        '//div[@class="instructions"]')
     recipe['recipeInstructions'] = []
     for instruction in recipeInstructions:
         data = instruction.text_content().strip()

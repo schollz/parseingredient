@@ -1,16 +1,34 @@
 def bbcgoodfood_com(page, recipe):
-    recipe['datePublished'] = page.xpath(
-        '//meta[@itemprop="datePublished"]')[0].attrib['content'].strip()
-    recipe['isBasedOnUrl'] = page.xpath(
-        '//link[@rel="canonical"]')[0].attrib['href'].strip()
-    recipe['author'] = page.xpath(
-        '//span[@class="author"]')[0].text_content().replace('By ', '').strip()
-    recipe['name'] = page.xpath(
-        '//meta[@property="og:title"]')[0].attrib['content'].strip()
-    recipe['description'] = page.xpath(
-        '//meta[@property="og:description"]')[0].attrib['content'].strip()
-    recipeInstructions = page.xpath(
-        '//li[@itemprop="recipeInstructions"]')
+    try:
+        recipe['datePublished'] = page.xpath(
+            '//meta[@itemprop="datePublished"]')[0].attrib['content'].strip()
+    except:
+        pass
+    try:
+        recipe['isBasedOnUrl'] = page.xpath(
+            '//link[@rel="canonical"]')[0].attrib['href'].strip()
+    except:
+        pass
+    try:
+        recipe['author'] = page.xpath(
+            '//span[@class="author"]')[0].text_content().replace('By ', '').strip()
+    except:
+        pass
+    try:
+        recipe['name'] = page.xpath(
+            '//meta[@property="og:title"]')[0].attrib['content'].strip()
+    except:
+        pass
+    try:
+        recipe['description'] = page.xpath(
+            '//meta[@property="og:description"]')[0].attrib['content'].strip()
+    except:
+        pass
+    try:
+        recipeInstructions = page.xpath(
+            '//li[@itemprop="recipeInstructions"]')
+    except:
+        return
     recipe['recipeInstructions'] = []
     for instruction in recipeInstructions:
         data = instruction.text_content().strip()

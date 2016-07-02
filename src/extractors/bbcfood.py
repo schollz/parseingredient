@@ -3,14 +3,26 @@ def bbc_co_uk_food(page, recipe):
     #     '//meta[@itemprop="dateCreated"]')[0].attrib['content'].strip()
     # recipe['isBasedOnUrl'] = page.xpath(
     #     '//link[@id="canonicalUrl"]')[0].attrib['href'].strip()
-    recipe['author'] = page.xpath(
-        '//a[@itemprop="author"]')[0].text_content().strip()
-    recipe['name'] = page.xpath(
-        '//meta[@name="twitter:title"]')[0].attrib['content'].strip()
-    recipe['description'] = page.xpath(
-        '//meta[@name="twitter:description"]')[0].attrib['content'].strip()
-    recipeInstructions = page.xpath(
-        '//p[@class="recipe-method__list-item-text"]')
+    try:
+        recipe['author'] = page.xpath(
+            '//a[@itemprop="author"]')[0].text_content().strip()
+    except:
+        pass
+    try:
+        recipe['name'] = page.xpath(
+            '//meta[@name="twitter:title"]')[0].attrib['content'].strip()
+    except:
+        pass
+    try:
+        recipe['description'] = page.xpath(
+            '//meta[@name="twitter:description"]')[0].attrib['content'].strip()
+    except:
+        pass
+    try:
+        recipeInstructions = page.xpath(
+            '//p[@class="recipe-method__list-item-text"]')
+    except:
+        return
     recipe['recipeInstructions'] = []
     for instruction in recipeInstructions:
         data = instruction.text_content().strip()

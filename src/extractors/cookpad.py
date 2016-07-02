@@ -1,16 +1,34 @@
 def cookpad_com(page, recipe):
-    recipe['datePublished'] = page.xpath(
-        '//time[@itemprop="datePublished"]')[0].attrib['datetime'].strip()
-    recipe['isBasedOnUrl'] = page.xpath(
-        '//link[@rel="canonical"]')[0].attrib['href'].strip()
-    recipe['author'] = page.xpath(
-        '//span[@itemprop="author"]')[0].text_content().strip()
-    recipe['name'] = page.xpath(
-        '//meta[@property="og:title"]')[0].attrib['content'].split('by ')[0].strip()
-    recipe['description'] = page.xpath(
-        '//meta[@name="description"]')[0].attrib['content'].strip()
-    recipeInstructions = page.xpath(
-        '//p[@class="step__text"]')
+    try:
+        recipe['datePublished'] = page.xpath(
+            '//time[@itemprop="datePublished"]')[0].attrib['datetime'].strip()
+    except:
+        pass
+    try:
+        recipe['isBasedOnUrl'] = page.xpath(
+            '//link[@rel="canonical"]')[0].attrib['href'].strip()
+    except:
+        pass
+    try:
+        recipe['author'] = page.xpath(
+            '//span[@itemprop="author"]')[0].text_content().strip()
+    except:
+        pass
+    try:
+        recipe['name'] = page.xpath(
+            '//meta[@property="og:title"]')[0].attrib['content'].split('by ')[0].strip()
+    except:
+        pass
+    try:
+        recipe['description'] = page.xpath(
+            '//meta[@name="description"]')[0].attrib['content'].strip()
+    except:
+        pass
+    try:
+        recipeInstructions = page.xpath(
+            '//p[@class="step__text"]')
+    except:
+        return
     recipe['recipeInstructions'] = []
     for instruction in recipeInstructions:
         data = instruction.text_content().strip()

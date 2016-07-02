@@ -1,16 +1,28 @@
 def bettycrocker_com(page, recipe):
     # recipe['datePublished'] = page.xpath(
     #     '//meta[@itemprop="dateCreated"]')[0].attrib['content'].strip()
-    recipe['isBasedOnUrl'] = page.xpath(
-        '//link[@rel="canonical"]')[0].attrib['href'].strip()
+    try:
+        recipe['isBasedOnUrl'] = page.xpath(
+            '//link[@rel="canonical"]')[0].attrib['href'].strip()
+    except:
+        pass
     # recipe['author'] = page.xpath(
     #     '//span[@class="submitter__name"]')[0].text_content().strip()
-    recipe['name'] = page.xpath(
-        '//meta[@property="og:title"]')[0].attrib['content'].strip()
-    recipe['description'] = page.xpath(
-        '//meta[@property="og:description"]')[0].attrib['content'].strip()
-    recipeInstructions = page.xpath(
-        '//span[@class="recipePartStepDescription"]')
+    try:
+        recipe['name'] = page.xpath(
+            '//meta[@property="og:title"]')[0].attrib['content'].strip()
+    except:
+        pass
+    try:
+        recipe['description'] = page.xpath(
+            '//meta[@property="og:description"]')[0].attrib['content'].strip()
+    except:
+        pass
+    try:
+        recipeInstructions = page.xpath(
+            '//span[@class="recipePartStepDescription"]')
+    except:
+        return
     recipe['recipeInstructions'] = []
     for instruction in recipeInstructions:
         data = instruction.text_content().strip()

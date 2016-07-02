@@ -58,11 +58,12 @@ def parseRecipe(f):
             try:
                 extractRecipe(f, parser)
             except:
-                e = sys.exc_info()[0]
-                traceback.print_exc()
-                print(e)
-                print(parser, f)
-                sys.exit(1)
+                pass
+                # e = sys.exc_info()[0]
+                # traceback.print_exc()
+                # print(e)
+                # print(parser, f)
+                # sys.exit(1)
 
 
 def extractRecipe(f, parser):
