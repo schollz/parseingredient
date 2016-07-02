@@ -53,7 +53,6 @@ availableParsers = ['allrecipes.com',
 def parseRecipe(f):
     for parser in availableParsers:
         if '/' + parser + '/' in f:
-            print("HI", f, parser)
             extractRecipe(f, parser)
 
 
@@ -66,7 +65,6 @@ def extractRecipe(f, parser):
     recipe['file'] = f
     globals()[parser.replace('.', '_')](page, recipe)
     del recipe['file']
-    print(json.dumps(recipe, indent=1))
     hasher = hashlib.sha1()
     try:
         hashArray = recipe['recipeIngredient'] + recipe['recipeInstructions']
@@ -75,4 +73,3 @@ def extractRecipe(f, parser):
     hasher.update(json.dumps(hashArray).encode('utf-8'))
     with open(os.path.join('../finished/' + parser + '/', str(hasher.hexdigest()) + '.json'), 'w') as f:
         f.write(json.dumps(recipe, indent=2))
-    print(recipe)
