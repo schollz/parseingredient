@@ -16,6 +16,7 @@ from extractors.kraftrecipes import kraftrecipes_com
 from extractors.foodnetwork import foodnetwork_com
 from extractors.myrecipes import myrecipes_com
 from extractors.recipes_latimes_com import recipes_latimes_com
+from extractors.seriouseats import seriouseats_com
 
 import lxml.html
 
@@ -33,6 +34,7 @@ availableParsers = ['allrecipes.com',
                     'foodandwine.com',
                     'myrecipes.com',
                     'recipes.latimes.com',
+                    'seriouseats.com',
                     'kraftrecipes.com']
 
 
