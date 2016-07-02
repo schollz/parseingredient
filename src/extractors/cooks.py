@@ -61,9 +61,10 @@ def cooks_com(page, recipe):
     try:
         recipe['aggregateRating']['reviewCount'] = page.xpath(
             '//span[@class="count"]/span[@class="value-title"]')[0].attrib['title'].strip()
+        recipe['aggregateRating']['bestRating'] = '5'
+        recipe['aggregateRating']['worstRating'] = '1'
     except:
         pass
-    recipe['aggregateRating']['bestRating'] = '5'
     for nutrition in recipe['nutrition']:
         try:
             recipe['nutrition'][nutrition] = page.xpath(

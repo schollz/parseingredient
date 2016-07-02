@@ -41,6 +41,7 @@ def allrecipes_com(page, recipe):
     recipe['aggregateRating']['reviewCount'] = page.xpath(
         '//meta[@itemprop="reviewCount"]')[0].attrib['content'].strip()
     recipe['aggregateRating']['bestRating'] = '5'
+    recipe['aggregateRating']['worstRating'] = '1'
     for nutrition in recipe['nutrition']:
         try:
             recipe['nutrition'][nutrition] = page.xpath(

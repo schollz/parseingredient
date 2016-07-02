@@ -10,5 +10,7 @@ def food_com(page, recipe):
     for key in recipe.keys():
         if key in data:
             recipe[key] = deepcopy(data[key])
+    recipe['aggregateRating']['bestRating'] = '5'
+    recipe['aggregateRating']['worstRating'] = '1'
     recipe['recipeInstructions'] = data[
         'recipeInstructions']['itemListElement']

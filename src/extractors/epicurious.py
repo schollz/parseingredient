@@ -53,12 +53,16 @@ def epicurious_com(page, recipe):
         '//li[@class="ingredient" and @itemprop="ingredients"]')
     for ingredient in ingredients:
         recipe['recipeIngredient'].append(ingredient.text_content().strip())
-    recipe['aggregateRating']['ratingValue'] = page.xpath(
-        '//meta[@itemprop="ratingValue"]')[0].attrib['content'].strip()
-    recipe['aggregateRating']['reviewCount'] = page.xpath(
-        '//span[@itemprop="reviewCount"]')[0].text_content()
-    recipe['aggregateRating']['bestRating'] = page.xpath(
-        '//meta[@itemprop="bestRating"]')[0].attrib['content'].strip()
+    try:
+        recipe['aggregateRating']['ratingValue'] = page.xpath(
+            '//meta[@itemprop="ratingValue"]')[0].attrib['content'].strip()
+        recipe['aggregateRating']['reviewCount'] = page.xpath(
+            '//span[@itemprop="reviewCount"]')[0].text_content()
+        recipe['aggregateRating']['bestRating'] = page.xpath(
+            '//meta[@itemprop="bestRating"]')[0].attrib['content'].strip()
+        recipe['aggregateRating']['worstRating'] = '1'
+    except:
+        pass
     for nutrition in recipe['nutrition']:
         try:
             recipe['nutrition'][nutrition] = page.xpath(
