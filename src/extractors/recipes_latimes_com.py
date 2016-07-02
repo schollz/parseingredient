@@ -10,8 +10,11 @@ def recipes_latimes_com(page, recipe):
             '//link[@rel="canonical"]')[0].attrib['href'].strip()
     except:
         return
-    recipe['author'] = page.xpath(
-        '//span[@itemprop="author"]')[0].text_content().strip()
+    try:
+        recipe['author'] = page.xpath(
+            '//span[@itemprop="author"]')[0].text_content().strip()
+    except:
+        pass
     recipe['name'] = page.xpath(
         '//h1[@itemprop="name"]')[0].text_content().strip()
     recipe['description'] = ' '.join(page.xpath(
