@@ -1,5 +1,4 @@
 def recipes_latimes_com(page, recipe):
-    print(recipe['file'])
     try:
         recipe['datePublished'] = page.xpath(
             '//time[@itemprop="datePublished"]')[0].attrib['datetime'].strip()
