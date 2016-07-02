@@ -14,12 +14,11 @@ def main():
         if not os.path.exists('../finished/%s' % parser):
             os.makedirs('../finished/%s' % parser)
 
-    # # Testing purposes
-    # fs = glob.glob('../testing/sites/cooks.com/*')
-    # for f in fs:
-    #     print(f)
-    #     parseRecipe(f)
-    # processFile('../testing/sites/allrecipes.com/throwoff')
+    # Testing purposes
+    fs = glob.glob('../testing/sites/chow*/*')
+    for f in fs:
+        print(f)
+        parseRecipe(f)
 
     # # Process all
     # fs = glob.glob('../testing/sites/*/*')

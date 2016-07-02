@@ -8,6 +8,9 @@ from extractors.allrecipes import allrecipes_com
 from extractors.food import food_com
 from extractors.epicurious import epicurious_com
 from extractors.cooks import cooks_com
+from extractors.bbcfood import bbc_co_uk_food
+from extractors.betty import bettycrocker_com
+from extractors.chowhound import chowhound_com
 
 import lxml.html
 
@@ -15,7 +18,7 @@ nullRecipe = json.load(
     open('../testing/recipe_example.json', 'r'), object_pairs_hook=OrderedDict)
 
 availableParsers = ['allrecipes.com',
-                    'epicurious.com', 'cooks.com', 'food.com']
+                    'epicurious.com', 'cooks.com', 'food.com', 'bbc.co.uk.food', 'bettycrocker.com', 'chowhound.com']
 
 
 def parseRecipe(f):

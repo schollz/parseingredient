@@ -19,7 +19,8 @@
 		"@type": "AggregateRating",
 		"ratingValue": null,
 		"reviewCount": null,
-		"bestRating": null
+		"bestRating": null,
+		"worstRating": null
 	},
 	"nutrition": {
 		"@type": "NutritionInformation",
