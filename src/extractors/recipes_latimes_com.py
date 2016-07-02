@@ -15,7 +15,7 @@ def recipes_latimes_com(page, recipe):
     recipe['name'] = page.xpath(
         '//h1[@itemprop="name"]')[0].text_content().strip()
     recipe['description'] = ' '.join(page.xpath(
-        '//div[@itemprop="description"]')[0].text_content().replace('Read more', '').split())
+        '//meta[@property="og:description"]')[0].attrib['content'].replace('Read more', '').split())
     recipeInstructions = page.xpath(
         '//div[@itemprop="recipeInstructions"]/p')
     recipe['recipeInstructions'] = []
