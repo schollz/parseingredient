@@ -1,23 +1,4 @@
-import os
-import copy
-from collections import OrderedDict
-import time
-import glob
-import hashlib
-import json
-import warnings
-warnings.filterwarnings("ignore")
-
-import lxml.html
-
-nullRecipe = json.load(
-    open('../testing/recipe_example.json', 'r'), object_pairs_hook=OrderedDict)
-
-
-def extract_cooks(file):
-    text = open(file, 'r', encoding="ISO-8859-1").read()
-    page = lxml.html.fromstring(text)
-    recipe = copy.deepcopy(nullRecipe)
+def cooks_com(page, recipe):
     # recipe['datePublished'] = page.xpath(
     #     '//meta[@itemprop="datePublished"]')[0].attrib['content'].strip()
     recipe['isBasedOnUrl'] = page.xpath(
@@ -89,9 +70,3 @@ def extract_cooks(file):
                 '//li[@class="nutrientLine__item--amount" and @itemprop="%s"]' % nutrition)[0].text_content()
         except:
             pass
-    hasher = hashlib.sha1()
-    hasher.update(json.dumps(
-        recipe['recipeIngredient'] + recipe['recipeInstructions']).encode('utf-8'))
-    with open(os.path.join('../finished/cooks.com/', str(hasher.hexdigest()) + '.json'), 'w') as f:
-        f.write(json.dumps(recipe, indent=2))
-    print(json.dumps(recipe, indent=2))
