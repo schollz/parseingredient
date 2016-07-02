@@ -17,6 +17,8 @@ from extractors.foodnetwork import foodnetwork_com
 from extractors.myrecipes import myrecipes_com
 from extractors.recipes_latimes_com import recipes_latimes_com
 from extractors.seriouseats import seriouseats_com
+from extractors.simplyrecipes import simplyrecipes_com
+from extractors.yummly import yummly_com
 
 import lxml.html
 
@@ -35,13 +37,15 @@ availableParsers = ['allrecipes.com',
                     'myrecipes.com',
                     'recipes.latimes.com',
                     'seriouseats.com',
+                    'simplyrecipes.com',
+                    'yummly.com',
                     'kraftrecipes.com']
 
 
 def parseRecipe(f):
     for parser in availableParsers:
         if '/' + parser + '/' in f:
-            print(f, parser)
+            print("HI", f, parser)
             extractRecipe(f, parser)
 
 
@@ -54,6 +58,7 @@ def extractRecipe(f, parser):
     recipe['file'] = f
     globals()[parser.replace('.', '_')](page, recipe)
     del recipe['file']
+    print(json.dumps(recipe, indent=1))
     hasher = hashlib.sha1()
     try:
         hashArray = recipe['recipeIngredient'] + recipe['recipeInstructions']
