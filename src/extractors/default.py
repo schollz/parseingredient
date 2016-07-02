@@ -4,6 +4,7 @@ import json
 from collections import OrderedDict
 import os.path
 import sys
+import traceback
 
 from extractors.allrecipes import allrecipes_com
 from extractors.food import food_com
@@ -58,6 +59,7 @@ def parseRecipe(f):
                 extractRecipe(f, parser)
             except:
                 e = sys.exc_info()[0]
+                traceback.print_exc()
                 print(e)
                 print(parser, f)
                 sys.exit(1)
