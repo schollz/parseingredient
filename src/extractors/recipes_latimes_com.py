@@ -5,8 +5,11 @@ def recipes_latimes_com(page, recipe):
             '//time[@itemprop="datePublished"]')[0].attrib['datetime'].strip()
     except:
         pass
-    recipe['isBasedOnUrl'] = page.xpath(
-        '//link[@rel="canonical"]')[0].attrib['href'].strip()
+    try:
+        recipe['isBasedOnUrl'] = page.xpath(
+            '//link[@rel="canonical"]')[0].attrib['href'].strip()
+    except:
+        return
     recipe['author'] = page.xpath(
         '//span[@itemprop="author"]')[0].text_content().strip()
     recipe['name'] = page.xpath(
