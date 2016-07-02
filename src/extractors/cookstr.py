@@ -1,22 +1,34 @@
 def cookstr_com(page, recipe):
-    recipe['datePublished'] = page.xpath(
-        '//meta[@itemprop="datePublished"]')[0].attrib['content'].strip()
-    recipe['isBasedOnUrl'] = page.xpath(
-        '//link[@rel="canonical"]')[0].attrib['href'].strip()
+    try:
+        recipe['datePublished'] = page.xpath(
+            '//meta[@itemprop="datePublished"]')[0].attrib['content'].strip()
+    except:
+        pass
+    try:
+        recipe['isBasedOnUrl'] = page.xpath(
+            '//link[@rel="canonical"]')[0].attrib['href'].strip()
+    except:
+        pass
     try:
         recipe['author'] = page.xpath(
             '//div[@class="userAndPublicationDiv"]/h5')[0].text_content().replace('By ', '').strip()
     except:
         pass
-    recipe['name'] = page.xpath(
-        '//meta[@property="og:title"]')[0].attrib['content'].strip()
+    try:
+        recipe['name'] = page.xpath(
+            '//meta[@property="og:title"]')[0].attrib['content'].strip()
+    except:
+        pass
     try:
         recipe['description'] = page.xpath(
             '//p[@itemprop="description"]')[0].text_content().strip()
     except:
         pass
-    recipeInstructions = page.xpath(
-        '//div[@class="cells"]/div')
+    try:
+        recipeInstructions = page.xpath(
+            '//div[@class="cells"]/div')
+    except:
+        return
     recipe['recipeInstructions'] = []
     for instruction in recipeInstructions:
         data = instruction.text_content().strip()
