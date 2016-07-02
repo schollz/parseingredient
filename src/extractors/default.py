@@ -12,6 +12,7 @@ from extractors.bbcfood import bbc_co_uk_food
 from extractors.betty import bettycrocker_com
 from extractors.chowhound import chowhound_com
 from extractors.foodandwine import foodandwine_com
+from extractors.kraftrecipes import kraftrecipes_com
 
 import lxml.html
 
@@ -25,7 +26,8 @@ availableParsers = ['allrecipes.com',
                     'bbc.co.uk.food',
                     'bettycrocker.com',
                     'chowhound.com',
-                    'foodandwine.com']
+                    'foodandwine.com',
+                    'kraftrecipes.com']
 
 
 def parseRecipe(f):
