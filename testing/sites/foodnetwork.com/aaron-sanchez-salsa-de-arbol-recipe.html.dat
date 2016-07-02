@@ -1,0 +1,46 @@
+gigya._.apiAdapters.web.callback({
+  "streamInfo": {
+    "streamID": "d29c54b9-b1ca-4b3a-9885-1858f3665d05",
+    "status": "enabled",
+    "streamURL": "http://foodnetwork.com/recipes/salsa-de-arbol-recipe/index.html",
+    "streamTitle": "salsa de arbol",
+    "streamTags": [],
+    "categoryID": "recipe",
+    "createDate": 1423893604717,
+    "commentCount": 14,
+    "approvedCommentCount": 14,
+    "threadCount": 14,
+    "ratingCount": 14,
+    "rssURL": "http://comments.us1.gigya.com/comments/rss/6714431/recipe/d29c54b9-b1ca-4b3a-9885-1858f3665d05",
+    "avgRatings": {
+      "_overall": 4.9
+    },
+    "lastCommentTimestamp": 1414003243000,
+    "isUserSubscribed": false,
+    "moderationMode": "inherit",
+    "moderationModes": {
+      "text": "inherit",
+      "image": "inherit",
+      "video": "inherit",
+      "url": "inherit",
+      "other": "inherit"
+    },
+    "ratingDetails": {
+      "_overall": {
+        "ratings": [
+          0,
+          0,
+          0,
+          1,
+          13
+        ],
+        "avg": 4.9
+      }
+    }
+  },
+  "statusCode": 200,
+  "errorCode": 0,
+  "statusReason": "OK",
+  "callId": "0a1c96d6cd464723902bee52f9da3395",
+  "time": "2016-07-02T16:17:31.503Z"
+});

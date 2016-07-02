@@ -1,0 +1,45 @@
+gigya._.apiAdapters.web.callback({
+  "streamInfo": {
+    "streamID": "eedcec0c-7031-4024-953a-497ec0e37014",
+    "status": "enabled",
+    "streamURL": "http://foodnetwork.com/recipes/aaron-sanchez/sopes-recipe/index.html",
+    "streamTitle": "sopes",
+    "streamTags": [],
+    "categoryID": "recipe",
+    "createDate": 1423893653560,
+    "commentCount": 0,
+    "approvedCommentCount": 0,
+    "threadCount": 0,
+    "ratingCount": 0,
+    "rssURL": "http://comments.us1.gigya.com/comments/rss/6714431/recipe/eedcec0c-7031-4024-953a-497ec0e37014",
+    "avgRatings": {
+      "_overall": 0.0
+    },
+    "isUserSubscribed": false,
+    "moderationMode": "inherit",
+    "moderationModes": {
+      "text": "inherit",
+      "image": "inherit",
+      "video": "inherit",
+      "url": "inherit",
+      "other": "inherit"
+    },
+    "ratingDetails": {
+      "_overall": {
+        "ratings": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg": 0.0
+      }
+    }
+  },
+  "statusCode": 200,
+  "errorCode": 0,
+  "statusReason": "OK",
+  "callId": "bff0e9e44753455bafcb31920739fe00",
+  "time": "2016-07-02T16:17:29.625Z"
+});

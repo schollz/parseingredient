@@ -1,0 +1,45 @@
+gigya._.apiAdapters.web.callback({
+  "streamInfo": {
+    "streamID": "10aad820-9d0c-4498-8693-725ebf746ee9",
+    "status": "enabled",
+    "streamURL": "http://foodnetwork.com/recipes/aaron-sanchez/roasted-lamb-with-pomegranate-tamarind-sauce-recipe/index.html",
+    "streamTitle": "roasted lamb with pomegranate-tamarind sauce",
+    "streamTags": [],
+    "categoryID": "recipe",
+    "createDate": 1423893729581,
+    "commentCount": 0,
+    "approvedCommentCount": 0,
+    "threadCount": 0,
+    "ratingCount": 0,
+    "rssURL": "http://comments.us1.gigya.com/comments/rss/6714431/recipe/10aad820-9d0c-4498-8693-725ebf746ee9",
+    "avgRatings": {
+      "_overall": 0.0
+    },
+    "isUserSubscribed": false,
+    "moderationMode": "inherit",
+    "moderationModes": {
+      "text": "inherit",
+      "image": "inherit",
+      "video": "inherit",
+      "url": "inherit",
+      "other": "inherit"
+    },
+    "ratingDetails": {
+      "_overall": {
+        "ratings": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg": 0.0
+      }
+    }
+  },
+  "statusCode": 200,
+  "errorCode": 0,
+  "statusReason": "OK",
+  "callId": "7cb8283fe18c4081b0f8f52c6f63de4c",
+  "time": "2016-07-02T16:17:22.998Z"
+});

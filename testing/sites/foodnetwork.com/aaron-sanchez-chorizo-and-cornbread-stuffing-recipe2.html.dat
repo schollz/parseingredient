@@ -1,0 +1,46 @@
+gigya._.apiAdapters.web.callback({
+  "streamInfo": {
+    "streamID": "98dc1e25-ea05-4c7e-b217-035cc182da3d",
+    "status": "enabled",
+    "streamURL": "http://foodnetwork.com/recipes/aaron-sanchez/chorizo-and-cornbread-stuffing-recipe2/index.html",
+    "streamTitle": "chorizo and cornbread stuffing",
+    "streamTags": [],
+    "categoryID": "recipe",
+    "createDate": 1423893706065,
+    "commentCount": 2,
+    "approvedCommentCount": 2,
+    "threadCount": 2,
+    "ratingCount": 2,
+    "rssURL": "http://comments.us1.gigya.com/comments/rss/6714431/recipe/98dc1e25-ea05-4c7e-b217-035cc182da3d",
+    "avgRatings": {
+      "_overall": 3.5
+    },
+    "lastCommentTimestamp": 1451236190511,
+    "isUserSubscribed": false,
+    "moderationMode": "inherit",
+    "moderationModes": {
+      "text": "inherit",
+      "image": "inherit",
+      "video": "inherit",
+      "url": "inherit",
+      "other": "inherit"
+    },
+    "ratingDetails": {
+      "_overall": {
+        "ratings": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "avg": 3.5
+      }
+    }
+  },
+  "statusCode": 200,
+  "errorCode": 0,
+  "statusReason": "OK",
+  "callId": "18f1a389b20947c69148dd2213865b76",
+  "time": "2016-07-02T16:16:04.482Z"
+});

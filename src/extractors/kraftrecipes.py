@@ -1,3 +1,7 @@
+import json
+import os.path
+
+
 def kraftrecipes_com(page, recipe):
     # recipe['datePublished'] = page.xpath(
     #     '//meta[@itemprop="dateCreated"]')[0].attrib['content'].strip()
@@ -36,19 +40,24 @@ def kraftrecipes_com(page, recipe):
     ingredients = page.xpath('//span[@itemprop="ingredients"]')
     for ingredient in ingredients:
         recipe['recipeIngredient'].append(ingredient.text_content().strip())
+
     try:
-        recipe['aggregateRating']['ratingValue'] = page.xpath(
-            '//meta[@itemprop="ratingValue"]')[0].attrib['content'].strip()
-        recipe['aggregateRating']['reviewCount'] = page.xpath(
-            '//meta[@itemprop="reviewCount"]')[0].attrib['content'].strip()
+        data = open(recipe['file'] + ".dat", 'r').read()
+        data = "{" + data.split('({')[1].split('})')[0] + "}"
+        dataJSON = json.loads(data)
         recipe['aggregateRating']['bestRating'] = '5'
         recipe['aggregateRating']['worstRating'] = '1'
+        recipe['aggregateRating']['ratingValue'] = dataJSON['BatchedResults'][
+            'q0']['Results'][0]['ReviewStatistics']['AverageOverallRating']
+        recipe['aggregateRating']['reviewCount'] = dataJSON['BatchedResults'][
+            'q0']['Results'][0]['ReviewStatistics']['TotalReviewCount']
     except:
         pass
+
     for nutrition in recipe['nutrition']:
         try:
             recipe['nutrition'][nutrition] = page.xpath(
-                '//meta[@itemprop="%s"]' % nutrition)[0].attrib['content'].strip()
+                '//span[@itemprop="%s"]' % nutrition)[0].text_content().strip()
         except:
             pass
 

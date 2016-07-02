@@ -42,12 +42,13 @@ def extractRecipe(f, parser):
     if len(page) == 0:
         return
     recipe = copy.deepcopy(nullRecipe)
-
+    recipe['file'] = f
     globals()[parser.replace('.', '_')](page, recipe)
-
+    del recipe['file']
     hasher = hashlib.sha1()
-    hashArray = recipe['recipeIngredient'] + recipe['recipeInstructions']
-    if len(hashArray) == 0:
+    try:
+        hashArray = recipe['recipeIngredient'] + recipe['recipeInstructions']
+    except:
         return
     hasher.update(json.dumps(hashArray).encode('utf-8'))
     with open(os.path.join('../finished/' + parser + '/', str(hasher.hexdigest()) + '.json'), 'w') as f:

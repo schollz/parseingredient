@@ -1,0 +1,46 @@
+gigya._.apiAdapters.web.callback({
+  "streamInfo": {
+    "streamID": "b32d7349-cf47-4abb-9e35-c08d67463bb9",
+    "status": "enabled",
+    "streamURL": "http://foodnetwork.com/recipes/aaron-sanchez/bean-and-butternut-squash-picadillo-recipe/index.html",
+    "streamTitle": "bean and butternut squash picadillo",
+    "streamTags": [],
+    "categoryID": "recipe",
+    "createDate": 1423893668053,
+    "commentCount": 1,
+    "approvedCommentCount": 1,
+    "threadCount": 1,
+    "ratingCount": 1,
+    "rssURL": "http://comments.us1.gigya.com/comments/rss/6714431/recipe/b32d7349-cf47-4abb-9e35-c08d67463bb9",
+    "avgRatings": {
+      "_overall": 1.0
+    },
+    "lastCommentTimestamp": 1357071905000,
+    "isUserSubscribed": false,
+    "moderationMode": "inherit",
+    "moderationModes": {
+      "text": "inherit",
+      "image": "inherit",
+      "video": "inherit",
+      "url": "inherit",
+      "other": "inherit"
+    },
+    "ratingDetails": {
+      "_overall": {
+        "ratings": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "avg": 1.0
+      }
+    }
+  },
+  "statusCode": 200,
+  "errorCode": 0,
+  "statusReason": "OK",
+  "callId": "f1c173f64e354eb0b1edd92d8fdf3dee",
+  "time": "2016-07-02T16:16:23.324Z"
+});

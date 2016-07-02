@@ -1,0 +1,46 @@
+gigya._.apiAdapters.web.callback({
+  "streamInfo": {
+    "streamID": "cdcf83c7-32e0-42c3-9883-4c245495197c",
+    "status": "enabled",
+    "streamURL": "dummy-data",
+    "streamTitle": "mexican avocado salsa",
+    "streamTags": [],
+    "categoryID": "recipe",
+    "createDate": 1423893700922,
+    "commentCount": 1,
+    "approvedCommentCount": 1,
+    "threadCount": 1,
+    "ratingCount": 1,
+    "rssURL": "http://comments.us1.gigya.com/comments/rss/6714431/recipe/cdcf83c7-32e0-42c3-9883-4c245495197c",
+    "avgRatings": {
+      "_overall": 5.0
+    },
+    "lastCommentTimestamp": 1404695133000,
+    "isUserSubscribed": false,
+    "moderationMode": "inherit",
+    "moderationModes": {
+      "text": "inherit",
+      "image": "inherit",
+      "video": "inherit",
+      "url": "inherit",
+      "other": "inherit"
+    },
+    "ratingDetails": {
+      "_overall": {
+        "ratings": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "avg": 5.0
+      }
+    }
+  },
+  "statusCode": 200,
+  "errorCode": 0,
+  "statusReason": "OK",
+  "callId": "c3cf1b85e4a24d79be42246cf2bb9945",
+  "time": "2016-07-02T16:17:13.294Z"
+});

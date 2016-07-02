@@ -1,0 +1,46 @@
+gigya._.apiAdapters.web.callback({
+  "streamInfo": {
+    "streamID": "b75e6677-b8c2-47c1-bf69-4092e8ed919e",
+    "status": "enabled",
+    "streamURL": "http://foodnetwork.com/recipes/food-network-kitchens/aaron-sanchezs-horchata-recipe/index.html",
+    "streamTitle": "horchata",
+    "streamTags": [],
+    "categoryID": "recipe",
+    "createDate": 1423893633517,
+    "commentCount": 15,
+    "approvedCommentCount": 15,
+    "threadCount": 15,
+    "ratingCount": 15,
+    "rssURL": "http://comments.us1.gigya.com/comments/rss/6714431/recipe/b75e6677-b8c2-47c1-bf69-4092e8ed919e",
+    "avgRatings": {
+      "_overall": 4.5
+    },
+    "lastCommentTimestamp": 1441594162115,
+    "isUserSubscribed": false,
+    "moderationMode": "inherit",
+    "moderationModes": {
+      "text": "inherit",
+      "image": "inherit",
+      "video": "inherit",
+      "url": "inherit",
+      "other": "inherit"
+    },
+    "ratingDetails": {
+      "_overall": {
+        "ratings": [
+          0,
+          1,
+          2,
+          1,
+          11
+        ],
+        "avg": 4.5
+      }
+    }
+  },
+  "statusCode": 200,
+  "errorCode": 0,
+  "statusReason": "OK",
+  "callId": "a17e61e6e6374fdf8c874ebf53e16c9d",
+  "time": "2016-07-02T16:16:15.774Z"
+});

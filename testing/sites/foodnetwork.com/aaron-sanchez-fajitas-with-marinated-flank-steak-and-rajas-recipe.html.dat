@@ -1,0 +1,46 @@
+gigya._.apiAdapters.web.callback({
+  "streamInfo": {
+    "streamID": "be134885-8ffe-4f1a-8cab-a4a513ae87f9",
+    "status": "enabled",
+    "streamURL": "http://foodnetwork.com/recipes/fajitas-with-marinated-flank-steak-and-rajas-recipe/index.html",
+    "streamTitle": "fajitas with marinated flank steak and rajas",
+    "streamTags": [],
+    "categoryID": "recipe",
+    "createDate": 1423893737515,
+    "commentCount": 8,
+    "approvedCommentCount": 8,
+    "threadCount": 8,
+    "ratingCount": 8,
+    "rssURL": "http://comments.us1.gigya.com/comments/rss/6714431/recipe/be134885-8ffe-4f1a-8cab-a4a513ae87f9",
+    "avgRatings": {
+      "_overall": 4.8
+    },
+    "lastCommentTimestamp": 1391525642000,
+    "isUserSubscribed": false,
+    "moderationMode": "inherit",
+    "moderationModes": {
+      "text": "inherit",
+      "image": "inherit",
+      "video": "inherit",
+      "url": "inherit",
+      "other": "inherit"
+    },
+    "ratingDetails": {
+      "_overall": {
+        "ratings": [
+          0,
+          0,
+          0,
+          2,
+          6
+        ],
+        "avg": 4.8
+      }
+    }
+  },
+  "statusCode": 200,
+  "errorCode": 0,
+  "statusReason": "OK",
+  "callId": "0c87d7d93ecf4e3aa90a40bf586595a0",
+  "time": "2016-07-02T16:16:42.233Z"
+});

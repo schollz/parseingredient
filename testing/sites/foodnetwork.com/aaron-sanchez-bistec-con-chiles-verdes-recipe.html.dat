@@ -1,0 +1,46 @@
+gigya._.apiAdapters.web.callback({
+  "streamInfo": {
+    "streamID": "985fad0f-9fb6-471b-983b-8a78d9dbc9d4",
+    "status": "enabled",
+    "streamURL": "http://foodnetwork.com/recipes/aaron-sanchez/bistec-con-chiles-verdes-recipe/index.html",
+    "streamTitle": "bistec con chiles verdes",
+    "streamTags": [],
+    "categoryID": "recipe",
+    "createDate": 1423893709193,
+    "commentCount": 4,
+    "approvedCommentCount": 4,
+    "threadCount": 4,
+    "ratingCount": 4,
+    "rssURL": "http://comments.us1.gigya.com/comments/rss/6714431/recipe/985fad0f-9fb6-471b-983b-8a78d9dbc9d4",
+    "avgRatings": {
+      "_overall": 4.5
+    },
+    "lastCommentTimestamp": 1343428794000,
+    "isUserSubscribed": false,
+    "moderationMode": "inherit",
+    "moderationModes": {
+      "text": "inherit",
+      "image": "inherit",
+      "video": "inherit",
+      "url": "inherit",
+      "other": "inherit"
+    },
+    "ratingDetails": {
+      "_overall": {
+        "ratings": [
+          0,
+          0,
+          1,
+          0,
+          3
+        ],
+        "avg": 4.5
+      }
+    }
+  },
+  "statusCode": 200,
+  "errorCode": 0,
+  "statusReason": "OK",
+  "callId": "c30a907032524e65a31845513107cac9",
+  "time": "2016-07-02T16:16:20.137Z"
+});
