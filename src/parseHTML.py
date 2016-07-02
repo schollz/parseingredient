@@ -15,8 +15,12 @@ def main():
         if not os.path.exists('../finished/%s' % parser):
             os.makedirs('../finished/%s' % parser)
 
+    mypath = '../testing/sites/'
+    fs = []
+    for root, directories, filenames in os.walk(mypath):
+        for filename in filenames:
+            fs.append(os.path.join(root, filename))
     # Testing purposes
-    fs = glob.glob("../testing/sites/*/*")
     for f in fs:
         print(f)
         parseRecipe(f)
