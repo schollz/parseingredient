@@ -15,7 +15,7 @@ def main():
             os.makedirs('../finished/%s' % parser)
 
     # Testing purposes
-    fs = glob.glob('../testing/sites/foodnetwork*/*')
+    fs = glob.glob('../testing/sites/myrecipes*/*')
     for f in fs:
         print(f)
         parseRecipe(f)

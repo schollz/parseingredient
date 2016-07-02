@@ -14,6 +14,7 @@ from extractors.chowhound import chowhound_com
 from extractors.foodandwine import foodandwine_com
 from extractors.kraftrecipes import kraftrecipes_com
 from extractors.foodnetwork import foodnetwork_com
+from extractors.myrecipes import myrecipes_com
 
 import lxml.html
 
@@ -29,12 +30,14 @@ availableParsers = ['allrecipes.com',
                     'bettycrocker.com',
                     'chowhound.com',
                     'foodandwine.com',
+                    'myrecipes.com',
                     'kraftrecipes.com']
 
 
 def parseRecipe(f):
     for parser in availableParsers:
         if '/' + parser + '/' in f:
+            print(f, parser)
             extractRecipe(f, parser)
 
 
