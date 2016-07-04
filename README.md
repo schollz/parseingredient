@@ -1,45 +1,21 @@
-# parseingredient
-An ingredient parser written in Golang
+# README
 
+1. Generate JSON data for each recipe. Data will be in `finished`
 
-## Notes
+  `cd src && python3 parseHTML.py /location/to/data`
 
-`id` = `hash(frozenset(ingredients + directions))`
+2. Tag recipes. Make sure to have ingredientTagging setup in another directory (see source)
+
+  `cd src && python3 ingredientTagging.py`
+
 
 ## Todo
 
-- [ ] Ingredient parser (using NYTimes phrase-tagger)
+- [x] Recipe extractors
+- [x] Ingredient parser (using NYTimes phrase-tagger)
 - [ ] Unit converter
-- [ ] Recipe extractors
 
-
-### Recipe Parser v1
-
-Given a recipe item,
-
-```bash
-1 1/2 cup (4 oz) chopped green pepper
-```
-
-it will return
-
-```json
-{
-  "quantity":"1.5",
-  "measurement":"cups",
-  "ingredient":"green pepper"
-}
-```
-
-How to do this? Use [NYtimes Ingredient phrase tagger](https://github.com/schollz/ingredient-phrase-tagger)
-
-1. Make a file with the line. `input.txt`:
-```
-1 1/2 cup (4 oz) chopped green pepper
-```
-2. From the directory of the NYtimes Ingredient phrase tagger, `python lib/testing/parse-ingredients.py input.txt > input_formatted.txt &&  python lib/testing/convert-to-json.py input_formatted.txt`
-
-### Unit converter v1
+### Unit converter notes
 
 Give the parsed recipe,
 
@@ -90,5 +66,5 @@ How to do this?
 
 ## Relevant
 
-http://opensourcecook.com/recipes-copyright-law 
+http://opensourcecook.com/recipes-copyright-law
 https://news.ycombinator.com/item?id=11711467
