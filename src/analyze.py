@@ -25,7 +25,7 @@ for i in tqdm(range(0, len(fs))):
         continue
 
     for instruction in j['recipeInstructions']:
-        finstructions.write(instruciton.strip().lower() + "\n")
+        finstructions.write(instruction.strip().lower() + "\n")
     for ingredient in j['recipeIngredient']:
         fingredients.write(ingredient.strip().lower() + "\n")
 
