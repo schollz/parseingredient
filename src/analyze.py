@@ -3,11 +3,9 @@ import os
 
 from tqdm import tqdm
 
-mypath = "../finished"
-fs = []
-for root, directories, filenames in os.walk(mypath):
-    for filename in filenames:
-        fs.append(os.path.join(root, filename))
+os.chdir('../finished')
+os.system("tree -Ufai -P '*.json.it' -I '*.it.it' -o finished.index")
+fs = open('finished.index','r').read().split('\n')
 
 numberWithScores = 0
 for i in tqdm(range(0,len(fs),500)):
