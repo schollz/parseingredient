@@ -5,8 +5,8 @@ from tqdm import tqdm
 
 
 os.chdir('../finished')
-print("Generating index of files...")
-os.system("tree -Ufai -P '*.json.*' -I '*.it.it' -o finished.index")
+# print("Generating index of files...")
+# os.system("tree -Ufai -P '*.json.*' -I '*.it.it' -o finished.index")
 
 print("Opening file index...")
 fs = open('finished.index', 'r').read().split('\n')
@@ -16,6 +16,7 @@ numberWithScores = 0
 ingredientList = set()
 finstructions = open('instructions.txt', 'w')
 fingredients = open('ingredients.txt', 'w')
+ftitles = open('titles.txt', 'w')
 for i in tqdm(range(0, len(fs))):
     f = fs[i]
     j = {}
@@ -28,6 +29,7 @@ for i in tqdm(range(0, len(fs))):
         finstructions.write(instruction.strip().lower() + "\n")
     for ingredient in j['recipeIngredient']:
         fingredients.write(ingredient.strip().lower() + "\n")
+    ftitles.write(j['name'].lower() + "\n")
 
     if ".json.it" not in f:
         continue
