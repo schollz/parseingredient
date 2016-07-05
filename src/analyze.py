@@ -16,6 +16,7 @@ numberWithScores = 0
 ingredientList = set()
 for i in tqdm(range(0, len(fs), 500)):
     f = fs[i]
+    j = {}
     try:
         j = json.load(open(f, "r"))
     except:
