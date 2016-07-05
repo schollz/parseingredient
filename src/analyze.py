@@ -17,7 +17,7 @@ ingredientList = {}
 finstructions = open('instructions.txt', 'w')
 fingredients = open('ingredients.txt', 'w')
 ftitles = open('titles.txt', 'w')
-for i in tqdm(range(0, len(fs), 1000)):
+for i in tqdm(range(0, len(fs))):
     f = fs[i]
     j = {}
     try:
