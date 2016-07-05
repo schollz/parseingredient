@@ -14,15 +14,23 @@ fs = open('finished.index', 'r').read().split('\n')
 print("Analyzing...")
 numberWithScores = 0
 ingredientList = set()
+finstructions = open('instructions.txt', 'w')
+fingredients = open('ingredients.txt', 'w')
 for i in tqdm(range(0, len(fs))):
     f = fs[i]
-    if ".json.it" not in f:
-        continue
     j = {}
     try:
         j = json.load(open(f, "r"))
     except:
-        pass
+        continue
+
+    for instruction in j['recipeInstructions']:
+        finstructions.write(instruciton.strip().lower() + "\n")
+    for ingredient in j['recipeIngredient']:
+        fingredients.write(ingredient.strip().lower() + "\n")
+
+    if ".json.it" not in f:
+        continue
     for i in range(len(j['recipeIngredientTagged'])):
         try:
             ingredientList.update(
@@ -31,6 +39,8 @@ for i in tqdm(range(0, len(fs))):
             pass
     numberWithScores += int(j['aggregateRating']['ratingValue'] !=
                             None and float(j['aggregateRating']['ratingValue']) > 0)
+finstructions.close()
+fingredients.close()
 print("%2.1f%% have scores" % float(
     100.0 * float(numberWithScores) / float(len(list(range(0, len(fs), 500))))))
 print("%d total" % len(fs))
