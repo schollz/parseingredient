@@ -14,7 +14,7 @@ fs = open('finished.index', 'r').read().split('\n')
 print("Analyzing...")
 numberWithScores = 0
 ingredientList = set()
-for i in tqdm(range(0, len(fs), 500)):
+for i in tqdm(range(0, len(fs))):
     f = fs[i]
     if ".json.it" not in f:
         continue
