@@ -26,7 +26,7 @@ for i in tqdm(range(0, len(fs))):
     for i in range(len(j['recipeIngredientTagged'])):
         try:
             ingredientList.update(
-                [j['recipeIngredientTagged'][i]['name'].lower()])
+                [j['recipeIngredientTagged'][i]['name'].lower().replace(')', '').replace('(', '')])
         except:
             pass
     numberWithScores += int(j['aggregateRating']['ratingValue'] !=
