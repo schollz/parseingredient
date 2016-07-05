@@ -13,7 +13,7 @@ fs = open('finished.index', 'r').read().split('\n')
 
 print("Analyzing...")
 numberWithScores = 0
-ingredientList = set()
+ingredientList = {}
 finstructions = open('instructions.txt', 'w')
 fingredients = open('ingredients.txt', 'w')
 ftitles = open('titles.txt', 'w')
@@ -44,8 +44,11 @@ for i in tqdm(range(0, len(fs))):
         continue
     for i in range(len(j['recipeIngredientTagged'])):
         try:
-            ingredientList.update(
-                [j['recipeIngredientTagged'][i]['name'].lower().replace(')', '').replace('(', '')])
+            newIngredient = j['recipeIngredientTagged'][i][
+                'name'].lower().replace(')', '').replace('(', '')
+            if newIngredient not in ingredientList:
+                ingredientList[newIngredient] = 0
+            ingredientList[newIngredient] += 1
         except:
             pass
     numberWithScores += int(j['aggregateRating']['ratingValue'] !=
