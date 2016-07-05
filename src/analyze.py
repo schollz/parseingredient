@@ -23,8 +23,11 @@ for i in tqdm(range(0, len(fs), 500)):
         j = json.load(open(f, "r"))
     except:
         pass
-    for ingredient in j['recipeIngredientTagged']:
-        ingredientList.update(ingredient['name'])
+    for i in range(len(j['recipeIngredientTagged'])):
+        try:
+            ingredientList.update(j['recipeIngredientTagged'][i]['name'])
+        except:
+            pass
     numberWithScores += int(j['aggregateRating']['ratingValue'] !=
                             None and float(j['aggregateRating']['ratingValue']) > 0)
 print("%2.1f%% have scores" % float(
