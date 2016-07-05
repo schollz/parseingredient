@@ -16,6 +16,8 @@ numberWithScores = 0
 ingredientList = set()
 for i in tqdm(range(0, len(fs), 500)):
     f = fs[i]
+    if ".json.it" not in f:
+        continue
     j = {}
     try:
         j = json.load(open(f, "r"))
