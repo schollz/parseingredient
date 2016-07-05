@@ -25,11 +25,20 @@ for i in tqdm(range(0, len(fs))):
     except:
         continue
 
-    for instruction in j['recipeInstructions']:
-        finstructions.write(instruction.strip().lower() + "\n")
-    for ingredient in j['recipeIngredient']:
-        fingredients.write(ingredient.strip().lower() + "\n")
-    ftitles.write(j['name'].lower() + "\n")
+    try:
+        for instruction in j['recipeInstructions']:
+            finstructions.write(instruction.strip().lower() + "\n")
+    except:
+        pass
+    try:
+        for ingredient in j['recipeIngredient']:
+            fingredients.write(ingredient.strip().lower() + "\n")
+    except:
+        pass
+    try:
+        ftitles.write(j['name'].lower() + "\n")
+    except:
+        pass
 
     if ".json.it" not in f:
         continue
