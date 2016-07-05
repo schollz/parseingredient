@@ -4,9 +4,9 @@ import os
 from tqdm import tqdm
 
 
-os.chdir('../finished')
-print("Generating index of files...")
-os.system("tree -Ufai -P '*.json.it' -I '*.it.it' -o finished.index")
+# os.chdir('../finished')
+# print("Generating index of files...")
+# os.system("tree -Ufai -P '*.json.it' -I '*.it.it' -o finished.index")
 
 print("Opening file index...")
 fs = open('finished.index', 'r').read().split('\n')
