@@ -17,7 +17,7 @@ ingredientList = {}
 finstructions = open('instructions.txt', 'w')
 fingredients = open('ingredients.txt', 'w')
 ftitles = open('titles.txt', 'w')
-for i in tqdm(range(0, len(fs))):
+for i in tqdm(range(0, len(fs), 1000)):
     f = fs[i]
     j = {}
     try:
@@ -55,8 +55,9 @@ for i in tqdm(range(0, len(fs))):
                             None and float(j['aggregateRating']['ratingValue']) > 0)
 finstructions.close()
 fingredients.close()
+ftitles.close()
 print("%2.1f%% have scores" % float(
     100.0 * float(numberWithScores) / float(len(list(range(0, len(fs), 500))))))
 print("%d total" % len(fs))
 with open('ingredients.json', 'w') as f:
-    f.write(json.dumps(list(ingredientList), indent=2))
+    f.write(json.dumps(ingredientList, indent=2))
