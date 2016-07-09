@@ -48,10 +48,11 @@ def kraftrecipes_com(page, recipe):
         print(json.dumps(dataJSON,indent=2))
         recipe['aggregateRating']['bestRating'] = '5'
         recipe['aggregateRating']['worstRating'] = '1'
-        recipe['aggregateRating']['ratingValue'] = dataJSON['BatchedResults'][
-            'q0']['Results'][0]['ReviewStatistics']['AverageOverallRating']
-        recipe['aggregateRating']['reviewCount'] = dataJSON['BatchedResults'][
-            'q0']['Results'][0]['ReviewStatistics']['TotalReviewCount']
+        if len(dataJSON['BatchedResults']['q0']['Results']) > 0:
+            recipe['aggregateRating']['ratingValue'] = dataJSON['BatchedResults'][
+                'q0']['Results'][0]['ReviewStatistics']['AverageOverallRating']
+            recipe['aggregateRating']['reviewCount'] = dataJSON['BatchedResults'][
+                'q0']['Results'][0]['ReviewStatistics']['TotalReviewCount']
 
 
     for nutrition in recipe['nutrition']:
