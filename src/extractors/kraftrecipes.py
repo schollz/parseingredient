@@ -7,14 +7,26 @@ def kraftrecipes_com(page, recipe):
     #     '//meta[@itemprop="dateCreated"]')[0].attrib['content'].strip()
     recipe['isBasedOnUrl'] = page.xpath(
         '//link[@rel="canonical"]')[0].attrib['href'].strip()
-    recipe['author'] = page.xpath(
-        '//span[@itemprop="author"]')[0].text_content().strip()
-    recipe['name'] = page.xpath(
-        '//meta[@name="title"]')[0].attrib['content'].strip()
-    recipe['description'] = page.xpath(
-        '//meta[@name="description"]')[0].attrib['content'].strip()
-    recipeInstructions = page.xpath(
-        '//ul[@itemprop="recipeInstructions"]/li/div')
+    try:
+        recipe['author'] = page.xpath(
+            '//span[@itemprop="author"]')[0].text_content().strip()
+    except:
+        pass
+    try:
+        recipe['name'] = page.xpath(
+            '//meta[@name="title"]')[0].attrib['content'].strip()
+    except:
+        pass
+    try:
+        recipe['description'] = page.xpath(
+            '//meta[@name="description"]')[0].attrib['content'].strip()
+    except:
+        pass
+    try:
+        recipeInstructions = page.xpath(
+            '//ul[@itemprop="recipeInstructions"]/li/div')
+    except:
+        return recipe
     recipe['recipeInstructions'] = []
     for instruction in recipeInstructions:
         data = instruction.text_content().strip()
