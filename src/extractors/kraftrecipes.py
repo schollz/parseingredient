@@ -32,8 +32,11 @@ def kraftrecipes_com(page, recipe):
         data = instruction.text_content().strip()
         if len(data) > 0:
             recipe['recipeInstructions'].append(data)
-    recipe['recipeYield'] = page.xpath(
-        '//span[@itemprop="servingSize"]')[0].text_content().strip()
+    try:
+        recipe['recipeYield'] = page.xpath(
+            '//span[@itemprop="servingSize"]')[0].text_content().strip()
+    except:
+        pass
     try:
         recipe['cookTime'] = page.xpath(
             '//div[@itemprop="cookTime"]')[0].attrib['content'].strip()
