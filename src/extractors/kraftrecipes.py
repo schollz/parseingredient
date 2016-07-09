@@ -60,10 +60,10 @@ def kraftrecipes_com(page, recipe):
         data = open(recipe['file'] + ".dat", 'r').read()
         data = "{" + data.split('({')[1].split('})')[0] + "}"
         dataJSON = json.loads(data)
-        print(json.dumps(dataJSON,indent=2))
         recipe['aggregateRating']['bestRating'] = '5'
         recipe['aggregateRating']['worstRating'] = '1'
         if len(dataJSON['BatchedResults']['q0']['Results']) > 0:
+            print(json.dumps(dataJSON,indent=2))
             recipe['aggregateRating']['ratingValue'] = dataJSON['BatchedResults'][
                 'q0']['Results'][0]['ReviewStatistics']['AverageOverallRating']
             recipe['aggregateRating']['reviewCount'] = dataJSON['BatchedResults'][
