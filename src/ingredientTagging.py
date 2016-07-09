@@ -5,6 +5,7 @@ import shutil
 import copy
 import os
 from tqdm import tqdm
+import multiprocessing
 
 def getAllFiles():
 	os.system("tree -Ufai -P '*.json' -I '*.it.*' -o json_file_list ../finished")
@@ -40,6 +41,7 @@ def processFile(f):
 
 print("Getting all the files...")
 fs = getAllFiles()
-print("Processing files...")
-for i in tqdm(range(len(fs))):
-	processFile(fs[i])
+p = multiprocessing.Pool(multiprocessing.cpu_count())
+print("Processing %d files..." % len(fs))
+for i in tqdm(range(0, len(fs), 8 * multiprocessing.cpu_count())):
+    p.map(processFile, fs[i:i + 8 * multiprocessing.cpu_count()])
