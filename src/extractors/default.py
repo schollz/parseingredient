@@ -61,10 +61,10 @@ availableParsers = ['allrecipes.com',
 def parseRecipe(f):
     for parser in availableParsers:
         if '/' + parser + '/' in f:
-            try:
-                extractRecipe(f, parser)
-            except:
-                pass
+            # try:
+            extractRecipe(f, parser)
+            # except:
+            #     pass
                 # e = sys.exc_info()[0]
                 # traceback.print_exc()
                 # print(e)
