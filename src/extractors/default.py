@@ -27,6 +27,7 @@ from extractors.nytimes import cooking_nytimes_com
 from extractors.cookstr import cookstr_com
 from extractors.marthastewart import www_marthastewart_com
 from extractors.recipeland import recipeland_com
+from extractors.tastecom import taste_com_au
 
 import lxml.html
 
@@ -53,6 +54,7 @@ availableParsers = ['allrecipes.com',
                     'yummly.com',
                     'www.marthastewart.com',
                     'cookstr.com',
+                    'taste.com.au',
                     'kraftrecipes.com']
 
 
@@ -78,7 +80,7 @@ def extractRecipe(f, parser):
     recipe = copy.deepcopy(nullRecipe)
     recipe['file'] = f
     globals()[parser.replace('.', '_')](page, recipe)
-    del recipe['file']
+    recipe.pop('file',None)
     hasher = hashlib.sha1()
     try:
         hashArray = recipe['recipeIngredient'] + recipe['recipeInstructions']
