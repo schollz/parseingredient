@@ -1,0 +1,2195 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js ie lt-ie9 oldie" lang="en" xmlns:fb="http://ogp.me/ns/fb#" dir="ltr"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie ie9" lang="en" xmlns:fb="http://ogp.me/ns/fb#" dir="ltr"> <![endif]-->
+<!--[if gte IE 9]><!--> <html class="no-js new" lang="en" xmlns:fb="http://ogp.me/ns/fb#" dir="ltr"> <!--<![endif]-->
+  <head>
+    <script type="text/javascript" src="/sites/all/modules/custom/mslo_datalayer/js/mslo_datalayer-header-scripts.js"></script>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="cleartype" content="on">
+    <link rel="apple-touch-icon" href="/sites/all/themes/emma/img/touch-icon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/sites/all/themes/emma/img/touch-icon-76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/sites/all/themes/emma/img/touch-icon-120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/sites/all/themes/emma/img/touch-icon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/sites/all/themes/emma/img/touch-icon-180.png">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(e,t){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,t)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var u=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(u,function(e,t){newrelic[t]=r(f+t,"api")}),i(c,function(e,t){newrelic[t]=r(f+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,c=0;u>c;c++)a[c].apply(i,r);var s=f[g[n]];return s&&s.push([m,n,r,i]),i}function p(e,t){w[e]=l(e).concat(t)}function l(e){return w[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",g[n]=t,t in f||(f[t]=[])})}var w={},g={},m={on:p,emit:n,get:d,listeners:l,context:t,buffer:v};return m}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},p=t.exports=o();p.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!w++){var e=v.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(l,function(t,n){e[t]||(e[t]=n)});var n="https"===p.split(":")[0]||e.sslForHttp;v.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=v.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var p=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-918.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),v=t.exports={offset:a(),origin:p,features:{},xhrWrappable:d};s.addEventListener?(s.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(s.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),u("mark",["firstbyte",a()],null,"api");var w=0},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="http://www.marthastewart.com/sites/all/themes/emma/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="https://plus.google.com/+MarthaStewart" rel="publisher" />
+<link rel="canonical" href="http://www.marthastewart.com/1043097/10-second-holiday-bartender" />
+<meta property="og:site_name" content="Martha Stewart" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.marthastewart.com/1043097/10-second-holiday-bartender" />
+<meta property="og:title" content="The 10-Second Holiday Bartender" />
+<meta property="og:updated_time" content="2013-11-18T09:08:38-05:00" />
+<meta property="og:image" content="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-1500/public/d29/cranberry-punch-0334-md110526/cranberry-punch-0334-md110526_horiz.jpg?itok=N8UPT-mT" />
+<meta property="article:published_time" content="2013-11-13T17:28:48-05:00" />
+<meta property="article:modified_time" content="2013-11-18T09:08:38-05:00" />
+    <title>The 10-Second Holiday Bartender | Martha Stewart</title>
+    <link type="text/css" rel="stylesheet" href="http://www.marthastewart.com/sites/files/marthastewart.com/opuscss/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.marthastewart.com/sites/files/marthastewart.com/opuscss/css_A-02PFbUrr0ImAqRavi1_Oz_wYQ4SL4ab-y0Jau9vgE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.marthastewart.com/sites/files/marthastewart.com/opuscss/css_fl3YAqttcpHd9qLbf13rhNnvg1jIJzpa5oI35UcEJco.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.marthastewart.com/sites/files/marthastewart.com/opuscss/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.marthastewart.com/sites/files/marthastewart.com/opuscss/css_KrWfpl5xTFAkABdTj1CrbRGFebYF9fYtFZg4nA0kOtA.css" media="all" />
+          <script type="text/javascript" class="typekit-script">
+        (function(d){var config={kitId:"xvs1ueu",scriptTimeout:3000},h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//typekit.marthastewart.com/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)})(document);
+      </script>
+              <script class="kxct" data-id="Jev6eSh4" data-version="async:1.7" type="text/javascript" id="mslo-krux-js">
+        window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]); (function(){ var k=document.createElement('script');k.type='text/javascript';k.async=true; var m,src=(m=location.href.match(/\bkxsrc=([^&]+)/))&&decodeURIComponent(m[1]); k.src = /^https?:\/\/([^\/]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" : (location.protocol==="https:"?"https:":"http:")+"//cdn.krxd.net/controltag?confid=Jev6eSh4"; var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s); })();
+      </script>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.marthastewart.com/sites/files/marthastewart.com/opusjs/js_3TykeRWpejhD4-J3vdlaNXdULg9xhOZhbsppK0o2bUs.js"></script>
+<script type="text/javascript" src="http://www.marthastewart.com/sites/files/marthastewart.com/opusjs/js_H7q2xORKmR9AN8Qx5spKEIBp7R_wG2apAswJoCUZY7I.js"></script>
+<script type="text/javascript" src="http://karma.mdpcdn.com/service/js-min/karma.header.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"emma","theme_token":"dUh1ASR7k4HwGQV57dC2EoMk4K6RvsAG9SOo2r3QrbE","js":{"sites\/all\/modules\/custom\/mslo_themehelper\/js\/modernizr-2.6.1.min.js":1,"sites\/all\/modules\/custom\/mslo_themehelper\/js\/underscore-min.js":1,"sites\/all\/modules\/custom\/mslo_themehelper\/js\/backbone-min.js":1,"sites\/all\/modules\/custom\/mslo_themehelper\/js\/handlebars.js":1,"sites\/all\/modules\/custom\/mslo_themehelper\/js\/jquery.lazyload.min.js":1,"sites\/all\/modules\/custom\/mslo_themehelper\/js\/jquery.flexslider.js":1,"sites\/all\/modules\/custom\/mslo_themehelper\/js\/jquery.ba-tinypubsub.min.js":1,"sites\/all\/modules\/custom\/mslo_themehelper\/js\/slick.min.js":1,"sites\/all\/modules\/custom\/mslo_themehelper\/js\/mslo_carousel.js":1,"0":1,"sites\/all\/modules\/custom\/mslo_social\/js\/facebook_script.js":1,"sites\/all\/modules\/custom\/mslo_social\/js\/twitter_script.js":1,"sites\/all\/modules\/custom\/mslo_social\/js\/googleplus_script.js":1,"sites\/all\/modules\/custom\/mslo_themehelper\/js\/require-min.js":1,"sites\/all\/modules\/custom\/mslo_themehelper\/js\/mslo_themehelper.js":1,"sites\/all\/modules\/custom\/ugc_frontend_authorization\/js\/ugc_frontend_app.js":1,"sites\/all\/modules\/features\/mslo_image\/js\/mslo_image.js":1,"sites\/all\/modules\/custom\/mslo_datalayer\/js\/mdp_gpt.js":1,"sites\/all\/modules\/custom\/mslo_social\/js\/mslo_social.js":1,"sites\/all\/modules\/features\/mslo_contentgallery\/js\/mslo_contentgallery.js":1,"sites\/all\/modules\/features\/mslo_search\/js\/mslo_search.js":1,"sites\/all\/themes\/emma\/js\/emma-scripts.js":1,"sites\/all\/themes\/emma_base\/js\/emma_base-scripts.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js":1,"1":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"http:\/\/karma.mdpcdn.com\/service\/js-min\/karma.header.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/contrib\/tabledragextra\/tabledragextra.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/emma_base\/css\/boilerplate.css":1,"sites\/all\/themes\/emma\/css\/emma-main.css":1,"sites\/all\/themes\/emma_base\/defaults.css":1,"sites\/all\/themes\/emma_base\/system.menus.css":1,"sites\/all\/themes\/emma_base\/system.theme.css":1,"sites\/all\/themes\/emma_base\/system.css":1,"sites\/all\/themes\/emma_base\/node.css":1,"sites\/all\/themes\/emma_base\/search.css":1,"sites\/all\/themes\/emma_base\/user.css":1,"sites\/all\/themes\/emma_base\/apachesolr_autocomplete.css":1,"sites\/all\/themes\/emma_base\/jquery.autocomplete.css":1,"sites\/all\/themes\/emma_base\/content-module.css":1,"sites\/all\/themes\/emma_base\/date.css":1,"sites\/all\/themes\/emma_base\/datepicker.1.7.css":1,"sites\/all\/themes\/emma_base\/jquery.timeentry.css":1,"sites\/all\/themes\/emma_base\/filefield.css":1,"sites\/all\/themes\/emma_base\/ms_editorial_ui_search_interface.css":1,"sites\/all\/themes\/emma_base\/fieldgroup.css":1,"sites\/all\/themes\/emma_base\/content_multigroup.css":1,"sites\/all\/themes\/emma_base\/printlinks.css":1,"sites\/all\/themes\/emma_base\/ctools.css":1,"sites\/all\/themes\/emma_base\/views.css":1,"sites\/all\/themes\/emma_base\/field.css":1,"sites\/all\/themes\/emma_base\/jquery.ui.tabs.css":1,"sites\/all\/themes\/emma_base\/datepicker.css":1,"sites\/all\/themes\/emma_base\/ui.datepicker.css":1,"sites\/all\/themes\/emma_base\/ui.all.css":1,"sites\/all\/themes\/emma_base\/hierarchial_taxonomy_autocomplete.css":1,"sites\/all\/themes\/emma\/css\/emma-contentgallery.css":1}},"opus":{"user_is_authenticated":false},"msloThemehelper":{"baseUrls":{"urlToolsMW":"","urlBaseMS":"http:\/\/www.marthastewart.com","urlBaseMW":"http:\/\/www.marthastewartweddings.com","urlBaseAM":"http:\/\/www.marthastewart.com\/americanmade"},"apiKeys":{"recaptcha":"6LefmPoSAAAAANPGJXh0NsO1ircT4YK2oHovtl4y"}},"breakpoints":{"breakpointMobile":550,"breakpointMobile2":645,"breakpointAds":645,"breakpointTablet":780,"breakpointDesktop":900,"breakpointDesktop2":1024,"breakpointDesktop3":1300},"base_url":"http:\/\/www.marthastewart.com","mslo_contentgallery":{"galleryTitle":"The 10-Second Holiday Bartender","adRefreshRate":2,"nextGallery":{"url":"\/275515\/halloween-cocktails-and-drink-recipes","image":{"320":"http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d21\/med105088p_1009_ar001\/med105088p_1009_ar001_vert.jpg?itok=426nExZ4","500":"http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d21\/med105088p_1009_ar001\/med105088p_1009_ar001_vert.jpg?itok=dypiae8M"}}},"ugc_frontend_authorization":{"siteCode":"mslo","module_path":"sites\/all\/modules\/custom\/ugc_frontend_authorization","ugcBasePath":"https:\/\/my.marthastewart.com","topLevelDomain":"marthastewart.com"},"msloEmmaBase":{"leaderboardDockTimer":0},"msloSearch":{"originalAction":"search\/results","debug":false},"urlIsAjaxTrusted":{"\/search\/results":true},"ugcCommenting":{"json_path":"https:\/\/my.marthastewart.com\/api\/comments\/mslo\/f77d3058-4cb2-11e3-98b8-a4badb44c2a2"},"msloDatalayer":{"collection":{"title":"","uuid":""},"platform":"opus","nodeId":"1043097","nodeType":"contentgallery","nodeTitle":"The 10-Second Holiday Bartender","nodeUuid":"f77d3058-4cb2-11e3-98b8-a4badb44c2a2","nodePubDate":"1384783718","isFrontPage":"","googleAdSenseClientIds":{"category":"vert-pla-meredith-shopmartha-cat","product_detail":"vert-pla-meredith-shopmartha-pdp","search":"vert-pla-meredith-shopmartha-srp"},"statusCode":"200","environment":"","mdpApiEnvironment":"prod","hashIdCookieName":"hid","mdpPageTargetingId":"1043097","contentCreationDate":"11\/18\/2013","isSearchResults":"","subCategory":"","category":"","channel":"Entertaining","genre":"Other","descriptiveTerms":["Punches","Drinks","Dish type","Food and Cooking","Cocktail party","Events","Holidays and Events","Christmas","Holidays"],"nodeHasVideo":"","ugcCookieName":"ugc_user_authentication.authenticated","gtmDatalayerName":"dataLayer"}});
+//--><!]]>
+</script>
+    <script type="text/javascript" src="http://www.marthastewart.com/sites/all/modules/custom/mslo_datalayer/js/mslo_datalayer.js"></script>
+  </head>
+
+  <body data-ng-app="msloApp" class="opus html not-front not-logged-in no-sidebars page-node page-node- page-node-1043097 node-type-contentgallery site-nav-fullsize" >
+    <script type="text/javascript" src="http://www.marthastewart.com/sites/all/modules/custom/mslo_datalayer/js/gtm_prepare.js"></script>
+<script type="text/javascript">var dataLayer = [Drupal.mslo.gtmDatalayer];</script>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-9NDX2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script type="text/javascript" id="mslo-gtm-inline-js">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-9NDX2');</script>
+<!-- End Google Tag Manager -->
+<div id="fb-root"></div>
+    
+<div id="main-container" class="main-container">
+      <header id="main-header" class="main-header" role="banner">
+      
+  <div id="js-site-nav-ad-wrap" class="site-nav-ad-wrap">
+    <div class="site-nav-ad-inner">
+              <div class="mslo-ad mslo-ad-728x66 is-desktop" data-refresh-rate="2">
+  
+  <div class="mslo-ad-holder">
+        
+                      <div id="div-gpt-leaderboard-flex-1" data-tier="1">
+                    </div>
+      </div>
+</div>
+      
+              <div class="mslo-ad mslo-ad-300x50 is-mobile" data-refresh-rate="2">
+  
+  <div class="mslo-ad-holder">
+                      <div id="div-gpt-mob-banner-flex-1" data-tier="1">
+                    </div>
+
+      <div id="div-kargo-banner-flex-1" data-tier="1">
+              </div>
+    
+          </div>
+</div>
+          </div>
+  </div>
+
+<div class="site-nav has-leaderboard" role="banner">
+  <div class="site-nav-inner">
+    <div class="site-nav-table">
+      <div class="site-nav-logo-wrap">
+                  <a href="/"><div class="site-nav-logo link" itemprop="publisher"></div></a>
+        
+        <!-- Mobile expansion button. -->
+        <div id="nav-mobile-button" class="glyph gl-menu nav-mobile-button"></div>
+      </div>
+
+      <nav class="site-nav-content">
+        <div class="nav-content-inner">
+          <div class="nav-list-container">
+            <div class="nav-subitem-list clear-fix">
+                              <ul class="menu"><li class="first leaf li-first"><a href="/1503096/videos" class="li-link li-first-link leaf-link" top-1512-parent="" data-menu-first="">Videos</a></li><li class="leaf li-first"><a href="http://www.themarthablog.com" class="li-link li-first-link leaf-link" top-1513-parent="" data-menu-first="">Martha's Blog</a></li><li class="leaf li-first"><a href="http://www.marthastewart.com/americanmade" class="li-link li-first-link leaf-link" top-1515-parent="" data-menu-first="">American Made</a></li><li class="leaf li-first"><a href="http://www.marthastewartweddings.com/" class="li-link li-first-link leaf-link" top-1514-parent="" data-menu-first="">Weddings</a></li><li class="last leaf li-first"><a href="http://marthastewartcafeshop.com/" class="li-link li-first-link leaf-link" top-2192-parent="" data-menu-first="">Martha Café</a></li></ul>                          </div>
+
+            <div class="nav-item-list clear-fix">
+                              <ul class="menu"><li class="first leaf li-first"><a href="/cook" class="li-link li-first-link leaf-link" top-1508-parent="" data-menu-first="">Cook</a></li><li class="leaf li-first"><a href="/create" class="li-link li-first-link leaf-link" top-1509-parent="" data-menu-first="">Create</a></li><li class="leaf li-first"><a href="/celebrate" class="li-link li-first-link leaf-link" top-1511-parent="" data-menu-first="">Celebrate</a></li><li class="leaf li-first"><a href="/1144514/shop" class="li-link li-first-link leaf-link" top-1505-parent="" data-menu-first="">Shop</a></li><li class="last leaf li-first"><a href="http://www.marthastewart.com/10kSweeps_Splash?psrc=R607YTF211010" class="li-link li-first-link leaf-link" top-4916-parent="" data-menu-first="">Win $10,000 to Redecorate Your Home</a></li></ul>                          </div>
+          </div>
+
+          <div class="nav-dept-list-container">
+            <div class="nav-dept-list">
+              <div class="dept-list-title">Browse Topics By:</div>
+                              <ul class="menu"><li class="first expanded li-first has-children"><a href="/1502328/breakfast-recipes" class="li-link li-first-link leaf-link" top-1473-parent="" data-menu-first="">Breakfast Recipes</a><ul class="menu"><li class="first leaf"><a href="/1502324/breakfast-quiche-stratas" class="li-link" top-1473-parent="">Quiche and Strata Recipes</a></li><li class="leaf"><a href="/1502321/brunch-recipes" class="li-link" top-1473-parent="">Brunch Recipes</a></li><li class="leaf"><a href="/1502326/bread-muffin-recipes" class="li-link" top-1473-parent="">Breads & Muffin Recipes</a></li><li class="last leaf"><a href="/1502303/brunch-cocktail-drink-recipes" class="li-link" top-1473-parent="">Brunch Cocktails</a></li></ul></li><li class="expanded li-first has-children"><a href="/1502505/lunch-recipes" class="li-link li-first-link leaf-link" top-4368-parent="" data-menu-first="">Lunch Recipes</a><ul class="menu"><li class="first leaf"><a href="/1502507/healthy-lunch-recipes" class="li-link" top-4368-parent="">Healthy Lunch Recipes</a></li><li class="last leaf"><a href="/1502317/quick-easy-lunch-recipes" class="li-link" top-4368-parent="">Quick and Easy Lunch Recipes</a></li></ul></li><li class="expanded li-first has-children"><a href="/1502314/dinner-recipes" class="li-link li-first-link leaf-link" top-1453-parent="" data-menu-first="">Dinner Recipes</a><ul class="menu"><li class="first leaf"><a href="/1502258/appetizers-snacks" class="li-link" top-1453-parent="">Appetizers</a></li><li class="leaf"><a href="/1502310/main-dish-recipes" class="li-link" top-1453-parent="">Main Dishes</a></li><li class="leaf"><a href="/1502306/healthy-dinner-recipes" class="li-link" top-1453-parent="">Healthy Recipes</a></li><li class="leaf"><a href="/1502307/quick-easy-dinner-recipes" class="li-link" top-1453-parent="">Quick and Easy Recipes</a></li><li class="leaf"><a href="/1502309/dinner-side-dishes" class="li-link" top-1453-parent="">Side Dishes</a></li><li class="leaf"><a href="/1502284/dessert-recipes" class="li-link" top-1453-parent="">Dessert Recipes</a></li><li class="last leaf"><a href="/1502337/classic-cocktail-recipes" class="li-link" top-1453-parent="">Classic Cocktail Recipes</a></li></ul></li><li class="leaf li-first"><a href="/1502090/cleaning" class="li-link li-first-link leaf-link" top-4371-parent="" data-menu-first="">Cleaning</a></li><li class="expanded li-first has-children"><a href="/1502461/diy-projects-crafts" class="li-link li-first-link leaf-link" top-1457-parent="" data-menu-first="">DIY Projects  and Crafts</a><ul class="menu"><li class="first leaf"><a href="/1502455/diy-furniture-projects" class="li-link" top-1457-parent="">DIY Furniture Projects</a></li><li class="leaf"><a href="/1502454/diy-home-projects" class="li-link" top-1457-parent="">DIY Home Projects</a></li><li class="last leaf"><a href="/1502457/kids-crafts" class="li-link" top-1457-parent="">Kids Crafts</a></li></ul></li><li class="leaf li-first"><a href="/1502462/bathroom-design-ideas" class="li-link li-first-link leaf-link" top-1480-parent="" data-menu-first="">Bathroom Design Ideas</a></li><li class="collapsed li-first has-children"><a href="/1502463/kitchen-design-ideas" class="li-link li-first-link leaf-link" top-1454-parent="" data-menu-first="">Kitchen Design Ideas</a></li><li class="expanded li-first has-children"><a href="/1502498/storage-organization" class="li-link li-first-link leaf-link" top-1458-parent="" data-menu-first="">Storage and Organization</a><ul class="menu"><li class="first leaf"><a href="/1502464/kitchen-storage-organization" class="li-link" top-1458-parent="">Kitchen Organizing</a></li><li class="last leaf"><a href="/1502482/bathroom-storage-organization" class="li-link" top-1458-parent="">Bathroom Organizing</a></li></ul></li><li class="leaf li-first"><a href="/1502508/outdoor-living" class="li-link li-first-link leaf-link" top-1459-parent="" data-menu-first="">Outdoor Living</a></li><li class="expanded li-first has-children"><a href="/1502471/party-colors-themes" class="li-link li-first-link leaf-link" top-1455-parent="" data-menu-first="">Parties</a><ul class="menu"><li class="first leaf"><a href="/1502253/party-appetizers-snacks" class="li-link" top-1455-parent="">Party Snacks and Appetizers</a></li><li class="leaf"><a href="/1502288/party-dessert-recipes" class="li-link" top-1455-parent="">Party Dessert Recipes</a></li><li class="leaf"><a href="/1502467/diy-party-crafts-decor" class="li-link" top-1455-parent="">DIY Party Crafts</a></li><li class="leaf"><a href="/1502428/party-decorations-ideas" class="li-link" top-1455-parent="">Decorations</a></li><li class="leaf"><a href="/1502468/dinner-party-ideas" class="li-link" top-1455-parent="">Dinner Party Ideas</a></li><li class="leaf"><a href="/1502480/baby-shower-ideas" class="li-link" top-1455-parent="">Baby Shower Ideas</a></li><li class="last leaf"><a href="/1502472/kids-party-ideas" class="li-link" top-1455-parent="">Kids Party Ideas</a></li></ul></li><li class="leaf li-first"><a href="/1502504/pets" class="li-link li-first-link leaf-link" top-1452-parent="" data-menu-first="">Pets</a></li><li class="leaf li-first"><a href="/972518/video-collections" class="li-link li-first-link leaf-link" top-1451-parent="" data-menu-first="">Videos</a></li><li class="leaf li-first"><a href="/1502421/4th-july" class="li-link li-first-link leaf-link" top-4865-parent="" data-menu-first="">4th of July</a></li><li class="leaf li-first"><a href="/1502559/fathers-day" class="li-link li-first-link leaf-link" top-4868-parent="" data-menu-first="">Father's Day</a></li><li class="leaf li-first"><a href="/1502352/thanksgiving" class="li-link li-first-link leaf-link" top-4866-parent="" data-menu-first="">Thanksgiving</a></li><li class="last leaf li-first"><a href="/1502397/christmas" class="li-link li-first-link leaf-link" top-4867-parent="" data-menu-first="">Christmas</a></li></ul>                          </div>
+
+            <div class="nav-dept-button">
+              <span class="nav-dept-button-inner">Browse Topics</span>
+            </div>
+          </div>
+
+          <!-- Mobile placement of utility bar. -->
+          <div class="nav-subitem-list nav-subitem-list-mobile clear-fix">
+                              <ul class="menu"><li class="first leaf li-first"><a href="/1503096/videos" class="li-link li-first-link leaf-link" top-1512-parent="" data-menu-first="">Videos</a></li><li class="leaf li-first"><a href="http://www.themarthablog.com" class="li-link li-first-link leaf-link" top-1513-parent="" data-menu-first="">Martha's Blog</a></li><li class="leaf li-first"><a href="http://www.marthastewart.com/americanmade" class="li-link li-first-link leaf-link" top-1515-parent="" data-menu-first="">American Made</a></li><li class="leaf li-first"><a href="http://www.marthastewartweddings.com/" class="li-link li-first-link leaf-link" top-1514-parent="" data-menu-first="">Weddings</a></li><li class="last leaf li-first"><a href="http://marthastewartcafeshop.com/" class="li-link li-first-link leaf-link" top-2192-parent="" data-menu-first="">Martha Café</a></li></ul>                        </div>
+
+          <div class="nav-content-side">
+            <ul class="nav-extra-list clear-fix">
+              <li class="header-login">
+                <div id="user-profile-links" class="">
+                  <span class="glyph gl-down-arw js-glyph user-more"></span>
+                  <div class="nav-greeting" id="greeting">
+                    <div class="user-signin-link user-not-authenticated js-mslo-authenticate" data-user-action="signin">
+                      <span class="header-onclick">Sign In</span>
+                    </div>
+                    <ul class="user-authenticated">
+                      <li class="user-greeting first">
+                        <a href="#" class="user-hearted">
+                          <span class="glyph gl-heart collection-icon"></span>
+                          <span class="relative">
+                            <span class="heart-arrow-left-border"></span>
+                            <span class="heart-arrow-left"></span>
+                            <span class="collection-count"><!-- Favorite count injected by js --></span>
+                          </span>
+                        </a>
+                        <a href="#" class="user-greeting-link">
+                          <span class="greeting-hello">
+                            <span class="username"><!-- Username injected by js --></span>
+                          </span>
+                        </a>
+                      </li>
+                      <div class="user-ugc-choices">
+                        <!-- List of user choices generated with js -->
+                        <li class="js-mslo-logout user-logout last">
+                          <a href="#">Sign Out</a>
+                        </li>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+                              <li>
+                  <a href="https://martha.zt01.net/MSL/March14/4.php" target="_blank">Subscribe<span class="hidden-text"> to our Magazine</span></a>
+                </li>
+                          </ul>
+
+            <div id="js-header-search" class="nav-search" role="search">
+                              <form action="/search/results"  accept-charset="UTF-8" method="get" id="mslo-search-block-form" class="mslo-search-form">
+<div class="container-inline form-wrapper" id="edit-basic"><div class="form-item form-type-textfield form-item-keys">
+  <input placeholder="SEARCH" type="text" id="edit-keys" name="keys" value="" size="20" maxlength="255" class="form-text" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Go" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-_XiHkhx8R3Rik2PB4XbyLUd2kqaO_j37Gq_VeAxggFQ" />
+<input type="hidden" name="form_id" value="mslo_search_block_form" />
+
+</form>
+                            <span class="glyph nav-search-submit-button"></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+    </header>
+  
+  
+  <div id="main-content" class="main-content" role="main" itemscope itemtype="http://schema.org/WebPage">
+    <div class="container">
+      <div class="inner">
+        
+          <div class="region region-content">
+    
+<div class="gallery-header ">
+      <div class="gallery-recirc-carousel">
+      <div class="gallery-recirc-carousel-inner">
+        
+<div class="related-galleries">
+  <span id="js-recirc-prev" class="recirc-prev"></span>
+  <ul class="related-gallery-items">
+                <li class="related-gallery-item current-recirc-item">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/1043097/10-second-holiday-bartender">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d29\/cranberry-punch-0334-md110526\/cranberry-punch-0334-md110526_vert.jpg?itok=3H155YOQ'}]" data-bp-alt="" data-bp-title="The 10-Second Holiday Bartender" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d29/cranberry-punch-0334-md110526/cranberry-punch-0334-md110526_vert.jpg?itok=3H155YOQ" alt="cranberry-punch-0334-md110526.jpg" title="The 10-Second Holiday Bartender" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              The 10-Second Holiday Bartender            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/275515/halloween-cocktails-and-drink-recipes">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d21\/med105088p_1009_ar001\/med105088p_1009_ar001_vert.jpg?itok=426nExZ4'}]" data-bp-alt="" data-bp-title="Halloween Cocktails and Drink Recipes" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d21/med105088p_1009_ar001/med105088p_1009_ar001_vert.jpg?itok=426nExZ4" alt="med105088p_1009_ar001.jpg" title="Halloween Cocktails and Drink Recipes" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Halloween Cocktails and Drink Recipes            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/274744/holiday-table-settings">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d19\/la102906_1207_holly\/la102906_1207_holly_vert.jpg?itok=hIbQIDRC'}]" data-bp-alt="" data-bp-title="Holiday Table Settings" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d19/la102906_1207_holly/la102906_1207_holly_vert.jpg?itok=hIbQIDRC" alt="la102906_1207_holly.jpg" title="Holiday Table Settings" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Holiday Table Settings            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/274930/holiday-cookie-swap-cocktails">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d36\/mla101331limoncookie_0505_limoncello\/mla101331limoncookie_0505_limoncello_vert.jpg?itok=U18gBPVP'}]" data-bp-alt="" data-bp-title="Holiday Cookie Swap Cocktails" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d36/mla101331limoncookie_0505_limoncello/mla101331limoncookie_0505_limoncello_vert.jpg?itok=U18gBPVP" alt="mla101331limoncookie_0505_limoncello.jpg" title="Holiday Cookie Swap Cocktails" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Holiday Cookie Swap Cocktails            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/274425/nonalcoholic-holiday-drinks">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d21\/0103_edf_hotchocolate\/0103_edf_hotchocolate_vert.jpg?itok=UrJjee1w'}]" data-bp-alt="" data-bp-title="Nonalcoholic Holiday Drinks" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d21/0103_edf_hotchocolate/0103_edf_hotchocolate_vert.jpg?itok=UrJjee1w" alt="0103_edf_hotchocolate.jpg" title="Nonalcoholic Holiday Drinks" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Nonalcoholic Holiday Drinks            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/274223/holiday-stain-removal-guide">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d22\/mbd104933_0909_wstain1\/mbd104933_0909_wstain1_hd.jpg?itok=q801p3Z9'}]" data-bp-alt="" data-bp-title="Holiday Stain Removal Guide" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d22/mbd104933_0909_wstain1/mbd104933_0909_wstain1_hd.jpg?itok=q801p3Z9" alt="mbd104933_0909_wstain1.jpg" title="Holiday Stain Removal Guide" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Holiday Stain Removal Guide            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/274324/holiday-biscotti-recipes">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d28\/mscookies_sd101472_biscotti3\/mscookies_sd101472_biscotti3_hd.jpg?itok=GpnlXJwQ'}]" data-bp-alt="" data-bp-title="Holiday Biscotti Recipes" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d28/mscookies_sd101472_biscotti3/mscookies_sd101472_biscotti3_hd.jpg?itok=GpnlXJwQ" alt="mscookies_sd101472_biscotti3.jpg" title="Holiday Biscotti Recipes" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Holiday Biscotti Recipes            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/275508/holiday-punch-recipes">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d12\/mw1203_punch\/mw1203_punch_vert.jpg?itok=dvANHpdL'}]" data-bp-alt="" data-bp-title="Holiday Punch Recipes" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d12/mw1203_punch/mw1203_punch_vert.jpg?itok=dvANHpdL" alt="mw1203_punch.jpg" title="Holiday Punch Recipes" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Holiday Punch Recipes            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/1135408/how-make-eggnog-guide-recipes">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d37\/eggnog-beauty-opener-476-exp3-d112429\/eggnog-beauty-opener-476-exp3-d112429_vert.jpg?itok=-FSJjYHB'}]" data-bp-alt="" data-bp-title="How to Make Eggnog, Our Step-by-Step Guide (with Recipes!)" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d37/eggnog-beauty-opener-476-exp3-d112429/eggnog-beauty-opener-476-exp3-d112429_vert.jpg?itok=-FSJjYHB" alt="eggnog-beauty-opener-476-exp3-d112429.jpg" title="How to Make Eggnog, Our Step-by-Step Guide (with Recipes!)" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              How to Make Eggnog, Our Step-by-Step Guide (with Recipes!)            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/275487/holiday-baking">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d9\/08edf07_e\/08edf07_e_vert.jpg?itok=5Xuy_u2W'}]" data-bp-alt="" data-bp-title="Holiday Baking" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d9/08edf07_e/08edf07_e_vert.jpg?itok=5Xuy_u2W" alt="08edf07_e.jpg" title="Holiday Baking" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Holiday Baking            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/274405/heavenly-holiday-desserts">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d27\/med106330_1210_hol_jam_cake\/med106330_1210_hol_jam_cake_vert.jpg?itok=t5ARMjMY'}]" data-bp-alt="" data-bp-title="Heavenly Holiday Desserts" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d27/med106330_1210_hol_jam_cake/med106330_1210_hol_jam_cake_vert.jpg?itok=t5ARMjMY" alt="med106330_1210_hol_jam_cake.jpg" title="Heavenly Holiday Desserts" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Heavenly Holiday Desserts            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/1044890/throw-laid-back-last-minute-holiday-party">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d19\/champaign-mxa103792\/champaign-mxa103792_vert.jpg?itok=0Rh2JwLv'}]" data-bp-alt="" data-bp-title="Throw a Laid-Back Last-Minute Holiday Party" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d19/champaign-mxa103792/champaign-mxa103792_vert.jpg?itok=0Rh2JwLv" alt="champaign-mxa103792.jpg" title="Throw a Laid-Back Last-Minute Holiday Party" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Throw a Laid-Back Last-Minute Holiday Party            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/274907/holiday-greenery-101">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d23\/mla104045_1208_lhballs1\/mla104045_1208_lhballs1_vert.jpg?itok=JclYNp4d'}]" data-bp-alt="" data-bp-title="Holiday Greenery 101" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d23/mla104045_1208_lhballs1/mla104045_1208_lhballs1_vert.jpg?itok=JclYNp4d" alt="mla104045_1208_lhballs1.jpg" title="Holiday Greenery 101" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Holiday Greenery 101            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/274303/holiday-flower-arrangements">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d25\/mla102728_1207_birch_vase\/mla102728_1207_birch_vase_vert.jpg?itok=j4kRoceW'}]" data-bp-alt="" data-bp-title="Flower Arrangements for Holidays" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d25/mla102728_1207_birch_vase/mla102728_1207_birch_vase_vert.jpg?itok=j4kRoceW" alt="mla102728_1207_birch_vase.jpg" title="Flower Arrangements for Holidays" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Flower Arrangements for Holidays            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/274663/holiday-checklists">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d13\/la102840_1107\/la102840_1107_vert.jpg?itok=KJ737mvY'}]" data-bp-alt="" data-bp-title="Holiday Checklists" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d13/la102840_1107/la102840_1107_vert.jpg?itok=KJ737mvY" alt="la102840_1107_plate.jpg" title="Holiday Checklists" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Holiday Checklists            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/274400/classic-holiday-menus">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d13\/ft_nov05msl48\/ft_nov05msl48_vert.jpg?itok=UbQANZHj'}]" data-bp-alt="" data-bp-title="Classic Holiday Menus" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d13/ft_nov05msl48/ft_nov05msl48_vert.jpg?itok=UbQANZHj" alt="ft_nov05msl48.jpg" title="Classic Holiday Menus" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Classic Holiday Menus            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/275062/holiday-champagne-cocktails">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d19\/bd119_1106_sparking\/bd119_1106_sparking_vert.jpg?itok=E1ae79Pb'}]" data-bp-alt="" data-bp-title="Holiday Champagne Cocktails" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d19/bd119_1106_sparking/bd119_1106_sparking_vert.jpg?itok=E1ae79Pb" alt="bd119_1106_sparking.jpg" title="Holiday Champagne Cocktails" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Holiday Champagne Cocktails            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/274594/holiday-eggnog-recipes">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d37\/eggnog-beauty-opener-476-exp3-d112429\/eggnog-beauty-opener-476-exp3-d112429_vert.jpg?itok=-FSJjYHB'}]" data-bp-alt="" data-bp-title="Holiday Eggnog Recipes" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d37/eggnog-beauty-opener-476-exp3-d112429/eggnog-beauty-opener-476-exp3-d112429_vert.jpg?itok=-FSJjYHB" alt="eggnog-beauty-opener-476-exp3-d112429.jpg" title="Holiday Eggnog Recipes" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Holiday Eggnog Recipes            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/274364/holiday-wreaths">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d29\/wreath-on-door-b316-mld109140\/wreath-on-door-b316-mld109140_vert.jpg?itok=V_GQ-wyK'}]" data-bp-alt="" data-bp-title="Holiday Wreaths" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d29/wreath-on-door-b316-mld109140/wreath-on-door-b316-mld109140_vert.jpg?itok=V_GQ-wyK" alt="wreath-on-door-b316-mld109140.jpg" title="Holiday Wreaths" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Holiday Wreaths            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/275610/outdoor-party-drinks-and-appetizers">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d18\/msl_jun06_crostini\/msl_jun06_crostini_vert.jpg?itok=oy2DJ-DL'}]" data-bp-alt="" data-bp-title="Outdoor Party Drinks and Appetizers" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d18/msl_jun06_crostini/msl_jun06_crostini_vert.jpg?itok=oy2DJ-DL" alt="msl_jun06_crostini.jpg" title="Outdoor Party Drinks and Appetizers" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Outdoor Party Drinks and Appetizers            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/274912/holiday-cookie-assortment">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d24\/mld106273_1210_srf_dec01\/mld106273_1210_srf_dec01_vert.jpg?itok=86bzq48T'}]" data-bp-alt="" data-bp-title="Holiday Cookie Assortment" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d24/mld106273_1210_srf_dec01/mld106273_1210_srf_dec01_vert.jpg?itok=86bzq48T" alt="mld106273_1210_srf_dec01.jpg" title="Holiday Cookie Assortment" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Holiday Cookie Assortment            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/274560/summer-cocktails">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d11\/bever_01388\/bever_01388_xl.jpg?itok=S7bQKH5y'}]" data-bp-alt="" data-bp-title="Summer Cocktails" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d11/bever_01388/bever_01388_xl.jpg?itok=S7bQKH5y" alt="bever_01388_t.jpg" title="Summer Cocktails" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Summer Cocktails            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/274576/macys-holiday-windows">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d20\/rd1207_macywindow1_1\/rd1207_macywindow1_1_xl.jpg?itok=zLMU9W7r'}]" data-bp-alt="" data-bp-title="Macy&#039;s Holiday Windows" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d20/rd1207_macywindow1_1/rd1207_macywindow1_1_xl.jpg?itok=zLMU9W7r" alt="rd1207_macywindow1_1.jpg" title="Macy&#039;s Holiday Windows" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Macy's Holiday Windows            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/274321/holiday-main-dish-recipes">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d31\/med105087_1209_hol0_brandiedham\/med105087_1209_hol0_brandiedham_vert.jpg?itok=93xM3Ra7'}]" data-bp-alt="" data-bp-title="Holiday Main Dish Recipes" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d31/med105087_1209_hol0_brandiedham/med105087_1209_hol0_brandiedham_vert.jpg?itok=93xM3Ra7" alt="med105087_1209_hol0_brandiedham.jpg" title="Holiday Main Dish Recipes" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Holiday Main Dish Recipes            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/274473/holiday-place-cards">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d26\/la102926_1207_placesetting\/la102926_1207_placesetting_hd.jpg?itok=92dnpNVz'}]" data-bp-alt="" data-bp-title="Holiday Place Cards" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d26/la102926_1207_placesetting/la102926_1207_placesetting_hd.jpg?itok=92dnpNVz" alt="la102926_1207_placesetting.jpg" title="Holiday Place Cards" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Holiday Place Cards            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/274880/holiday-cocktails">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d21\/med104257_1208_eggnog\/med104257_1208_eggnog_vert.jpg?itok=74mpck6Z'}]" data-bp-alt="" data-bp-title="Holiday Cocktails" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d21/med104257_1208_eggnog/med104257_1208_eggnog_vert.jpg?itok=74mpck6Z" alt="med104257_1208_eggnog.jpg" title="Holiday Cocktails" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Holiday Cocktails            </h6>
+          </span>
+        </a>
+      </li>      </ul>
+  <span id="js-recirc-next" class="recirc-next"></span>
+</div>
+      </div>
+      <div id="gallery-pushdown-btn" class="gallery-pushdown-btn">
+        <span class="pushdown-text">
+                      Popular Galleries                  </span>
+      </div>
+    </div>
+    <section class="meta-gallery-info">
+    <!-- Desktop social share section. -->
+          <div class="social-section">
+        <div class="mslo-share-bar-wrap">
+          <div class="mslo-share-bar ">
+      <div class="mslo-share-default">
+                              
+  <span class="mslo-share-btn mslo-share-count">
+    <div class="mslo-share-count-inner">
+      <span class="mslo-shorthand-number mslo-share-count-number">
+        281              </span>
+      <span class="mslo-share-count-name">
+        Shares
+      </span>
+    </div>
+  </span>
+                                  <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender&amp;media=&amp;description=The+10-Second+Holiday+Bartender&amp;tel=contentgallery" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+                                  <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+                                                                                                                <span class="mslo-share-btn mslo-btn-expand" data-open="MORE" data-close="LESS" data-status="open">
+          MORE<span class="arrow glyph gl-down-dbl-arw"></span>
+        </span>
+          </div>
+          <div class="mslo-share-extra">
+        <span class="indicator-arrow"></span>
+                                                                                            
+<span class="mslo-share-btn mslo-btn-comment">
+  <span>
+    <span class="social-icon glyph gl-comment-btn" title="Add a Comment"></span>
+    <span class="social-icon-label">Comment</span>
+  </span>
+</span>
+                                        <span class="mslo-share-btn mslo-btn-twitter">
+  <a href="#" onclick="window.open('https://twitter.com/share?text=The+10-Second+Holiday+Bartender&url=http://www.marthastewart.com/1043097/10-second-holiday-bartender?tel=contentgallery_twitter','twitterShare','width=626,height=436'); return false;" title="Twitter Share">
+    <span class="social-icon glyph gl-twitter-btn"></span>
+    <span class="social-icon-label">Twitter</span>
+  </a>
+</span>
+                                        <span class="mslo-share-btn mslo-btn-google-plus">
+  <a href="#" onclick="window.open('https://plus.google.com/share?url=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_google','googleShare','width=626,height=436'); return false;" title="Google Share">
+    <span class="social-icon glyph gl-google-btn"></span>
+    <span class="social-icon-label">Google+</span>
+  </a>
+</span>
+                                        <span class="mslo-share-btn mslo-btn-email clear-fix" title="Email">
+  <div class="ugc-content-wrap clearfix">
+    <a href="https://my.marthastewart.com/email?node_title=The%2010-Second%20Holiday%20Bartender&mags_origin=1043097/10-second-holiday-bartender&mags_base=http%3A//www.marthastewart.com/&destination=http%3A//www.marthastewart.com/1043097/10-second-holiday-bartender&token=72d73b14dee896346cd04b21817bc7c9" class="email-frame">
+      <span class="glyph gl-mail-btn"></span>
+    </a>
+  </div>
+</span>
+                                        <span class="mslo-share-btn mslo-btn-print" onclick="window.print();">
+  <span class="glyph gl-print"></span>
+</span>
+                                        <div  class="mslo-share-btn mslo-btn-save clear-fix favorite-it js-mslo-authenticate" data-user-action="favorite" title="Add To Favorites" data-title="The 10-Second Holiday Bartender" data-uuid="f77d3058-4cb2-11e3-98b8-a4badb44c2a2" data-interaction-count="true">
+  <div class="ugc-content-wrap clearfix">
+    <span class="login-frame fave-glyph"></span>
+  </div>
+</div>
+                        </div>
+      </div>
+        </div>
+        <div class="ad-logo-companion">
+          <div id="karma-lazy-sponsorLogo">
+            <!-- Content provided by Meredith ad service. -->
+          </div>
+        </div>
+      </div>
+    
+    <!-- Title section. -->
+    <div class="gallery-title-wrap">
+      <h1 class="gallery-title" itemprop="name">
+        The 10-Second Holiday Bartender      </h1>
+    </div>
+  </section>
+</div>
+
+<div class="gallery-page">
+  <section class="gallery-page-container">
+    <!-- Contributor section. -->
+    
+    <!-- Main gallery carousel. -->
+    <div class="gallery-container" itemscope itemtype="http://schema.org/CollectionPage">
+      <div class="gallery-container-inner">
+                  <div class="gallery-intro-card-overlay">
+  <div class="gallery-intro-card-container">
+    <div class="gallery-intro-card-inner">
+      <div class="gallery-intro-card-content">
+        <div class="start-slideshow-button-container">
+          <span id="js-start-slideshow" class="start-slideshow-button">
+            Start the Gallery          </span>
+        </div>
+        <h4 class="intro-card-title">
+          The 10-Second Holiday Bartender        </h4>
+        <div class="intro-dek">
+                  </div>
+      </div>
+      <span id="js-gallery-intro-card-next" class="gallery-intro-card-next"></span>
+    </div>
+  </div>
+</div>
+                <span class="ajax-loader"></span>
+        <div class="gallery" data-carousel-name="contentgallery_carousel">
+          <ul class="gallery-slides slides">
+                                                            <li
+  id="gallery-slide-287619"
+  data-nid="287619"
+  class="gallery-slide gallery-item"
+  data-gallery-index="0"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d23\/med105767_1210_party063\/med105767_1210_party063_vert.jpg?itok=SF6GU9Da'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d23\/med105767_1210_party063\/med105767_1210_party063_vert.jpg?itok=KXdUhaJd'}]" data-bp-alt="" data-bp-title="A No-Stress Holiday Party. No, Really!" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d23/med105767_1210_party063/med105767_1210_party063_vert.jpg?itok=KXdUhaJd" alt="med105767_1210_party063.jpg" title="A No-Stress Holiday Party. No, Really!" /></noscript></span>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender%23287619&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd23%2Fmed105767_1210_party063%2Fmed105767_1210_party063_vert.jpg%3Fitok%3DfR972Mr9&amp;description=You+read+as+many+headlines+about+holiday+stress+as+you+do+about+holiday+fun.+But+it+really+is+possible+to+invite+friends+and+family+into+your+home+for+a+festive+gathering+without+pulling+out+your+hair.++See+our+planning+tips+and+recipes+for+no-fuss+bartending%2C+and+you%E2%80%99ll+be+mingling+with+your+guests+instead+of+scooping+ice+all+night.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          1 of 19        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        A No-Stress Holiday Party. No, Really!      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            You read as many headlines about holiday stress as you do about holiday fun. But it really is possible to invite friends and family into your home for a festive gathering without pulling out your hair.  See our planning tips and recipes for no-fuss bartending, and you’ll be mingling with your guests instead of scooping ice all night.          </div>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+                  </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-230461"
+  data-nid="230461"
+  class="gallery-slide gallery-item"
+  data-gallery-index="1"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d16\/bp_0307_wetware2\/bp_0307_wetware2_hd.jpg?itok=IK73hzLe'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d16\/bp_0307_wetware2\/bp_0307_wetware2_hd.jpg?itok=EFE6FjmL'}]" data-bp-alt="" data-bp-title="Narrow Your Scope" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d16/bp_0307_wetware2/bp_0307_wetware2_hd.jpg?itok=EFE6FjmL" alt="bp_0307_wetware2.jpg" title="Narrow Your Scope" /></noscript></span>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender%23230461&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd16%2Fbp_0307_wetware2%2Fbp_0307_wetware2_hd.jpg%3Fitok%3DLUZvb7WF&amp;description=Variety+may+be+the+spice+of+life%2C+but+it+won%E2%80%99t+be+the+toast+of+your+party.+You+don%E2%80%99t+need+to+create+a+full-service+bar+in+your+living+room.+Supplying+every+possible+spirit+and+mixer+will+only+create+clutter+and+confusion.+Instead%2C+choose+one+or+two+signature+cocktails+for+the+evening%2C+and+additionally+offer+soda%2C+wine%2C+and+beer+if+you+feel+so+inclined.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          2 of 19        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        Narrow Your Scope      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            Variety may be the spice of life, but it won’t be the toast of your party. You don’t need to create a full-service bar in your living room. Supplying every possible spirit and mixer will only create clutter and confusion. Instead, choose one or two signature cocktails for the evening, and additionally offer soda, wine, and beer if you feel so inclined.          </div>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+                  </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-185853"
+  data-nid="185853"
+  class="gallery-slide gallery-item"
+  data-gallery-index="2"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d27\/living_bloodorangepunch_p84\/living_bloodorangepunch_p84_vert.jpg?itok=lZ8I6qEE'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d27\/living_bloodorangepunch_p84\/living_bloodorangepunch_p84_vert.jpg?itok=nYh4cJyW'}]" data-bp-alt="" data-bp-title="Pack a Punch" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d27/living_bloodorangepunch_p84/living_bloodorangepunch_p84_vert.jpg?itok=nYh4cJyW" alt="living_bloodorangepunch_p84.jpg" title="Pack a Punch" /></noscript></span>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender%23185853&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd27%2Fliving_bloodorangepunch_p84%2Fliving_bloodorangepunch_p84_vert.jpg%3Fitok%3DOzf8jx21&amp;description=Mixing+individual+cocktails+throughout+your+party+is+a+recipe+for+stress.+Unless+you+have+the+budget+to+hire+a+bartender%2C+ditch+the+shakers+and+muddlers+and+serve+punch+instead.+This+way%2C+you+can+mix+the+drinks+in+advance+and+guests+can+serve+themselves.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          3 of 19        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        Pack a Punch      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            Mixing individual cocktails throughout your party is a recipe for stress. Unless you have the budget to hire a bartender, ditch the shakers and muddlers and serve punch instead. This way, you can mix the drinks in advance and guests can serve themselves.          </div>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+                  </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-1003626"
+  data-nid="1003626"
+  class="gallery-slide gallery-item has-cite"
+  data-gallery-index="3"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d32\/drink-pitchers-38-edit-med110108\/drink-pitchers-38-edit-med110108_vert.jpg?itok=zODv59xX'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d32\/drink-pitchers-38-edit-med110108\/drink-pitchers-38-edit-med110108_vert.jpg?itok=2BJ062Kj'}]" data-bp-alt="" data-bp-title="Big-Batch Theory" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d32/drink-pitchers-38-edit-med110108/drink-pitchers-38-edit-med110108_vert.jpg?itok=2BJ062Kj" alt="drink-pitchers-38-edit-med110108.jpg" title="Big-Batch Theory" /></noscript></span>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender%231003626&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd32%2Fdrink-pitchers-38-edit-med110108%2Fdrink-pitchers-38-edit-med110108_vert.jpg%3Fitok%3DbSznXIbP&amp;description=Make+multiple+batches+of+your+signature+cocktail+before+the+party+starts.+For+each+batch%2C+mix+together+everything+but+the+ice+and+any+carbonated+ingredients+%28like+Prosecco+or+soda%29+and+store+in+a+lidded+container.+Write+mixing+instructions+on+a+strip+of+masking+tape+and+affix+to+each+container+%28e.g.%2C+%22Mix+with+1+quart+ginger+ale+and+2+cups+ice%22%29.+This+way%2C+any+guest+will+be+able+to+help+out+if+the+cocktail+supply+is+running+low.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          4 of 19        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        Big-Batch Theory      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            <p>Make multiple batches of your signature cocktail before the party starts. For each batch, mix together everything but the ice and any carbonated ingredients (like Prosecco or soda) and store in a lidded container. Write mixing instructions on a strip of masking tape and affix to each container (e.g., "<em>Mix with 1 quart ginger ale and 2 cups ice</em>"). This way, any guest will be able to help out if the cocktail supply is running low.</p>          </div>
+                      <cite>
+              Photography: Andrew Purcell            </cite>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+                  </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-1043136"
+  data-nid="1043136"
+  class="gallery-slide gallery-item"
+  data-gallery-index="4"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d33\/msmacys-holiday-pitcher-mrkt-1113\/msmacys-holiday-pitcher-mrkt-1113_vert.jpg?itok=VaI_497h'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d33\/msmacys-holiday-pitcher-mrkt-1113\/msmacys-holiday-pitcher-mrkt-1113_vert.jpg?itok=CTe0e0FT'}]" data-bp-alt="" data-bp-title="Add Some Shine" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d33/msmacys-holiday-pitcher-mrkt-1113/msmacys-holiday-pitcher-mrkt-1113_vert.jpg?itok=CTe0e0FT" alt="msmacys-holiday-pitcher-mrkt-1113.jpg" title="Add Some Shine" /></noscript></span>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender%231043136&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd33%2Fmsmacys-holiday-pitcher-mrkt-1113%2Fmsmacys-holiday-pitcher-mrkt-1113_vert.jpg%3Fitok%3DvH6s3v9z&amp;description=Instantly+make+any+libation+holiday-worthy+in+this+stately+stainless-steel+drink+pitcher.+Pair+it+with+the+matching+ice+bucket+and+serving+tray%2C+all+from+the+Martha+Stewart+Collection.%26nbsp%3B%2472%2C+macys.com&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          5 of 19        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        Add Some Shine      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            <p>Instantly make any libation holiday-worthy in this stately stainless-steel drink pitcher. Pair it with the matching ice bucket and serving tray, all from the Martha Stewart Collection.</p><p>&nbsp;</p><p><em>$72, <a href="http://www1.macys.com/shop/product/martha-stewart-collection-barware-collection?ID=333492&amp;cm_mmc=Martha-_-Cook_Holiday_Gift_Guide-_-333492-_-N" target="_blank">macys.com</a></em></p>          </div>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+                  </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-222003"
+  data-nid="222003"
+  class="gallery-slide gallery-item"
+  data-gallery-index="5"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d16\/gt03novmsl_cider\/gt03novmsl_cider_vert.jpg?itok=RXSLvur4'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d16\/gt03novmsl_cider\/gt03novmsl_cider_vert.jpg?itok=ECgUIVx_'}]" data-bp-alt="" data-bp-title="Winter Warmer" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d16/gt03novmsl_cider/gt03novmsl_cider_vert.jpg?itok=ECgUIVx_" alt="gt03novmsl_cider.jpg" title="Winter Warmer" /></noscript></span>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender%23222003&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd16%2Fgt03novmsl_cider%2Fgt03novmsl_cider_vert.jpg%3Fitok%3DB86T1RU3&amp;description=A+big+batch+of+mulled+cider+is+a+surefire+hit+at+any+winter+gathering.+Keep+it+warm+in+a+slow+cooker+set+on+low.+Place+a+bottle+of+rum+or+bourbon+next+to+the+pot+so+everyone+can+spike+their+own+%28or++not%29+as+they+like.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          6 of 19        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        Winter Warmer      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            A big batch of mulled cider is a surefire hit at any winter gathering. Keep it warm in a slow cooker set on low. Place a bottle of rum or bourbon next to the pot so everyone can spike their own (or  not) as they like.          </div>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+                  </span>
+          </div>
+  </div>
+</li>
+                                                                
+<li class="gallery-ad gallery-item" data-gallery-index="6">
+  <div class="gallery-slide-content">
+    <span class="ad-title">
+      Swipe here for next slide
+    </span>
+    <div class="mslo-ad mslo-ad-300x250 is-mobile has-style is-lazy not-filled" data-refresh-rate="0">
+  
+  <div class="mslo-ad-holder">
+                      <div data-id="div-gpt-lazy-mob-square-fixed-tier1">
+                    </div>
+
+      <div id="div-kargo-square-fixed" data-tier="1">
+              </div>
+    
+          </div>
+</div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-923644"
+  data-nid="923644"
+  class="gallery-slide gallery-item"
+  data-gallery-index="7"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d15\/cider-mwd108708\/cider-mwd108708_vert.jpg?itok=acvjijIs'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d15\/cider-mwd108708\/cider-mwd108708_vert.jpg?itok=2YLTpVRR'}]" data-bp-alt="" data-bp-title="The Advance Garnish" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d15/cider-mwd108708/cider-mwd108708_vert.jpg?itok=2YLTpVRR" alt="cider-mwd108708.jpg" title="The Advance Garnish" /></noscript></span>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender%23923644&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd15%2Fcider-mwd108708%2Fcider-mwd108708_vert.jpg%3Fitok%3D7liTJoUk&amp;description=Don%E2%80%99t+forget+the+finishing+touches%21+Gorgeous+garnishes%2C+from+super-simple+to+extra-artsy%2C+can+all+be+prepared+and+set+out+on+the+bar+in+advance.+Thread+Sugared+Cranberries+or+Candied+Citrus+Peel+onto+bamboo+picks%3B+craft+some+Candy+Cane+Reindeer+or+Santa+Swizzle+Sticks%3B+or+simply+set+out+a+tray+of+citrus+slices+or+cinnamon+sticks+and+let+everyone+garnish+their+own+glass.%26nbsp%3BAnd+now%2C+for+the+drink+recipes.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          7 of 19        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        The Advance Garnish      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            <p>Don’t forget the finishing touches! Gorgeous garnishes, from super-simple to extra-artsy, can all be prepared and set out on the bar in advance. Thread <a href="http://www.marthastewartweddings.com/314266/sugared-cranberries" target="_blank">Sugared Cranberries</a> or <a href="http://www.marthastewart.com/355599/candied-citrus-peel">Candied Citrus Peel</a> onto bamboo picks; craft some <a href="http://www.marthastewart.com/269965/candy-cane-reindeer">Candy Cane Reindeer</a> or <a href="http://www.marthastewart.com/269587/santa-swizzle-sticks">Santa Swizzle Sticks</a>; or simply set out a tray of citrus slices or cinnamon sticks and let everyone garnish their own glass.</p><p>&nbsp;</p><p>And now, for the drink recipes.</p>          </div>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+                  </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-1035340"
+  data-nid="1035340"
+  class="gallery-slide gallery-item has-cite"
+  data-gallery-index="8"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/1038608/cranberry-orange-punch" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d29\/cranberry-punch-0334-md110526\/cranberry-punch-0334-md110526_vert.jpg?itok=3H155YOQ'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d29\/cranberry-punch-0334-md110526\/cranberry-punch-0334-md110526_vert.jpg?itok=Waj-w6o5'}]" data-bp-alt="" data-bp-title="Cranberry Orange Punch" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d29/cranberry-punch-0334-md110526/cranberry-punch-0334-md110526_vert.jpg?itok=Waj-w6o5" alt="cranberry-punch-0334-md110526.jpg" title="Cranberry Orange Punch" /></noscript></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender%231035340&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd29%2Fcranberry-punch-0334-md110526%2Fcranberry-punch-0334-md110526_vert.jpg%3Fitok%3DC0X0K2k8&amp;description=This+bright%2C+festive+punch+has+the+wintry+tastes+of+sage+and+citrus.+The+colorful+garnish+is+easy+to+make%3A+Just+skewer+sliced+kumquats+and+dried+cranberries.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          8 of 19        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/1038608/cranberry-orange-punch">Cranberry Orange Punch</a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            This bright, festive punch has the wintry tastes of sage and citrus. The colorful garnish is easy to make: Just skewer sliced kumquats and dried cranberries.          </div>
+                      <cite>
+              Photography: YASU+JUNKO            </cite>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+          <a href="/1038608/cranberry-orange-punch" class="readmore-anchor">Get the Cranberry Orange Punch Recipe</a>        </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-968723"
+  data-nid="968723"
+  class="gallery-slide gallery-item has-cite"
+  data-gallery-index="9"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/952463/elderflower-champagne-punch" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d37\/elderflower-champagne-punch-med109135\/elderflower-champagne-punch-med109135_vert.jpg?itok=PM_BsvQG'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d37\/elderflower-champagne-punch-med109135\/elderflower-champagne-punch-med109135_vert.jpg?itok=19EotlsP'}]" data-bp-alt="" data-bp-title="Elderflower-Champagne Punch" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d37/elderflower-champagne-punch-med109135/elderflower-champagne-punch-med109135_vert.jpg?itok=19EotlsP" alt="elderflower-champagne-punch-med109135.jpg" title="Elderflower-Champagne Punch" /></noscript></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender%23968723&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd37%2Felderflower-champagne-punch-med109135%2Felderflower-champagne-punch-med109135_vert.jpg%3Fitok%3DvrwxWLkd&amp;description=The+sweet%2C+floral+aroma+elevates+this+blushing+punch%2C+while+cranberry+and+fresh-squeezed+lemon+juice+balance+the+flavor+just+so.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          9 of 19        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/952463/elderflower-champagne-punch">Elderflower-Champagne Punch</a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            The sweet, floral aroma elevates this blushing punch, while cranberry and fresh-squeezed lemon juice balance the flavor just so.          </div>
+                      <cite>
+              Photography: Johnny Miller            </cite>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+          <a href="/952463/elderflower-champagne-punch" class="readmore-anchor">Get the Elderflower-Champagne Punch Recipe</a>        </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-198883"
+  data-nid="198883"
+  class="gallery-slide gallery-item"
+  data-gallery-index="10"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/313320/holiday-citrus-punch" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d20\/med104257_1208_punch\/med104257_1208_punch_vert.jpg?itok=uzrs7mMZ'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d20\/med104257_1208_punch\/med104257_1208_punch_vert.jpg?itok=xsv-yJzi'}]" data-bp-alt="" data-bp-title="Holiday Citrus Punch" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d20/med104257_1208_punch/med104257_1208_punch_vert.jpg?itok=xsv-yJzi" alt="med104257_1208_punch.jpg" title="Holiday Citrus Punch" /></noscript></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender%23198883&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd20%2Fmed104257_1208_punch%2Fmed104257_1208_punch_vert.jpg%3Fitok%3D0YBqq8hw&amp;description=This+elixir+of+pear+nectar%2C+orange+juice%2C+club+soda%2C+and+rum+is+a+surefire+crowd-pleaser.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          10 of 19        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/313320/holiday-citrus-punch">Holiday Citrus Punch</a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            This elixir of pear nectar, orange juice, club soda, and rum is a surefire crowd-pleaser.          </div>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+          <a href="/313320/holiday-citrus-punch" class="readmore-anchor">Get the Holiday Citrus Punch Recipe</a>        </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-667525"
+  data-nid="667525"
+  class="gallery-slide gallery-item"
+  data-gallery-index="11"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/319119/fresh-grapefruitcampari-cocktails" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d35\/mld105489_0510_palmsprings_cocktail\/mld105489_0510_palmsprings_cocktail_vert.jpg?itok=7N4zIF_N'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d35\/mld105489_0510_palmsprings_cocktail\/mld105489_0510_palmsprings_cocktail_vert.jpg?itok=p91g4S3X'}]" data-bp-alt="" data-bp-title="Fresh Grapefruit-Campari Cocktails" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d35/mld105489_0510_palmsprings_cocktail/mld105489_0510_palmsprings_cocktail_vert.jpg?itok=p91g4S3X" alt="mld105489_0510_palmsprings_cocktail.jpg" title="Fresh Grapefruit-Campari Cocktails" /></noscript></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender%23667525&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd35%2Fmld105489_0510_palmsprings_cocktail%2Fmld105489_0510_palmsprings_cocktail_vert.jpg%3Fitok%3DBR93CX9p&amp;description=Bittersweet+Campari%2C+tangy+grapefruit+juice%2C+and+club+soda+make+these+invigorating+spritzers+a+sparkling+addition+to+any+party.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          11 of 19        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/319119/fresh-grapefruitcampari-cocktails">Fresh Grapefruit-Campari Cocktails</a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            Bittersweet Campari, tangy grapefruit juice, and club soda make these invigorating spritzers a sparkling addition to any party.          </div>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+          <a href="/319119/fresh-grapefruitcampari-cocktails" class="readmore-anchor">Get the Fresh Grapefruit-Campari Cocktails Recipe</a>        </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-968725"
+  data-nid="968725"
+  class="gallery-slide gallery-item has-cite"
+  data-gallery-index="12"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/952464/spiced-rum-punch" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d26\/spiced-rum-punch-med109135\/spiced-rum-punch-med109135_vert.jpg?itok=hdxGsA7n'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d26\/spiced-rum-punch-med109135\/spiced-rum-punch-med109135_vert.jpg?itok=2GhAoK3J'}]" data-bp-alt="" data-bp-title="Spiced Rum Punch" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d26/spiced-rum-punch-med109135/spiced-rum-punch-med109135_vert.jpg?itok=2GhAoK3J" alt="spiced-rum-punch-med109135.jpg" title="Spiced Rum Punch" /></noscript></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender%23968725&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd26%2Fspiced-rum-punch-med109135%2Fspiced-rum-punch-med109135_vert.jpg%3Fitok%3DD5P_sAl8&amp;description=Introduce+a+taste+of+the+tropics+to+a+chilly+night+with+cinnamon-spiced+pineapple-rum+punch.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          12 of 19        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/952464/spiced-rum-punch">Spiced Rum Punch</a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            Introduce a taste of the tropics to a chilly night with cinnamon-spiced pineapple-rum punch.          </div>
+                      <cite>
+              Photography: Johnny Miller            </cite>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+          <a href="/952464/spiced-rum-punch" class="readmore-anchor">Get the Spiced Rum Punch Recipe</a>        </span>
+          </div>
+  </div>
+</li>
+                                                                
+<li class="gallery-ad gallery-item" data-gallery-index="13">
+  <div class="gallery-slide-content">
+    <span class="ad-title">
+      Swipe here for next slide
+    </span>
+    <div class="mslo-ad mslo-ad-300x250 is-mobile has-style is-lazy not-filled" data-refresh-rate="0">
+  
+  <div class="mslo-ad-holder">
+                      <div data-id="div-gpt-lazy-mob-square-fixed-tier1">
+                    </div>
+
+      <div id="div-kargo-square-fixed" data-tier="1">
+              </div>
+    
+          </div>
+</div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-864973"
+  data-nid="864973"
+  class="gallery-slide gallery-item has-cite"
+  data-gallery-index="14"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/865759/chartreuse-punch" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d21\/ice-glass-8-mld107861\/ice-glass-8-mld107861_vert.jpg?itok=HnfroW5N'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d21\/ice-glass-8-mld107861\/ice-glass-8-mld107861_vert.jpg?itok=o5zspQSS'}]" data-bp-alt="" data-bp-title="Chartreuse Punch" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d21/ice-glass-8-mld107861/ice-glass-8-mld107861_vert.jpg?itok=o5zspQSS" alt="ice-glass-8-mld107861.jpg" title="Chartreuse Punch" /></noscript></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender%23864973&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd21%2Fice-glass-8-mld107861%2Fice-glass-8-mld107861_vert.jpg%3Fitok%3DSEkALYTF&amp;description=Chartreuse%2C+a+French+liqueur+made+by+monks%2C+is+said+to+contain+more+than+130+herbs.+It+adds+a+sophisticated+complexity+and+festive+green+hue+to+this+gin-spiked+punch.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          13 of 19        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/865759/chartreuse-punch">Chartreuse Punch</a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            Chartreuse, a French liqueur made by monks, is said to contain more than 130 herbs. It adds a sophisticated complexity and festive green hue to this gin-spiked punch.          </div>
+                      <cite>
+              Photography: Craig Cutler            </cite>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+          <a href="/865759/chartreuse-punch" class="readmore-anchor">Get the Chartreuse Punch Recipe</a>        </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-210972"
+  data-nid="210972"
+  class="gallery-slide gallery-item has-cite"
+  data-gallery-index="15"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/313105/spiced-apple-cider" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d21\/la10275138_1007_cider\/la10275138_1007_cider_xl.jpg?itok=gpgBXAOB'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d21\/la10275138_1007_cider\/la10275138_1007_cider_xl.jpg?itok=s1wXeypr'}]" data-bp-alt="" data-bp-title="Spiced Apple Cider" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d21/la10275138_1007_cider/la10275138_1007_cider_xl.jpg?itok=s1wXeypr" alt="la10275138_1007_cider.jpg" title="Spiced Apple Cider" /></noscript></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender%23210972&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd21%2Fla10275138_1007_cider%2Fla10275138_1007_cider_xl.jpg%3Fitok%3Do8xp-Szq&amp;description=Allspice%2C+cinnamon+sticks%2C+cardamom%2C+and+orange+zest+spice+up+a+gallon+of+apple+cider+for+serving+a+crowd.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          14 of 19        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/313105/spiced-apple-cider">Spiced Apple Cider</a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            Allspice, cinnamon sticks, cardamom, and orange zest spice up a gallon of apple cider for serving a crowd.          </div>
+                      <cite>
+              Photography: John Kernick            </cite>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+          <a href="/313105/spiced-apple-cider" class="readmore-anchor">Get the Spiced Apple Cider Recipe</a>        </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-193156"
+  data-nid="193156"
+  class="gallery-slide gallery-item"
+  data-gallery-index="16"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/316360/christmas-punch" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d32\/mld105045_1209_cold_sorbet_punch\/mld105045_1209_cold_sorbet_punch_vert.jpg?itok=C0hzNnLT'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d32\/mld105045_1209_cold_sorbet_punch\/mld105045_1209_cold_sorbet_punch_vert.jpg?itok=nOdBcFhQ'}]" data-bp-alt="" data-bp-title="Christmas Punch" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d32/mld105045_1209_cold_sorbet_punch/mld105045_1209_cold_sorbet_punch_vert.jpg?itok=nOdBcFhQ" alt="mld105045_1209_cold_sorbet_punch.jpg" title="Christmas Punch" /></noscript></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender%23193156&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd32%2Fmld105045_1209_cold_sorbet_punch%2Fmld105045_1209_cold_sorbet_punch_vert.jpg%3Fitok%3DkMWIAsUx&amp;description=In+the+17th+century%2C+employees+of+the+British+East+India+Company+discovered+punch%2C+a+beguiling+combination+of+spirits%2C+water%2C+lemon%2C+sugar%2C+and+spices+that+became+synonymous+with+good+cheer+and+festive+celebrations+all+over+Europe.+Here%2C+pomegranate+and+lemon+sharpen+the+sunny+New+World+flavor+of+cranberries.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          15 of 19        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/316360/christmas-punch">Christmas Punch</a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            In the 17th century, employees of the British East India Company discovered punch, a beguiling combination of spirits, water, lemon, sugar, and spices that became synonymous with good cheer and festive celebrations all over Europe. Here, pomegranate and lemon sharpen the sunny New World flavor of cranberries.          </div>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+          <a href="/316360/christmas-punch" class="readmore-anchor">Get the Christmas Punch Recipe</a>        </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-296104"
+  data-nid="296104"
+  class="gallery-slide gallery-item"
+  data-gallery-index="17"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/344225/amaretto-bourbon-punch" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d23\/mld106339_1210_punch028\/mld106339_1210_punch028_vert.jpg?itok=OEMbNgur'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d23\/mld106339_1210_punch028\/mld106339_1210_punch028_vert.jpg?itok=gIDwCsdL'}]" data-bp-alt="" data-bp-title="Amaretto-Bourbon Punch" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d23/mld106339_1210_punch028/mld106339_1210_punch028_vert.jpg?itok=gIDwCsdL" alt="mld106339_1210_punch028.jpg" title="Amaretto-Bourbon Punch" /></noscript></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender%23296104&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd23%2Fmld106339_1210_punch028%2Fmld106339_1210_punch028_vert.jpg%3Fitok%3DQyn0UsO8&amp;description=A+punch+of+robust+bourbon+is+mellowed+by+the+addition+of+sweet+amaretto%2C+seltzer%2C+and+sparkling+apple+juice.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          16 of 19        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/344225/amaretto-bourbon-punch">Amaretto-Bourbon Punch</a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            A punch of robust bourbon is mellowed by the addition of sweet amaretto, seltzer, and sparkling apple juice.          </div>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+          <a href="/344225/amaretto-bourbon-punch" class="readmore-anchor">Get the Amaretto-Bourbon Punch Recipe</a>        </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-873296"
+  data-nid="873296"
+  class="gallery-slide gallery-item"
+  data-gallery-index="18"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/873192/winter-fruit-sangria" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d29\/white-fruit-sangria-med105088\/white-fruit-sangria-med105088_vert.jpg?itok=dvMRsGrW'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d29\/white-fruit-sangria-med105088\/white-fruit-sangria-med105088_vert.jpg?itok=fDrRuT-k'}]" data-bp-alt="" data-bp-title="Winter Fruit Sangria" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d29/white-fruit-sangria-med105088/white-fruit-sangria-med105088_vert.jpg?itok=fDrRuT-k" alt="white-fruit-sangria-med105088.jpg" title="Winter Fruit Sangria" /></noscript></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender%23873296&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd29%2Fwhite-fruit-sangria-med105088%2Fwhite-fruit-sangria-med105088_vert.jpg%3Fitok%3DpvpypMsD&amp;description=Sangria+comes+out+of+winter+hibernation+in+this+easy-to-make+holiday+punch.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          17 of 19        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/873192/winter-fruit-sangria">Winter Fruit Sangria</a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            Sangria comes out of winter hibernation in this easy-to-make holiday punch.          </div>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+          <a href="/873192/winter-fruit-sangria" class="readmore-anchor">Get the Winter Fruit Sangria Recipe</a>        </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-201088"
+  data-nid="201088"
+  class="gallery-slide gallery-item"
+  data-gallery-index="19"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/341915/sparkling-shiraz-punch" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d23\/mld104008_1208_mlldwine\/mld104008_1208_mlldwine_xl.jpg?itok=tvPNjSgL'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d23\/mld104008_1208_mlldwine\/mld104008_1208_mlldwine_xl.jpg?itok=uqsmdKy7'}]" data-bp-alt="" data-bp-title="Sparkling Shiraz Punch" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d23/mld104008_1208_mlldwine/mld104008_1208_mlldwine_xl.jpg?itok=uqsmdKy7" alt="mld104008_1208_mlldwine.jpg" title="Sparkling Shiraz Punch" /></noscript></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender%23201088&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd23%2Fmld104008_1208_mlldwine%2Fmld104008_1208_mlldwine_xl.jpg%3Fitok%3D4ann6c30&amp;description=Sparkling+Shiraz+%28or+another+full-bodied+sparkling+red+wine+of+your+choosing%29+adds+depth+to+this+lively+Christmas+punch.+Elderflower+liqueur+and+fresh+mint+sprigs+bring+light%2C+refreshing+aromas+to+the+mix.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          18 of 19        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/341915/sparkling-shiraz-punch">Sparkling Shiraz Punch</a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            Sparkling Shiraz (or another full-bodied sparkling red wine of your choosing) adds depth to this lively Christmas punch. Elderflower liqueur and fresh mint sprigs bring light, refreshing aromas to the mix.          </div>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+          <a href="/341915/sparkling-shiraz-punch" class="readmore-anchor">Get the Sparkling Shiraz Punch Recipe</a>        </span>
+          </div>
+  </div>
+</li>
+                                                                
+<li class="gallery-ad gallery-item" data-gallery-index="20">
+  <div class="gallery-slide-content">
+    <span class="ad-title">
+      Swipe here for next slide
+    </span>
+    <div class="mslo-ad mslo-ad-300x250 is-mobile has-style is-lazy not-filled" data-refresh-rate="0">
+  
+  <div class="mslo-ad-holder">
+                      <div data-id="div-gpt-lazy-mob-square-fixed-tier1">
+                    </div>
+
+      <div id="div-kargo-square-fixed" data-tier="1">
+              </div>
+    
+          </div>
+</div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-900246"
+  data-nid="900246"
+  class="gallery-slide gallery-item has-cite slide-last"
+  data-gallery-index="21"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d33\/smoked-salmon-canapes-2-med108373\/smoked-salmon-canapes-2-med108373_vert.jpg?itok=6SPao9WT'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d33\/smoked-salmon-canapes-2-med108373\/smoked-salmon-canapes-2-med108373_vert.jpg?itok=O-VEtnLw'}]" data-bp-alt="" data-bp-title="Feeding the Masses" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d33/smoked-salmon-canapes-2-med108373/smoked-salmon-canapes-2-med108373_vert.jpg?itok=O-VEtnLw" alt="smoked-salmon-canapes-2-med108373.jpg" title="Feeding the Masses" /></noscript></span>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender%23900246&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd33%2Fsmoked-salmon-canapes-2-med108373%2Fsmoked-salmon-canapes-2-med108373_vert.jpg%3Fitok%3DdF5lQikS&amp;description=Good+company.+Check.+Great+drinks.+Check.+And+now+for+the+final+ingredient+of+a+magical+holiday+party%3A+the+food%21+Choose+from+dozens+of+our+favorite+can-do+hors+d%E2%80%99oeuvre+recipes.%26nbsp%3BGet+Our+Easiest+Appetizer+Recipes%26nbsp%3BGet+Our+Make-Ahead+Appetizer+Recipes&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          19 of 19        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        Feeding the Masses      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            <p>Good company. Check. Great drinks. Check. And now for the final ingredient of a magical holiday party: the food! Choose from dozens of our favorite can-do hors d’oeuvre recipes.</p><p>&nbsp;</p><p><a href="http://www.marthastewart.com/918650/quick-and-easy-appetizer-recipes/@center/946776/appetizer-recipes">Get Our Easiest Appetizer Recipes</a></p><p>&nbsp;</p><p><a href="http://www.marthastewart.com/953634/make-ahead-appetizers/@center/946776/appetizer-recipes">Get Our Make-Ahead Appetizer Recipes</a></p>          </div>
+                      <cite>
+              Photography: Hector Sanchez            </cite>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+                  </span>
+          </div>
+  </div>
+</li>
+                                                    </ul>
+        </div>
+                  <div class="gallery-endcard-container">
+  <div class="gallery-endcard-inner">
+    <div class="col-left">
+      <h3 class="next-header">
+        Next Gallery
+      </h3>
+              <a href="/275515/halloween-cocktails-and-drink-recipes">Halloween Cocktails and Drink Recipes</a>          </div>
+    <div class="col-right">
+      <a class="endcard-image-link" href="/275515/halloween-cocktails-and-drink-recipes">
+                  <span data-bp-src="[{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-160\/public\/d21\/med105088p_1009_ar001\/med105088p_1009_ar001_vert.jpg?itok=5G4rKU5w'}]" data-bp-alt="" data-bp-title="Halloween Cocktails and Drink Recipes" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-160/public/d21/med105088p_1009_ar001/med105088p_1009_ar001_vert.jpg?itok=5G4rKU5w" alt="med105088p_1009_ar001.jpg" title="Halloween Cocktails and Drink Recipes" /></noscript></span>              </a>
+    </div>
+  </div>
+</div>
+                <span id="js-gallery-right" class="slick-next glyph gl-arrow-right js-gallery-right"></span>
+        <span id="js-gallery-left" class="slick-prev glyph gl-arrow-left js-gallery-left"></span>
+      </div>
+    </div>
+
+    <div class="gallery-companion">
+      <div class="gallery-info-wrap">
+        <div id="js-slide-info" class="slide-info">
+          <div id="js-slide-info-inner" class="slide-info-inner">
+            <!-- This is populated via Javascript. -->
+          </div>
+        </div>
+
+        <div class="social-mobile">
+                      <div class="social-section">
+              <div class="mslo-share-bar-wrap">
+                <div class="mslo-share-bar ">
+      <div class="mslo-share-default">
+                              
+  <span class="mslo-share-btn mslo-share-count">
+    <div class="mslo-share-count-inner">
+      <span class="mslo-shorthand-number mslo-share-count-number">
+        281              </span>
+      <span class="mslo-share-count-name">
+        Shares
+      </span>
+    </div>
+  </span>
+                                  <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender&amp;media=&amp;description=The+10-Second+Holiday+Bartender&amp;tel=contentgallery" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+                                  <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+                                                                                                                <span class="mslo-share-btn mslo-btn-expand" data-open="MORE" data-close="LESS" data-status="open">
+          MORE<span class="arrow glyph gl-down-dbl-arw"></span>
+        </span>
+          </div>
+          <div class="mslo-share-extra">
+        <span class="indicator-arrow"></span>
+                                                                                            
+<span class="mslo-share-btn mslo-btn-comment">
+  <span>
+    <span class="social-icon glyph gl-comment-btn" title="Add a Comment"></span>
+    <span class="social-icon-label">Comment</span>
+  </span>
+</span>
+                                        <span class="mslo-share-btn mslo-btn-twitter">
+  <a href="#" onclick="window.open('https://twitter.com/share?text=The+10-Second+Holiday+Bartender&url=http://www.marthastewart.com/1043097/10-second-holiday-bartender?tel=contentgallery_twitter','twitterShare','width=626,height=436'); return false;" title="Twitter Share">
+    <span class="social-icon glyph gl-twitter-btn"></span>
+    <span class="social-icon-label">Twitter</span>
+  </a>
+</span>
+                                        <span class="mslo-share-btn mslo-btn-google-plus">
+  <a href="#" onclick="window.open('https://plus.google.com/share?url=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_google','googleShare','width=626,height=436'); return false;" title="Google Share">
+    <span class="social-icon glyph gl-google-btn"></span>
+    <span class="social-icon-label">Google+</span>
+  </a>
+</span>
+                                        <span class="mslo-share-btn mslo-btn-email clear-fix" title="Email">
+  <div class="ugc-content-wrap clearfix">
+    <a href="https://my.marthastewart.com/email?node_title=The%2010-Second%20Holiday%20Bartender&mags_origin=1043097/10-second-holiday-bartender&mags_base=http%3A//www.marthastewart.com/&destination=http%3A//www.marthastewart.com/1043097/10-second-holiday-bartender&token=72d73b14dee896346cd04b21817bc7c9" class="email-frame">
+      <span class="glyph gl-mail-btn"></span>
+    </a>
+  </div>
+</span>
+                                        <span class="mslo-share-btn mslo-btn-print" onclick="window.print();">
+  <span class="glyph gl-print"></span>
+</span>
+                                        <div  class="mslo-share-btn mslo-btn-save clear-fix favorite-it js-mslo-authenticate" data-user-action="favorite" title="Add To Favorites" data-title="The 10-Second Holiday Bartender" data-uuid="f77d3058-4cb2-11e3-98b8-a4badb44c2a2" data-interaction-count="true">
+  <div class="ugc-content-wrap clearfix">
+    <span class="login-frame fave-glyph"></span>
+  </div>
+</div>
+                        </div>
+      </div>
+              </div>
+            </div>
+                  </div>
+      </div>
+
+      <div class="gallery-right-rail">
+                  <div class="ad-unit ad-unit-companion1 ad-desktop side-unit">
+            <div class="mslo-ad mslo-ad-300x250 is-desktop" data-refresh-rate="2">
+  
+  <div class="mslo-ad-holder">
+        
+                      <div id="div-gpt-square-flex-1" data-tier="1">
+                    </div>
+      </div>
+</div>
+          </div>
+        
+                  <div class="ad-unit ad-unit-companion2 ad-desktop side-unit">
+            <div class="mslo-ad mslo-ad-300x250 is-desktop" data-refresh-rate="2">
+  
+  <div class="mslo-ad-holder">
+        
+                      <div id="div-gpt-square-fixed-1" data-tier="2">
+                    </div>
+      </div>
+</div>
+          </div>
+        
+        <div id="gtm-target-item2">
+          <!-- GTM fills this in. -->
+        </div>
+
+                  
+<div class="mslo-subscribe side-unit">
+  <div class="sub-col2">
+    <a href="http://win.marthastewart.com/?psrc=R603YRH201201" target="_blank">
+      <img src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-160/public/d26/300x400_12247_01_dailyswps/300x400_12247_01_dailyswps_vert.jpg?itok=sZV7FqMv" alt="Magazine Cover" title="Magazine Cover" />    </a>
+  </div>
+  <div class="sub-col1">
+    <h5 class="sub-title">
+      Martha Stewart Living    </h5>
+    <p class="dek">
+      Get more! Subscribe to Martha Stewart Living.
+    </p>
+    <a href="http://win.marthastewart.com/?psrc=R603YRH201201" target="_blank" class="text-underlined">Subscribe Now</a>  </div>
+</div>
+              </div>
+    </div>
+  </section>
+
+  <div class="gallery-under">
+    <div class="sponsored-content">
+      <div id="gtm-target-item1">
+        <!-- GTM fills this in. -->
+      </div>
+    </div>
+
+          <div class="gallery-related-topics">
+        <section class="recirc main-unit">
+            <div class="related-topics">
+    <h3 class="page-section-title">
+      Other Ideas to Try    </h3>
+    <ul class="related-topics-items">
+              <li class="related-topic-item">
+          <a href="/1502423/punch-recipes">
+                          <img class="related-topics-item" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-350/public/d39/sparkling-wine-a130522-07-8885-md110267/sparkling-wine-a130522-07-8885-md110267_vert.jpg?itok=HgX9TiEi" alt="The 10-Second Holiday Bartender" title="The 10-Second Holiday Bartender" />            
+            <h6 class="related-topic-item-title">
+              Punch Recipes            </h6>
+          </a>
+        </li>
+              <li class="related-topic-item">
+          <a href="/1502355/thanksgiving-menus">
+                          <img class="related-topics-item" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-350/public/d30/thanksgiving-table-1-med107616/thanksgiving-table-1-med107616_vert.jpg?itok=dRMcQX2b" alt="The 10-Second Holiday Bartender" title="The 10-Second Holiday Bartender" />            
+            <h6 class="related-topic-item-title">
+              Thanksgiving Menus            </h6>
+          </a>
+        </li>
+              <li class="related-topic-item">
+          <a href="/1502373/thanksgiving-appetizer-recipes">
+                          <img class="related-topics-item" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-350/public/d30/thanksgiving-table-1-med107616/thanksgiving-table-1-med107616_vert.jpg?itok=dRMcQX2b" alt="The 10-Second Holiday Bartender" title="The 10-Second Holiday Bartender" />            
+            <h6 class="related-topic-item-title">
+              Thanksgiving Appetizer Recipes            </h6>
+          </a>
+        </li>
+              <li class="related-topic-item">
+          <a href="/1502378/christmas-menus">
+                          <img class="related-topics-item" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-350/public/d17/buffet-2-md107770/buffet-2-md107770_vert.jpg?itok=dzls4-oI" alt="The 10-Second Holiday Bartender" title="The 10-Second Holiday Bartender" />            
+            <h6 class="related-topic-item-title">
+              Christmas Menus            </h6>
+          </a>
+        </li>
+          </ul>
+  </div>
+        </section>
+      </div>
+    
+          <div name="feedback-section" id="feedback-section" class="comments-section js-comment">
+        <h4 id="mslo-user-comments-count" class="page-section-title">
+          Comments        </h4>
+        <div class="mslo-comments ">
+    
+  <div class="mslo-comment-button-wrap">
+        <a href="#" id="mslo-comment-button" class="mslo-comment-button js-mslo-authenticate" data-user-action="comment" data-url="https://my.marthastewart.com/comments/standalone/mslo/contentgallery/f77d3058-4cb2-11e3-98b8-a4badb44c2a2?destination=http://www.marthastewart.com/1043097/10-second-holiday-bartender">Add A Comment</a>
+  </div>
+
+  <p id="mslo-message-comment" class="mslo-message-comment">
+    Be the first to comment!
+  </p>
+
+  <div id="mslo-user-comments" class="mslo-user-comments">
+    <span id="mslo-user-comments-loader" class="mslo-user-comments-loader"></span>
+    <ul class="mslo-comment-list" data-destination-page="https://my.marthastewart.com/comments/standalone/mslo/contentgallery/f77d3058-4cb2-11e3-98b8-a4badb44c2a2" data-return-page="http://www.marthastewart.com/1043097/10-second-holiday-bartender">
+          </ul>
+  </div>
+
+  <div id="mslo-comment-view-more" class="mslo-comment-view-more-wrap">
+    <button class="mslo-comment-view-more">View More</button>
+  </div>
+</div>
+      </div>
+      </div>
+</div>
+  </div>
+      </div>
+    </div>
+  </div>
+
+      <footer id="main-footer" class="main-footer" role="contentinfo">
+      
+  <!-- Sticky social footer. -->
+  <div class="footer-sticky-social-container">
+    <div class="mslo-share-bar mslo-sticky-social">
+              <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F1043097%2F10-second-holiday-bartender&amp;media=&amp;description=The+10-Second+Holiday+Bartender&amp;tel=contentgallery" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+          
+<span class="mslo-share-btn mslo-btn-comment">
+  <span>
+    <span class="social-icon glyph gl-comment-btn" title="Add a Comment"></span>
+    <span class="social-icon-label">Comment</span>
+  </span>
+</span>
+          <span class="mslo-share-btn mslo-btn-twitter">
+  <a href="#" onclick="window.open('https://twitter.com/share?text=The+10-Second+Holiday+Bartender&url=http://www.marthastewart.com/1043097/10-second-holiday-bartender?tel=contentgallery_twitter','twitterShare','width=626,height=436'); return false;" title="Twitter Share">
+    <span class="social-icon glyph gl-twitter-btn"></span>
+    <span class="social-icon-label">Twitter</span>
+  </a>
+</span>
+          <span class="mslo-share-btn mslo-btn-google-plus">
+  <a href="#" onclick="window.open('https://plus.google.com/share?url=http://www.marthastewart.com/1043097/10-second-holiday-bartender&tel=contentgallery_google','googleShare','width=626,height=436'); return false;" title="Google Share">
+    <span class="social-icon glyph gl-google-btn"></span>
+    <span class="social-icon-label">Google+</span>
+  </a>
+</span>
+          <span class="mslo-share-btn mslo-btn-email clear-fix" title="Email">
+  <div class="ugc-content-wrap clearfix">
+    <a href="https://my.marthastewart.com/email?node_title=The%2010-Second%20Holiday%20Bartender&mags_origin=1043097/10-second-holiday-bartender&mags_base=http%3A//www.marthastewart.com/&destination=http%3A//www.marthastewart.com/1043097/10-second-holiday-bartender&token=72d73b14dee896346cd04b21817bc7c9" class="email-frame">
+      <span class="glyph gl-mail-btn"></span>
+    </a>
+  </div>
+</span>
+          <div  class="mslo-share-btn mslo-btn-save clear-fix favorite-it js-mslo-authenticate" data-user-action="favorite" title="Add To Favorites" data-title="The 10-Second Holiday Bartender" data-uuid="f77d3058-4cb2-11e3-98b8-a4badb44c2a2" data-interaction-count="true">
+  <div class="ugc-content-wrap clearfix">
+    <span class="login-frame fave-glyph"></span>
+  </div>
+</div>
+      </div>
+  </div>
+
+<!-- MSLO section. -->
+<div class="container">
+  <div class="container-inside">
+    <section class="footer-section mag-section">
+      <h4 class="footer-section-title">Magazines &amp; More</h4>
+              <div class="mag-section-ad">
+                      <div class="mslo-ad mslo-ad-300x250 is-desktop is-lazy not-filled" data-refresh-rate="0">
+  
+  <div class="mslo-ad-holder">
+        
+                      <div data-id="div-gpt-lazy-square-fixed-tier4">
+                    </div>
+      </div>
+</div>
+          
+                      <div class="mslo-ad mslo-ad-300x250 is-mobile is-lazy not-filled" data-refresh-rate="0">
+  
+  <div class="mslo-ad-holder">
+                      <div data-id="div-gpt-lazy-mob-square-fixed-tier4">
+                    </div>
+
+      <div id="div-kargo-square-fixed" data-tier="4">
+              </div>
+    
+          </div>
+</div>
+                  </div>
+      
+              <div class="promo-section-cta">
+          <a class="text-underlined" href="http://www.marthastewart.com/sweepstakes">
+            Martha Stewart Living<sup>&trade;</sup> Daily Giveaway          </a>
+        </div>
+          </section>
+
+    <section class="footer-section social-section">
+      <h4 class="footer-section-title">Connect</h4>
+      <h5 class="footer-section-subtitle">Follow Us</h5>
+      <div class="social-section-icons clear-fix">
+        <a href="https://www.facebook.com/marthastewart" title="Facebook" target="_blank" rel="nofollow"><span class="social-icon glyph gl-facebook-btn"></span></a>
+        <a href="http://twitter.com/ms_living" title="Twitter" target="_blank" rel="nofollow"><span class="social-icon glyph gl-twitter-btn"></span></a>
+        <a href="https://www.pinterest.com/marthastewart" title="Pinterest" target="_blank" rel="nofollow"><span class="social-icon glyph gl-pinterest-btn"></span></a>
+        <a href="https://plus.google.com/104736337830250807960/?prsrc=3" title="Google+" target="_blank" rel="nofollow"><span class="social-icon social-icon-last glyph gl-google-btn"></span></a>
+      </div>
+
+              <h5 class="footer-section-subtitle">Subscribe to Our Newsletters</h5>
+        <div class="footer-newsletter-wrap">
+          <a href="https://secure.marthastewart.com/common/profile/quicksignup.jsp?regSource=10008" class="footer-button newsletter-button">Sign Up</a>        </div>
+      
+              <h5 class="footer-section-subtitle">Give Us Your Feedback</h5>
+        <a href="https://www.surveymonkey.com/s/ms-custsat" class="text-underlined" target="_blank">Customer Survey</a>          </section>
+
+    <section class="footer-section blog-section">
+      <h4 class="footer-section-title">Discover</h4>
+      <script id="martha-blog-footer" type="text/x-handlebars-template">
+        <!-- Start Martha Blog promo -->
+        <h5 class="footer-section-subtitle">The Martha Blog</h5>
+        <div class="view view-aggregate-blog-feed-home view-id-aggregate_blog_feed_home view-display-id-footer_martha_blog view-dom-id-12">
+          <div class="item-list">
+            <ul>
+              <li class="row">
+                <span class="field-content">
+                  <a href="{{ tmb_post_url }}" target="_blank">{{ tmb_post_title }}</a>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="blog-section-cta">
+          <a href="{{ tmb_post_url }}" class="text-underlined standard-link" target="_blank">
+            See More
+          </a>
+        </div>
+        <!-- End Martha Blog promo -->
+      </script>
+      <h5 class="footer-section-subtitle">Martha On...</h5>
+      <ul class="footer-items-list">
+        <li><a href="http://www.hulu.com/companies/martha-stewart-living" title="Martha On Hulu" target="_blank" rel="nofollow">Hulu</a></li>
+        <li><a href="https://www.youtube.com/user/marthastewart" title="Martha On YouTube" target="_blank" rel="nofollow">YouTube</a></li>
+        <li><a href="http://on.aol.com/partner/martha-stewart-517540662" title="Martha On Aol On" target="_blank" rel="nofollow">Aol On</a></li>
+      </ul>
+    </section>
+
+    <section class="footer-section more-section last">
+      <h4 class="footer-section-title">Learn More</h4>
+      <h5 class="footer-section-subtitle">Our Sites</h5>
+      <ul class="footer-items-list footer-sites-list">
+        <li><a href="/americanmade" title="American Made">American Made</a></li>
+        <li><a href="http://www.emerils.com" title="Emerils" target="_blank" nofollow>Emerils</a></li>
+        <li><a href="http://www.marthastewartweddings.com" title="Martha Stewart Weddings">Martha Stewart Weddings</a></li>
+        <li><a href="http://www.amazon.com/b/ref=as_li_ss_tl?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&node=12638265011&tag=martstew0d-20&linkId=57V3IY4WDJT7TB7X" title="American Made Market" target="_blank" nofollow>American Made Market</a></li>
+      </ul>
+
+      <h5 class="footer-section-subtitle">Company Info</h5>
+      <ul class="footer-items-list">
+        <!--<li><a href="/site-map" title="Site Map">Site Map</a></li>-->
+        <li><a href="http://adportal.mslo.com/AdNetPortal/Start.action" title="Advertising" target="_blank" nofollow>Advertising</a></li>
+        <li><a href="/aggregate-list" title="All Topics">All Topics</a></li>
+        <li><a href="/mslmediakit" title="Media Kit">Media Kit</a></li>
+        <li><a href="https://secure.customersvc.com/wes/servlet/Show?WESPAGE=am/home.jsp&MSRSMAG=LV" title="Subscription Help" target="_blank" nofollow>Subscription Help</a></li>
+        <li><a href="https://www.linkedin.com/company/3363478" title="Careers">Careers</a></li>
+        <li><a href="/faq" title="FAQs">FAQs</a></li>
+        <li><a href="/contact-us" title="Contact Us">Contact Us</a></li>
+        <li><a href="/international" title="International">International</a></li>
+        <li><a href="http://ir.sequentialbrandsgroup.com/index.cfm" title="Investor Relations" target="_blank" nofollow>Investor Relations</a></li>
+      </ul>
+    </section>
+  </div>
+</div>
+
+<!-- Meredith section. -->
+  
+<div class="meredith-footer">
+  <div class="container-inside">
+    <section class="meredith-section">
+      <ul class="list-sites">
+        <li><h4 class="footer-section-subtitle">Meredith Home</h4></li>
+        <li><a href="http://www.bhg.com" rel="nofollow" target="_blank">Better Homes and Gardens</a></li>
+        <li><a href="http://www.marthastewart.com" rel="nofollow" target="_blank">Martha Stewart Living</a></li>
+        <li><a href="http://www.midwestliving.com" rel="nofollow" target="_blank">Midwest Living</a></li>
+        <li><a href="http://www.traditionalhome.com" rel="nofollow" target="_blank">Traditional Homes</a></li>
+        <li><a href="http://www.allpeoplequilt.com" rel="nofollow" target="_blank">All People Quilt</a></li>
+        <li><a href="http://www.diyadvice.com" rel="nofollow" target="_blank">DIY Advice</a></li>
+        <li><a href="http://www.homeandfamilynetwork.com" rel="nofollow" target="_blank">Home and Family</a></li>
+      </ul>
+    </section>
+  
+    <section class="meredith-section">
+      <ul class="list-sites">
+        <li><h4 class="footer-section-subtitle">AllRecipes</h4></li>
+        <li><a href="http://allrecipes.com" rel="nofollow" target="_blank">Allrecipes.com</a></li>
+        <li><a href="http://www.recipe.com" rel="nofollow" target="_blank">Recipe.com</a></li>
+        <li><a href="http://www.eatingwell.com" rel="nofollow" target="_blank">Eating Well</a></li>
+        <li><a href="http://www.rachaelraymag.com" rel="nofollow" target="_blank">Rachael Ray Magazine</a></li>
+        <li><a href="http://www.diabeticlivingonline.com" rel="nofollow" target="_blank">Diabetic Living</a></li>
+        <li><a href="http://www.eatthis.com" rel="nofollow" target="_blank">Eat This, Not That!</a></li>
+        <li><a href="http://www.kraftrecipes.com" rel="nofollow" target="_blank">Kraft Recipes</a></li>
+      </ul>
+    </section>
+  
+    <section class="meredith-section">
+      <ul class="list-sites">
+        <li><h4 class="footer-section-subtitle">Parents</h4></li>
+        <li><a href="http://www.parents.com" rel="nofollow" target="_blank">Parents</a></li>
+        <li><a href="http://www.parenting.com" rel="nofollow" target="_blank">Parenting</a></li>
+        <li><a href="http://www.familycircle.com" rel="nofollow" target="_blank">Family Circle</a></li>
+        <li><a href="http://serpadres.com" rel="nofollow" target="_blank">Ser Padres</a></li>
+        <li><a href="http://www.fitpregnancy.com" rel="nofollow" target="_blank">Fit Pregnancy</a></li>
+      </ul>
+    </section>
+
+    <section class="meredith-section">
+      <ul class="list-sites">
+        <li><h4 class="footer-section-subtitle">Meredith Beauty</h4></li>
+        <li><a href="http://www.fitnessmagazine.com" rel="nofollow" target="_blank">Fitness Magazine</a></li>
+        <li><a href="http://www.shape.com" rel="nofollow" target="_blank">Shape</a></li>
+        <li><a href="http://www.marthastewartweddings.com" rel="nofollow" target="_blank">Martha Stewart Weddings</a></li>
+        <li><a href="http://www.mywedding.com" rel="nofollow" target="_blank">Mywedding</a></li>
+        <li><a href="http://www.divinecaroline.com" rel="nofollow" target="_blank">Divine Caroline</a></li>
+        <li><a href="http://www.more.com" rel="nofollow" target="_blank">More</a></li>
+        <li><a href="http://siempremujer.com/" rel="nofollow" target="_blank">Siempre Mujer</a></li>
+      </ul>
+    </section>
+  </div>
+</div>
+
+<!-- Copyright section. -->
+<div class="copyright-wrap">
+  <div class="copyright-container">
+    <section class="copyright-section">
+      &copy; Copyright 2016, Martha Stewart Living Omnimedia, Inc. All rights reserved.
+    </section>
+  </div>
+</div>
+
+<!-- Meredith copyright. -->
+  
+<div class="meredith-copyright">
+  <div class="meredith-copyright-inner">
+    <div class="meredith-logo-wrap">
+      <img class="meredith-logo" src="/sites/all/themes/emma/img/meredith_womensnetwork.svg" />
+    </div>
+    <span class="copyright-info">
+      &copy; Copyright 2016, Meredith Corporation. All Rights Reserved
+    </span>
+    <div class="links-section">
+      <ul class="list-sites">
+        <li><a href="http://www.meredith.com/policyMSO.html" rel="nofollow" target="_blank">Privacy Policy - Your California Rights</a></li>
+        <li><a href="http://www.meredith.com/datapolicy.html" rel="nofollow" target="_blank">Data Policy</a></li>
+        <li><a href="/terms-of-use">Terms of Service</a></li>
+        <li>
+          <!-- AdChoice logo and link populated by third party GTM script. -->
+          <a id="_bapw-link" href="#" rel="nofollow" target="_blank">
+            <img id="_bapw-icon" />
+            <span id="_bapw-text">
+              AdChoices
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+    </footer>
+  </div>
+    <script type="text/javascript" src="http://www.marthastewart.com/sites/files/marthastewart.com/opusjs/js_ymna5nLqPRATbwzsRQ45r5neu7sX7o4dbBkEul4DWHc.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var msloFacebookAppId = "393254810836193";
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.marthastewart.com/sites/files/marthastewart.com/opusjs/js_vAOD8GgNqw5wcHpV3eQgRj2C_0BciCfds9PJkUP52HQ.js"></script>
+<script type="text/javascript" src="http://www.marthastewart.com/sites/files/marthastewart.com/opusjs/js_rrefi7IOnuWOQN90XfHmhpP2EtADcyXM8ZjDh7Ku_O4.js"></script>
+<script type="text/javascript" src="http://www.marthastewart.com/sites/files/marthastewart.com/opusjs/js_cuGwS212x6RHJFTkTtFL7QN6SKJtcBvROxEuiM8hCTo.js"></script>
+<script type="text/javascript" src="http://www.marthastewart.com/sites/files/marthastewart.com/opusjs/js_i38nb3X2dvy9NgWK8UzbO60lthUd759STYOOU-7-tSk.js"></script>
+    <!-- OPUS.200: 2.194s -->  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"5c31b36624","applicationID":"6239846,6239845","transactionName":"YQNWYBMHWUJZBRJeXFhJdVcVD1hfFwgJU1ZpFlVTBDlBWF0R","queueTime":0,"applicationTime":2198,"atts":"TURVFlsdSkw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

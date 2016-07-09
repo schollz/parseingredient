@@ -1,0 +1,1787 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js ie lt-ie9 oldie" lang="en" xmlns:fb="http://ogp.me/ns/fb#" dir="ltr"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie ie9" lang="en" xmlns:fb="http://ogp.me/ns/fb#" dir="ltr"> <![endif]-->
+<!--[if gte IE 9]><!--> <html class="no-js new" lang="en" xmlns:fb="http://ogp.me/ns/fb#" dir="ltr"> <!--<![endif]-->
+  <head>
+    <script type="text/javascript" src="/sites/all/modules/custom/mslo_datalayer/js/mslo_datalayer-header-scripts.js"></script>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="cleartype" content="on">
+    <link rel="apple-touch-icon" href="/sites/all/themes/emma/img/touch-icon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/sites/all/themes/emma/img/touch-icon-76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/sites/all/themes/emma/img/touch-icon-120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/sites/all/themes/emma/img/touch-icon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/sites/all/themes/emma/img/touch-icon-180.png">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(e,t){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,t)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var u=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(u,function(e,t){newrelic[t]=r(f+t,"api")}),i(c,function(e,t){newrelic[t]=r(f+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,c=0;u>c;c++)a[c].apply(i,r);var s=f[g[n]];return s&&s.push([m,n,r,i]),i}function p(e,t){w[e]=l(e).concat(t)}function l(e){return w[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",g[n]=t,t in f||(f[t]=[])})}var w={},g={},m={on:p,emit:n,get:d,listeners:l,context:t,buffer:v};return m}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},p=t.exports=o();p.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!w++){var e=v.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(l,function(t,n){e[t]||(e[t]=n)});var n="https"===p.split(":")[0]||e.sslForHttp;v.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=v.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var p=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-943.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),v=t.exports={offset:a(),origin:p,features:{},xhrWrappable:d};s.addEventListener?(s.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(s.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),u("mark",["firstbyte",a()],null,"api");var w=0},{}]},{},["loader"]);</script>
+<link href="https://plus.google.com/+MarthaStewart" rel="publisher" />
+<link rel="shortcut icon" href="http://www.marthastewart.com/sites/all/themes/emma/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="Spoil her with sweet and savory recipes and delightful decor." />
+<link rel="canonical" href="http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas" />
+<meta property="og:site_name" content="Martha Stewart" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas" />
+<meta property="og:title" content="10 Most-Pinned Mother&#039;s Day Brunch Ideas" />
+<meta property="og:description" content="Spoil her with sweet and savory recipes and delightful decor." />
+<meta property="og:updated_time" content="2015-02-27T16:24:21-05:00" />
+<meta property="og:image" content="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-1500/public/d28/med106461_0111_how_ham_crepe/med106461_0111_how_ham_crepe_horiz.jpg?itok=vtbr62l-" />
+<meta property="article:published_time" content="2013-04-17T11:25:28-04:00" />
+<meta property="article:modified_time" content="2015-02-27T16:24:21-05:00" />
+    <title>10 Most-Pinned Mother's Day Brunch Ideas | Martha Stewart</title>
+    <link type="text/css" rel="stylesheet" href="http://www.marthastewart.com/sites/files/marthastewart.com/opuscss/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.marthastewart.com/sites/files/marthastewart.com/opuscss/css_A-02PFbUrr0ImAqRavi1_Oz_wYQ4SL4ab-y0Jau9vgE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.marthastewart.com/sites/files/marthastewart.com/opuscss/css_fl3YAqttcpHd9qLbf13rhNnvg1jIJzpa5oI35UcEJco.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.marthastewart.com/sites/files/marthastewart.com/opuscss/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.marthastewart.com/sites/files/marthastewart.com/opuscss/css_KrWfpl5xTFAkABdTj1CrbRGFebYF9fYtFZg4nA0kOtA.css" media="all" />
+          <script type="text/javascript" class="typekit-script">
+        (function(d){var config={kitId:"xvs1ueu",scriptTimeout:3000},h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//typekit.marthastewart.com/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)})(document);
+      </script>
+              <script class="kxct" data-id="Jev6eSh4" data-version="async:1.7" type="text/javascript" id="mslo-krux-js">
+        window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]); (function(){ var k=document.createElement('script');k.type='text/javascript';k.async=true; var m,src=(m=location.href.match(/\bkxsrc=([^&]+)/))&&decodeURIComponent(m[1]); k.src = /^https?:\/\/([^\/]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" : (location.protocol==="https:"?"https:":"http:")+"//cdn.krxd.net/controltag?confid=Jev6eSh4"; var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s); })();
+      </script>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.marthastewart.com/sites/files/marthastewart.com/opusjs/js_3TykeRWpejhD4-J3vdlaNXdULg9xhOZhbsppK0o2bUs.js"></script>
+<script type="text/javascript" src="http://www.marthastewart.com/sites/files/marthastewart.com/opusjs/js_H7q2xORKmR9AN8Qx5spKEIBp7R_wG2apAswJoCUZY7I.js"></script>
+<script type="text/javascript" src="http://karma.mdpcdn.com/service/js-min/karma.header.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"emma","theme_token":"mIFQcVWArlxTwnqTk7G6Uju6OS3rWGJw_3zVa8gLbjU","js":{"sites\/all\/modules\/custom\/mslo_themehelper\/js\/modernizr-2.6.1.min.js":1,"sites\/all\/modules\/custom\/mslo_themehelper\/js\/underscore-min.js":1,"sites\/all\/modules\/custom\/mslo_themehelper\/js\/backbone-min.js":1,"sites\/all\/modules\/custom\/mslo_themehelper\/js\/handlebars.js":1,"sites\/all\/modules\/custom\/mslo_themehelper\/js\/jquery.lazyload.min.js":1,"sites\/all\/modules\/custom\/mslo_themehelper\/js\/jquery.flexslider.js":1,"sites\/all\/modules\/custom\/mslo_themehelper\/js\/jquery.ba-tinypubsub.min.js":1,"sites\/all\/modules\/custom\/mslo_themehelper\/js\/slick.min.js":1,"sites\/all\/modules\/custom\/mslo_themehelper\/js\/mslo_carousel.js":1,"0":1,"sites\/all\/modules\/custom\/mslo_social\/js\/facebook_script.js":1,"sites\/all\/modules\/custom\/mslo_social\/js\/twitter_script.js":1,"sites\/all\/modules\/custom\/mslo_social\/js\/googleplus_script.js":1,"sites\/all\/modules\/custom\/mslo_themehelper\/js\/require-min.js":1,"sites\/all\/modules\/custom\/mslo_themehelper\/js\/mslo_themehelper.js":1,"sites\/all\/modules\/custom\/ugc_frontend_authorization\/js\/ugc_frontend_app.js":1,"sites\/all\/modules\/features\/mslo_image\/js\/mslo_image.js":1,"sites\/all\/modules\/custom\/mslo_datalayer\/js\/mdp_gpt.js":1,"sites\/all\/modules\/custom\/mslo_social\/js\/mslo_social.js":1,"sites\/all\/modules\/features\/mslo_contentgallery\/js\/mslo_contentgallery.js":1,"sites\/all\/modules\/features\/mslo_search\/js\/mslo_search.js":1,"sites\/all\/themes\/emma\/js\/emma-scripts.js":1,"sites\/all\/themes\/emma_base\/js\/emma_base-scripts.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js":1,"1":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"http:\/\/karma.mdpcdn.com\/service\/js-min\/karma.header.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/contrib\/tabledragextra\/tabledragextra.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/emma_base\/css\/boilerplate.css":1,"sites\/all\/themes\/emma\/css\/emma-main.css":1,"sites\/all\/themes\/emma_base\/defaults.css":1,"sites\/all\/themes\/emma_base\/system.menus.css":1,"sites\/all\/themes\/emma_base\/system.theme.css":1,"sites\/all\/themes\/emma_base\/system.css":1,"sites\/all\/themes\/emma_base\/node.css":1,"sites\/all\/themes\/emma_base\/search.css":1,"sites\/all\/themes\/emma_base\/user.css":1,"sites\/all\/themes\/emma_base\/apachesolr_autocomplete.css":1,"sites\/all\/themes\/emma_base\/jquery.autocomplete.css":1,"sites\/all\/themes\/emma_base\/content-module.css":1,"sites\/all\/themes\/emma_base\/date.css":1,"sites\/all\/themes\/emma_base\/datepicker.1.7.css":1,"sites\/all\/themes\/emma_base\/jquery.timeentry.css":1,"sites\/all\/themes\/emma_base\/filefield.css":1,"sites\/all\/themes\/emma_base\/ms_editorial_ui_search_interface.css":1,"sites\/all\/themes\/emma_base\/fieldgroup.css":1,"sites\/all\/themes\/emma_base\/content_multigroup.css":1,"sites\/all\/themes\/emma_base\/printlinks.css":1,"sites\/all\/themes\/emma_base\/ctools.css":1,"sites\/all\/themes\/emma_base\/views.css":1,"sites\/all\/themes\/emma_base\/field.css":1,"sites\/all\/themes\/emma_base\/jquery.ui.tabs.css":1,"sites\/all\/themes\/emma_base\/datepicker.css":1,"sites\/all\/themes\/emma_base\/ui.datepicker.css":1,"sites\/all\/themes\/emma_base\/ui.all.css":1,"sites\/all\/themes\/emma_base\/hierarchial_taxonomy_autocomplete.css":1,"sites\/all\/themes\/emma\/css\/emma-contentgallery.css":1}},"opus":{"user_is_authenticated":false},"msloThemehelper":{"baseUrls":{"urlToolsMW":"","urlBaseMS":"http:\/\/www.marthastewart.com","urlBaseMW":"http:\/\/www.marthastewartweddings.com","urlBaseAM":"http:\/\/www.marthastewart.com\/americanmade"},"apiKeys":{"recaptcha":"6LefmPoSAAAAANPGJXh0NsO1ircT4YK2oHovtl4y"}},"breakpoints":{"breakpointMobile":550,"breakpointMobile2":645,"breakpointAds":645,"breakpointTablet":780,"breakpointDesktop":900,"breakpointDesktop2":1024,"breakpointDesktop3":1300},"base_url":"http:\/\/www.marthastewart.com","mslo_contentgallery":{"galleryTitle":"10 Most-Pinned Mother\u0027s Day Brunch Ideas","adRefreshRate":2,"nextGallery":{"url":"\/275291\/family-recipes-from-big-martha","image":{"320":"http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d21\/md105418_0410_ht_0127\/md105418_0410_ht_0127_vert.jpg?itok=8HofBd-6","500":"http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d21\/md105418_0410_ht_0127\/md105418_0410_ht_0127_vert.jpg?itok=R6ajME91"}}},"ugc_frontend_authorization":{"siteCode":"mslo","module_path":"sites\/all\/modules\/custom\/ugc_frontend_authorization","ugcBasePath":"https:\/\/my.marthastewart.com","topLevelDomain":"marthastewart.com"},"msloEmmaBase":{"leaderboardDockTimer":0},"msloSearch":{"originalAction":"search\/results","debug":false},"urlIsAjaxTrusted":{"\/search\/results":true},"ugcCommenting":{"json_path":"https:\/\/my.marthastewart.com\/api\/comments\/mslo\/08d6a284-a773-11e2-9c74-a4badb44c2a2"},"msloDatalayer":{"collection":{"title":"Mother\u0027s Day Ideas","uuid":"8801913a-f975-11e4-854f-0eedb6f82027"},"platform":"opus","nodeId":"973920","nodeType":"contentgallery","nodeTitle":"10 Most-Pinned Mother\u0027s Day Brunch Ideas","nodeUuid":"08d6a284-a773-11e2-9c74-a4badb44c2a2","nodePubDate":"1366895838","isFrontPage":"","googleAdSenseClientIds":{"category":"vert-pla-meredith-shopmartha-cat","product_detail":"vert-pla-meredith-shopmartha-pdp","search":"vert-pla-meredith-shopmartha-srp"},"statusCode":"200","environment":"","mdpApiEnvironment":"prod","hashIdCookieName":"hid","mdpPageTargetingId":"973920","contentCreationDate":"04\/25\/2013","isSearchResults":"","subCategory":"","category":"Brunch Recipes","channel":"Food","genre":"Collection","descriptiveTerms":["Brunch","Meal","Food and Cooking","Mother\u0027s Day","Holidays","Holidays and Events","Moms","Women","Types of people","People and Groups"],"nodeHasVideo":"","ugcCookieName":"ugc_user_authentication.authenticated","gtmDatalayerName":"dataLayer"}});
+//--><!]]>
+</script>
+    <script type="text/javascript" src="http://www.marthastewart.com/sites/all/modules/custom/mslo_datalayer/js/mslo_datalayer.js"></script>
+  </head>
+
+  <body data-ng-app="msloApp" class="opus html not-front not-logged-in no-sidebars page-node page-node- page-node-973920 node-type-contentgallery site-nav-fullsize" >
+    <script type="text/javascript" src="http://www.marthastewart.com/sites/all/modules/custom/mslo_datalayer/js/gtm_prepare.js"></script>
+<script type="text/javascript">var dataLayer = [Drupal.mslo.gtmDatalayer];</script>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-9NDX2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script type="text/javascript" id="mslo-gtm-inline-js">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-9NDX2');</script>
+<!-- End Google Tag Manager -->
+<div id="fb-root"></div>
+    
+<div id="main-container" class="main-container">
+      <header id="main-header" class="main-header" role="banner">
+      
+  <div id="js-site-nav-ad-wrap" class="site-nav-ad-wrap">
+    <div class="site-nav-ad-inner">
+              <div class="mslo-ad mslo-ad-728x66 is-desktop" data-refresh-rate="2">
+  
+  <div class="mslo-ad-holder">
+        
+                      <div id="div-gpt-leaderboard-flex-1" data-tier="1">
+                    </div>
+      </div>
+</div>
+      
+              <div class="mslo-ad mslo-ad-300x50 is-mobile" data-refresh-rate="2">
+  
+  <div class="mslo-ad-holder">
+                      <div id="div-gpt-mob-banner-flex-1" data-tier="1">
+                    </div>
+
+      <div id="div-kargo-banner-flex-1" data-tier="1">
+              </div>
+    
+          </div>
+</div>
+          </div>
+  </div>
+
+<div class="site-nav has-leaderboard" role="banner">
+  <div class="site-nav-inner">
+    <div class="site-nav-table">
+      <div class="site-nav-logo-wrap">
+                  <a href="/"><div class="site-nav-logo link" itemprop="publisher"></div></a>
+        
+        <!-- Mobile expansion button. -->
+        <div id="nav-mobile-button" class="glyph gl-menu nav-mobile-button"></div>
+      </div>
+
+      <nav class="site-nav-content">
+        <div class="nav-content-inner">
+          <div class="nav-list-container">
+            <div class="nav-subitem-list clear-fix">
+                              <ul class="menu"><li class="first leaf li-first"><a href="/1503096/videos" class="li-link li-first-link leaf-link" top-1512-parent="" data-menu-first="">Videos</a></li><li class="leaf li-first"><a href="http://www.themarthablog.com" class="li-link li-first-link leaf-link" top-1513-parent="" data-menu-first="">Martha's Blog</a></li><li class="leaf li-first"><a href="http://www.marthastewart.com/americanmade" class="li-link li-first-link leaf-link" top-1515-parent="" data-menu-first="">American Made</a></li><li class="leaf li-first"><a href="http://www.marthastewartweddings.com/" class="li-link li-first-link leaf-link" top-1514-parent="" data-menu-first="">Weddings</a></li><li class="last leaf li-first"><a href="http://marthastewartcafeshop.com/" class="li-link li-first-link leaf-link" top-2192-parent="" data-menu-first="">Martha Café</a></li></ul>                          </div>
+
+            <div class="nav-item-list clear-fix">
+                              <ul class="menu"><li class="first leaf li-first"><a href="/cook" class="li-link li-first-link leaf-link" top-1508-parent="" data-menu-first="">Cook</a></li><li class="leaf li-first"><a href="/create" class="li-link li-first-link leaf-link" top-1509-parent="" data-menu-first="">Create</a></li><li class="leaf li-first"><a href="/celebrate" class="li-link li-first-link leaf-link" top-1511-parent="" data-menu-first="">Celebrate</a></li><li class="leaf li-first"><a href="/1144514/shop" class="li-link li-first-link leaf-link" top-1505-parent="" data-menu-first="">Shop</a></li><li class="last leaf li-first"><a href="http://www.marthastewart.com/10kSweeps_Splash?psrc=R607YTF211010" class="li-link li-first-link leaf-link" top-4916-parent="" data-menu-first="">Win $10,000 to Redecorate Your Home</a></li></ul>                          </div>
+          </div>
+
+          <div class="nav-dept-list-container">
+            <div class="nav-dept-list">
+              <div class="dept-list-title">Browse Topics By:</div>
+                              <ul class="menu"><li class="first expanded li-first has-children"><a href="/1502328/breakfast-recipes" class="li-link li-first-link leaf-link" top-1473-parent="" data-menu-first="">Breakfast Recipes</a><ul class="menu"><li class="first leaf"><a href="/1502324/breakfast-quiche-stratas" class="li-link" top-1473-parent="">Quiche and Strata Recipes</a></li><li class="leaf"><a href="/1502321/brunch-recipes" class="li-link" top-1473-parent="">Brunch Recipes</a></li><li class="leaf"><a href="/1502326/bread-muffin-recipes" class="li-link" top-1473-parent="">Breads & Muffin Recipes</a></li><li class="last leaf"><a href="/1502303/brunch-cocktail-drink-recipes" class="li-link" top-1473-parent="">Brunch Cocktails</a></li></ul></li><li class="expanded li-first has-children"><a href="/1502505/lunch-recipes" class="li-link li-first-link leaf-link" top-4368-parent="" data-menu-first="">Lunch Recipes</a><ul class="menu"><li class="first leaf"><a href="/1502507/healthy-lunch-recipes" class="li-link" top-4368-parent="">Healthy Lunch Recipes</a></li><li class="last leaf"><a href="/1502317/quick-easy-lunch-recipes" class="li-link" top-4368-parent="">Quick and Easy Lunch Recipes</a></li></ul></li><li class="expanded li-first has-children"><a href="/1502314/dinner-recipes" class="li-link li-first-link leaf-link" top-1453-parent="" data-menu-first="">Dinner Recipes</a><ul class="menu"><li class="first leaf"><a href="/1502258/appetizers-snacks" class="li-link" top-1453-parent="">Appetizers</a></li><li class="leaf"><a href="/1502310/main-dish-recipes" class="li-link" top-1453-parent="">Main Dishes</a></li><li class="leaf"><a href="/1502306/healthy-dinner-recipes" class="li-link" top-1453-parent="">Healthy Recipes</a></li><li class="leaf"><a href="/1502307/quick-easy-dinner-recipes" class="li-link" top-1453-parent="">Quick and Easy Recipes</a></li><li class="leaf"><a href="/1502309/dinner-side-dishes" class="li-link" top-1453-parent="">Side Dishes</a></li><li class="leaf"><a href="/1502284/dessert-recipes" class="li-link" top-1453-parent="">Dessert Recipes</a></li><li class="last leaf"><a href="/1502337/classic-cocktail-recipes" class="li-link" top-1453-parent="">Classic Cocktail Recipes</a></li></ul></li><li class="leaf li-first"><a href="/1502090/cleaning" class="li-link li-first-link leaf-link" top-4371-parent="" data-menu-first="">Cleaning</a></li><li class="expanded li-first has-children"><a href="/1502461/diy-projects-crafts" class="li-link li-first-link leaf-link" top-1457-parent="" data-menu-first="">DIY Projects  and Crafts</a><ul class="menu"><li class="first leaf"><a href="/1502455/diy-furniture-projects" class="li-link" top-1457-parent="">DIY Furniture Projects</a></li><li class="leaf"><a href="/1502454/diy-home-projects" class="li-link" top-1457-parent="">DIY Home Projects</a></li><li class="last leaf"><a href="/1502457/kids-crafts" class="li-link" top-1457-parent="">Kids Crafts</a></li></ul></li><li class="leaf li-first"><a href="/1502462/bathroom-design-ideas" class="li-link li-first-link leaf-link" top-1480-parent="" data-menu-first="">Bathroom Design Ideas</a></li><li class="collapsed li-first has-children"><a href="/1502463/kitchen-design-ideas" class="li-link li-first-link leaf-link" top-1454-parent="" data-menu-first="">Kitchen Design Ideas</a></li><li class="expanded li-first has-children"><a href="/1502498/storage-organization" class="li-link li-first-link leaf-link" top-1458-parent="" data-menu-first="">Storage and Organization</a><ul class="menu"><li class="first leaf"><a href="/1502464/kitchen-storage-organization" class="li-link" top-1458-parent="">Kitchen Organizing</a></li><li class="last leaf"><a href="/1502482/bathroom-storage-organization" class="li-link" top-1458-parent="">Bathroom Organizing</a></li></ul></li><li class="leaf li-first"><a href="/1502508/outdoor-living" class="li-link li-first-link leaf-link" top-1459-parent="" data-menu-first="">Outdoor Living</a></li><li class="expanded li-first has-children"><a href="/1502471/party-colors-themes" class="li-link li-first-link leaf-link" top-1455-parent="" data-menu-first="">Parties</a><ul class="menu"><li class="first leaf"><a href="/1502253/party-appetizers-snacks" class="li-link" top-1455-parent="">Party Snacks and Appetizers</a></li><li class="leaf"><a href="/1502288/party-dessert-recipes" class="li-link" top-1455-parent="">Party Dessert Recipes</a></li><li class="leaf"><a href="/1502467/diy-party-crafts-decor" class="li-link" top-1455-parent="">DIY Party Crafts</a></li><li class="leaf"><a href="/1502428/party-decorations-ideas" class="li-link" top-1455-parent="">Decorations</a></li><li class="leaf"><a href="/1502468/dinner-party-ideas" class="li-link" top-1455-parent="">Dinner Party Ideas</a></li><li class="leaf"><a href="/1502480/baby-shower-ideas" class="li-link" top-1455-parent="">Baby Shower Ideas</a></li><li class="last leaf"><a href="/1502472/kids-party-ideas" class="li-link" top-1455-parent="">Kids Party Ideas</a></li></ul></li><li class="leaf li-first"><a href="/1502504/pets" class="li-link li-first-link leaf-link" top-1452-parent="" data-menu-first="">Pets</a></li><li class="leaf li-first"><a href="/972518/video-collections" class="li-link li-first-link leaf-link" top-1451-parent="" data-menu-first="">Videos</a></li><li class="leaf li-first"><a href="/1502421/4th-july" class="li-link li-first-link leaf-link" top-4865-parent="" data-menu-first="">4th of July</a></li><li class="leaf li-first"><a href="/1502559/fathers-day" class="li-link li-first-link leaf-link" top-4868-parent="" data-menu-first="">Father's Day</a></li><li class="leaf li-first"><a href="/1502352/thanksgiving" class="li-link li-first-link leaf-link" top-4866-parent="" data-menu-first="">Thanksgiving</a></li><li class="last leaf li-first"><a href="/1502397/christmas" class="li-link li-first-link leaf-link" top-4867-parent="" data-menu-first="">Christmas</a></li></ul>                          </div>
+
+            <div class="nav-dept-button">
+              <span class="nav-dept-button-inner">Browse Topics</span>
+            </div>
+          </div>
+
+          <!-- Mobile placement of utility bar. -->
+          <div class="nav-subitem-list nav-subitem-list-mobile clear-fix">
+                              <ul class="menu"><li class="first leaf li-first"><a href="/1503096/videos" class="li-link li-first-link leaf-link" top-1512-parent="" data-menu-first="">Videos</a></li><li class="leaf li-first"><a href="http://www.themarthablog.com" class="li-link li-first-link leaf-link" top-1513-parent="" data-menu-first="">Martha's Blog</a></li><li class="leaf li-first"><a href="http://www.marthastewart.com/americanmade" class="li-link li-first-link leaf-link" top-1515-parent="" data-menu-first="">American Made</a></li><li class="leaf li-first"><a href="http://www.marthastewartweddings.com/" class="li-link li-first-link leaf-link" top-1514-parent="" data-menu-first="">Weddings</a></li><li class="last leaf li-first"><a href="http://marthastewartcafeshop.com/" class="li-link li-first-link leaf-link" top-2192-parent="" data-menu-first="">Martha Café</a></li></ul>                        </div>
+
+          <div class="nav-content-side">
+            <ul class="nav-extra-list clear-fix">
+              <li class="header-login">
+                <div id="user-profile-links" class="">
+                  <span class="glyph gl-down-arw js-glyph user-more"></span>
+                  <div class="nav-greeting" id="greeting">
+                    <div class="user-signin-link user-not-authenticated js-mslo-authenticate" data-user-action="signin">
+                      <span class="header-onclick">Sign In</span>
+                    </div>
+                    <ul class="user-authenticated">
+                      <li class="user-greeting first">
+                        <a href="#" class="user-hearted">
+                          <span class="glyph gl-heart collection-icon"></span>
+                          <span class="relative">
+                            <span class="heart-arrow-left-border"></span>
+                            <span class="heart-arrow-left"></span>
+                            <span class="collection-count"><!-- Favorite count injected by js --></span>
+                          </span>
+                        </a>
+                        <a href="#" class="user-greeting-link">
+                          <span class="greeting-hello">
+                            <span class="username"><!-- Username injected by js --></span>
+                          </span>
+                        </a>
+                      </li>
+                      <div class="user-ugc-choices">
+                        <!-- List of user choices generated with js -->
+                        <li class="js-mslo-logout user-logout last">
+                          <a href="#">Sign Out</a>
+                        </li>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+                              <li>
+                  <a href="https://martha.zt01.net/MSL/March14/4.php" target="_blank">Subscribe<span class="hidden-text"> to our Magazine</span></a>
+                </li>
+                          </ul>
+
+            <div id="js-header-search" class="nav-search" role="search">
+                              <form action="/search/results"  accept-charset="UTF-8" method="get" id="mslo-search-block-form" class="mslo-search-form">
+<div class="container-inline form-wrapper" id="edit-basic"><div class="form-item form-type-textfield form-item-keys">
+  <input placeholder="SEARCH" type="text" id="edit-keys" name="keys" value="" size="20" maxlength="255" class="form-text" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Go" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-WMDevMDZbZvunu4VeItxHGCtwANQqIHzBP8CvaQXdK4" />
+<input type="hidden" name="form_id" value="mslo_search_block_form" />
+
+</form>
+                            <span class="glyph nav-search-submit-button"></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+    </header>
+  
+  
+  <div id="main-content" class="main-content" role="main" itemscope itemtype="http://schema.org/WebPage">
+    <div class="container">
+      <div class="inner">
+        
+          <div class="region region-content">
+    
+<div class="gallery-header ">
+      <div class="gallery-recirc-carousel">
+      <div class="gallery-recirc-carousel-inner">
+        
+<div class="related-galleries">
+  <span id="js-recirc-prev" class="recirc-prev"></span>
+  <ul class="related-gallery-items">
+                <li class="related-gallery-item current-recirc-item">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d28\/med106461_0111_how_ham_crepe\/med106461_0111_how_ham_crepe_vert.jpg?itok=fJJIEXOV'}]" data-bp-alt="" data-bp-title="10 Most-Pinned Mother&#039;s Day Brunch Ideas" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d28/med106461_0111_how_ham_crepe/med106461_0111_how_ham_crepe_vert.jpg?itok=fJJIEXOV" alt="med106461_0111_how_ham_crepe.jpg" title="10 Most-Pinned Mother&#039;s Day Brunch Ideas" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              10 Most-Pinned Mother's Day Brunch Ideas            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/275291/family-recipes-from-big-martha">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d21\/md105418_0410_ht_0127\/md105418_0410_ht_0127_vert.jpg?itok=8HofBd-6'}]" data-bp-alt="" data-bp-title="Family Recipes from Big Martha" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d21/md105418_0410_ht_0127/md105418_0410_ht_0127_vert.jpg?itok=8HofBd-6" alt="md105418_0410_ht_0127.jpg" title="Family Recipes from Big Martha" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Family Recipes from Big Martha            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/342034/mothers-day-desserts">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d23\/swirl_desserts_how-to_1\/swirl_desserts_how-to_1_vert.jpg?itok=X9zqVEBZ'}]" data-bp-alt="" data-bp-title="Mother&#039;s Day Desserts" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d23/swirl_desserts_how-to_1/swirl_desserts_how-to_1_vert.jpg?itok=X9zqVEBZ" alt="swirl_desserts_how-to_1.jpg" title="Mother&#039;s Day Desserts" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Mother's Day Desserts            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/342077/mothers-day-brunch-recipes">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d44\/edf-loves-buttermilk-pancakes-001d-med108875\/edf-loves-buttermilk-pancakes-001d-med108875_vert.jpg?itok=J587lZu9'}]" data-bp-alt="" data-bp-title="Mother&#039;s Day Brunch Recipes" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d44/edf-loves-buttermilk-pancakes-001d-med108875/edf-loves-buttermilk-pancakes-001d-med108875_vert.jpg?itok=J587lZu9" alt="edf-loves-buttermilk-pancakes-001d-med108875.jpg" title="Mother&#039;s Day Brunch Recipes" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Mother's Day Brunch Recipes            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/977111/take-mom-out-eat-our-list-ultimate-places">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d45\/blue-hill-stone-barns-mothers-day-restaurants\/blue-hill-stone-barns-mothers-day-restaurants_vert.jpg?itok=nERZAevL'}]" data-bp-alt="" data-bp-title="Make Reservations: Our List of the Ultimate Places to Eat" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d45/blue-hill-stone-barns-mothers-day-restaurants/blue-hill-stone-barns-mothers-day-restaurants_vert.jpg?itok=nERZAevL" alt="blue-hill-stone-barns-mothers-day-restaurants.jpg" title="Make Reservations: Our List of the Ultimate Places to Eat" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Make Reservations: Our List of the Ultimate Places to Eat            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/342076/gifts-and-ideas-to-pamper-mom">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d23\/feet-soak-0511mld107144\/feet-soak-0511mld107144_hd.jpg?itok=YoodWraF'}]" data-bp-alt="" data-bp-title="Plan the Ultimate Mother&#039;s Day Spa Weekend" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d23/feet-soak-0511mld107144/feet-soak-0511mld107144_hd.jpg?itok=YoodWraF" alt="feet-soak-0511mld107144.jpg" title="Plan the Ultimate Mother&#039;s Day Spa Weekend" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Plan the Ultimate Mother's Day Spa Weekend            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/274331/mothers-day-eco-gift-guide">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d19\/bd103521_0108_roses\/bd103521_0108_roses_xl.jpg?itok=FhIzF2HI'}]" data-bp-alt="" data-bp-title="Mother&#039;s Day Eco-Gift Guide" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d19/bd103521_0108_roses/bd103521_0108_roses_xl.jpg?itok=FhIzF2HI" alt="bd103521_0108_roses.jpg" title="Mother&#039;s Day Eco-Gift Guide" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Mother's Day Eco-Gift Guide            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/978202/give-mom-plant-instead">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d20\/mld106783_0211_tree2\/mld106783_0211_tree2_vert.jpg?itok=kLJmbbVK'}]" data-bp-alt="" data-bp-title="Gifts of Nature" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d20/mld106783_0211_tree2/mld106783_0211_tree2_vert.jpg?itok=kLJmbbVK" alt="mld106783_0211_tree2.jpg" title="Gifts of Nature" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Gifts of Nature            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/1113775/mothers-day-gift-chores">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d22\/mothersdayquotes5-0315\/mothersdayquotes5-0315_vert.jpg?itok=rdTzR-3q'}]" data-bp-alt="" data-bp-title="Last-Minute Mother&#039;s Day Gift Ideas: 12 Chores You Can Do to Give Mom a Break" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d22/mothersdayquotes5-0315/mothersdayquotes5-0315_vert.jpg?itok=rdTzR-3q" alt="mothersdayquotes5-0315.jpg" title="Last-Minute Mother&#039;s Day Gift Ideas: 12 Chores You Can Do to Give Mom a Break" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Last-Minute Mother's Day Gift Ideas: 12 Chores You Can Do to Give Mom a Break            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/1064370/our-mothers-day-gift-guide-made-usa">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d35\/monday-morning-navy-white-tote-0414\/monday-morning-navy-white-tote-0414_vert.jpg?itok=3sqvoalg'}]" data-bp-alt="" data-bp-title="Our Mother&#039;s Day Gift Guide: Made in the USA" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d35/monday-morning-navy-white-tote-0414/monday-morning-navy-white-tote-0414_vert.jpg?itok=3sqvoalg" alt="monday-morning-navy-white-tote-0414.jpg" title="Our Mother&#039;s Day Gift Guide: Made in the USA" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Our Mother's Day Gift Guide: Made in the USA            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/1110118/create-your-own-mothers-day-goodie-bag">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d35\/little-spoons-design-exclusive-0415\/little-spoons-design-exclusive-0415_vert.jpg?itok=oXn3lciw'}]" data-bp-alt="" data-bp-title="Unique Gifts for a One-of-a-Kind Mother&#039;s Day Gift Basket" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d35/little-spoons-design-exclusive-0415/little-spoons-design-exclusive-0415_vert.jpg?itok=oXn3lciw" alt="little-spoons-design-exclusive-0415.jpg" title="Unique Gifts for a One-of-a-Kind Mother&#039;s Day Gift Basket" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Unique Gifts for a One-of-a-Kind Mother's Day Gift Basket            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/1111035/celebrating-mom-lessons-livingcreatively">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d27\/erin-furey-mothers-day-0415\/erin-furey-mothers-day-0415_vert.jpg?itok=5b9LF-XV'}]" data-bp-alt="" data-bp-title="Celebrating Mom: Lessons on Living Creatively" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d27/erin-furey-mothers-day-0415/erin-furey-mothers-day-0415_vert.jpg?itok=5b9LF-XV" alt="erin-furey-mothers-day-0415.jpg" title="Celebrating Mom: Lessons on Living Creatively" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Celebrating Mom: Lessons on Living Creatively            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/1110506/lessons-livingdeliciously">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d24\/lucinda-mothers-day-0415\/lucinda-mothers-day-0415_vert.jpg?itok=MPpbfJl3'}]" data-bp-alt="" data-bp-title="Celebrating Mom: Lessons on Living Deliciously" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d24/lucinda-mothers-day-0415/lucinda-mothers-day-0415_vert.jpg?itok=MPpbfJl3" alt="lucinda-mothers-day-0415.jpg" title="Celebrating Mom: Lessons on Living Deliciously" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Celebrating Mom: Lessons on Living Deliciously            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/1112742/celebrating-mom-lessons-living-stylishly">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d22\/kate-berry-mothers-day\/kate-berry-mothers-day_vert.jpg?itok=59uqA-4D'}]" data-bp-alt="" data-bp-title="Celebrating Mom: Lessons on Living Stylishly" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d22/kate-berry-mothers-day/kate-berry-mothers-day_vert.jpg?itok=59uqA-4D" alt="kate-berry-mothers-day.jpg" title="Celebrating Mom: Lessons on Living Stylishly" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Celebrating Mom: Lessons on Living Stylishly            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/1110299/celebrating-mom-lessons-living-the-family-way">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d29\/darcy-family-mothers-day-0415\/darcy-family-mothers-day-0415_vert.jpg?itok=qyEH9h0B'}]" data-bp-alt="" data-bp-title="Celebrating Mom: Lessons on Living the Family Way" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d29/darcy-family-mothers-day-0415/darcy-family-mothers-day-0415_vert.jpg?itok=qyEH9h0B" alt="darcy-family-mothers-day-0415.jpg" title="Celebrating Mom: Lessons on Living the Family Way" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Celebrating Mom: Lessons on Living the Family Way            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/1112132/celebrating-mom-lessons-living-beautifully">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d7\/tvs6534\/tvs6534_vert.jpg?itok=7DPq2V53'}]" data-bp-alt="" data-bp-title="Celebrating Mom: Lessons on Living with Flavor and Style" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d7/tvs6534/tvs6534_vert.jpg?itok=7DPq2V53" alt="tvs6534.jpg" title="Celebrating Mom: Lessons on Living with Flavor and Style" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Celebrating Mom: Lessons on Living with Flavor and Style            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/1067355/chef-emeril-lagasse%E2%80%99s-mother%E2%80%99s-day-brunch-recipes">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d32\/emeril-mothers-day-beignets-0514\/emeril-mothers-day-beignets-0514_vert.jpg?itok=mpeXbP68'}]" data-bp-alt="" data-bp-title="Chef Emeril Lagasse’s Mother’s Day Brunch Recipes" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d32/emeril-mothers-day-beignets-0514/emeril-mothers-day-beignets-0514_vert.jpg?itok=mpeXbP68" alt="emeril-mothers-day-beignets-0514.jpg" title="Chef Emeril Lagasse’s Mother’s Day Brunch Recipes" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Chef Emeril Lagasse’s Mother’s Day Brunch Recipes            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/1111924/mothers-day-gift-ideas-our-contributors">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d25\/herbivore-bath-salts-0415\/herbivore-bath-salts-0415_vert.jpg?itok=ILxC2LPI'}]" data-bp-alt="" data-bp-title="One-of-a-Kind Mother&#039;s Day Picks from Our Contributor Network" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d25/herbivore-bath-salts-0415/herbivore-bath-salts-0415_vert.jpg?itok=ILxC2LPI" alt="herbivore-bath-salts-0415.jpg" title="One-of-a-Kind Mother&#039;s Day Picks from Our Contributor Network" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              One-of-a-Kind Mother's Day Picks from Our Contributor Network            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/977515/your-last-minute-mothers-day-gift-guide">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d19\/baby_spring03_clock\/baby_spring03_clock_hd.jpg?itok=wymsp_7l'}]" data-bp-alt="" data-bp-title="13 Last-Minute (But Still Amazing) Mother’s Day Ideas" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d19/baby_spring03_clock/baby_spring03_clock_hd.jpg?itok=wymsp_7l" alt="baby_spring03_clock.jpg" title="13 Last-Minute (But Still Amazing) Mother’s Day Ideas" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              13 Last-Minute (But Still Amazing) Mother’s Day Ideas            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/1066852/mothers-day-celebrate-your-trendsetter-mom">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d24\/mld103013_0608_del_larks\/mld103013_0608_del_larks_vert.jpg?itok=JDvA7JlP'}]" data-bp-alt="" data-bp-title="Mother&#039;s Day Ideas for the Stylish Mom" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d24/mld103013_0608_del_larks/mld103013_0608_del_larks_vert.jpg?itok=JDvA7JlP" alt="mld103013_0608_del_larks.jpg" title="Mother&#039;s Day Ideas for the Stylish Mom" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Mother's Day Ideas for the Stylish Mom            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/1066849/mothers-day-celebrate-your-mom-vivant">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d32\/cranberry-sparkler-0511med106942\/cranberry-sparkler-0511med106942_vert.jpg?itok=wOmuE4jq'}]" data-bp-alt="" data-bp-title="Mother&#039;s Day Ideas for the Mom Who Loves to Entertain" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d32/cranberry-sparkler-0511med106942/cranberry-sparkler-0511med106942_vert.jpg?itok=wOmuE4jq" alt="cranberry-sparkler-0511med106942.jpg" title="Mother&#039;s Day Ideas for the Mom Who Loves to Entertain" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Mother's Day Ideas for the Mom Who Loves to Entertain            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/1066862/mothers-day-celebrate-your-nest-obsessed-mom">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d23\/mld105556_0410_frames14\/mld105556_0410_frames14_vert.jpg?itok=k4LTjruK'}]" data-bp-alt="" data-bp-title="Mother&#039;s Day Ideas for the Domestic Mom " data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d23/mld105556_0410_frames14/mld105556_0410_frames14_vert.jpg?itok=k4LTjruK" alt="mld105556_0410_frames14.jpg" title="Mother&#039;s Day Ideas for the Domestic Mom " /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Mother's Day Ideas for the Domestic Mom             </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/1066903/mothers-day-celebrate-your-craft-maven-mom">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d19\/msw_spring06_pompom\/msw_spring06_pompom_vert.jpg?itok=hcYyZwBA'}]" data-bp-alt="" data-bp-title="Mother&#039;s Day Ideas for the DIY Mom" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d19/msw_spring06_pompom/msw_spring06_pompom_vert.jpg?itok=hcYyZwBA" alt="msw_spring06_pompom.jpg" title="Mother&#039;s Day Ideas for the DIY Mom" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Mother's Day Ideas for the DIY Mom            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/1066906/mothers-day-celebrate-your-mom-all-trades">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d23\/mld105281_0110_calendar\/mld105281_0110_calendar_vert.jpg?itok=BQnP9HUn'}]" data-bp-alt="" data-bp-title="Mother&#039;s Day Ideas for the Busy Mom" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d23/mld105281_0110_calendar/mld105281_0110_calendar_vert.jpg?itok=BQnP9HUn" alt="mld105281_0110_calendar.jpg" title="Mother&#039;s Day Ideas for the Busy Mom" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Mother's Day Ideas for the Busy Mom            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/975909/mothers-day-gardening-gifts">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d24\/nybg-half-moon-terrarium\/nybg-half-moon-terrarium_vert.jpg?itok=_NVzpzkD'}]" data-bp-alt="" data-bp-title="Garden-Inspired Mother&#039;s Day Gifts" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d24/nybg-half-moon-terrarium/nybg-half-moon-terrarium_vert.jpg?itok=_NVzpzkD" alt="nybg-half-moon-terrarium.jpg" title="Garden-Inspired Mother&#039;s Day Gifts" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Garden-Inspired Mother's Day Gifts            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/975785/mothers-day-beauty-gifts">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d43\/library-of-flowers-mothers-day-0177-d110204\/library-of-flowers-mothers-day-0177-d110204_vert.jpg?itok=MJABfAxK'}]" data-bp-alt="" data-bp-title="Isn&#039;t She Lovely: Mother&#039;s Day Beauty Gifts" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d43/library-of-flowers-mothers-day-0177-d110204/library-of-flowers-mothers-day-0177-d110204_vert.jpg?itok=MJABfAxK" alt="library-of-flowers-mothers-day-0177-d110204.jpg" title="Isn&#039;t She Lovely: Mother&#039;s Day Beauty Gifts" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Isn't She Lovely: Mother's Day Beauty Gifts            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/975687/gifted-mom-we-love-you-love-make-things">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d31\/coral-and-tusk-silver-crown-pin\/coral-and-tusk-silver-crown-pin_vert.jpg?itok=DhlPdkSx'}]" data-bp-alt="" data-bp-title="Gifted! Indulge Your Craft-Minded Mom" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d31/coral-and-tusk-silver-crown-pin/coral-and-tusk-silver-crown-pin_vert.jpg?itok=DhlPdkSx" alt="coral-and-tusk-silver-crown-pin.jpg" title="Gifted! Indulge Your Craft-Minded Mom" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Gifted! Indulge Your Craft-Minded Mom            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/975503/mom-who-loves-cook">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d30\/crock-mothers-day-0445-d110204\/crock-mothers-day-0445-d110204_vert.jpg?itok=zE1_Mrxc'}]" data-bp-alt="" data-bp-title="For the Mom Who Loves to Cook: Gift Ideas from Our Food Editors" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d30/crock-mothers-day-0445-d110204/crock-mothers-day-0445-d110204_vert.jpg?itok=zE1_Mrxc" alt="crock-mothers-day-0445-d110204.jpg" title="For the Mom Who Loves to Cook: Gift Ideas from Our Food Editors" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              For the Mom Who Loves to Cook: Gift Ideas from Our Food Editors            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/974851/our-food-editors-favorite-recipes-mom">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d17\/clams-2-mld107734\/clams-2-mld107734_vert.jpg?itok=8rWtlpc2'}]" data-bp-alt="" data-bp-title="Our Food Editors&#039; Favorite Recipes from Mom" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d17/clams-2-mld107734/clams-2-mld107734_vert.jpg?itok=8rWtlpc2" alt="clams-2-mld107734.jpg" title="Our Food Editors&#039; Favorite Recipes from Mom" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Our Food Editors' Favorite Recipes from Mom            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/974982/memorable-mother%E2%80%99s-day-lunch">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d40\/green-salad-with-edible-flowers-ma130124\/green-salad-with-edible-flowers-ma130124_vert.jpg?itok=crE_b1nZ'}]" data-bp-alt="" data-bp-title="A Memorable Mother’s Day Lunch" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d40/green-salad-with-edible-flowers-ma130124/green-salad-with-edible-flowers-ma130124_vert.jpg?itok=crE_b1nZ" alt="green-salad-with-edible-flowers-ma130124.jpg" title="A Memorable Mother’s Day Lunch" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              A Memorable Mother’s Day Lunch            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/898599/moms-gift-guide">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d20\/scarf-8098-d112912_l\/scarf-8098-d112912_l_vert.jpg?itok=gvukaijq'}]" data-bp-alt="" data-bp-title="Our Editors&#039; Picks for Best Mother&#039;s Day Presents" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d20/scarf-8098-d112912_l/scarf-8098-d112912_l_vert.jpg?itok=gvukaijq" alt="scarf-8098-d112912_l.jpg" title="Our Editors&#039; Picks for Best Mother&#039;s Day Presents" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Our Editors' Picks for Best Mother's Day Presents            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/274855/mothers-day-flowers">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d25\/mla10310p_0408_archflower\/mla10310p_0408_archflower_vert.jpg?itok=WGbSadjg'}]" data-bp-alt="" data-bp-title="Beyond the Bouquet: Creative Mother&#039;s Day Flower Ideas" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d25/mla10310p_0408_archflower/mla10310p_0408_archflower_vert.jpg?itok=WGbSadjg" alt="mla10310p_0408_archflower.jpg" title="Beyond the Bouquet: Creative Mother&#039;s Day Flower Ideas" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Beyond the Bouquet: Creative Mother's Day Flower Ideas            </h6>
+          </span>
+        </a>
+      </li><!--                --><li class="related-gallery-item ">
+        <a class="related-gallery-item-link-wrap" href="http://www.marthastewart.com/274197/mothers-day-recipes-and-menus">
+                      <div class="related-gallery-image-wrap">
+              <span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d29\/med105199_0310_radichio_salad\/med105199_0310_radichio_salad_vert.jpg?itok=qmBqSVzS'}]" data-bp-alt="" data-bp-title="Mother&#039;s Day Recipes and Menus" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-300/public/d29/med105199_0310_radichio_salad/med105199_0310_radichio_salad_vert.jpg?itok=qmBqSVzS" alt="med105199_0310_radichio_salad.jpg" title="Mother&#039;s Day Recipes and Menus" /></noscript></span>            </div>
+          
+          <span class="related-gallery-item-title-container">
+            <h6 class="related-gallery-item-title">
+              Mother's Day Recipes and Menus            </h6>
+          </span>
+        </a>
+      </li>      </ul>
+  <span id="js-recirc-next" class="recirc-next"></span>
+</div>
+      </div>
+      <div id="gallery-pushdown-btn" class="gallery-pushdown-btn">
+        <span class="pushdown-text">
+                      Popular in Mother's Day Ideas                  </span>
+      </div>
+    </div>
+    <section class="meta-gallery-info">
+    <!-- Desktop social share section. -->
+          <div class="social-section">
+        <div class="mslo-share-bar-wrap">
+          <div class="mslo-share-bar ">
+      <div class="mslo-share-default">
+                              
+  <span class="mslo-share-btn mslo-share-count">
+    <div class="mslo-share-count-inner">
+      <span class="mslo-shorthand-number mslo-share-count-number">
+        21.1                  <span class="mslo-shorthand-suffix">
+            k          </span>
+              </span>
+      <span class="mslo-share-count-name">
+        Shares
+      </span>
+    </div>
+  </span>
+                                  <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F973920%2F10-most-pinned-mothers-day-brunch-ideas&amp;media=&amp;description=10+Most-Pinned+Mother%27s+Day+Brunch+Ideas&amp;tel=contentgallery" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+                                  <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+                                                                                                                <span class="mslo-share-btn mslo-btn-expand" data-open="MORE" data-close="LESS" data-status="open">
+          MORE<span class="arrow glyph gl-down-dbl-arw"></span>
+        </span>
+          </div>
+          <div class="mslo-share-extra">
+        <span class="indicator-arrow"></span>
+                                                                                            
+<span class="mslo-share-btn mslo-btn-comment">
+  <span>
+    <span class="social-icon glyph gl-comment-btn" title="Add a Comment"></span>
+    <span class="social-icon-label">Comment</span>
+  </span>
+</span>
+                                        <span class="mslo-share-btn mslo-btn-twitter">
+  <a href="#" onclick="window.open('https://twitter.com/share?text=10+Most-Pinned+Mother%27s+Day+Brunch+Ideas&url=http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas?tel=contentgallery_twitter','twitterShare','width=626,height=436'); return false;" title="Twitter Share">
+    <span class="social-icon glyph gl-twitter-btn"></span>
+    <span class="social-icon-label">Twitter</span>
+  </a>
+</span>
+                                        <span class="mslo-share-btn mslo-btn-google-plus">
+  <a href="#" onclick="window.open('https://plus.google.com/share?url=http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas&tel=contentgallery_google','googleShare','width=626,height=436'); return false;" title="Google Share">
+    <span class="social-icon glyph gl-google-btn"></span>
+    <span class="social-icon-label">Google+</span>
+  </a>
+</span>
+                                        <span class="mslo-share-btn mslo-btn-email clear-fix" title="Email">
+  <div class="ugc-content-wrap clearfix">
+    <a href="https://my.marthastewart.com/email?node_title=10%20Most-Pinned%20Mother%27s%20Day%20Brunch%20Ideas&mags_origin=973920/10-most-pinned-mothers-day-brunch-ideas&mags_base=http%3A//www.marthastewart.com/&destination=http%3A//www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas&token=d552b91f0aafc079d9ee03ca26c2d36d" class="email-frame">
+      <span class="glyph gl-mail-btn"></span>
+    </a>
+  </div>
+</span>
+                                        <span class="mslo-share-btn mslo-btn-print" onclick="window.print();">
+  <span class="glyph gl-print"></span>
+</span>
+                                        <div  class="mslo-share-btn mslo-btn-save clear-fix favorite-it js-mslo-authenticate" data-user-action="favorite" title="Add To Favorites" data-title="10 Most-Pinned Mother&#039;s Day Brunch Ideas" data-uuid="08d6a284-a773-11e2-9c74-a4badb44c2a2" data-interaction-count="true">
+  <div class="ugc-content-wrap clearfix">
+    <span class="login-frame fave-glyph"></span>
+  </div>
+</div>
+                        </div>
+      </div>
+        </div>
+        <div class="ad-logo-companion">
+          <div id="karma-lazy-sponsorLogo">
+            <!-- Content provided by Meredith ad service. -->
+          </div>
+        </div>
+      </div>
+    
+    <!-- Title section. -->
+    <div class="gallery-title-wrap">
+      <h1 class="gallery-title" itemprop="name">
+        10 Most-Pinned Mother&#039;s Day Brunch Ideas      </h1>
+    </div>
+  </section>
+</div>
+
+<div class="gallery-page">
+  <section class="gallery-page-container">
+    <!-- Contributor section. -->
+    
+    <!-- Main gallery carousel. -->
+    <div class="gallery-container" itemscope itemtype="http://schema.org/CollectionPage">
+      <div class="gallery-container-inner">
+                  <div class="gallery-intro-card-overlay">
+  <div class="gallery-intro-card-container">
+    <div class="gallery-intro-card-inner">
+      <div class="gallery-intro-card-content">
+        <div class="start-slideshow-button-container">
+          <span id="js-start-slideshow" class="start-slideshow-button">
+            Start the Gallery          </span>
+        </div>
+        <h4 class="intro-card-title">
+          10 Most-Pinned Mother's Day Brunch Ideas        </h4>
+        <div class="intro-dek">
+                  </div>
+      </div>
+      <span id="js-gallery-intro-card-next" class="gallery-intro-card-next"></span>
+    </div>
+  </div>
+</div>
+                <span class="ajax-loader"></span>
+        <div class="gallery" data-carousel-name="contentgallery_carousel">
+          <ul class="gallery-slides slides">
+                                                            <li
+  id="gallery-slide-328581"
+  data-nid="328581"
+  class="gallery-slide gallery-item"
+  data-gallery-index="0"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/335091/ham-and-egg-crepe-squares" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d28\/med106461_0111_how_ham_crepe\/med106461_0111_how_ham_crepe_vert.jpg?itok=fJJIEXOV'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d28\/med106461_0111_how_ham_crepe\/med106461_0111_how_ham_crepe_vert.jpg?itok=6axh2O0E'}]" data-bp-alt="" data-bp-title="Ham and Egg Crepe Squares" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d28/med106461_0111_how_ham_crepe/med106461_0111_how_ham_crepe_vert.jpg?itok=6axh2O0E" alt="med106461_0111_how_ham_crepe.jpg" title="Ham and Egg Crepe Squares" /></noscript></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F973920%2F10-most-pinned-mothers-day-brunch-ideas%23328581&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd28%2Fmed106461_0111_how_ham_crepe%2Fmed106461_0111_how_ham_crepe_vert.jpg%3Fitok%3DP0y2L_2-&amp;description=We%E2%80%99re+willing+to+bet+your+mom+has+made+you+hundreds+of+breakfasts.+This+Mother%E2%80%99s+Day%2C+return+the+favor+and+spoil+her+with+a+beautiful+brunch%2C+complete+with+sweet+and+savory+recipes+and+delightful+decor.+To+get+you+started%2C+we%E2%80%99ve+rounded+up+the+top+10+most-pinned+Mother%E2%80%99s+Day+brunch+ideas+from+our+Pinterest+boards.%26nbsp%3BAdd+a+touch+of+elegance+to+your+brunch+spread+with+these+smartly+folded+breakfast+crepes+that+are+filled+with+Black+Forest+ham+and+baked+eggs.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          1 of 11        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/335091/ham-and-egg-crepe-squares">Ham and Egg Crepe Squares</a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            <p>We’re willing to bet your mom has made you hundreds of breakfasts. This Mother’s Day, return the favor and spoil her with a beautiful brunch, complete with sweet and savory recipes and delightful decor. To get you started, we’ve rounded up the top 10 most-pinned Mother’s Day brunch ideas from our <a href="https://pinterest.com/ms_living/"><span style="mso-ascii-font-family: Cambria; mso-hansi-font-family: Cambria; mso-bidi-font-family: Calibri;">Pinterest boards</span></a><span class="MsoHyperlink"><span style="mso-ascii-font-family: Cambria; mso-hansi-font-family: Cambria; mso-bidi-font-family: Calibri;">.</span></span></p><p>&nbsp;</p><p>Add a touch of elegance to your brunch spread with these smartly folded breakfast crepes that are filled with Black Forest ham and baked eggs.</p>          </div>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+          <a href="/335091/ham-and-egg-crepe-squares" class="readmore-anchor">Get the Ham and Egg Crepe Squares Recipe</a>        </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-642698"
+  data-nid="642698"
+  class="gallery-slide gallery-item"
+  data-gallery-index="1"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/266268/spring-nests-how-to" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d26\/mla103219_0408_birch_tulip\/mla103219_0408_birch_tulip_vert.jpg?itok=5N2RD0CE'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d26\/mla103219_0408_birch_tulip\/mla103219_0408_birch_tulip_vert.jpg?itok=cZu5Yjp0'}]" data-bp-alt="" data-bp-title="Spring Nests" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d26/mla103219_0408_birch_tulip/mla103219_0408_birch_tulip_vert.jpg?itok=cZu5Yjp0" alt="mla103219_0408_birch_tulip.jpg" title="Spring Nests" /></noscript></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F973920%2F10-most-pinned-mothers-day-brunch-ideas%23642698&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd26%2Fmla103219_0408_birch_tulip%2Fmla103219_0408_birch_tulip_vert.jpg%3Fitok%3DejckHYK3&amp;description=Capture+the+spirit+of+the+season+in+your+brunch+decor+with+a+birch-wrapped+basket+filled+with+a+blooming+bouquet+of+spring+bulbs.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          2 of 11        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/266268/spring-nests-how-to">Spring Nests</a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            <p>Capture the spirit of the season in your brunch decor with a birch-wrapped basket filled with a blooming bouquet of spring bulbs.</p>          </div>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+          <a href="/266268/spring-nests-how-to" class="readmore-anchor">How to Make the Spring Nests</a>        </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-208963"
+  data-nid="208963"
+  class="gallery-slide gallery-item"
+  data-gallery-index="2"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/336904/spinach-and-gruyere-quiches" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d21\/med103553_0308_quiche\/med103553_0308_quiche_vert.jpg?itok=eFi0SFnQ'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d21\/med103553_0308_quiche\/med103553_0308_quiche_vert.jpg?itok=DxZtOO5J'}]" data-bp-alt="" data-bp-title="Spinach and Gruyere Quiche " data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d21/med103553_0308_quiche/med103553_0308_quiche_vert.jpg?itok=DxZtOO5J" alt="med103553_0308_quiche.jpg" title="Spinach and Gruyere Quiche " /></noscript></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F973920%2F10-most-pinned-mothers-day-brunch-ideas%23208963&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd21%2Fmed103553_0308_quiche%2Fmed103553_0308_quiche_vert.jpg%3Fitok%3D3FtISyNe&amp;description=Brunch+isn%E2%80%99t+complete+until+a+quiche+steals+the+show.+This+variety+combines+spinach+and+Gruyere+cheese+with+creamy+egg+custard+and+a+buttery+homemade+crust.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          3 of 11        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/336904/spinach-and-gruyere-quiches">Spinach and Gruyere Quiche </a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            <p>Brunch isn’t complete until a quiche steals the show. This variety combines spinach and Gruyere cheese with creamy egg custard and a buttery homemade crust.</p>          </div>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+          <a href="/336904/spinach-and-gruyere-quiches" class="readmore-anchor">Get the Spinach and Gruyere Quiche Recipe</a>        </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-892681"
+  data-nid="892681"
+  class="gallery-slide gallery-item"
+  data-gallery-index="3"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/892682/lillet-rose-spring-cocktail" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d31\/lillet-rose-cocktails-mld108276\/lillet-rose-cocktails-mld108276_vert.jpg?itok=r8BGJSr0'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d31\/lillet-rose-cocktails-mld108276\/lillet-rose-cocktails-mld108276_vert.jpg?itok=uXHfRLF0'}]" data-bp-alt="" data-bp-title="Lillet Rose Spring Cocktail " data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d31/lillet-rose-cocktails-mld108276/lillet-rose-cocktails-mld108276_vert.jpg?itok=uXHfRLF0" alt="lillet-rose-cocktails-mld108276.jpg" title="Lillet Rose Spring Cocktail " /></noscript></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F973920%2F10-most-pinned-mothers-day-brunch-ideas%23892681&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd31%2Flillet-rose-cocktails-mld108276%2Flillet-rose-cocktails-mld108276_vert.jpg%3Fitok%3D6PBySIfx&amp;description=Edible+flowers+float+atop+this+pretty+pink+drink+made+of+Lillet+Rose%2C+grapefruit+juice%2C+and+gin.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          4 of 11        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/892682/lillet-rose-spring-cocktail">Lillet Rose Spring Cocktail </a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            <p>Edible flowers float atop this pretty pink drink made of Lillet Rose, grapefruit juice, and gin.</p>          </div>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+          <a href="/892682/lillet-rose-spring-cocktail" class="readmore-anchor">Get the Lillet Rose Spring Cocktail Recipe</a>        </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-1010389"
+  data-nid="1010389"
+  class="gallery-slide gallery-item has-cite"
+  data-gallery-index="4"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/1089863/charred-tomatoes-and-fried-egg-garlic-toast" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d50\/fried-eggs-charred-tomatoes-toast-2-0008-mld110238\/fried-eggs-charred-tomatoes-toast-2-0008-mld110238_vert.jpg?itok=DgQOkucb'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d50\/fried-eggs-charred-tomatoes-toast-2-0008-mld110238\/fried-eggs-charred-tomatoes-toast-2-0008-mld110238_vert.jpg?itok=oYiYlCtj'}]" data-bp-alt="" data-bp-title="Charred Tomatoes with Fried Eggs on Garlic Toast" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d50/fried-eggs-charred-tomatoes-toast-2-0008-mld110238/fried-eggs-charred-tomatoes-toast-2-0008-mld110238_vert.jpg?itok=oYiYlCtj" alt="fried-eggs-charred-tomatoes-toast-2-0008-mld110238.jpg" title="Charred Tomatoes with Fried Eggs on Garlic Toast" /></noscript></span><span class="play-button"></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F973920%2F10-most-pinned-mothers-day-brunch-ideas%231010389&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd50%2Ffried-eggs-charred-tomatoes-toast-2-0008-mld110238%2Ffried-eggs-charred-tomatoes-toast-2-0008-mld110238_vert.jpg%3Fitok%3DS9LWVKlY&amp;description=Make+mom+a+healthy%2C+hearty+breakfast+--+to+serve+in+bed+or+at+a+beautifully+laid+breakfast+table.+With+garlic+and+tomatoes%2C+this+delicious+recipe+is+an+upgrade+to+the+classic+eggs+and+toast+combo+that+we%27re+sure+she+will+adore.%26nbsp%3BGet+the+Charred+Tomatoes+with+Fried+Eggs+on+Garlic+Toast+Recipe&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          5 of 11        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/1089863/charred-tomatoes-and-fried-egg-garlic-toast">Charred Tomatoes with Fried Eggs on Garlic Toast</a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            <p>Make mom a healthy, hearty breakfast -- to serve in bed or at a beautifully laid breakfast table. With garlic and tomatoes, this delicious recipe is an upgrade to the classic eggs and toast combo that we're sure she will adore.</p><p>&nbsp;</p><div class="gallery-slide-cta link-underlined"><a href="/1014042/charred-tomatoes-fried-eggs-garlic-toast">Get the Charred Tomatoes with Fried Eggs on Garlic Toast Recipe</a></div>          </div>
+                      <cite>
+              Photography: Ryan Liebe            </cite>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+                  </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-207435"
+  data-nid="207435"
+  class="gallery-slide gallery-item"
+  data-gallery-index="5"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/316603/apricot-basil-chicken-salad" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d28\/med105744_0610_chicken_salad\/med105744_0610_chicken_salad_vert.jpg?itok=LTMEyLU1'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d28\/med105744_0610_chicken_salad\/med105744_0610_chicken_salad_vert.jpg?itok=jjHU6MAi'}]" data-bp-alt="" data-bp-title="Apricot-Basil Chicken Salad " data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d28/med105744_0610_chicken_salad/med105744_0610_chicken_salad_vert.jpg?itok=jjHU6MAi" alt="med105744_0610_chicken_salad.jpg" title="Apricot-Basil Chicken Salad " /></noscript></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F973920%2F10-most-pinned-mothers-day-brunch-ideas%23207435&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd28%2Fmed105744_0610_chicken_salad%2Fmed105744_0610_chicken_salad_vert.jpg%3Fitok%3DzwHzX6II&amp;description=Slivered+almonds%2C+white+onion%2C+and+celery+provide+a+satisfying+crunch+in+this+flavorful+chicken+salad+recipe+that+tastes+great+on+toasted+bread+or+crackers.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          6 of 11        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/316603/apricot-basil-chicken-salad">Apricot-Basil Chicken Salad </a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            <p>Slivered almonds, white onion, and celery provide a satisfying crunch in this flavorful chicken salad recipe that tastes great on toasted bread or crackers.</p>          </div>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+          <a href="/316603/apricot-basil-chicken-salad" class="readmore-anchor">Get the Apricot-Basil Chicken Salad Recipe</a>        </span>
+          </div>
+  </div>
+</li>
+                                                                
+<li class="gallery-ad gallery-item" data-gallery-index="6">
+  <div class="gallery-slide-content">
+    <span class="ad-title">
+      Swipe here for next slide
+    </span>
+    <div class="mslo-ad mslo-ad-300x250 is-mobile has-style is-lazy not-filled" data-refresh-rate="0">
+  
+  <div class="mslo-ad-holder">
+                      <div data-id="div-gpt-lazy-mob-square-fixed-tier1">
+                    </div>
+
+      <div id="div-kargo-square-fixed" data-tier="1">
+              </div>
+    
+          </div>
+</div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-342627"
+  data-nid="342627"
+  class="gallery-slide gallery-item has-cite"
+  data-gallery-index="7"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/352652/raspberry-mousse-pie" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d38\/raspberry-mousse-pie-des-0511med106942\/raspberry-mousse-pie-des-0511med106942_vert.jpg?itok=sYgIvgRw'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d38\/raspberry-mousse-pie-des-0511med106942\/raspberry-mousse-pie-des-0511med106942_vert.jpg?itok=5KANoJ43'}]" data-bp-alt="" data-bp-title="Raspberry Mousse Pie" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d38/raspberry-mousse-pie-des-0511med106942/raspberry-mousse-pie-des-0511med106942_vert.jpg?itok=5KANoJ43" alt="raspberry-mousse-pie-des-0511med106942.jpg" title="Raspberry Mousse Pie" /></noscript></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F973920%2F10-most-pinned-mothers-day-brunch-ideas%23342627&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd38%2Fraspberry-mousse-pie-des-0511med106942%2Fraspberry-mousse-pie-des-0511med106942_vert.jpg%3Fitok%3DXOgUnYc9&amp;description=Creamy%2C+airy%2C+and+pretty+in+pink%2C+this+Raspberry+Mousse+Pie+is+perfect+for+a+Mother%E2%80%99s+Day+brunch.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          7 of 11        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/352652/raspberry-mousse-pie">Raspberry Mousse Pie</a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            <p>Creamy, airy, and pretty in pink, this Raspberry Mousse Pie is perfect for a Mother’s Day brunch.</p>          </div>
+                      <cite>
+              Photography: Con Poulos            </cite>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+          <a href="/352652/raspberry-mousse-pie" class="readmore-anchor">Get the Raspberry Mousse Pie Recipe</a>        </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-339502"
+  data-nid="339502"
+  class="gallery-slide gallery-item has-cite"
+  data-gallery-index="8"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/341025/tissue-paper-posies" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d26\/flower-howto-0511mld107144\/flower-howto-0511mld107144_hd.jpg?itok=w9mn3EHd'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d26\/flower-howto-0511mld107144\/flower-howto-0511mld107144_hd.jpg?itok=xOl6sGii'}]" data-bp-alt="" data-bp-title="Tissue Paper Posies " data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d26/flower-howto-0511mld107144/flower-howto-0511mld107144_hd.jpg?itok=xOl6sGii" alt="flower-howto-0511mld107144.jpg" title="Tissue Paper Posies " /></noscript></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F973920%2F10-most-pinned-mothers-day-brunch-ideas%23339502&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd26%2Fflower-howto-0511mld107144%2Fflower-howto-0511mld107144_hd.jpg%3Fitok%3DufhQFoWk&amp;description=Craft+an+ever-blooming+arrangement+with+these+easy-to-make+tissue+paper+posies.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          8 of 11        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/341025/tissue-paper-posies">Tissue Paper Posies </a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            <p>Craft an ever-blooming arrangement with these easy-to-make tissue paper posies.</p>          </div>
+                      <cite>
+              Photography: Raymond Hom            </cite>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+          <a href="/341025/tissue-paper-posies" class="readmore-anchor">How to Make Tissue Paper Posies</a>        </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-164103"
+  data-nid="164103"
+  class="gallery-slide gallery-item"
+  data-gallery-index="9"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/314990/chocolate-pecan-pancakes" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d29\/msledf_0905_chocpecanpancakes\/msledf_0905_chocpecanpancakes_vert.jpg?itok=EoojBfvP'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d29\/msledf_0905_chocpecanpancakes\/msledf_0905_chocpecanpancakes_vert.jpg?itok=7vYEjo7h'}]" data-bp-alt="" data-bp-title="Chocolate-Pecan Pancakes " data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d29/msledf_0905_chocpecanpancakes/msledf_0905_chocpecanpancakes_vert.jpg?itok=7vYEjo7h" alt="msledf_0905_chocpecanpancakes.jpg" title="Chocolate-Pecan Pancakes " /></noscript></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F973920%2F10-most-pinned-mothers-day-brunch-ideas%23164103&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd29%2Fmsledf_0905_chocpecanpancakes%2Fmsledf_0905_chocpecanpancakes_vert.jpg%3Fitok%3DsI5ttshg&amp;description=Who+says+you+can%E2%80%99t+have+chocolate+for+breakfast%3F+No+one+will+be+able+to+resist+a+stack+of+these+fluffy+chocolate+pancakes+drizzled+with+hot+fudge+sauce.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          9 of 11        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/314990/chocolate-pecan-pancakes">Chocolate-Pecan Pancakes </a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            <p>Who says you can’t have chocolate for breakfast? No one will be able to resist a stack of these fluffy chocolate pancakes drizzled with hot fudge sauce.</p>          </div>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+          <a href="/314990/chocolate-pecan-pancakes" class="readmore-anchor">Get the Chocolate-Pecan Pancakes Recipe</a>        </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-241029"
+  data-nid="241029"
+  class="gallery-slide gallery-item"
+  data-gallery-index="10"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/265163/pom-poms-and-luminarias-how-to" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d19\/msw_spring06_pompom\/msw_spring06_pompom_vert.jpg?itok=hcYyZwBA'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d19\/msw_spring06_pompom\/msw_spring06_pompom_vert.jpg?itok=pkdNQMVx'}]" data-bp-alt="" data-bp-title="Pom-Poms and Luminarias" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d19/msw_spring06_pompom/msw_spring06_pompom_vert.jpg?itok=pkdNQMVx" alt="msw_spring06_pompom.jpg" title="Pom-Poms and Luminarias" /></noscript></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F973920%2F10-most-pinned-mothers-day-brunch-ideas%23241029&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd19%2Fmsw_spring06_pompom%2Fmsw_spring06_pompom_vert.jpg%3Fitok%3DC2wHl0Xi&amp;description=Set+the+stage+for+your+mom%E2%80%99s+special+day+by+decorating+with+dahlia-like+pom-poms+and+square+glass+vessels+in+soothing+citrus+hues.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          10 of 11        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/265163/pom-poms-and-luminarias-how-to">Pom-Poms and Luminarias</a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            <p>Set the stage for your mom’s special day by decorating with dahlia-like pom-poms and square glass vessels in soothing citrus hues.</p>          </div>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+          <a href="/265163/pom-poms-and-luminarias-how-to" class="readmore-anchor">How to Make the Pom-Poms and Luminarias</a>        </span>
+          </div>
+  </div>
+</li>
+                                                                <li
+  id="gallery-slide-342626"
+  data-nid="342626"
+  class="gallery-slide gallery-item has-cite slide-last"
+  data-gallery-index="11"
+  itemprop="isPartOf">
+
+  <div class="gallery-slide-content">
+    <div class="gallery-image-innerwrap">
+              <a href="/352703/cranberry-orange-sparkler" class="slide-image-link"><span data-bp-src="[{'viewport':320,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-300\/public\/d32\/cranberry-sparkler-0511med106942\/cranberry-sparkler-0511med106942_vert.jpg?itok=wOmuE4jq'},{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-520-highdpi\/public\/d32\/cranberry-sparkler-0511med106942\/cranberry-sparkler-0511med106942_vert.jpg?itok=TkyWCqO8'}]" data-bp-alt="" data-bp-title="Cranberry-Orange Sparkler " data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d32/cranberry-sparkler-0511med106942/cranberry-sparkler-0511med106942_vert.jpg?itok=TkyWCqO8" alt="cranberry-sparkler-0511med106942.jpg" title="Cranberry-Orange Sparkler " /></noscript></span></a>                    
+<div class="mslo-share-bar-overlay">
+  <div class="mslo-share-bar-overlay-inner">
+            <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="#" onclick="window.open(&#039;//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F973920%2F10-most-pinned-mothers-day-brunch-ideas%23342626&amp;media=http%3A%2F%2Fwww.marthastewart.com%2Fsites%2Ffiles%2Fmarthastewart.com%2Fstyles%2Fwmax-570%2Fpublic%2Fd32%2Fcranberry-sparkler-0511med106942%2Fcranberry-sparkler-0511med106942_vert.jpg%3Fitok%3DCqciXC4H&amp;description=Made+of+cranberry+juice+cocktail%2C+orange+liqueur%2C+Champagne%2C+and+ginger+ale%2C+this+sparkling+cocktail+is+perfect+for+toasting+the+woman+who+adds+sparkle+to+your+life.&amp;tel=contentgallery&#039;,&#039;pinterestShare&#039;,&#039;width=630,height=460&#039;); return false;" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+      </div>
+</div>
+          </div>
+  </div>
+
+  <div class="slide-details">
+    <div class="slide-top">
+      <div class="slide-count-wrap">
+        <div class="slide-count">
+          11 of 11        </div>
+      </div>
+      <h4 class="slide-title" itemprop="name">
+        <a href="/352703/cranberry-orange-sparkler">Cranberry-Orange Sparkler </a>      </h4>
+      <span class="js-more-details slide-more-details"></span>
+    </div>
+
+    <div class="slide-dek">
+      <div class="slide-dek-inner">
+        <div class="slide-description" itemprop="description">
+          <div class="slide-description-text">
+            <p>Made of cranberry juice cocktail, orange liqueur, Champagne, and ginger ale, this sparkling cocktail is perfect for toasting the woman who adds sparkle to your life.</p>          </div>
+                      <cite>
+              Photography: Con Poulos            </cite>
+                  </div>
+      </div>
+      <div class="js-see-toggle see-toggle-wrap hide">
+        <span class="see-toggle-button"></span>
+      </div>
+              <span class="readmore-link">
+          <a href="/352703/cranberry-orange-sparkler" class="readmore-anchor">Get the Cranberry-Orange Sparkler Recipe</a>        </span>
+          </div>
+  </div>
+</li>
+                                                    </ul>
+        </div>
+                  <div class="gallery-endcard-container">
+  <div class="gallery-endcard-inner">
+    <div class="col-left">
+      <h3 class="next-header">
+        Next Gallery
+      </h3>
+              <a href="/275291/family-recipes-from-big-martha">Family Recipes from Big Martha</a>          </div>
+    <div class="col-right">
+      <a class="endcard-image-link" href="/275291/family-recipes-from-big-martha">
+                  <span data-bp-src="[{'viewport':500,'url':'http:\/\/www.marthastewart.com\/sites\/files\/marthastewart.com\/styles\/wmax-160\/public\/d21\/md105418_0410_ht_0127\/md105418_0410_ht_0127_vert.jpg?itok=sTr2p2hw'}]" data-bp-alt="" data-bp-title="Family Recipes from Big Martha" data-bp-lazy="1"  class="bp-img embed-container"><noscript><img class="bp-img embed-container" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-160/public/d21/md105418_0410_ht_0127/md105418_0410_ht_0127_vert.jpg?itok=sTr2p2hw" alt="md105418_0410_ht_0127.jpg" title="Family Recipes from Big Martha" /></noscript></span>              </a>
+    </div>
+  </div>
+</div>
+                <span id="js-gallery-right" class="slick-next glyph gl-arrow-right js-gallery-right"></span>
+        <span id="js-gallery-left" class="slick-prev glyph gl-arrow-left js-gallery-left"></span>
+      </div>
+    </div>
+
+    <div class="gallery-companion">
+      <div class="gallery-info-wrap">
+        <div id="js-slide-info" class="slide-info">
+          <div id="js-slide-info-inner" class="slide-info-inner">
+            <!-- This is populated via Javascript. -->
+          </div>
+        </div>
+
+        <div class="social-mobile">
+                      <div class="social-section">
+              <div class="mslo-share-bar-wrap">
+                <div class="mslo-share-bar ">
+      <div class="mslo-share-default">
+                              
+  <span class="mslo-share-btn mslo-share-count">
+    <div class="mslo-share-count-inner">
+      <span class="mslo-shorthand-number mslo-share-count-number">
+        21.1                  <span class="mslo-shorthand-suffix">
+            k          </span>
+              </span>
+      <span class="mslo-share-count-name">
+        Shares
+      </span>
+    </div>
+  </span>
+                                  <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F973920%2F10-most-pinned-mothers-day-brunch-ideas&amp;media=&amp;description=10+Most-Pinned+Mother%27s+Day+Brunch+Ideas&amp;tel=contentgallery" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+                                  <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+                                                                                                                <span class="mslo-share-btn mslo-btn-expand" data-open="MORE" data-close="LESS" data-status="open">
+          MORE<span class="arrow glyph gl-down-dbl-arw"></span>
+        </span>
+          </div>
+          <div class="mslo-share-extra">
+        <span class="indicator-arrow"></span>
+                                                                                            
+<span class="mslo-share-btn mslo-btn-comment">
+  <span>
+    <span class="social-icon glyph gl-comment-btn" title="Add a Comment"></span>
+    <span class="social-icon-label">Comment</span>
+  </span>
+</span>
+                                        <span class="mslo-share-btn mslo-btn-twitter">
+  <a href="#" onclick="window.open('https://twitter.com/share?text=10+Most-Pinned+Mother%27s+Day+Brunch+Ideas&url=http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas?tel=contentgallery_twitter','twitterShare','width=626,height=436'); return false;" title="Twitter Share">
+    <span class="social-icon glyph gl-twitter-btn"></span>
+    <span class="social-icon-label">Twitter</span>
+  </a>
+</span>
+                                        <span class="mslo-share-btn mslo-btn-google-plus">
+  <a href="#" onclick="window.open('https://plus.google.com/share?url=http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas&tel=contentgallery_google','googleShare','width=626,height=436'); return false;" title="Google Share">
+    <span class="social-icon glyph gl-google-btn"></span>
+    <span class="social-icon-label">Google+</span>
+  </a>
+</span>
+                                        <span class="mslo-share-btn mslo-btn-email clear-fix" title="Email">
+  <div class="ugc-content-wrap clearfix">
+    <a href="https://my.marthastewart.com/email?node_title=10%20Most-Pinned%20Mother%27s%20Day%20Brunch%20Ideas&mags_origin=973920/10-most-pinned-mothers-day-brunch-ideas&mags_base=http%3A//www.marthastewart.com/&destination=http%3A//www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas&token=d552b91f0aafc079d9ee03ca26c2d36d" class="email-frame">
+      <span class="glyph gl-mail-btn"></span>
+    </a>
+  </div>
+</span>
+                                        <span class="mslo-share-btn mslo-btn-print" onclick="window.print();">
+  <span class="glyph gl-print"></span>
+</span>
+                                        <div  class="mslo-share-btn mslo-btn-save clear-fix favorite-it js-mslo-authenticate" data-user-action="favorite" title="Add To Favorites" data-title="10 Most-Pinned Mother&#039;s Day Brunch Ideas" data-uuid="08d6a284-a773-11e2-9c74-a4badb44c2a2" data-interaction-count="true">
+  <div class="ugc-content-wrap clearfix">
+    <span class="login-frame fave-glyph"></span>
+  </div>
+</div>
+                        </div>
+      </div>
+              </div>
+            </div>
+                  </div>
+      </div>
+
+      <div class="gallery-right-rail">
+                  <div class="ad-unit ad-unit-companion1 ad-desktop side-unit">
+            <div class="mslo-ad mslo-ad-300x250 is-desktop" data-refresh-rate="2">
+  
+  <div class="mslo-ad-holder">
+        
+                      <div id="div-gpt-square-flex-1" data-tier="1">
+                    </div>
+      </div>
+</div>
+          </div>
+        
+                  <div class="ad-unit ad-unit-companion2 ad-desktop side-unit">
+            <div class="mslo-ad mslo-ad-300x250 is-desktop" data-refresh-rate="2">
+  
+  <div class="mslo-ad-holder">
+        
+                      <div id="div-gpt-square-fixed-1" data-tier="2">
+                    </div>
+      </div>
+</div>
+          </div>
+        
+        <div id="gtm-target-item2">
+          <!-- GTM fills this in. -->
+        </div>
+
+                  
+<div class="mslo-subscribe side-unit">
+  <div class="sub-col2">
+    <a href="http://win.marthastewart.com/?psrc=R603YRH201201" target="_blank">
+      <img src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-160/public/d26/300x400_12247_01_dailyswps/300x400_12247_01_dailyswps_vert.jpg?itok=sZV7FqMv" alt="Magazine Cover" title="Magazine Cover" />    </a>
+  </div>
+  <div class="sub-col1">
+    <h5 class="sub-title">
+      Martha Stewart Living    </h5>
+    <p class="dek">
+      Get more! Subscribe to Martha Stewart Living.
+    </p>
+    <a href="http://win.marthastewart.com/?psrc=R603YRH201201" target="_blank" class="text-underlined">Subscribe Now</a>  </div>
+</div>
+              </div>
+    </div>
+  </section>
+
+  <div class="gallery-under">
+    <div class="sponsored-content">
+      <div id="gtm-target-item1">
+        <!-- GTM fills this in. -->
+      </div>
+    </div>
+
+          <div class="gallery-related-topics">
+        <section class="recirc main-unit">
+            <div class="related-topics">
+    <h3 class="page-section-title">
+      Other Ideas to Try    </h3>
+    <ul class="related-topics-items">
+              <li class="related-topic-item">
+          <a href="/1502562/mothers-day">
+                          <img class="related-topics-item" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-350/public/d25/mld105654_0510_artwork515/mld105654_0510_artwork515_vert.jpg?itok=gOmQRdcS" alt="10 Most-Pinned Mother&#039;s Day Brunch Ideas" title="10 Most-Pinned Mother&#039;s Day Brunch Ideas" />            
+            <h6 class="related-topic-item-title">
+              Mother&#039;s Day             </h6>
+          </a>
+        </li>
+              <li class="related-topic-item">
+          <a href="/1502407/easter-breakfast-brunch-recipes">
+                          <img class="related-topics-item" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-350/public/d40/creamed-spinach-a130522-05-8691-md110267/creamed-spinach-a130522-05-8691-md110267_vert.jpg?itok=To6KKyEQ" alt="10 Most-Pinned Mother&#039;s Day Brunch Ideas" title="10 Most-Pinned Mother&#039;s Day Brunch Ideas" />            
+            <h6 class="related-topic-item-title">
+              Easter Breakfast &amp; Brunch Recipes            </h6>
+          </a>
+        </li>
+              <li class="related-topic-item">
+          <a href="/1502559/fathers-day">
+                          <img class="related-topics-item" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-350/public/d23/mld103351_0608_cufflink/mld103351_0608_cufflink_vert.jpg?itok=sy4U-CDN" alt="10 Most-Pinned Mother&#039;s Day Brunch Ideas" title="10 Most-Pinned Mother&#039;s Day Brunch Ideas" />            
+            <h6 class="related-topic-item-title">
+              Father&#039;s Day            </h6>
+          </a>
+        </li>
+              <li class="related-topic-item">
+          <a href="/1502296/donut-pastry-recipes">
+                          <img class="related-topics-item" src="http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-350/public/d33/apricot-bowtie-danish-147-d112178/apricot-bowtie-danish-147-d112178_vert.jpg?itok=dxUxvWyP" alt="10 Most-Pinned Mother&#039;s Day Brunch Ideas" title="10 Most-Pinned Mother&#039;s Day Brunch Ideas" />            
+            <h6 class="related-topic-item-title">
+              Donut &amp; Pastry Recipes            </h6>
+          </a>
+        </li>
+          </ul>
+  </div>
+        </section>
+      </div>
+    
+          <div name="feedback-section" id="feedback-section" class="comments-section js-comment">
+        <h4 id="mslo-user-comments-count" class="page-section-title">
+          Comments        </h4>
+        <div class="mslo-comments ">
+    
+  <div class="mslo-comment-button-wrap">
+        <a href="#" id="mslo-comment-button" class="mslo-comment-button js-mslo-authenticate" data-user-action="comment" data-url="https://my.marthastewart.com/comments/standalone/mslo/contentgallery/08d6a284-a773-11e2-9c74-a4badb44c2a2?destination=http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas">Add A Comment</a>
+  </div>
+
+  <p id="mslo-message-comment" class="mslo-message-comment">
+    Be the first to comment!
+  </p>
+
+  <div id="mslo-user-comments" class="mslo-user-comments">
+    <span id="mslo-user-comments-loader" class="mslo-user-comments-loader"></span>
+    <ul class="mslo-comment-list" data-destination-page="https://my.marthastewart.com/comments/standalone/mslo/contentgallery/08d6a284-a773-11e2-9c74-a4badb44c2a2" data-return-page="http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas">
+          </ul>
+  </div>
+
+  <div id="mslo-comment-view-more" class="mslo-comment-view-more-wrap">
+    <button class="mslo-comment-view-more">View More</button>
+  </div>
+</div>
+      </div>
+      </div>
+</div>
+  </div>
+      </div>
+    </div>
+  </div>
+
+      <footer id="main-footer" class="main-footer" role="contentinfo">
+      
+  <!-- Sticky social footer. -->
+  <div class="footer-sticky-social-container">
+    <div class="mslo-share-bar mslo-sticky-social">
+              <span class="mslo-share-btn mslo-btn-pin">
+    <a  href="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.marthastewart.com%2F973920%2F10-most-pinned-mothers-day-brunch-ideas&amp;media=&amp;description=10+Most-Pinned+Mother%27s+Day+Brunch+Ideas&amp;tel=contentgallery" title="Pinterest Share" data-pin-config="none" data-pin-do="buttonBookmark" data-pin-custom="true">
+      <span class="social-icon glyph gl-pinterest-btn"></span>
+      <span class="social-icon-label">Pinterest</span>
+    </a>
+  </span>
+            <span class="mslo-share-btn mslo-btn-fb-share">
+    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas&tel=contentgallery_fb-share','facebookShare','width=626,height=436'); return false;" title="Facebook Share">
+      <span class="social-icon glyph gl-facebook-btn"></span>
+      <span class="social-icon-label">Facebook</span>
+    </a>
+  </span>
+          
+<span class="mslo-share-btn mslo-btn-comment">
+  <span>
+    <span class="social-icon glyph gl-comment-btn" title="Add a Comment"></span>
+    <span class="social-icon-label">Comment</span>
+  </span>
+</span>
+          <span class="mslo-share-btn mslo-btn-twitter">
+  <a href="#" onclick="window.open('https://twitter.com/share?text=10+Most-Pinned+Mother%27s+Day+Brunch+Ideas&url=http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas?tel=contentgallery_twitter','twitterShare','width=626,height=436'); return false;" title="Twitter Share">
+    <span class="social-icon glyph gl-twitter-btn"></span>
+    <span class="social-icon-label">Twitter</span>
+  </a>
+</span>
+          <span class="mslo-share-btn mslo-btn-google-plus">
+  <a href="#" onclick="window.open('https://plus.google.com/share?url=http://www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas&tel=contentgallery_google','googleShare','width=626,height=436'); return false;" title="Google Share">
+    <span class="social-icon glyph gl-google-btn"></span>
+    <span class="social-icon-label">Google+</span>
+  </a>
+</span>
+          <span class="mslo-share-btn mslo-btn-email clear-fix" title="Email">
+  <div class="ugc-content-wrap clearfix">
+    <a href="https://my.marthastewart.com/email?node_title=10%20Most-Pinned%20Mother%27s%20Day%20Brunch%20Ideas&mags_origin=973920/10-most-pinned-mothers-day-brunch-ideas&mags_base=http%3A//www.marthastewart.com/&destination=http%3A//www.marthastewart.com/973920/10-most-pinned-mothers-day-brunch-ideas&token=d552b91f0aafc079d9ee03ca26c2d36d" class="email-frame">
+      <span class="glyph gl-mail-btn"></span>
+    </a>
+  </div>
+</span>
+          <div  class="mslo-share-btn mslo-btn-save clear-fix favorite-it js-mslo-authenticate" data-user-action="favorite" title="Add To Favorites" data-title="10 Most-Pinned Mother&#039;s Day Brunch Ideas" data-uuid="08d6a284-a773-11e2-9c74-a4badb44c2a2" data-interaction-count="true">
+  <div class="ugc-content-wrap clearfix">
+    <span class="login-frame fave-glyph"></span>
+  </div>
+</div>
+      </div>
+  </div>
+
+<!-- MSLO section. -->
+<div class="container">
+  <div class="container-inside">
+    <section class="footer-section mag-section">
+      <h4 class="footer-section-title">Magazines &amp; More</h4>
+              <div class="mag-section-ad">
+                      <div class="mslo-ad mslo-ad-300x250 is-desktop is-lazy not-filled" data-refresh-rate="0">
+  
+  <div class="mslo-ad-holder">
+        
+                      <div data-id="div-gpt-lazy-square-fixed-tier4">
+                    </div>
+      </div>
+</div>
+          
+                      <div class="mslo-ad mslo-ad-300x250 is-mobile is-lazy not-filled" data-refresh-rate="0">
+  
+  <div class="mslo-ad-holder">
+                      <div data-id="div-gpt-lazy-mob-square-fixed-tier4">
+                    </div>
+
+      <div id="div-kargo-square-fixed" data-tier="4">
+              </div>
+    
+          </div>
+</div>
+                  </div>
+      
+              <div class="promo-section-cta">
+          <a class="text-underlined" href="http://www.marthastewart.com/sweepstakes">
+            Martha Stewart Living<sup>&trade;</sup> Daily Giveaway          </a>
+        </div>
+          </section>
+
+    <section class="footer-section social-section">
+      <h4 class="footer-section-title">Connect</h4>
+      <h5 class="footer-section-subtitle">Follow Us</h5>
+      <div class="social-section-icons clear-fix">
+        <a href="https://www.facebook.com/marthastewart" title="Facebook" target="_blank" rel="nofollow"><span class="social-icon glyph gl-facebook-btn"></span></a>
+        <a href="http://twitter.com/ms_living" title="Twitter" target="_blank" rel="nofollow"><span class="social-icon glyph gl-twitter-btn"></span></a>
+        <a href="https://www.pinterest.com/marthastewart" title="Pinterest" target="_blank" rel="nofollow"><span class="social-icon glyph gl-pinterest-btn"></span></a>
+        <a href="https://plus.google.com/104736337830250807960/?prsrc=3" title="Google+" target="_blank" rel="nofollow"><span class="social-icon social-icon-last glyph gl-google-btn"></span></a>
+      </div>
+
+              <h5 class="footer-section-subtitle">Subscribe to Our Newsletters</h5>
+        <div class="footer-newsletter-wrap">
+          <a href="https://secure.marthastewart.com/common/profile/quicksignup.jsp?regSource=10008" class="footer-button newsletter-button">Sign Up</a>        </div>
+      
+              <h5 class="footer-section-subtitle">Give Us Your Feedback</h5>
+        <a href="https://www.surveymonkey.com/s/ms-custsat" class="text-underlined" target="_blank">Customer Survey</a>          </section>
+
+    <section class="footer-section blog-section">
+      <h4 class="footer-section-title">Discover</h4>
+      <script id="martha-blog-footer" type="text/x-handlebars-template">
+        <!-- Start Martha Blog promo -->
+        <h5 class="footer-section-subtitle">The Martha Blog</h5>
+        <div class="view view-aggregate-blog-feed-home view-id-aggregate_blog_feed_home view-display-id-footer_martha_blog view-dom-id-12">
+          <div class="item-list">
+            <ul>
+              <li class="row">
+                <span class="field-content">
+                  <a href="{{ tmb_post_url }}" target="_blank">{{ tmb_post_title }}</a>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="blog-section-cta">
+          <a href="{{ tmb_post_url }}" class="text-underlined standard-link" target="_blank">
+            See More
+          </a>
+        </div>
+        <!-- End Martha Blog promo -->
+      </script>
+      <h5 class="footer-section-subtitle">Martha On...</h5>
+      <ul class="footer-items-list">
+        <li><a href="http://www.hulu.com/companies/martha-stewart-living" title="Martha On Hulu" target="_blank" rel="nofollow">Hulu</a></li>
+        <li><a href="https://www.youtube.com/user/marthastewart" title="Martha On YouTube" target="_blank" rel="nofollow">YouTube</a></li>
+        <li><a href="http://on.aol.com/partner/martha-stewart-517540662" title="Martha On Aol On" target="_blank" rel="nofollow">Aol On</a></li>
+      </ul>
+    </section>
+
+    <section class="footer-section more-section last">
+      <h4 class="footer-section-title">Learn More</h4>
+      <h5 class="footer-section-subtitle">Our Sites</h5>
+      <ul class="footer-items-list footer-sites-list">
+        <li><a href="/americanmade" title="American Made">American Made</a></li>
+        <li><a href="http://www.emerils.com" title="Emerils" target="_blank" nofollow>Emerils</a></li>
+        <li><a href="http://www.marthastewartweddings.com" title="Martha Stewart Weddings">Martha Stewart Weddings</a></li>
+        <li><a href="http://www.amazon.com/b/ref=as_li_ss_tl?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&node=12638265011&tag=martstew0d-20&linkId=57V3IY4WDJT7TB7X" title="American Made Market" target="_blank" nofollow>American Made Market</a></li>
+      </ul>
+
+      <h5 class="footer-section-subtitle">Company Info</h5>
+      <ul class="footer-items-list">
+        <!--<li><a href="/site-map" title="Site Map">Site Map</a></li>-->
+        <li><a href="http://adportal.mslo.com/AdNetPortal/Start.action" title="Advertising" target="_blank" nofollow>Advertising</a></li>
+        <li><a href="/aggregate-list" title="All Topics">All Topics</a></li>
+        <li><a href="/mslmediakit" title="Media Kit">Media Kit</a></li>
+        <li><a href="https://secure.customersvc.com/wes/servlet/Show?WESPAGE=am/home.jsp&MSRSMAG=LV" title="Subscription Help" target="_blank" nofollow>Subscription Help</a></li>
+        <li><a href="https://www.linkedin.com/company/3363478" title="Careers">Careers</a></li>
+        <li><a href="/faq" title="FAQs">FAQs</a></li>
+        <li><a href="/contact-us" title="Contact Us">Contact Us</a></li>
+        <li><a href="/international" title="International">International</a></li>
+        <li><a href="http://ir.sequentialbrandsgroup.com/index.cfm" title="Investor Relations" target="_blank" nofollow>Investor Relations</a></li>
+      </ul>
+    </section>
+  </div>
+</div>
+
+<!-- Meredith section. -->
+  
+<div class="meredith-footer">
+  <div class="container-inside">
+    <section class="meredith-section">
+      <ul class="list-sites">
+        <li><h4 class="footer-section-subtitle">Meredith Home</h4></li>
+        <li><a href="http://www.bhg.com" rel="nofollow" target="_blank">Better Homes and Gardens</a></li>
+        <li><a href="http://www.marthastewart.com" rel="nofollow" target="_blank">Martha Stewart Living</a></li>
+        <li><a href="http://www.midwestliving.com" rel="nofollow" target="_blank">Midwest Living</a></li>
+        <li><a href="http://www.traditionalhome.com" rel="nofollow" target="_blank">Traditional Homes</a></li>
+        <li><a href="http://www.allpeoplequilt.com" rel="nofollow" target="_blank">All People Quilt</a></li>
+        <li><a href="http://www.diyadvice.com" rel="nofollow" target="_blank">DIY Advice</a></li>
+        <li><a href="http://www.homeandfamilynetwork.com" rel="nofollow" target="_blank">Home and Family</a></li>
+      </ul>
+    </section>
+  
+    <section class="meredith-section">
+      <ul class="list-sites">
+        <li><h4 class="footer-section-subtitle">AllRecipes</h4></li>
+        <li><a href="http://allrecipes.com" rel="nofollow" target="_blank">Allrecipes.com</a></li>
+        <li><a href="http://www.recipe.com" rel="nofollow" target="_blank">Recipe.com</a></li>
+        <li><a href="http://www.eatingwell.com" rel="nofollow" target="_blank">Eating Well</a></li>
+        <li><a href="http://www.rachaelraymag.com" rel="nofollow" target="_blank">Rachael Ray Magazine</a></li>
+        <li><a href="http://www.diabeticlivingonline.com" rel="nofollow" target="_blank">Diabetic Living</a></li>
+        <li><a href="http://www.eatthis.com" rel="nofollow" target="_blank">Eat This, Not That!</a></li>
+        <li><a href="http://www.kraftrecipes.com" rel="nofollow" target="_blank">Kraft Recipes</a></li>
+      </ul>
+    </section>
+  
+    <section class="meredith-section">
+      <ul class="list-sites">
+        <li><h4 class="footer-section-subtitle">Parents</h4></li>
+        <li><a href="http://www.parents.com" rel="nofollow" target="_blank">Parents</a></li>
+        <li><a href="http://www.parenting.com" rel="nofollow" target="_blank">Parenting</a></li>
+        <li><a href="http://www.familycircle.com" rel="nofollow" target="_blank">Family Circle</a></li>
+        <li><a href="http://serpadres.com" rel="nofollow" target="_blank">Ser Padres</a></li>
+        <li><a href="http://www.fitpregnancy.com" rel="nofollow" target="_blank">Fit Pregnancy</a></li>
+      </ul>
+    </section>
+
+    <section class="meredith-section">
+      <ul class="list-sites">
+        <li><h4 class="footer-section-subtitle">Meredith Beauty</h4></li>
+        <li><a href="http://www.fitnessmagazine.com" rel="nofollow" target="_blank">Fitness Magazine</a></li>
+        <li><a href="http://www.shape.com" rel="nofollow" target="_blank">Shape</a></li>
+        <li><a href="http://www.marthastewartweddings.com" rel="nofollow" target="_blank">Martha Stewart Weddings</a></li>
+        <li><a href="http://www.mywedding.com" rel="nofollow" target="_blank">Mywedding</a></li>
+        <li><a href="http://www.divinecaroline.com" rel="nofollow" target="_blank">Divine Caroline</a></li>
+        <li><a href="http://www.more.com" rel="nofollow" target="_blank">More</a></li>
+        <li><a href="http://siempremujer.com/" rel="nofollow" target="_blank">Siempre Mujer</a></li>
+      </ul>
+    </section>
+  </div>
+</div>
+
+<!-- Copyright section. -->
+<div class="copyright-wrap">
+  <div class="copyright-container">
+    <section class="copyright-section">
+      &copy; Copyright 2016, Martha Stewart Living Omnimedia, Inc. All rights reserved.
+    </section>
+  </div>
+</div>
+
+<!-- Meredith copyright. -->
+  
+<div class="meredith-copyright">
+  <div class="meredith-copyright-inner">
+    <div class="meredith-logo-wrap">
+      <img class="meredith-logo" src="/sites/all/themes/emma/img/meredith_womensnetwork.svg" />
+    </div>
+    <span class="copyright-info">
+      &copy; Copyright 2016, Meredith Corporation. All Rights Reserved
+    </span>
+    <div class="links-section">
+      <ul class="list-sites">
+        <li><a href="http://www.meredith.com/policyMSO.html" rel="nofollow" target="_blank">Privacy Policy - Your California Rights</a></li>
+        <li><a href="http://www.meredith.com/datapolicy.html" rel="nofollow" target="_blank">Data Policy</a></li>
+        <li><a href="/terms-of-use">Terms of Service</a></li>
+        <li>
+          <!-- AdChoice logo and link populated by third party GTM script. -->
+          <a id="_bapw-link" href="#" rel="nofollow" target="_blank">
+            <img id="_bapw-icon" />
+            <span id="_bapw-text">
+              AdChoices
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+    </footer>
+  </div>
+    <script type="text/javascript" src="http://www.marthastewart.com/sites/files/marthastewart.com/opusjs/js_ymna5nLqPRATbwzsRQ45r5neu7sX7o4dbBkEul4DWHc.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var msloFacebookAppId = "393254810836193";
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.marthastewart.com/sites/files/marthastewart.com/opusjs/js_vAOD8GgNqw5wcHpV3eQgRj2C_0BciCfds9PJkUP52HQ.js"></script>
+<script type="text/javascript" src="http://www.marthastewart.com/sites/files/marthastewart.com/opusjs/js_rrefi7IOnuWOQN90XfHmhpP2EtADcyXM8ZjDh7Ku_O4.js"></script>
+<script type="text/javascript" src="http://www.marthastewart.com/sites/files/marthastewart.com/opusjs/js_cuGwS212x6RHJFTkTtFL7QN6SKJtcBvROxEuiM8hCTo.js"></script>
+<script type="text/javascript" src="http://www.marthastewart.com/sites/files/marthastewart.com/opusjs/js_i38nb3X2dvy9NgWK8UzbO60lthUd759STYOOU-7-tSk.js"></script>
+    <!-- OPUS.194: 1.480s -->  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"5c31b36624","applicationID":"6239852,6239845","transactionName":"YQNWYBMHWUJZBRJeXFhJdVcVD1hfFwgJU1ZpFlVTBDlBWF0R","queueTime":0,"applicationTime":1483,"atts":"TURVFlsdSkw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
