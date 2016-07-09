@@ -14,7 +14,7 @@ def getAllFiles():
 	return fs
 
 def processFile(f):
-	if os.path.exists(f+'.it') or '.it' in f:
+	if os.path.exists(f+'.it') or '.it' in f or '.json' not in f:
 		return
 	data = json.load(open(f,'r'))
 	baseName = f.split("/")[-1]
