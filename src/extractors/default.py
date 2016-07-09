@@ -26,6 +26,7 @@ from extractors.bbcgoodfood import bbcgoodfood_com
 from extractors.nytimes import cooking_nytimes_com
 from extractors.cookstr import cookstr_com
 from extractors.marthastewart import www_marthastewart_com
+from extractors.recipeland import recipeland_com
 
 import lxml.html
 
@@ -44,6 +45,7 @@ availableParsers = ['allrecipes.com',
                     'myrecipes.com',
                     'recipes.latimes.com',
                     'seriouseats.com',
+                    'recipeland.com',
                     'simplyrecipes.com',
                     'cookpad.com',
                     'bbcgoodfood.com',
