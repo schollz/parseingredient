@@ -3,12 +3,13 @@ import os
 import subprocess
 import shutil
 import copy
-import os
-from tqdm import tqdm
 import multiprocessing
 
+from tqdm import tqdm
+
 def getAllFiles():
-	os.system("tree -Ufai -P '*.json' -I '*.it.*' -o json_file_list ../finished")
+	if not os.path.exists('json_file_list'):
+		os.system("tree -Ufai -P '*.json' -I '*.it.*' -o json_file_list ../finished")
 	fs = open('json_file_list','r').read().split("\n")
 	return fs
 
