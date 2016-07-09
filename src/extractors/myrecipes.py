@@ -37,15 +37,15 @@ def myrecipes_com(page, recipe):
     for ingredient in ingredients:
         recipe['recipeIngredient'].append(
             ' '.join(ingredient.text_content().strip().split()))
-    # try:
-    #     recipe['aggregateRating']['ratingValue'] = page.xpath(
-    #         '//meta[@itemprop="ratingValue"]')[0].attrib['content'].strip()
-    #     recipe['aggregateRating']['reviewCount'] = page.xpath(
-    #         '//meta[@itemprop="reviewCount"]')[0].attrib['content'].strip()
-    #     recipe['aggregateRating']['bestRating'] = '5'
-    #     recipe['aggregateRating']['worstRating'] = '1'
-    # except:
-    #     pass
+    try:
+        recipe['aggregateRating']['ratingValue'] = page.xpath(
+            '//span[@itemprop="ratingValue"]')[0].text_content().strip()
+        recipe['aggregateRating']['reviewCount'] = page.xpath(
+            '//span[@itemprop="reviewCount"]')[0].text_content().strip()
+        recipe['aggregateRating']['bestRating'] = '5'
+        recipe['aggregateRating']['worstRating'] = '1'
+    except:
+        pass
     for nutrition in recipe['nutrition']:
         try:
             recipe['nutrition'][nutrition] = page.xpath(
