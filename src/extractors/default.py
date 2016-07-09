@@ -25,6 +25,7 @@ from extractors.cookpad import cookpad_com
 from extractors.bbcgoodfood import bbcgoodfood_com
 from extractors.nytimes import cooking_nytimes_com
 from extractors.cookstr import cookstr_com
+from extractors.marthastewart import www_marthastewart_com
 
 import lxml.html
 
@@ -48,6 +49,7 @@ availableParsers = ['allrecipes.com',
                     'bbcgoodfood.com',
                     'cooking.nytimes.com',
                     'yummly.com',
+                    'www.marthastewart.com',
                     'cookstr.com',
                     'kraftrecipes.com']
 
