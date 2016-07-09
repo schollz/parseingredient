@@ -41,7 +41,7 @@ def kraftrecipes_com(page, recipe):
     for ingredient in ingredients:
         recipe['recipeIngredient'].append(ingredient.text_content().strip())
 
-    try:
+    if os.path.exists(recipe['file'] + ".dat")
         data = open(recipe['file'] + ".dat", 'r').read()
         data = "{" + data.split('({')[1].split('})')[0] + "}"
         dataJSON = json.loads(data)
@@ -51,8 +51,7 @@ def kraftrecipes_com(page, recipe):
             'q0']['Results'][0]['ReviewStatistics']['AverageOverallRating']
         recipe['aggregateRating']['reviewCount'] = dataJSON['BatchedResults'][
             'q0']['Results'][0]['ReviewStatistics']['TotalReviewCount']
-    except:
-        pass
+
 
     for nutrition in recipe['nutrition']:
         try:
