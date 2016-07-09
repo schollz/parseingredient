@@ -3,19 +3,16 @@ import os
 import subprocess
 import shutil
 import copy
-
+import os
 from tqdm import tqdm
 
 def getAllFiles():
-	mypath = "../finished"
-	fs = []
-	for root, directories, filenames in os.walk(mypath):
-	    for filename in filenames:
-	        fs.append(os.path.join(root, filename))
+	os.system("tree -Ufai -P '*.json' -I '*.it.*' -o json_file_list ../finished")
+	fs = open('json_file_list','r').read().split("\n")
 	return fs
 
 def processFile(f):
-	if os.path.exists(f+'.it'):
+	if os.path.exists(f+'.it') or '.it' in f:
 		return
 	data = json.load(open(f,'r'))
 	baseName = f.split("/")[-1]
@@ -43,5 +40,6 @@ def processFile(f):
 
 print("Getting all the files...")
 fs = getAllFiles()
+print("Processing files...")
 for i in tqdm(range(len(fs))):
 	processFile(fs[i])
