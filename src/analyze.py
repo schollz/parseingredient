@@ -6,17 +6,16 @@ from tqdm import tqdm
 
 os.chdir('../finished')
 # print("Generating index of files...")
-# os.system("tree -Ufai -P '*.json.*' -I '*.it.it' -o finished.index")
+# os.system("tree -Ufai -P '*.json.it' -I '*.it.it' -o finished.index")
 
 print("Opening file index...")
 fs = open('finished.index', 'r').read().split('\n')
 
 print("Analyzing...")
-numberWithScores = 0
-ingredientList = {}
 finstructions = open('instructions.txt', 'w')
 fingredients = open('ingredients.txt', 'w')
 ftitles = open('titles.txt', 'w')
+fingredistlist = open('ingredientList.txt','w')
 for i in tqdm(range(0, len(fs))):
     f = fs[i]
     j = {}
@@ -40,24 +39,17 @@ for i in tqdm(range(0, len(fs))):
     except:
         pass
 
-    if ".json.it" not in f:
+    if ".json.it" not in f or 'recipeIngredientTagged' not in j:
         continue
     for i in range(len(j['recipeIngredientTagged'])):
         try:
             newIngredient = j['recipeIngredientTagged'][i][
                 'name'].lower().replace(')', '').replace('(', '')
-            if newIngredient not in ingredientList:
-                ingredientList[newIngredient] = 0
-            ingredientList[newIngredient] += 1
+            fingredistlist.write(newIngredient + "\n")
         except:
             pass
-    numberWithScores += int(j['aggregateRating']['ratingValue'] !=
-                            None and float(j['aggregateRating']['ratingValue']) > 0)
+
 finstructions.close()
 fingredients.close()
 ftitles.close()
-print("%2.1f%% have scores" % float(
-    100.0 * float(numberWithScores) / float(len(list(range(0, len(fs), 500))))))
-print("%d total" % len(fs))
-with open('ingredients.json', 'w') as f:
-    f.write(json.dumps(ingredientList, indent=2))
+fingredistlist.close()
