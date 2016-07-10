@@ -52,7 +52,7 @@ else:
     print("Generating instructions model...")
     with open("../finished/instructions.txt") as f:
         text = f.read()
-        instructions_model = markovify.NewlineText(text)
+        instructions_model = markovify.NewlineText(text, state_size=3)
         with open("instructions_model.json", "w") as f:
             f.write(json.dumps(instructions_model.chain.to_json()))
 
@@ -94,7 +94,7 @@ def getIngredient(ing=""):
         while ing not in sentence:
             sentence = ingredients_model.make_sentence(tries=1).lower()
             tries += 1
-            if tries > 10000:
+            if tries > 100:
                 break
     return sentence
 
@@ -108,7 +108,7 @@ def getInstruction(ing=""):
         while ing not in sentence:
             sentence = instructions_model.make_sentence(tries=1).lower()
             tries += 1
-            if tries > 10000:
+            if tries > 100:
                 break
     return sentence
 
@@ -119,7 +119,11 @@ def getTitle(num):
 
 
 def hasIngredients(sentence):
-    words = sentence.split()
+    try:
+        words = sentence.replace('.', '').replace(
+            ':', '').replace(',', '').split()
+    except:
+        return []
     recipeIngredients = []
     for ingredient in ingredients.keys():
         if ingredients[ingredient] < 50:
@@ -128,27 +132,32 @@ def hasIngredients(sentence):
             recipeIngredients.append(ingredient)
     return recipeIngredients
 
-# print("Generating titles...")
-# t = time.time()
-# with open("markov_titles.txt", "w") as f:
-#     for i in tqdm(range(10000)):
-#         f.write(getTitle(i) + "\n")
-# print((time.time() - t) / 10000.0)
+print("Generating titles...")
+t = time.time()
+with open("markov_titles.txt", "w") as f:
+    for i in tqdm(range(100)):
+        f.write(getTitle(i) + "\n")
+print((time.time() - t) / 100.0)
 
 # t = time.time()
 # p = Pool(8)
 # p.map(getTitle, range(500))
 # print((time.time() - t) / 500.0)
 
-# print("Generating ingredients...")
-# with open("markov_ingredients.txt", "w") as f:
-#     for i in tqdm(range(1000)):
-#         f.write(getIngredient() + "\n")
 
-# print("Generating instructions...")
-# with open("markov_instructions.txt", "w") as f:
-#     for i in tqdm(range(1000)):
-#         f.write(getInstruction() + "\n")
+print("Generating ingredients...")
+t = time.time()
+with open("markov_titles.txt", "w") as f:
+    for i in tqdm(range(100)):
+        f.write(getIngredient() + "\n")
+print((time.time() - t) / 100.0)
+
+print("Generating instrutions...")
+t = time.time()
+with open("markov_titles.txt", "w") as f:
+    for i in tqdm(range(100)):
+        f.write(getInstruction() + "\n")
+print((time.time() - t) / 100.0)
 
 
 def generateRecipe():
@@ -157,10 +166,12 @@ def generateRecipe():
     recipe['ingredients'] = []
     recipe['title'] = getTitle(1)
     recipe['title_ingredients'] = hasIngredients(recipe['title'])
-    recipe['ingredients'] += mainIngredient
+    recipe['ingredients'] += recipe['title_ingredients']
     recipe['directions'] = []
     recipe['direction_ingredients'] = []
+    print("Getting directions")
     for ingredient in recipe['title_ingredients']:
+        print(ingredient)
         instruct = getInstruction(ing=ingredient)
         ings = hasIngredients(instruct)
         recipe['ingredients'] += ings
@@ -168,10 +179,12 @@ def generateRecipe():
         recipe['directions'].append(instruct)
     recipe['ingredients'] = list(set(recipe['ingredients']))
     recipe['ingredientList'] = []
+    print("Getting ingredients")
     for ingredient in recipe['ingredients']:
+        print(ingredient)
         recipe['ingredientList'].append(getIngredient(ingredient))
     print(json.dumps(recipe, indent=2))
     print("\n\n" + recipe['title'] + "\n\n" + "\n".join(recipe['ingredientList']
                                                         ) + "\n\n" + "\n".join(recipe['directions']))
 
-generateRecipe()
+# generateRecipe()
