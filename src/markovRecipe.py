@@ -7,54 +7,86 @@ from multiprocessing import Pool
 import markovify
 from tqdm import tqdm
 
-# removeWords = ['c', 'tsp', 'qt', 'lb', 'pkg', 'oz', 'med', 'tbsp', 'sm']
-
-# ingredients = {}
-# if not os.path.exists("ingredients.json"):
-#     print("Generating ingredient list...")
-#     ingredientList = open("../finished/ingredientList.txt",
-#                           "r").read().split("\n")
-#     for ingredient in ingredientList:
-#         for removeWord in removeWords:
-#             ingredient = ingredient.replace(removeWord + '. ', '')
-#         ingredient = ingredient.replace(' *', '')
-#         try:
-#             num = int(ingredient[0])
-#             ingredient = ' '.join(ingredient.split()[1:])
-#         except:
-#             pass
-#         try:
-#             num = int(ingredient[0])
-#             ingredient = ' '.join(ingredient.split()[1:])
-#         except:
-#             pass
-#         if ingredient == 'pepper' or ingredient == 'cup' or len(ingredient) <= 2 or 'salt' == ingredient[0:4] or 'black pepper' in ingredient:
-#             continue
-#         if ingredient not in ingredients:
-#             ingredients[ingredient] = 0
-#         ingredients[ingredient] += 1
-#     with open("ingredients.json", "w") as f:
-#         f.write(json.dumps(ingredients, indent=2))
-# else:
-#     print("Loading ingredient list...")
-#     ingredients = json.load(open("ingredients.json", "r"))
-# # sortedIngredients = sorted(
-# #     ingredients.items(), key=operator.itemgetter(1), reverse=True)
-# # for i in range(1000):
-# #     print(sortedIngredients[i])
-
-if os.path.exists("instructions_model.json"):
-    print("Loading instructions model...")
-    chain_json = json.load(open("instructions_model.json", "r"))
-    stored_chain = markovify.Chain.from_json(chain_json)
-    instructions_model = markovify.Text.from_chain(chain_json)
+removeWords = ['c', 'tsp', 'qt', 'lb', 'pkg', 'oz', 'med', 'tbsp', 'sm']
+removeWords2 = [" mashed "," fat ",' c. ',' c ','grams','gram','chopped','tbsps','tbsp','cups','cup','tsps','tsp','ozs','oz','qts','qt','lbs','lb']
+ingredientsJson = {}
+if not os.path.exists("ingredients.json"):
+    print("Generating ingredient list...")
+    ingredientList = open("../finished/ingredientList.txt",
+                          "r").read().split("\n")
+    for ingredient in ingredientList:
+        ingredient = " "+ingredient.lower()+" "
+        for removeWord in removeWords:
+            ingredient = ingredient.replace(removeWord + '. ', '')
+        for removeWord in removeWords2:
+            ingredient = ingredient.replace(removeWord, '')
+        ingredient = ingredient.replace(' *', '')
+        try:
+            num = int(ingredient[0])
+            ingredient = ' '.join(ingredient.split()[1:])
+        except:
+            pass
+        try:
+            num = int(ingredient[0])
+            ingredient = ' '.join(ingredient.split()[1:])
+        except:
+            pass
+        ingredient = ' '.join(ingredient.split())
+        if ingredient not in ingredientsJson:
+            ingredientsJson[ingredient] = 0
+        ingredientsJson[ingredient] += 1
+    with open("ingredients.json", "w") as f:
+        f.write(json.dumps(ingredientsJson, indent=2))
 else:
-    print("Generating instructions model...")
-    with open("../finished/instructions.txt") as f:
-        text = f.read()
-        instructions_model = markovify.NewlineText(text, state_size=3)
-        with open("instructions_model.json", "w") as f:
-            f.write(json.dumps(instructions_model.chain.to_json()))
+    print("Loading ingredient list...")
+    ingredientsJson = json.load(open("ingredients.json", "r"))
+
+ingredientsPriority = []
+for ingredient in ingredientsJson.keys():
+    if ingredientsJson[ingredient] > 1000 and len(ingredient) > 2:
+        ingredientsPriority.append(ingredient)
+
+ingredientsPriority2 = []
+for ingredient in ingredientsJson.keys():
+    if ingredientsJson[ingredient] > 50 and ingredientsJson[ingredient] <= 5000 and len(ingredient) > 2:
+        ingredientsPriority2.append(ingredient)
+
+ingredientsPriority.sort(key=len, reverse=True) # sorts by descending length
+ingredientsPriority2.sort(key=len, reverse=True) # sorts by descending length
+ingredients = ingredientsPriority #+ ingredientsPriority2
+print(ingredients[:100])
+print(ingredients[-10:])
+
+def hasIngredients(sentence):
+    sentence = " "+sentence.replace('.', '').replace(':', '').replace(',', '')+" "
+    recipeIngredients = []
+    sentenceSize = len(sentence.split())
+    for ingredient in ingredients:
+        if " "+ingredient+" " in sentence:
+            recipeIngredients.append(ingredient)
+            sentence = sentence.replace(ingredient,'')
+            sentenceSize = len(sentence.split())
+        if sentenceSize < 2:
+            break
+    return recipeIngredients
+
+# sortedIngredients = sorted(
+#     ingredients.items(), key=operator.itemgetter(1), reverse=True)
+# for i in range(1000):
+#     print(sortedIngredients[i])
+
+# if os.path.exists("instructions_model.json"):
+#     print("Loading instructions model...")
+#     chain_json = json.load(open("instructions_model.json", "r"))
+#     stored_chain = markovify.Chain.from_json(chain_json)
+#     instructions_model = markovify.Text.from_chain(chain_json)
+# else:
+#     print("Generating instructions model...")
+#     with open("../finished/instructions.txt") as f:
+#         text = f.read()
+#         instructions_model = markovify.NewlineText(text, state_size=3)
+#         with open("instructions_model.json", "w") as f:
+#             f.write(json.dumps(instructions_model.chain.to_json()))
 
 
 # if os.path.exists("title_model.json"):
@@ -71,18 +103,28 @@ else:
 #             f.write(json.dumps(title_model.chain.to_json()))
 
 
-# if os.path.exists("ingredients_model.json"):
-#     print("Loading ingredients model...")
-#     chain_json = json.load(open("ingredients_model.json", "r"))
-#     stored_chain = markovify.Chain.from_json(chain_json)
-#     ingredients_model = markovify.Text.from_chain(chain_json)
-# else:
-#     print("Generaring ingredients model...")
-#     with open("../finished/ingredients.txt") as f:
-#         text = f.read()
-#         ingredients_model = markovify.NewlineText(text)
-#         with open("ingredients_model.json", "w") as f:
-#             f.write(json.dumps(ingredients_model.chain.to_json()))
+if os.path.exists("ingredients_model.json"):
+    print("Loading ingredients model...")
+    chain_json = json.load(open("ingredients_model.json", "r"))
+    stored_chain = markovify.Chain.from_json(chain_json)
+    ingredients_model = markovify.Text.from_chain(chain_json)
+else:
+    print("Generaring ingredients model...")
+    with open("../finished/ingredients.txt") as f:
+        text = f.read()
+        ingredients_model = markovify.NewlineText(text)
+        with open("ingredients_model.json", "w") as f:
+            f.write(json.dumps(ingredients_model.chain.to_json()))
+
+def makeFiles(i):
+    with open("markov_ingredient.%d.txt" % i,"w") as f:
+        while True:
+            try:
+                ing = getIngredient()
+                foods = hasIngredients(ing)
+                f.write(json.dumps({'text':ing,'ingredients':foods}) + "\n")
+            except:
+                pass
 
 
 def getIngredient(ing=""):
@@ -118,19 +160,6 @@ def getTitle(num):
     return sentence
 
 
-def hasIngredients(sentence):
-    try:
-        words = sentence.replace('.', '').replace(
-            ':', '').replace(',', '').split()
-    except:
-        return []
-    recipeIngredients = []
-    for ingredient in ingredients.keys():
-        if ingredients[ingredient] < 50:
-            continue
-        if ingredient in words or ingredient + "s" in words:
-            recipeIngredients.append(ingredient)
-    return recipeIngredients
 
 # print("Generating titles...")
 # t = time.time()
@@ -142,10 +171,9 @@ def hasIngredients(sentence):
 #             pass
 # print((time.time() - t) / 100.0)
 
-# t = time.time()
-# p = Pool(8)
-# p.map(getTitle, range(500))
-# print((time.time() - t) / 500.0)
+print("Making ingredients...")
+p = Pool(8)
+p.map(makeFiles, range(8))
 
 
 # print("Generating ingredients...")
@@ -155,10 +183,10 @@ def hasIngredients(sentence):
 #         f.write(getIngredient() + "\n")
 # print((time.time() - t) / 100.0)
 
-print("Generating instrutions...")
-with open("markov_instructions.txt", "w") as f:
-    for i in tqdm(range(1000000)):
-        f.write(getInstruction() + "\n")
+# print("Generating instrutions...")
+# with open("markov_instructions.txt", "w") as f:
+#     for i in tqdm(range(1000000)):
+#         f.write(getInstruction() + "\n")
 
 
 def generateRecipe():
