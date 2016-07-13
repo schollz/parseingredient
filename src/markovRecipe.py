@@ -75,32 +75,32 @@ def hasIngredients(sentence):
 # for i in range(1000):
 #     print(sortedIngredients[i])
 
-# if os.path.exists("instructions_model.json"):
-#     print("Loading instructions model...")
-#     chain_json = json.load(open("instructions_model.json", "r"))
-#     stored_chain = markovify.Chain.from_json(chain_json)
-#     instructions_model = markovify.Text.from_chain(chain_json)
-# else:
-#     print("Generating instructions model...")
-#     with open("../finished/instructions.txt") as f:
-#         text = f.read()
-#         instructions_model = markovify.NewlineText(text, state_size=3)
-#         with open("instructions_model.json", "w") as f:
-#             f.write(json.dumps(instructions_model.chain.to_json()))
-
-
-if os.path.exists("title_model.json"):
-    print("Loading title model...")
-    chain_json = json.load(open("title_model.json", "r"))
+if os.path.exists("instructions_model.json"):
+    print("Loading instructions model...")
+    chain_json = json.load(open("instructions_model.json", "r"))
     stored_chain = markovify.Chain.from_json(chain_json)
-    title_model = markovify.Text.from_chain(chain_json)
+    instructions_model = markovify.Text.from_chain(chain_json)
 else:
-    print("Generaring title model...")
-    with open("../finished/titles.txt") as f:
+    print("Generating instructions model...")
+    with open("../finished/instructions.txt") as f:
         text = f.read()
-        title_model = markovify.NewlineText(text)
-        with open("title_model.json", "w") as f:
-            f.write(json.dumps(title_model.chain.to_json()))
+        instructions_model = markovify.NewlineText(text, state_size=3)
+        with open("instructions_model.json", "w") as f:
+            f.write(json.dumps(instructions_model.chain.to_json()))
+
+
+# if os.path.exists("title_model.json"):
+#     print("Loading title model...")
+#     chain_json = json.load(open("title_model.json", "r"))
+#     stored_chain = markovify.Chain.from_json(chain_json)
+#     title_model = markovify.Text.from_chain(chain_json)
+# else:
+#     print("Generaring title model...")
+#     with open("../finished/titles.txt") as f:
+#         text = f.read()
+#         title_model = markovify.NewlineText(text)
+#         with open("title_model.json", "w") as f:
+#             f.write(json.dumps(title_model.chain.to_json()))
 
 
 # if os.path.exists("ingredients_model.json"):
@@ -117,10 +117,10 @@ else:
 #             f.write(json.dumps(ingredients_model.chain.to_json()))
 
 def makeFiles(i):
-    with open("markov_title.%d.txt" % i,"w") as f:
+    with open("markov_instructions.%d.txt" % i,"w") as f:
         while True:
             try:
-                ing = getTitle(1)
+                ing = getInstruction()
                 foods = hasIngredients(ing)
                 f.write(json.dumps({'text':ing,'ingredients':foods}) + "\n")
             except:
@@ -171,9 +171,11 @@ def getTitle(num):
 #             pass
 # print((time.time() - t) / 100.0)
 
+
 print("Making ingredients...")
-p = Pool(8)
-p.map(makeFiles, range(8))
+makeFiles(0)
+# p = Pool(8)
+# p.map(makeFiles, range(8))
 
 
 # print("Generating ingredients...")
