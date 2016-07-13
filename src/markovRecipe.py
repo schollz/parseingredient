@@ -8,7 +8,7 @@ import markovify
 from tqdm import tqdm
 
 removeWords = ['c', 'tsp', 'qt', 'lb', 'pkg', 'oz', 'med', 'tbsp', 'sm']
-removeWords2 = [" mashed "," fat ",' c. ',' c ','grams','gram','chopped','tbsps','tbsp','cups','cup','tsps','tsp','ozs','oz','qts','qt','lbs','lb']
+removeWords2 = [" recipes "," recipe "," mashed "," fat ",' c. ',' c ','grams','gram','chopped','tbsps','tbsp','cups','cup','tsps','tsp','ozs','oz','qts','qt','lbs','lb']
 ingredientsJson = {}
 if not os.path.exists("ingredients.json"):
     print("Generating ingredient list...")
@@ -89,38 +89,38 @@ def hasIngredients(sentence):
 #             f.write(json.dumps(instructions_model.chain.to_json()))
 
 
-# if os.path.exists("title_model.json"):
-#     print("Loading title model...")
-#     chain_json = json.load(open("title_model.json", "r"))
-#     stored_chain = markovify.Chain.from_json(chain_json)
-#     title_model = markovify.Text.from_chain(chain_json)
-# else:
-#     print("Generaring title model...")
-#     with open("../finished/titles.txt") as f:
-#         text = f.read()
-#         title_model = markovify.NewlineText(text)
-#         with open("title_model.json", "w") as f:
-#             f.write(json.dumps(title_model.chain.to_json()))
-
-
-if os.path.exists("ingredients_model.json"):
-    print("Loading ingredients model...")
-    chain_json = json.load(open("ingredients_model.json", "r"))
+if os.path.exists("title_model.json"):
+    print("Loading title model...")
+    chain_json = json.load(open("title_model.json", "r"))
     stored_chain = markovify.Chain.from_json(chain_json)
-    ingredients_model = markovify.Text.from_chain(chain_json)
+    title_model = markovify.Text.from_chain(chain_json)
 else:
-    print("Generaring ingredients model...")
-    with open("../finished/ingredients.txt") as f:
+    print("Generaring title model...")
+    with open("../finished/titles.txt") as f:
         text = f.read()
-        ingredients_model = markovify.NewlineText(text)
-        with open("ingredients_model.json", "w") as f:
-            f.write(json.dumps(ingredients_model.chain.to_json()))
+        title_model = markovify.NewlineText(text)
+        with open("title_model.json", "w") as f:
+            f.write(json.dumps(title_model.chain.to_json()))
+
+
+# if os.path.exists("ingredients_model.json"):
+#     print("Loading ingredients model...")
+#     chain_json = json.load(open("ingredients_model.json", "r"))
+#     stored_chain = markovify.Chain.from_json(chain_json)
+#     ingredients_model = markovify.Text.from_chain(chain_json)
+# else:
+#     print("Generaring ingredients model...")
+#     with open("../finished/ingredients.txt") as f:
+#         text = f.read()
+#         ingredients_model = markovify.NewlineText(text)
+#         with open("ingredients_model.json", "w") as f:
+#             f.write(json.dumps(ingredients_model.chain.to_json()))
 
 def makeFiles(i):
-    with open("markov_ingredient.%d.txt" % i,"w") as f:
+    with open("markov_title.%d.txt" % i,"w") as f:
         while True:
             try:
-                ing = getIngredient()
+                ing = getTitle(1)
                 foods = hasIngredients(ing)
                 f.write(json.dumps({'text':ing,'ingredients':foods}) + "\n")
             except:
@@ -156,7 +156,7 @@ def getInstruction(ing=""):
 
 
 def getTitle(num):
-    sentence = title_model.make_sentence(tries=1, max_overlap_ratio=1)
+    sentence = title_model.make_sentence(tries=1).lower()
     return sentence
 
 
