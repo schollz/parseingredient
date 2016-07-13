@@ -8,6 +8,9 @@
 
   `cd src && python3 ingredientTagging.py`
 
+3. Generate the models and then generate the markov files
+
+  `cd src && python3 markovRecipe.py`
 
 ## Todo
 
