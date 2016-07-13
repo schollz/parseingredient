@@ -3,8 +3,7 @@ package main
 import (
 	"bufio"
 	"bytes"
-	"crypto/md5"
-	"encoding/hex"
+	"encoding/binary"
 	"encoding/json"
 	"fmt"
 	"io"
@@ -13,8 +12,18 @@ import (
 	"strings"
 
 	"github.com/boltdb/bolt"
+	"github.com/deckarep/golang-set"
 	"gopkg.in/cheggaaa/pb.v1"
 )
+
+var db *bolt.DB
+
+// itob returns an 8-byte big endian representation of v.
+func itob(v uint64) []byte {
+	b := make([]byte, 8)
+	binary.BigEndian.PutUint64(b, uint64(v))
+	return b
+}
 
 func lineCounter(r io.Reader) (int, error) {
 	buf := make([]byte, 32*1024)
@@ -35,141 +44,163 @@ func lineCounter(r io.Reader) (int, error) {
 	}
 }
 
-func hash(str string) string {
-	hasher := md5.New()
-	hasher.Write([]byte(str))
-	return hex.EncodeToString(hasher.Sum(nil))
+func linesInFile(fileName string) (int, error) {
+	// Count the number of lines in file
+	file, err := os.Open(fileName)
+	if err != nil {
+		return -1, err
+	}
+	lines, _ := lineCounter(file)
+	file.Close()
+	return lines, nil
 }
 
-func generateBuckets(filename string) {
-	type Message struct {
-		Text        string
-		Ingredients []string
-	}
+// JSONLine is the data in each line of the file
+type JSONLine struct {
+	Text        string
+	Ingredients []string
+}
+
+func generateDatabase(databaseName string) {
 
 	// Open the my.db data file in your current directory.
 	// It will be created if it doesn't exist.
-	db, err := bolt.Open("my.db", 0600, nil)
+	var err error
+	db, err = bolt.Open(databaseName+".db", 0600, nil)
 	if err != nil {
 		log.Fatal(err)
 	}
 	defer db.Close()
 
-	// Create bucket if it doesn't exist
-	db.Update(func(tx *bolt.Tx) error {
-		_, err2 := tx.CreateBucketIfNotExists([]byte(filename))
-		if err2 != nil {
-			return fmt.Errorf("create bucket: %s", err2)
+	// Get the number of the lines for the progress bar
+	var numberOfLines int
+	numberOfLines, err = linesInFile(databaseName + ".txt")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	// Open the file for streaming JSON
+	fmt.Println("Collecting all ingredients...")
+	allIngredients := mapset.NewSet()
+	file, err := os.Open(databaseName + ".txt")
+	if err != nil {
+		log.Fatal(err)
+	}
+	bar := pb.StartNew(numberOfLines)
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+		dec := json.NewDecoder(strings.NewReader(scanner.Text()))
+		bar.Increment()
+		for {
+			var m JSONLine
+			if err = dec.Decode(&m); err == io.EOF {
+				break
+			} else if err != nil {
+				log.Fatal(err)
+			}
+			for _, ingredient := range m.Ingredients {
+				allIngredients.Add(ingredient)
+			}
 		}
-		_, err2 = tx.CreateBucketIfNotExists([]byte(filename + "String"))
-		if err2 != nil {
-			return fmt.Errorf("create bucket: %s", err2)
+	}
+	file.Close()
+	bar.FinishPrint("Finished loading.")
+	if err = scanner.Err(); err != nil {
+		fmt.Fprintln(os.Stderr, "reading standard input:", err)
+	}
+	fmt.Println("Creating buckets for each ingredient...")
+	err = db.Update(func(tx *bolt.Tx) error {
+		_, err1 := tx.CreateBucket([]byte("noingredients"))
+		if err1 != nil {
+			return fmt.Errorf("create bucket: %s", err1)
+		}
+		_, err1 = tx.CreateBucket([]byte("texts"))
+		if err1 != nil {
+			return fmt.Errorf("create bucket: %s", err1)
+		}
+		for _, ingredient := range allIngredients.ToSlice() {
+			_, err2 := tx.CreateBucket([]byte(ingredient.(string)))
+			if err2 != nil {
+				return fmt.Errorf("create bucket: %s", err2)
+			}
 		}
 		return nil
 	})
-
-	// Count the number of lines in file
-	file, err := os.Open("test2")
 	if err != nil {
 		log.Fatal(err)
 	}
-	lines, _ := lineCounter(file)
-	file.Close()
 
-	// Open the file for streaming JSON
-	file, err = os.Open("test2")
+	fmt.Println("Inserting data into buckets...")
+	file, err = os.Open(databaseName + ".txt")
 	if err != nil {
 		log.Fatal(err)
 	}
-	defer file.Close()
-
-	// Read in file line by line
-	scanner := bufio.NewScanner(file)
-	bar := pb.StartNew(lines)
-	db.Update(func(tx *bolt.Tx) error {
-		b := tx.Bucket([]byte(filename))
-		b2 := tx.Bucket([]byte(filename + "String"))
+	scanner = bufio.NewScanner(file)
+	bar = pb.StartNew(numberOfLines)
+	err = db.Update(func(tx *bolt.Tx) error {
 		for scanner.Scan() {
 			dec := json.NewDecoder(strings.NewReader(scanner.Text()))
 			bar.Increment()
 			for {
-				// Read in the JSON line
-				var m Message
-				if err := dec.Decode(&m); err == io.EOF {
+				var m JSONLine
+				if err = dec.Decode(&m); err == io.EOF {
 					break
 				} else if err != nil {
 					log.Fatal(err)
 				}
 
-				// Hash the text and check if it exists before continuing
-				hashText := hash(m.Text)
-				v := b2.Get([]byte(hashText))
-				if v != nil {
-					continue
+				b := tx.Bucket([]byte("texts"))
+				if b == nil {
+					return fmt.Errorf("doesn't exist")
 				}
-				b2.Put([]byte(hashText), []byte(m.Text))
+				id, _ := b.NextSequence()
+				m.Text = strings.Split(strings.Split(m.Text, " - recipe -")[0], " | epicurious")[0]
+				b.Put(itob(id), []byte(m.Text))
 
-				text := []string{hashText}
 				for _, ingredient := range m.Ingredients {
-					v := b.Get([]byte(ingredient))
-					if v == nil {
-						bText, _ := json.Marshal(text)
-						b.Put([]byte(ingredient), bText)
-					} else {
-						var currentTexts []string
-						errExtractText := json.Unmarshal(v, &currentTexts)
-						if errExtractText != nil {
-							fmt.Println("error:", errExtractText)
-						}
-						text = append(text, currentTexts...)
-						bText, _ := json.Marshal(text)
-						b.Put([]byte(ingredient), bText)
+					b2 := tx.Bucket([]byte(ingredient))
+					if b2 == nil {
+						return fmt.Errorf("doesn't exist")
 					}
+					id2, _ := b2.NextSequence()
+					b2.Put(itob(id2), itob(id))
 				}
 
 			}
 		}
-
 		return nil
 	})
+	if err != nil {
+		log.Fatal(err)
+	}
+	file.Close()
 	bar.FinishPrint("Finished loading.")
-	if err := scanner.Err(); err != nil {
+	if err = scanner.Err(); err != nil {
 		fmt.Fprintln(os.Stderr, "reading standard input:", err)
 	}
 
+}
+
+func check(databaseName string) {
+	var err error
+	db, err = bolt.Open(databaseName+".db", 0600, nil)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer db.Close()
+
 	db.View(func(tx *bolt.Tx) error {
-		// Assume bucket exists and has keys
-		b := tx.Bucket([]byte(filename))
-
+		b := tx.Bucket([]byte("apples"))
 		c := b.Cursor()
-
 		for k, v := c.First(); k != nil; k, v = c.Next() {
-			var currentTexts []string
-			errExtractText := json.Unmarshal(v, &currentTexts)
-			if errExtractText != nil {
-				fmt.Println("error:", errExtractText)
-			}
-			fmt.Printf("key=%s, value=%v\n", k, len(currentTexts))
+			b2 := tx.Bucket([]byte("texts"))
+			fmt.Printf("key=%v, value=%v, found=%v\n", k, v, string(b2.Get(v)))
 		}
-
 		return nil
 	})
-
-	// db.View(func(tx *bolt.Tx) error {
-	// 	// Assume bucket exists and has keys
-	// 	b := tx.Bucket([]byte("ingredientString"))
-	//
-	// 	c := b.Cursor()
-	//
-	// 	for k, v := c.First(); k != nil; k, v = c.Next() {
-	// 		fmt.Printf("key=%s, value=%s\n", k, v)
-	// 	}
-	//
-	// 	return nil
-	// })
-
 }
 
 func main() {
-	generateBuckets("test")
+	generateDatabase("markov_title.0")
+	check("titles")
 }
