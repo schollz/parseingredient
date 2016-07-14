@@ -8,8 +8,10 @@ import (
 	"fmt"
 	"io"
 	"log"
+	"math/rand"
 	"os"
 	"strings"
+	"time"
 
 	"github.com/boltdb/bolt"
 	"github.com/deckarep/golang-set"
@@ -17,6 +19,13 @@ import (
 )
 
 var db *bolt.DB
+var r *rand.Rand
+
+// JSONLine is the data in each line of the file
+type JSONLine struct {
+	Text        string
+	Ingredients []string
+}
 
 // itob returns an 8-byte big endian representation of v.
 func itob(v uint64) []byte {
@@ -53,12 +62,6 @@ func linesInFile(fileName string) (int, error) {
 	lines, _ := lineCounter(file)
 	file.Close()
 	return lines, nil
-}
-
-// JSONLine is the data in each line of the file
-type JSONLine struct {
-	Text        string
-	Ingredients []string
 }
 
 func generateDatabase(databaseName string) {
@@ -114,7 +117,7 @@ func generateDatabase(databaseName string) {
 		if err1 != nil {
 			return fmt.Errorf("create bucket: %s", err1)
 		}
-		_, err1 = tx.CreateBucket([]byte("texts"))
+		_, err1 = tx.CreateBucket([]byte("jsonlines"))
 		if err1 != nil {
 			return fmt.Errorf("create bucket: %s", err1)
 		}
@@ -149,13 +152,17 @@ func generateDatabase(databaseName string) {
 					log.Fatal(err)
 				}
 
-				b := tx.Bucket([]byte("texts"))
+				b := tx.Bucket([]byte("jsonlines"))
 				if b == nil {
 					return fmt.Errorf("doesn't exist")
 				}
 				id, _ := b.NextSequence()
 				m.Text = strings.Split(strings.Split(m.Text, " - recipe -")[0], " | epicurious")[0]
-				b.Put(itob(id), []byte(m.Text))
+				bJSON, errMarshal := json.Marshal(m)
+				if errMarshal != nil {
+					fmt.Println("error:", errMarshal)
+				}
+				b.Put(itob(id), bJSON)
 
 				for _, ingredient := range m.Ingredients {
 					b2 := tx.Bucket([]byte(ingredient))
@@ -193,14 +200,70 @@ func check(databaseName string) {
 		b := tx.Bucket([]byte("apples"))
 		c := b.Cursor()
 		for k, v := c.First(); k != nil; k, v = c.Next() {
-			b2 := tx.Bucket([]byte("texts"))
-			fmt.Printf("key=%v, value=%v, found=%v\n", k, v, string(b2.Get(v)))
+			b2 := tx.Bucket([]byte("jsonlines"))
+			var m JSONLine
+			err = json.Unmarshal(b2.Get(v), &m)
+			if err != nil {
+				return err
+			}
+			fmt.Printf("key=%v, value=%v, found=%v\n", k, v, m)
 		}
 		return nil
 	})
 }
 
+func getRandom(databaseName string, bucket string) (JSONLine, error) {
+	var m JSONLine
+	var err error
+	db, err = bolt.Open(databaseName+".db", 0600, nil)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer db.Close()
+
+	var lastKey []byte
+	err = db.View(func(tx *bolt.Tx) error {
+		b := tx.Bucket([]byte(bucket))
+		if b == nil {
+			return fmt.Errorf("No such bucket")
+		}
+		c := b.Cursor()
+		lastKey, _ = c.Last()
+		return nil
+	})
+	if err != nil {
+		return m, fmt.Errorf("No data")
+	}
+	numberThings := binary.BigEndian.Uint64(lastKey)
+	chosenNumber := uint64(r.Intn(int(numberThings)))
+
+	err = db.View(func(tx *bolt.Tx) error {
+		b0 := tx.Bucket([]byte(bucket))
+		chosenID := b0.Get(itob(chosenNumber))
+		fmt.Println(chosenID)
+		b := tx.Bucket([]byte("jsonlines"))
+		err = json.Unmarshal(b.Get(chosenID), &m)
+		if err != nil {
+			return err
+		}
+		return nil
+	})
+	if m.Text == "" && len(m.Ingredients) == 0 {
+		return m, fmt.Errorf("No data")
+	}
+	return m, nil
+}
+
 func main() {
-	generateDatabase("markov_title.0")
-	check("titles")
+	s1 := rand.NewSource(time.Now().UnixNano())
+	r = rand.New(s1)
+
+	// generateDatabase("titles")
+	// generateDatabase("instructions")
+	// generateDatabase("ingredients")
+	// check("markov_title.0")
+	// check("titles")
+	fmt.Println(getRandom("titles", "apples"))
+	fmt.Println(getRandom("ingredients", "apjkljlples"))
+	fmt.Println(getRandom("instructions", "apples"))
 }
